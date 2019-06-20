@@ -90,4 +90,4 @@ bcftools index calls.filter.vcf.gz
 cat mtref.fa | bcftools consensus calls.filter.vcf.gz > I0061.mt.filter.fa
 ```
 
-```bcftools filter -e 'MIN(DP)<2 & MAF[0]< 0.3'``` a minimum coverage of 2 and a minimum variant frequency of 0.7
+```bcftools filter -e 'MIN(DP)<2 & MAF[0]< 0.3'``` a minimum coverage of 2 and a minimum variant frequency of 0.7.
