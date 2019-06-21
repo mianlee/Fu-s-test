@@ -16,6 +16,17 @@ Notes:
 MAPQ: [MAPping Quality](http://www.acgt.me/blog/2014/12/16/understanding-mapq-scores-in-sam-files-does-37-42).
 
 
+FOr sample I0061, I run the following command to the sorted sam file.
+```
+samtools view -q 30 I0061.390k.sorted.bam | python yjasc_3752_ry_compute.py
+
+#getting the results
+Nseqs	   NchrY+NchrX	   NchrY	  R_y	      SE	     95% CI	     Assignment
+5676448 	  68583 	     13177 	0.1921 	 0.0015 	0.1892-0.1951 	   XY
+
+```
+
+
 The sex of the 69 individuals was determined by examining the nunber of X chromosome and Y chromosome SNPs (the ratio) targeted by the 390k capture reagent. 
 
 ### Some notes:
