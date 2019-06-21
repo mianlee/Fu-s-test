@@ -1,6 +1,6 @@
 The sex of the 69 individuals was determined by examining the nunber of X chromosome and Y chromosome SNPs (the ratio) targeted by the 390k capture reagent. 
 
-Some notes:
+### Some notes:
 
 GRCh37: Genome Reference Consortium Human Build 37.
 
@@ -9,6 +9,9 @@ The different between reference GRCh37 and hg19, check this [link](https://softw
 Download **build ucsc.hg19.fasta** as reference can be done following this instruction: https://github.com/creggian/ucsc-hg19-fasta.
 
 ### Getting the reference human genome
-Human genome hg19 / GRCh37, only Chromosome X and Y in this case, were downloaded from : [UCSC hg19 asseembly](http://hgdownload.cse.ucsc.edu/goldenpath/hg19/chromosomes/). "University of California at Santa Cruz (UCSC)".
+The reference sequences for chromosome X and Y were downloaded from : [UCSC hg19 asseembly](http://hgdownload.cse.ucsc.edu/goldenpath/hg19/chromosomes/).
 
+1. The sequence format is ***.fasta***.
+2. Human genome assembly version: hg19 / GRCh37.
+3. UCSC: "University of California at Santa Cruz".
 
