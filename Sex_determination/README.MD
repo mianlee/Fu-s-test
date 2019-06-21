@@ -24,7 +24,11 @@ gunzip chrX.fa.gz chrY.fa.gz
 ls
 chrX.fa	chrY.fa
 ```
-Change the header of both files, '**>chrX** and **>chrY'**, to '**>X** and **>Y**'
+Change the header of both files, '**>chrX** and **>chrY'**, to '**>X** and **>Y**'.
+```
+gsed -i 's/chrX/X/g' chrX.fa
+gsed -i 's/chrY/Y/g' chrY.fa
+```
 
 
 
