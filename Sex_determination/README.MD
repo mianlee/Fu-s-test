@@ -1,10 +1,13 @@
 The original reference paper for Sex determination in ancient human remains: **"Accurate sex identification of ancient human remains using DNA shotgun sequencing", [Link](https://www.sciencedirect.com/science/article/pii/S0305440313002495)**.
 
+
 The Python script to compute Ry statistic that also performs sex identification was downloaded from the article mentioned above and named as ***Ry_compute.py***.
 
 Usage:		python Ry_compute.py <SAM formatted data from stdin>
 
-Example:	```samtools view -q 30 mybamfile.bam | python Ry_compute.py```
+Example:	
+
+```samtools view -q 30 mybamfile.bam | python Ry_compute.py```
 
 ```samtools view -q```
 
