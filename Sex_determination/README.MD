@@ -1,5 +1,17 @@
 The original reference paper for Sex determination in ancient human remains: **"Accurate sex identification of ancient human remains using DNA shotgun sequencing", [Link](https://www.sciencedirect.com/science/article/pii/S0305440313002495)**.
 
+The Python script to compute Ry statistic that also performs sex identification was downloaded from the article mentioned above and named as ***Ry_compute.py***.
+
+Usage:		python Ry_compute.py <SAM formatted data from stdin>
+
+Example:	```samtools view -q 30 mybamfile.bam | python Ry_compute.py```
+
+```samtools view -q```
+-q INT
+Skip alignments with MAPQ smaller than INT 0.
+
+MAPQ: [MAPping Quality](http://www.acgt.me/blog/2014/12/16/understanding-mapq-scores-in-sam-files-does-37-42).
+
 
 The sex of the 69 individuals was determined by examining the nunber of X chromosome and Y chromosome SNPs (the ratio) targeted by the 390k capture reagent. 
 
