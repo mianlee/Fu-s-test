@@ -1,3 +1,6 @@
+The original reference paper for Sex determination in ancient human remains: "Accurate sex identification of ancient human remains using DNA shotgun sequencing", [link](https://www.sciencedirect.com/science/article/pii/S0305440313002495).
+
+
 The sex of the 69 individuals was determined by examining the nunber of X chromosome and Y chromosome SNPs (the ratio) targeted by the 390k capture reagent. 
 
 ### Some notes:
