@@ -7,6 +7,7 @@ Usage:		python Ry_compute.py <SAM formatted data from stdin>
 Example:	```samtools view -q 30 mybamfile.bam | python Ry_compute.py```
 
 ```samtools view -q```
+
 -q INT
 Skip alignments with MAPQ smaller than INT 0.
 
