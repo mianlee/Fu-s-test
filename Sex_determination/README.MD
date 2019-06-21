@@ -22,7 +22,7 @@ samtools view -q 30 I0061.390k.sorted.bam | python yjasc_3752_ry_compute.py
 
 #getting the results
 Nseqs	   NchrY+NchrX	   NchrY	  R_y	      SE	     95% CI	     Assignment
-5676448  68583 	   13177 	 0.1921 	   0.0015    	 0.1892-0.1951 	     XY
+5676448    68583 	    13177 	 0.1921 	   0.0015    	 0.1892-0.1951 	     XY
 
 ```
 
