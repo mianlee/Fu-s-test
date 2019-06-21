@@ -9,7 +9,7 @@ Example:
 
 ```samtools view -q 30 mybamfile.bam | python Ry_compute.py```
 
-```samtools view -q```: **-q** INT  Skip alignments with MAPQ smaller than INT 0.
+```samtools view -q```:  **-q** INT,  Skip alignments with MAPQ smaller than INT 0.
 
 MAPQ: [MAPping Quality](http://www.acgt.me/blog/2014/12/16/understanding-mapq-scores-in-sam-files-does-37-42).
 
