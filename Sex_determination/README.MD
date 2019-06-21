@@ -15,3 +15,18 @@ The reference sequences for Chromosome X and Y were downloaded from : [UCSC hg19
 2. Human genome assembly version: **hg19 / GRCh37**.
 3. UCSC: "University of California at Santa Cruz".
 
+I am getting two zip files: **chrX.fa.gz** and **chrY.fa.gz**.
+
+### Unzip the two zip files
+```
+gunzip chrX.fa.gz chrY.fa.gz
+
+ls
+chrX.fa	chrY.fa
+```
+Change the header of both files, '>chrX and >chrY', to '>X and >Y'
+
+
+
+
+
