@@ -64,5 +64,13 @@ Extacting Y alignment sequences from 390k.bam file.
 samtools view -h I0061.390k.sorted.bam Y > I0061.390k.Y.sorted.bam
 ```
 
+bcftools mpileup -q 30 -Q 30 -f chrY.fa I0061.390k.Y.sorted.bam | bcftools call -mv -Oz -o Y.filter.calls.vcf.gz
 
+
+
+-q, -min-MQ INT
+Minimum mapping quality for an alignment to be used [0]
+
+-Q, --min-BQ INT
+Minimum base quality for a base to be considered [13
 
