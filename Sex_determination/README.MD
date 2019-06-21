@@ -59,7 +59,10 @@ gsed -i 's/chrX/X/g' chrX.fa
 gsed -i 's/chrY/Y/g' chrY.fa
 ```
 
-
+Extacting Y alignment sequences from 390k.bam file, requiring MAPQ>=30
+```
+samtools view -q 30 -h I0061.390k.sorted.bam Y > I0061.390k.Y.sorted.bam
+```
 
 
 
