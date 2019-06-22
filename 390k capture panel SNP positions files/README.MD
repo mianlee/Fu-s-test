@@ -20,3 +20,8 @@ sort -k1,1 -k2,2n 390k  > 390k.sorted
  grep -v "^-" 390k.sorted > 390k.bed
 
 ```
+
+
+
+
+samtools depth -q 30 -Q37 -a -b 390k.Y.bed I0061.390k.Y.sorted.bam | head
