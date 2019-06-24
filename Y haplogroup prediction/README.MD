@@ -49,6 +49,14 @@
 
 ### Use the 390k capture data from ["Massive migration from the steppe was a source for Indo-European languages in Europe"](https://www.nature.com/articles/nature14317)
 
-1. Download the 390k capture data (.bam) for sample **I0061**, [the link](https://www.ebi.ac.uk/ena/data/view/ERS665985), the first row Submitted file (FTP).
+1. Download the 390k capture data (.bam) for sample **I0061** as an example. [The link](https://www.ebi.ac.uk/ena/data/view/ERS665985), the first row Submitted file (FTP).
 2. You will get the .bam file named ***I0061.390k.bam***.
+3. Sort and index the .bam file.
+```
+# sorting
+samtools sort I0061.390k.bam -o I0061.390k.sorted.bam #[-o out.bam]
+# indexing
+samtools index I0061.390k.sorted.bam
+```
+4. After sorting and indexing the .bam file, you will get two files named ***I0061.390k.sorted.bam*** and ***I0061.390k.sorted.bam.bai*** 
 
