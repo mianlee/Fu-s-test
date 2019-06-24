@@ -99,12 +99,16 @@ sudo -H pip3 install pandas
 
 conda install pandas
 ```
-You check the [link1](https://askubuntu.com/questions/893587/install-pandas-for-python-3) and [link2](http://pandas.pydata.org/pandas-docs/stable/install.html) for detailed solutions.
+You can check the [link1](https://askubuntu.com/questions/893587/install-pandas-for-python-3) and [link2](http://pandas.pydata.org/pandas-docs/stable/install.html) for detailed solutions.
 
 
-Yleaf accepts both FASTQ and BAM files as input. Below I show an examples of how to run it on BAM file
+
+Yleaf accepts both FASTQ and BAM files as input, Below I show an examples of how to run it on BAM file:
+
 ```
+
 python Yleaf.py -bam I0061.390k.sorted.bam -ref hg19 -out Y_I0061 -r 1 -q 30 -b 90 -t 1
+
 ```
 **-r [INT]** The minimum number of reads for each base above on the quality threshold
 
