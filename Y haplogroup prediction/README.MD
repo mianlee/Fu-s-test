@@ -26,7 +26,7 @@ Yleaf v2 with an installation guide is publically available at: http://cluster15
  
    ```sudo apt-get install bwa```
 
- **Samtools and bcftools**
+   **Samtools and bcftools**
  
    We recommend to install the newest version of SAMtools and BCFtools (e.g. >= 1.4.1)
    1. download samtools and bcftools from : http://www.htslib.org/download/ .
@@ -37,6 +37,9 @@ Yleaf v2 with an installation guide is publically available at: http://cluster15
    6. ```make```
    7. ```sudo make install```
  
+
+
+
 
 
 2. Link to executables and download and build index from the reference genomes
