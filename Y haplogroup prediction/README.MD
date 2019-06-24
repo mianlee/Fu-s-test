@@ -38,10 +38,6 @@
    7. ```sudo make install```
  
 
-
-
-
-
 2. Link to executables and download and build index from the reference genomes
 
    ``` python install.py```
