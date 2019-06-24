@@ -41,7 +41,10 @@
 
 2. Link to executables and download and build index from the reference genomes
 
-   ``` python install.py```
+   ``` 
+   python install.py 
+   # this step may take a while to run, like 20 - 30 mins.
+   ```
 
 3. To make the configurations effective immediately
 
@@ -80,7 +83,7 @@ ImportError: No module named 'pandas'
 #it due to the version of Python 2 and Python 3 under defaulty, even you installed Python 3. 
 Try enther python in your terminal, see what version you got.
 ```
-I fixed this by tring the following: 
+I fixed this by trying the following: 
 ```
 ## Python2 and Python3 uses different version of pandas.
 ## For Python3 you can install it using apt install:
@@ -97,4 +100,21 @@ sudo -H pip3 install pandas
 conda install pandas
 ```
 You check the [link1](https://askubuntu.com/questions/893587/install-pandas-for-python-3) and [link2](http://pandas.pydata.org/pandas-docs/stable/install.html) for detailed solutions.
+
+
+Yleaf accepts both FASTQ and BAM files as input. Below I show an examples of how to run it on BAM file
+```
+python Yleaf.py -bam I0061.390k.sorted.bam -ref hg19 -out Y_I0061 -r 1 -q 30 -b 90 -t 1
+```
+**-r [INT]** The minimum number of reads for each base above on the quality threshold
+
+**-q [INT]** Minimum quality for each read, integer between 10 and 39, inclusive. If you give it
+0, the quality of reads will not be checked
+
+**-b [INT]** The minimum percentage of a base result for acceptance. For example, if you give it
+90, then 90% of the reads for each market should be the same, otherwise that market
+will be filtered out
+
+ **-t [INT]** Set number of additional threads to use [CPUs] during the alignment process and
+indexing of BAM files with SAMtool
 
