@@ -15,6 +15,7 @@ Yleaf v2 with an installation guide is publically available at: http://cluster15
 - Data storage: For installation we recommend a storage capacity of > 10 GB.
 #### Installation
 1. Install dependencies (you can skip this step if these packages are already installed on your system)
+ 
  sudo apt-get install git-core
  sudo apt-get install python3.6
  sudo apt-get install mawk
