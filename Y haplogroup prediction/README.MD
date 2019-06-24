@@ -63,12 +63,34 @@ samtools index I0061.390k.sorted.bam
 
 ### Run Yleaf program
 
-Here are my settings and program version:
+Here are my system and program version:
 
 ```
 Ubuntu 16.04.5 LTS-xenial
 Python 3.6.7 
 Samtools 1.9
 Yleaf 2.0
+```
+
+When I fist run Yleaf, I had this error:
+
+```
+ImportError: No module named 'pandas'
+
+#it due to the version of Python 2 and Python 3 under defaulty, even you installed Python 3. Try enther python in your terminal, see what version you got.
+```
+I fixed this by tring the following:
+```
+## Python2 and Python3 uses different version of pandas.
+
+##For Python3 you can install it using apt install:
+
+sudo apt-get install python3-pandas
+##In order to install it using pip, you should use pip3 for Python3:
+
+sudo apt-get install python3-pip
+sudo -H pip3 install pandas
+## if you install minicoda, you also can try
+conda install pandas
 ```
 
