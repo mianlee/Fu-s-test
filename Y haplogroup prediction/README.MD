@@ -1,10 +1,10 @@
 ### Y haplogroup prediction from NGS data
 
-   Yleaf is the software for human Y-chromosomal haplogroup inference from next generation sequencing data that I used.
+   **Yleaf** is the software for human Y-chromosomal haplogroup inference from next generation sequencing data that I used.
 
-   The Yleaf program can be downloaded from [Erasmus University Medical Center (Erasmus MC)](https://www6.erasmusmc.nl/genetic_identification/resources/). 
+   The **Yleaf** program can be downloaded from [Erasmus University Medical Center (Erasmus MC)](https://www6.erasmusmc.nl/genetic_identification/resources/). 
 
-   Yleaf v2 with an installation guide is publically available at: http://cluster15.erasmusmc.nl/fmb/Yleaf_v2/index.html .
+   **Yleaf v2** with an installation guide is publically available at: http://cluster15.erasmusmc.nl/fmb/Yleaf_v2/index.html .
 
 
 
