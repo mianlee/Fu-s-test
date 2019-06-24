@@ -38,6 +38,7 @@ We recommend to install the newest version of SAMtools and BCFtools (e.g. >= 1.4
  7. ```sudo make install```
  
 
+
 2. Link to executables and download and build index from the reference genomes
 
    ``` python install.py```
