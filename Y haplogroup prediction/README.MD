@@ -8,7 +8,7 @@ Yleaf v2 with an installation guide is publically available at: http://cluster15
 
 
 #### Requirements
- Operating system: Linux only. Tested on Ubuntu 16.04LTS.
+..* Operating system: Linux only. Tested on Ubuntu 16.04LTS.
  Python, wget, git.
  Internet connection during installation (for downloading and extracting reference genomes).
  Data storage: For installation we recommend a storage capacity of > 10 GB.
