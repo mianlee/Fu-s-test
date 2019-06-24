@@ -1,4 +1,4 @@
-### Y haplogroup prediction from NGS data
+## Y haplogroup prediction from NGS data
 
    **Yleaf** is the software for human Y-chromosomal haplogroup inference from next generation sequencing data that I used.
 
@@ -45,3 +45,10 @@
 3. To make the configurations effective immediately
 
    ```source ~/.profile```
+   
+
+### Use the 390k capture data
+
+1. Download the 390k capture data (.bam) for sample I0061, [the link] (https://www.ebi.ac.uk/ena/data/view/ERS665985), the first row Submitted file (FTP).
+2. You will get the .bam file named ***I0061.390k.bam***.
+
