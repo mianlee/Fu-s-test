@@ -61,3 +61,12 @@ samtools index I0061.390k.sorted.bam
 ```
 4. After sorting and indexing the .bam file, you will get two files named ***I0061.390k.sorted.bam*** and ***I0061.390k.sorted.bam.bai*** 
 
+### Run Yleaf program
+
+Here are my settings and program version:
+
+```Ubuntu 16.04.5 LTS-xenial
+Python 3.6.7 
+Samtools 1.9
+Yleaf 2.0```
+
