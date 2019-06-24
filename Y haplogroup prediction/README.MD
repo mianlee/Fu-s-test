@@ -77,7 +77,8 @@ When I fist run Yleaf, I had this error:
 ```
 ImportError: No module named 'pandas'
 
-#it due to the version of Python 2 and Python 3 under defaulty, even you installed Python 3. Try enther python in your terminal, see what version you got.
+#it due to the version of Python 2 and Python 3 under defaulty, even you installed Python 3. 
+Try enther python in your terminal, see what version you got.
 ```
 I fixed this by tring the following: 
 ```
