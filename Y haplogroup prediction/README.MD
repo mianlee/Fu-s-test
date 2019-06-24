@@ -47,8 +47,8 @@
    ```source ~/.profile```
    
 
-### Use the 390k capture data
+### Use the 390k capture data from "Massive migration from the steppe was a source for Indo-European languages in Europe"
 
-1. Download the 390k capture data (.bam) for sample I0061, [the link] (https://www.ebi.ac.uk/ena/data/view/ERS665985), the first row Submitted file (FTP).
+1. Download the 390k capture data (.bam) for sample **I0061**, [the link](https://www.ebi.ac.uk/ena/data/view/ERS665985), the first row Submitted file (FTP).
 2. You will get the .bam file named ***I0061.390k.bam***.
 
