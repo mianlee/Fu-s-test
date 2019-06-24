@@ -16,25 +16,26 @@ Yleaf v2 with an installation guide is publically available at: http://cluster15
 #### Installation
 1. Install dependencies (you can skip this step if these packages are already installed on your system)
  
-   sudo apt-get install git-core
+   ```sudo apt-get install git-core```
  
-   sudo apt-get install python3.6
+   ```sudo apt-get install python3.6```
  
-   sudo apt-get install mawk
+   ```sudo apt-get install mawk```
  
-   sudo apt-get install p7zip-full
+   ```sudo apt-get install p7zip-full```
  
-   sudo apt-get install bwa
+   ```sudo apt-get install bwa```
 
  **Samtools and bcftools**
  
 We recommend to install the newest version of SAMtools and BCFtools (e.g. >= 1.4.1)
  1. download samtools and bcftools from : http://www.htslib.org/download/ .
- 2. ```tar -xjvf samtools.tar.bz2```
- 3. ```cd samtools-1.4.1/```
- 4. ```./configure```
- 5. ```make```
- 6. ```sudo make install```
+ 2. ```cd samtools-1.x```    # and similarly for bcftools
+ 3. ```tar -xjvf samtools.tar.bz2```
+ 4. ```cd samtools-1.4.1/```
+ 5. ```./configure```
+ 6. ```make```
+ 7. ```sudo make install```
 
 2. Link to executables and download and build index from the reference genomes
 
