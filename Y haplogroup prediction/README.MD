@@ -65,8 +65,10 @@ samtools index I0061.390k.sorted.bam
 
 Here are my settings and program version:
 
-```Ubuntu 16.04.5 LTS-xenial
+```
+Ubuntu 16.04.5 LTS-xenial
 Python 3.6.7 
 Samtools 1.9
-Yleaf 2.0```
+Yleaf 2.0
+```
 
