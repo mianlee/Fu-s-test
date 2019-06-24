@@ -30,7 +30,7 @@
  
    We recommend to install the newest version of SAMtools and BCFtools (e.g. >= 1.4.1)
    1. download samtools and bcftools from : http://www.htslib.org/download/ .
-   2. ```cd samtools-1.x```    # and similarly for bcftools
+   2. ```cd samtools-1.x```     # and similarly for bcftools
    3. ```tar -xjvf samtools.tar.bz2```
    4. ```cd samtools-1.4.1/```
    5. ```./configure```
