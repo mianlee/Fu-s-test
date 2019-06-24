@@ -5,7 +5,8 @@
    The Yleaf program can be downloaded from [Erasmus University Medical Center (Erasmus MC)](https://www6.erasmusmc.nl/genetic_identification/resources/). 
 
    **Yleaf v2** with an installation guide is publically available at: http://cluster15.erasmusmc.nl/fmb/Yleaf_v2/index.html .
-
+  
+  Reference: Ralf, A., Montiel González, D., Zhong, K., & Kayser, M. (2018). Yleaf: Software for Human Y-Chromosomal Haplogroup Inference from Next-Generation Sequencing Data. Molecular biology and evolution, 35(5), 1291-1294.
 
 
 #### Requirements
