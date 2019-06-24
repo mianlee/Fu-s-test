@@ -103,7 +103,7 @@ You can check the [link1](https://askubuntu.com/questions/893587/install-pandas-
 
 
 
-Yleaf accepts both FASTQ and BAM files as input, Below I show an examples of how to run it on BAM file:
+**Yleaf accepts both FASTQ and BAM files as input, Below I show an examples of how to run it on BAM file:**
 
 ```
 
