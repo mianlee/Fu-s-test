@@ -1,4 +1,4 @@
-### Principal Components Analysis (PCA)
+## Principal Components Analysis (PCA)
 Principal components analysis, PCA, is a one of the most useful statistical method used in population genetics to identify and visualize population structure in the distribution of genetic variation across geographical location and ethnic background, and even genetic variation over time. In general, it allows breaking down high-dimensional datasets to two or more dimensions for visualisation in a two-dimensional space.
 
 
