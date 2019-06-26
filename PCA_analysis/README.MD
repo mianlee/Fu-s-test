@@ -53,7 +53,8 @@ The dataset that I will work with is the [Fully public genotype dataset (354,212
    
    The file containing the genotype matrix, with individuals laid out from left to right, and SNP positions laid out from top to bottom.
 
-
+  
+  ***```README```***
    ```
    cat README
    
@@ -63,7 +64,10 @@ The dataset that I will work with is the [Fully public genotype dataset (354,212
      and other ancient individuals (e.g., archaics).
 
    ```
+   
+  ***```data.pops```***
   
+  This file containing 
   
    ```
    awk '{sum += $1} END {print sum} data pops'
