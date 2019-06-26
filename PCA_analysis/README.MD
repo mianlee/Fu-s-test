@@ -16,7 +16,7 @@ The dataset that I will work with is the [Fully public genotype dataset (354,212
     ls
     Haak2015PublicData.tar.gz
     ```
-3. Unzip and extract a ***.tar.gz*** file?
+3. Unzip and extract a ***.tar.gz*** file in the terminal
 
    ```
    tar -xvzf Haak2015PublicData.tar.gz
