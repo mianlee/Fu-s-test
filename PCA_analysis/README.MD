@@ -64,6 +64,10 @@ The dataset that I will work with is the [Fully public genotype dataset (354,212
 
    ```
   
+  
+   ```
+   awk '{sum += $1} END {print sum} data pops'
+   ```
 
 ### Operating System
 I did all analyses above under Ubuntu 16.04.5 LTS-xenial, lunched through [VirtualBox](https://www.virtualbox.org/) on a Window 10 PC.
