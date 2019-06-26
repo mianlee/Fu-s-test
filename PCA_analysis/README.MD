@@ -37,11 +37,11 @@ To explain a little further, ```tar``` collected all the files into one package,
 
 The data itself comes in the so-called "EIGENSTRAT" format, which is defined in the {Eigensoft package](https://github.com/DReichLab/EIG) used by many tools. In this format, a genotype dataset consists of three files, usually with the following file endings:
 
-```***.snp***```
+***```*.snp```***
 The file containing the SNP positions. It consists of six columns: SNP-name, chromosome, genetic positions, physical position, reference allele, alternative allele.
-```*.ind```
+***```*.ind```***
 The file containing the names of the individuals. It consists of three columns: Individual Name, Sex (encoded as M(ale), F(emale), or U(nknown)), and population name.
-```*.geno```
+***```*.geno```***
 The file containing the genotype matrix, with individuals laid out from left to right, and SNP positions laid out from top to bottom.
 
 
