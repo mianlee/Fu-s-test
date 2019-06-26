@@ -42,9 +42,11 @@ The dataset that I will work with is the [Fully public genotype dataset (354,212
    The file containing the SNP positions. It consists of six columns: SNP-name, chromosome, genetic positions, physical position, reference allele, alternative allele.
 
    ***```*.ind```***
+   
    The file containing the names of the individuals. It consists of three columns: Individual Name, Sex (encoded as M(ale), F(emale), or U(nknown)), and population name.
 
    ***```*.geno```***
+   
    The file containing the genotype matrix, with individuals laid out from left to right, and SNP positions laid out from top to bottom.
 
 
