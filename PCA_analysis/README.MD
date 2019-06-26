@@ -8,14 +8,15 @@ The smartpca program uses a combination of Principal Component Analysis (PCA; a 
 The dataset that I will work with is the [Fully public genotype dataset (354,212 SNPs)](https://reich.hms.harvard.edu/datasets) described in [Haak et al. Nature 2015](https://www.nature.com/articles/nature14317).
 
 1. Downlaod the genotype data from [David Reich Lab Dataset](https://reich.hms.harvard.edu/datasets) webpage. 
-2. You will get a zip file named : **Haak2015PublicData.tar.gz**
+
+2. You will get a zip file named : ***Haak2015PublicData.tar.gz***
     ```
     # Move to the folder that contains the genotype data file, and type 'ls' commmand to display the file name.
     
     ls
     Haak2015PublicData.tar.gz
     ```
-3. Unzip and extract a .tar.gz file?
+3. Unzip and extract a ***.tar.gz*** file?
 
 
 
