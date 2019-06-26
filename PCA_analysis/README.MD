@@ -11,7 +11,7 @@ The dataset that I will work with is the [Fully public genotype dataset (354,212
 
 2. You will get a zip file named : ***Haak2015PublicData.tar.gz***
     ```
-    # Move to the folder that contains the genotype data file, and type 'ls' commmand to display the file name.
+    # Move to the folder that contains the downloaded genotype data file, and type 'ls' commmand to display the file name.
     
     ls
     Haak2015PublicData.tar.gz
