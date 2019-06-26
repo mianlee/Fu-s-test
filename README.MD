@@ -2,7 +2,7 @@ This challage is given by Dr.Fu Qiaomei during the post-doc interview.
 
 I am trying to repeat all analyses in the nature paper named: **"Massive migration from the steppe was a source for Indo-European languages in Europe"**. [(1)](https://www.nature.com/articles/nature14317)
 
-Here, I record down all steps, codes and solutions, and my researches about the backgroud. My solutions, programs that I used may be different from the orginal paper, but would acheive the same goal. I can't repeat the whole process perfectly, but I will try my best.
+Here, I record down all steps, codes and solutions, and my researches about the backgroud. My solutions, all programs that I used may be different from the orginal paper, but would acheive the same goal. I can't repeat the whole process perfectly, but I will try my best.
 
 
 
