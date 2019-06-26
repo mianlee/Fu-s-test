@@ -36,7 +36,7 @@ The dataset that I will work with is the [Fully public genotype dataset (354,212
    - ```v```: makes tar talk a lot. Verbose output shows you all the files being extracted.
 4. You will end up having five files: ***data.geno***, ***data.ind***, ***data.snp***, ***data pops*** and ***README***.
 
-   The data itself comes in the so-called "EIGENSTRAT" format, which is defined in the [Eigensoft package](https://github.com/DReichLab/EIG) used by many tools. In this format, a genotype dataset consists of three files, usually with the following file endings:
+   The data itself comes in the so-called "PACKEDANCESTRYMAP" format, which is defined in the [Eigensoft package](https://github.com/DReichLab/EIG) used by many tools. In this format, a genotype dataset consists of three files, usually with the following file endings:
 
    ***```*.snp```***
    
