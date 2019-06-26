@@ -18,6 +18,34 @@ The dataset that I will work with is the [Fully public genotype dataset (354,212
     ```
 3. Unzip and extract a ***.tar.gz*** file?
 
+   ```
+   tar -xvzf Haak2015PublicData.tar.gz
+   # The followings will show on your screen
+   data.geno
+   data.ind
+   data.pops
+   data.snp
+   README
+   ```
+To explain a little further, ```tar``` collected all the files into one package, ***.tar*** file. The gzip program applied compression, hence the ***.gz*** extension. So the command does a couple things:
+
+- ```f```: this must be the last flag of the command, and the tar file must be immediately after. It tells tar the name and path of the compressed file.
+- ```z```: tells tar to decompress the archive using gzip
+- ```x```: tar can collect files or extract them. x does the latter.
+- ```v```: makes tar talk a lot. Verbose output shows you all the files being extracted.
+4. You will end up having five files: ***data.geno***, ***data.ind***, ***data.snp***, ***data pops*** and ***README***.
+
+The data itself comes in the so-called "EIGENSTRAT" format, which is defined in the {Eigensoft package](https://github.com/DReichLab/EIG) used by many tools. In this format, a genotype dataset consists of three files, usually with the following file endings:
+
+```***.snp***```
+The file containing the SNP positions. It consists of six columns: SNP-name, chromosome, genetic positions, physical position, reference allele, alternative allele.
+```*.ind```
+The file containing the names of the individuals. It consists of three columns: Individual Name, Sex (encoded as M(ale), F(emale), or U(nknown)), and population name.
+```*.geno```
+The file containing the genotype matrix, with individuals laid out from left to right, and SNP positions laid out from top to bottom.
+
+
+
 
 
 
