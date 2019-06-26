@@ -10,11 +10,16 @@ The dataset that I will work with is the [Fully public genotype dataset (354,212
 1. Downlaod the genotype data from [David Reich Lab Dataset](https://reich.hms.harvard.edu/datasets) webpage. 
 2. You will get a zip file named : **Haak2015PublicData.tar.gz**
     ```
-    # move to the folder that contains the genotype data file, and type 'ls' commmand to display the file
+    # Move to the folder that contains the genotype data file, and type 'ls' commmand to display the file name.
     
     ls
     Haak2015PublicData.tar.gz
     ```
+3. Unzip and extract a .tar.gz file?
+
+
+
+
 
 **Reference**: 
 
