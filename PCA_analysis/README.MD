@@ -54,7 +54,10 @@ The dataset that I will work with is the [Fully public genotype dataset (354,212
    The file containing the genotype matrix, with individuals laid out from left to right, and SNP positions laid out from top to bottom.
 
 
-
+   ```
+   cat README
+   ```
+   This genotype dataset includes present-day humans published by Lazaridis et al. (2014), 69 ancient humans by Haak et al. (2015), other ancient humans from the literature included in the analysis by Haak et al. (2015), and other ancient individuals (e.g., archaics).
 
 
 ### Operating System
@@ -65,3 +68,4 @@ I did all analyses above under Ubuntu 16.04.5 LTS-xenial, lunched through [Virtu
 1. Stephan Schiffels, [compPopGenWorkshop2019](https://github.com/stschiff/compPopGenWorkshop2019_docs): [PCA](https://github.com/stschiff/compPopGenWorkshop2019_docs/tree/master/contents/03_pca).
 2. [EVOLUTION AND GENOMICS](http://evomics.org/learning/population-and-speciation-genomics/2016-population-and-speciation-genomics/pca-exercise/).
 3. Haak, W., Lazaridis, I., Patterson, N., Rohland, N., Mallick, S., Llamas, B., ... & Fu, Q. (2015). Massive migration from the steppe was a source for Indo-European languages in Europe. Nature, 522(7555), 207.
+4. Lazaridis, I., Patterson, N., Mittnik, A., Renaud, G., Mallick, S., Kirsanow, K., ... & Berger, B. (2014). Ancient human genomes suggest three ancestral populations for present-day Europeans. Nature, 513(7518), 409.
