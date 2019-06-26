@@ -20,6 +20,7 @@ The dataset that I will work with is the [Fully public genotype dataset (354,212
 
    ```
    tar -xvzf Haak2015PublicData.tar.gz
+   
    # The followings will show on your screen
    data.geno
    data.ind
