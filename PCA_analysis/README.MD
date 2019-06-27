@@ -74,15 +74,24 @@ The dataset contains **2,071** individuals, each represented by **354,212** sing
    ```
    head data.pops 
    ```
-      12 AA 
+      12 AA
+      
       9 Abkhasian 
-     17 Adygei 
+      
+     17 Adygei
+     
       1 AG2 
+      
       6 Albanian 
+      
       1 Alberstedt_LN 
+      
       7 Aleut 
+      
       1 Aleutian 
+      
       7 Algerian 
+      
       1 Altai 
   
     ```
