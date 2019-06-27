@@ -103,7 +103,12 @@ The dataset contains **2,071** individuals, each represented by **354,212** sing
      2071  # There are 2071 individuals in this dataset in total
      ```
      
-         
+### How PCA analysis works
+
+To understand how PCA works, consider a single individual and its representation by its 354,212 markers. Formally, each individual is a point in a 354,212-dimensional space, where each dimension can take only the three possible genotypes indicated above, or have missing data. To visualise this high-dimensional dataset, we would like to project it down to two dimensions. But as there are many ways to project the shadow of a three-dimensional object on a two dimensional plane, there are many (and even more) ways to project a 354,212-dimensional cloud of points to two dimensions. What PCA does is figuring out the "best" way to do this project in order to visualise the major components of variance in the data.
+
+**Reference**: Stephan Schiffels, [compPopGenWorkshop2019](https://github.com/stschiff/compPopGenWorkshop2019_docs): [PCA](https://github.com/stschiff/compPopGenWorkshop2019_docs/tree/master/contents/03_pca). I quoted here with slightly change.
+
 ### Preparing the file for SmartPCA analysis
 
 According to the paper (Haak et al, 2015) - supplementary information 5 -, the PCAanalysis was conducted using ```smartpca``` on 777 present-day West Eurasians and 92 ancient individuals.
