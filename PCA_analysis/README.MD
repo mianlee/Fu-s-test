@@ -92,12 +92,17 @@ The dataset contains **2,071** individuals, each represented by **354,212** sing
       
       7 Algerian 
       
-      1 Altai 
-  
-    ```
-    awk '{sum += $1} END {print sum} data pops'
-    ```
-
+      1 Altai
+      
+      
+      
+     **Calculating the total number of indivduals by add the first column up**
+     ```
+     awk '{sum += $1} END {print sum}' data.pops
+     ```
+     2071
+     
+     
 ### Operating System
 I did all analyses above under Ubuntu 16.04.5 LTS-xenial, lunched through [VirtualBox](https://www.virtualbox.org/) on a Window 10 PC.
 
