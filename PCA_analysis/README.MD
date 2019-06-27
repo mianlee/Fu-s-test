@@ -96,11 +96,13 @@ The dataset contains **2,071** individuals, each represented by **354,212** sing
       
       
       
-     **Calculating the total number of indivduals by add the first column up**
+     ***Calculating the total number of indivduals by add the first column up***
      ```
      awk '{sum += $1} END {print sum}' data.pops
+     
+     2071  # There are 2071 individuals in this dataset in total
      ```
-     2071
+     
      
      
 ### Operating System
