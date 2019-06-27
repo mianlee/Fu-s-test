@@ -54,24 +54,24 @@ The dataset that I will work with is the [Fully public genotype dataset (354,212
    The file containing the genotype matrix, with individuals laid out from left to right, and SNP positions laid out from top to bottom.
 
   
-  ***```README```***
-   ```
-   cat README
+   ***```README```***
+    ```
+    cat README
    
-   # This genotype dataset includes present-day humans published by Lazaridis et al. (2014), 
+    # This genotype dataset includes present-day humans published by Lazaridis et al. (2014), 
      69 ancient humans by Haak et al. (2015), 
      other ancient humans from the literature included in the analysis by Haak et al. (2015), 
      and other ancient individuals (e.g., archaics).
 
-   ```
+    ```
    
-  ***```data.pops```***
+   ***```data.pops```***
   
-  This file containing 
+   This file containing 
   
-   ```
-   awk '{sum += $1} END {print sum} data pops'
-   ```
+    ```
+    awk '{sum += $1} END {print sum} data pops'
+    ```
 
 ### Operating System
 I did all analyses above under Ubuntu 16.04.5 LTS-xenial, lunched through [VirtualBox](https://www.virtualbox.org/) on a Window 10 PC.
