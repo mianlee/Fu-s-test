@@ -111,7 +111,7 @@ To understand how PCA works, consider a single individual and its representation
 
 ### Preparing the file for SmartPCA analysis
 
-According to the paper (Haak et al, 2015) - supplementary information 5 -, the PCAanalysis was conducted using ```smartpca``` on 777 present-day West Eurasians and 92 ancient individuals.
+According to the paper (Haak et al, 2015), - supplementary information 5 -, the PCAanalysis was conducted using ```smartpca``` on 777 present-day West Eurasians and 92 ancient individuals.
 
 
      
