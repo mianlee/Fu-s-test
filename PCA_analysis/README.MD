@@ -109,6 +109,9 @@ To understand how PCA works, consider a single individual and its representation
 
 **Reference**: Stephan Schiffels, [compPopGenWorkshop2019](https://github.com/stschiff/compPopGenWorkshop2019_docs): [PCA](https://github.com/stschiff/compPopGenWorkshop2019_docs/tree/master/contents/03_pca). I quoted here with slightly change.
 
+
+```cat data.snp | grep -v -E  "G A|A G|C T|T C" ```
+
 ### Preparing the file for SmartPCA analysis
 
 According to the paper (Haak et al, 2015), - supplementary information 5 -, the PCAanalysis was conducted using ```smartpca``` on 777 present-day West Eurasians and 92 ancient individuals.
