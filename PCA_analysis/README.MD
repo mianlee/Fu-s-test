@@ -67,7 +67,21 @@ The dataset that I will work with is the [Fully public genotype dataset (354,212
    
    ***```data.pops```***
   
-   This file containing 
+   This file made by author and containing sample size (1st column) and the name of each population group (2rd column).
+   
+   ```
+   head data.pops 
+   ```
+      12 AA 
+      9 Abkhasian 
+     17 Adygei 
+      1 AG2 
+      6 Albanian 
+      1 Alberstedt_LN 
+      7 Aleut 
+      1 Aleutian 
+      7 Algerian 
+      1 Altai 
   
     ```
     awk '{sum += $1} END {print sum} data pops'
