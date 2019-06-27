@@ -8,3 +8,6 @@ Here, I record down all steps, codes and solutions, and my researches about the 
 
 
 **Reference**: Haak, W., Lazaridis, I., Patterson, N., Rohland, N., Mallick, S., Llamas, B., ... & Fu, Q. (2015). **Massive migration from the steppe was a source for Indo-European languages in Europe**. Nature, 522(7555), 207.
+
+
+If you have any questions or want to discuss something with me, feel free to contact me through email, limian1987@gmail.com.
