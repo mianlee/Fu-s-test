@@ -69,7 +69,7 @@ The dataset contains **2,071** individuals, each represented by **354,212** sing
    
    ***```data.pops```***
   
-   This file made by author and containing sample size (1st column) and the name of each population group (2rd column).
+   This file was made by the authors and containing sample size (1st column) and the name of each population group (2rd column).
    
    ```
    head data.pops 
@@ -103,7 +103,12 @@ The dataset contains **2,071** individuals, each represented by **354,212** sing
      2071  # There are 2071 individuals in this dataset in total
      ```
      
-     
+         
+### Preparing the file for SmartPCA analysis
+
+According to the paper (Haak et al, 2015) - supplementary information 5 -, the PCAanalysis was conducted using ```smartpca``` on 777 present-day West Eurasians and 92 ancient individuals.
+
+
      
 ### Operating System
 I did all analyses above under Ubuntu 16.04.5 LTS-xenial, lunched through [VirtualBox](https://www.virtualbox.org/) on a Window 10 PC.
