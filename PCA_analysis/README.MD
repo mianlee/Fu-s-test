@@ -74,6 +74,8 @@ The dataset contains **2,071** individuals, each represented by **354,212 autoso
    ```
    head data.pops 
    
+   # result
+  
    12 AA
       
     9 Abkhasian 
