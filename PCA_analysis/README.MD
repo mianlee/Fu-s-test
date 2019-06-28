@@ -172,9 +172,11 @@ Based on the Figure lengends of Figure 2a and Figure S5.1, I found out/identifie
    Note: The EIGENSOFT [PED](https://github.com/chrchang/eigensoft/tree/master/CONVERTF) format is equivalent to PLINK [PED](http://zzz.bwh.harvard.edu/plink/data.shtml#ped) format. The EIGENSOFT [PACKEDPED](https://github.com/chrchang/eigensoft/tree/master/CONVERTF) format is equivalent to PLINK [BED](http://zzz.bwh.harvard.edu/plink/data.shtml#bed) format, as known as Binary PED files. To do individual and SNPs extraction, you need to provide Binary PED files (*.bed, *.bim, *.fam) to the PLINK.
    
    
+   EIGENSOFT 6.1.4
+   PLINK 1.9
    
    ```
-   # To use plink, convert the PACKEDANCESTRYMAP format to PACKEDPED.
+   # Convert the PACKEDANCESTRYMAP format to PACKEDPED.
    # Use nano text editor in the terminal to make the par file named: " par.PACKEDANCESTRYMAP.PACKEDPED ".
    
    nano par.PACKEDANCESTRYMAP.PACKEDPED
