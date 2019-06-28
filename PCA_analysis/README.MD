@@ -247,9 +247,9 @@ Based on the Figure lengends of Figure 2a and Figure S5.1, I found out/identifie
   
   
   
-Extract a subset of SNPs: file-list options
+Extract a subset of SNPs: file-list options.
 
-To extract only a subset of SNPs, it is possible to specify a list of required SNPs and make a new set of Binary PED files by using the PLINK command.
+To extract only a subset of SNPs, it is possible to specify a list of required SNPs and make a new set of Binary PED files by using the following PLINK command.
 
 ```plink --bfile data --extract mysnps.txt --make-bed --out newdata```
 
