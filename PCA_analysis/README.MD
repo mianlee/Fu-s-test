@@ -165,7 +165,13 @@ Based on the Figure lengends of Figure 2a and Figure S5.1, I found out/identifie
    # The 'transversionSNP.txt' will be used to extract all transversion SNPs using Plink later.
    ```
    
-   Now we can extract those 869 individuals (777 present-day West Eurasians and 92 ancient individuals), and 66,225 transvrsion SNPs from the genotype dataset.
+   **Now we can extract those 869 individuals (777 present-day West Eurasians and 92 ancient individuals), and 66,225 transvrsion SNPs from the full genotype dataset**. 
+   
+   In order to extract certain individuals and/or SNPs from the full dataset, you need to convert 'PACKEDANCESTRYMAP' format (or any other [EIGENSOFT](https://github.com/chrchang/eigensoft/tree/master/CONVERTF) format, such as ANCESTRYMAP,EIGENSTRAT, PED) to 'PACKEDPED' format cause the [PLINK](https://www.cog-genomics.org/plink2) program will do and does a better job. 
+   
+   Note: The EIGENSOFT [PED]((https://github.com/chrchang/eigensoft/tree/master/CONVERTF)) format is equivalent to PLINK [PED](http://zzz.bwh.harvard.edu/plink/data.shtml#ped) format. The EIGENSOFT [PACKEDPED](https://github.com/chrchang/eigensoft/tree/master/CONVERTF)) format is equivalent to PLINK [BED](http://zzz.bwh.harvard.edu/plink/data.shtml#bed) format, as known as Binary PED files. To do individual and SNPs extraction, you need to provide Binary PED files (*.bed, *.bim, *.fam) to the PLINK.
+   
+   
    
    ```
    # To use plink, convert the PACKEDANCESTRYMAP format to PACKEDPED.
@@ -193,9 +199,9 @@ Based on the Figure lengends of Figure 2a and Figure S5.1, I found out/identifie
    snpname: data.snp
    indivname: data.ind
    outputformat: PACKEDPED
-   genotypeoutname: WestEuroTransver.bed
-   snpoutname: WestEuroTransver.bim
-   indivoutname: WestEuroTransver.fam
+   genotypeoutname: data.bed
+   snpoutname: data.bim
+   indivoutname: data.fam
    
    ```
    
@@ -281,3 +287,4 @@ I did all analyses above under Ubuntu 16.04.5 LTS-xenial, lunched through [Virtu
 2. [EVOLUTION AND GENOMICS](http://evomics.org/learning/population-and-speciation-genomics/2016-population-and-speciation-genomics/pca-exercise/).
 3. Haak, W., Lazaridis, I., Patterson, N., Rohland, N., Mallick, S., Llamas, B., ... & Fu, Q. (2015). Massive migration from the steppe was a source for Indo-European languages in Europe. Nature, 522(7555), 207.
 4. Lazaridis, I., Patterson, N., Mittnik, A., Renaud, G., Mallick, S., Kirsanow, K., ... & Berger, B. (2014). Ancient human genomes suggest three ancestral populations for present-day Europeans. Nature, 513(7518), 409.
+5. Purcell, S., Neale, B., Todd-Brown, K., Thomas, L., Ferreira, M. A., Bender, D., ... & Sham, P. C. (2007). PLINK: a tool set for whole-genome association and population-based linkage analyses. The American journal of human genetics, 81(3), 559-575.
