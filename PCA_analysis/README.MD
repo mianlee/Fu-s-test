@@ -271,6 +271,7 @@ As shown above, the list of SNPs file I made is called 'transversionSNP.txt'
  Making a list file of individuals you want to keep. 
  
  To keep only certain individuals in a file, use the option:
+ 
 ```plink --bfile data --keep mylist.txt --make-bed --out newdata```
 
  where the file mylist.txt is, as for the --remove command, just a list of Family ID / Individual ID
