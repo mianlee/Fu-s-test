@@ -198,7 +198,7 @@ Based on the Figure lengends of Figure 2a and Figure S5.1, I found out/identifie
    
    ```
    
-   I used EIGENSOFT 6.1.4, you can download [here](https://data.broadinstitute.org/alkesgroup/EIGENSOFT/).  ```convertf``` is a program in the EIGENSOFT package, see [the manual](https://github.com/chrchang/eigensoft/tree/master/CONVERTF0 in the github.
+   I used EIGENSOFT 6.1.4, you can download [here](https://data.broadinstitute.org/alkesgroup/EIGENSOFT/).  ```convertf``` is a program in the EIGENSOFT package, see [the manual](https://github.com/chrchang/eigensoft/tree/master/CONVERTF) in the github.
    
    ```
    /Path/To/EIG-6.1.4/bin/convertf -p par.PACKEDANCESTRYMAP.PACKEDPED 
