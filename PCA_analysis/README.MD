@@ -417,6 +417,7 @@ To repeat the analysis, I prepared one population list: "WestEurasia.poplist.txt
 
 
 ```poplistname: yourfile```
+
 ***yourfile*** should consist of a list of populations (1/line) where populations are the labels in the last column of the input .ind file (eigenstrat or packedped format).Only the samples with listed labels will be output.
 
 ```
@@ -436,7 +437,27 @@ BedouinA
 BedouinB
 Belarusian
 ```
-   
+
+For actually running the analysis, I used a software called [smartPCA](https://github.com/chrchang/eigensoft/tree/master/POPGEN) from the [Eigensoft](https://github.com/chrchang/eigensoft) package. As many other tools from this and related packages, smartPCA reads in a parameter file which specifies its input and output files and options. The basic format of the parameter file with one extra option (lsqproject) looks like this:
+
+
+```
+genotypename: <GENOTYPE_DATA>.geno
+snpname: <GENOTYPE_DATA>.snp
+indivname: <GENOTYPE_DATA>.ind
+evecoutname: <OUT_FILE>.evec
+evaloutname: <OUT_FILE>.eval
+poplistname: <POPULATION_LIST_FILE>.txt
+lsqproject: YES
+numoutevec: 4
+numthreads: 1
+```
+
+Here, the first three parameters specify the input genotype files. The next two rows specify two output file names, typically with ending ```*.evec``` and ```*.eval```. The parameter line beginning with ```poplistname``` contains a file with a list of populations used for calculating the principal components. The option ```lsqproject``` is important for applications including ancient DNA with lots of missing data. For the analysis, I used ```lsqproject: YES```. The option ```numoutevec``` specifies the number of principal components that we compute, and the option ```numthreads``` specifies the number of thread your computer will use.
+
+
+
+
      
 ### Operating System and program version
 I did all analyses above under Ubuntu 16.04.5 LTS-xenial, lunched through [VirtualBox](https://www.virtualbox.org/) on a Window 10 PC.
