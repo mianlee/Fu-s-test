@@ -255,12 +255,11 @@ To extract only a subset of SNPs, it is possible to specify a list of required S
 
 where the file is just a list of SNPs, one per line, e.g.
 
+```
 snp005
-
 snp008
-
 snp101
-
+```
 As shown above, the list of SNPs file I made is called 'transversionSNP.txt'
 
   ```
@@ -309,20 +308,46 @@ ignored – i.e. you could use a FAM file as the parameter of the --keep command
 file. 
 
 For example:
+```
+F101    1
+F1001   2 
+F3033   1 
+F4442   22
 
-F101  1
-
-F1001  2 
-
-F3033  1 
-
-F4442  22
+# The space between the first column and the second column is a tab.
+```
  
- 
- I made a list of family IDs/population groups called "WE_An_Family.txt", which including 92 family groups (59 West Eurosian groups + 33 ancient groups). I need to extract all individuals (n=869) from those 92 family groups to make the inviduals list file.
+ I made a list of family IDs/population groups called "WE_An_Family.txt", which including 92 family groups (59 West Eurosian groups + 33 ancient groups). I need to extract all individuals (n=869) from those 92 family groups (from 'transverSNPs_allind.fam')  to make the inviduals list file.
 
  ```
+ # Here, I used a while loop.
+ # -w grep exact match
  
+ cat WE_An_individuals.txt | while read line
+ >do 
+ >grep -w "$line" transverSNPs_allind.fam | awk '{print$1 "\t" $2}' >> WE_An_ind_list.txt
+ >done
+
+ # or you can type: 
+ 
+ cat WE_An_individuals.txt | while read line ; do grep -w "$line" transverSNPs_allind.fam | awk '{print$1 "\t" $2}' >> WE_An_ind_list.txt; done
+
+
+ # What 'WE_An_ind_list.txt' looks like.
+
+ head WE_An_ind_list.txt
+
+ Abkhasian	abh27
+ Abkhasian	abh107
+ Abkhasian	abh41
+ Abkhasian	abh119
+ Abkhasian	abh122
+ Abkhasian	abh133
+ Abkhasian	abh147
+ Abkhasian	abh154
+ Abkhasian	abh24
+ Adygei  HGDP01381
+
  ```
    
    
