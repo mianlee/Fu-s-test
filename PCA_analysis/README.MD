@@ -173,6 +173,7 @@ Based on the Figure lengends of Figure 2a and Figure S5.1, I found out/identifie
    
    
    EIGENSOFT 6.1.4
+   
    PLINK 1.9
    
    ```
@@ -280,8 +281,12 @@ WestEuroTransver.fam ... done.
    
    
      
-### Operating System
+### Operating System and program version
 I did all analyses above under Ubuntu 16.04.5 LTS-xenial, lunched through [VirtualBox](https://www.virtualbox.org/) on a Window 10 PC.
+   
+EIGENSOFT 6.1.4
+   
+PLINK 1.9
 
 **Reference**: 
 
