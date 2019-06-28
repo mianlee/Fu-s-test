@@ -75,27 +75,17 @@ The dataset contains **2,071** individuals, each represented by **354,212 autoso
    head data.pops 
    
    # result
-  
    12 AA
     9 Abkhasian 
-      
    17 Adygei
-     
     1 AG2 
-      
     6 Albanian 
-      
     1 Alberstedt_LN 
-      
     7 Aleut 
-      
     1 Aleutian 
-      
     7 Algerian 
-      
     1 Altai
-      
-   ```
+    ```
       
       
   
@@ -147,17 +137,11 @@ Based on the Figure lengends of Figure 2a and Figure S5.1, I found out/identifie
   
   
    Affx-4690339      1         0.029735         1205155  A  C
-   
    Affx-5354053      1         0.032495         1519068  A  C
-   
    Affx-6395872      1         0.040110         1942033  C  A
-   
    Affx-6411981      1         0.040627         1948400  C  A
-    
    Affx-7257140      1         0.044968         2164935  G  T
-   
    Affx-50018429     1         0.046476         2223669  G  T
-   .
    .
    .
    .
