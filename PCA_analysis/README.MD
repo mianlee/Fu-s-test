@@ -274,14 +274,15 @@ snp101
 As shown above, the list of SNPs file I made is called 'transversionSNP.txt'
 
   ```
-  # Keep/Extract 66,225 transvrsion SNPs only and make new bed files called transverSNPs_allind
-  # allind mean all individuals (n = 2071)
+  # Keep/Extract 66,225 transvrsion SNPs only and make new bed files called 'transverSNPs_allind'.
+  # 'allind' means that still keeping all individuals (n = 2071).
   
   plink --bfile data --extract transversionSNP.txt --make-bed --out transverSNPs_allind
   
   
   
   
+  # Log results
   PLINK v1.90b4 64-bit (20 Mar 2017)             www.cog-genomics.org/plink/1.9/
   (C) 2005-2017 Shaun Purcell, Christopher Chang   GNU General Public License v3
   Logging to transverSNPs_allind.log.
