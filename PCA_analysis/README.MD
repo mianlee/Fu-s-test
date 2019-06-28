@@ -417,9 +417,25 @@ To repeat the analysis, I prepared one population list: "WestEurasia.poplist.txt
 
 
 ```poplistname: yourfile```
-***yourfile***should consist of a list of populations (1/line) where populations are the labels in the last column of the input .ind file (eigenstrat or packedped format).Only the samples with listed labels will be output.
+***yourfile*** should consist of a list of populations (1/line) where populations are the labels in the last column of the input .ind file (eigenstrat or packedped format).Only the samples with listed labels will be output.
+
+```
+# Here is what poplistname file looks like.
+
+head WestEurasia.poplist.txt 
 
 
+Abkhasian
+Adygei
+Albanian
+Armenian
+Ashkenazi_Jew
+Balkar
+Basque
+BedouinA
+BedouinB
+Belarusian
+```
    
      
 ### Operating System and program version
