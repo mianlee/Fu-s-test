@@ -130,7 +130,7 @@ Based on the Figure lengends of Figure 2a and Figure S5.1, I found out/identifie
 
   If the samples you are analysing are ancient samples, the DNA will likely contain DNA damage, so C->T changes which are seen as C->T and G->A substitutions. There are two ways how to deal with that. First, if your data is not UDG-treated, so if it contains the full damage, you should restrict your analysis to Transversion SNPs only. If your data is UDG-treated, you will have much less damage, but you can still see damaged sites in particular in the boundary of the reads in your BAM-file. In that case, you probably want to make a modified bam file for each sample, where the first 2 bases on each end of the read are clipped. [Reference and See details](https://gaworkshop.readthedocs.io/en/latest/contents/04_genotyping/genotyping.html)
 
-  **Haak et al.** claimed that I quoate here: "We excluded tranmsition SNPs in this analysis as non-UDG-treated ancient DNA libraries from the literature had high rates of damage causing apparent C->T and G->A substitutions,which potentially leads to misleading results, for example by causing ancient DNA samples to apper aas extreme outliers, dominating one the first two pricipal components."
+  ***Haak et al.*** claimed that I quoate here: "We excluded tranmsition SNPs in this analysis as non-UDG-treated ancient DNA libraries from the literature had high rates of damage causing apparent C->T and G->A substitutions,which potentially leads to misleading results, for example by causing ancient DNA samples to apper aas extreme outliers, dominating one the first two pricipal components."
 
 
   Finding transversion SNPs in ***data.snp***:
