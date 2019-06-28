@@ -162,7 +162,7 @@ Based on the Figure lengends of Figure 2a and Figure S5.1, I found out/identifie
    ```
    cat data.snp | grep -v -E  "G A|A G|C T|T C" > transversionSNP.txt
    
-   # The 'transversionSNP.txt' will be used to extract all transversion SNPs using Plink later.
+   # The 'transversionSNP.txt' will be used to extract all transversion SNPs using PLINK later.
    ```
    
    **Now we can extract those 869 individuals (777 present-day West Eurasians and 92 ancient individuals), and 66,225 transvrsion SNPs from the full genotype dataset**. 
@@ -254,6 +254,57 @@ Based on the Figure lengends of Figure 2a and Figure S5.1, I found out/identifie
   Yukagir	Yuk_025	0	0	2	1
 
   ```
+  
+  
+  
+Extract a subset of SNPs: file-list options
+
+To extract only a subset of SNPs, it is possible to specify a list of required SNPs and make a new set of Binary PED files by using the PLINK command.
+
+```plink --bfile data --extract mysnps.txt --make-bed --out newdata```
+
+where the file is just a list of SNPs, one per line, e.g.
+
+snp005
+
+snp008
+
+snp101
+
+As shown above, the list of SNPs file I made is called 'transversionSNP.txt'
+
+  ```
+  # Keep/Extract 66,225 transvrsion SNPs only and make new bed files called transverSNPs_allind
+  # allind mean all individuals (n = 2071)
+  
+  plink --bfile data --extract transversionSNP.txt --make-bed --out transverSNPs_allind
+  
+  
+  
+  
+  PLINK v1.90b4 64-bit (20 Mar 2017)             www.cog-genomics.org/plink/1.9/
+  (C) 2005-2017 Shaun Purcell, Christopher Chang   GNU General Public License v3
+  Logging to transverSNPs_allind.log.
+  Options in effect:
+  --bfile data
+  --extract transversionSNP.txt
+  --make-bed
+  --out transverSNPs_allind
+
+  8703 MB RAM detected; reserving 4351 MB for main workspace.
+  354212 variants loaded from .bim file.
+  2071 people (1307 males, 764 females) loaded from .fam.
+  2071 phenotype values loaded from .fam.
+  --extract: 66225 variants remaining.
+  Using 1 thread (no multithreaded calculations invoked).
+  Before main variant filters, 2071 founders and 0 nonfounders present.
+  Calculating allele frequencies... done.
+  Total genotyping rate is 0.972329.
+  66225 variants and 2071 people pass filters and QC.
+  Among remaining phenotypes, 0 are cases and 2071 are controls.
+  --make-bed to transverSNPs_allind.bed + transverSNPs_allind.bim + transverSNPs_allind.fam ... done.
+  ```
+  
    
    
    
