@@ -306,6 +306,7 @@ F4442   22
 
 
  # What 'WE_An_ind_list.txt' looks like.
+ # a tab between two columns
 
  head WE_An_ind_list.txt
 
