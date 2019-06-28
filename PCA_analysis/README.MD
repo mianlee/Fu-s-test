@@ -327,38 +327,37 @@ F4442   22
  
  **Extract 66,225 transvrsion SNPs, and keep 777 present-day West Eurasians and 92 ancient individuals.**
 
-  ```
-  # Keep/Extract 66,225 transvrsion SNPs only and make new bed files called 'transverSNPs_allind'.
-  # 'allind' means that still keeping all individuals (n = 2071).
+ ```
+ # Keep/Extract 66,225 transvrsion SNPs only and make new bed files called 'transverSNPs_allind'.
+ # 'allind' means that still keeping all individuals (n = 2071).
   
-  plink --bfile data --extract transversionSNP.txt --make-bed --out transverSNPs_allind
-  
-  
+ plink --bfile data --extract transversionSNP.txt --make-bed --out transverSNPs_allind
   
   
-  # Log results
-  PLINK v1.90b4 64-bit (20 Mar 2017)             www.cog-genomics.org/plink/1.9/
-  (C) 2005-2017 Shaun Purcell, Christopher Chang   GNU General Public License v3
-  Logging to transverSNPs_allind.log.
-  Options in effect:
-  --bfile data
-  --extract transversionSNP.txt
-  --make-bed
-  --out transverSNPs_allind
+   
+ # Log results
+ PLINK v1.90b4 64-bit (20 Mar 2017)             www.cog-genomics.org/plink/1.9/
+ (C) 2005-2017 Shaun Purcell, Christopher Chang   GNU General Public License v3
+ Logging to transverSNPs_allind.log.
+ Options in effect:
+ --bfile data
+ --extract transversionSNP.txt
+ --make-bed
+ --out transverSNPs_allind
 
-  8703 MB RAM detected; reserving 4351 MB for main workspace.
-  354212 variants loaded from .bim file.
-  2071 people (1307 males, 764 females) loaded from .fam.
-  2071 phenotype values loaded from .fam.
-  --extract: 66225 variants remaining.
-  Using 1 thread (no multithreaded calculations invoked).
-  Before main variant filters, 2071 founders and 0 nonfounders present.
-  Calculating allele frequencies... done.
-  Total genotyping rate is 0.972329.
-  66225 variants and 2071 people pass filters and QC.
-  Among remaining phenotypes, 0 are cases and 2071 are controls.
-  --make-bed to transverSNPs_allind.bed + transverSNPs_allind.bim + transverSNPs_allind.fam ... done.
-  ```
+ 8703 MB RAM detected; reserving 4351 MB for main workspace.
+ 354212 variants loaded from .bim file.
+ 2071 people (1307 males, 764 females) loaded from .fam.
+ 2071 phenotype values loaded from .fam.
+ --extract: 66225 variants remaining.
+ Using 1 thread (no multithreaded calculations invoked).
+ Before main variant filters, 2071 founders and 0 nonfounders present.
+ Calculating allele frequencies... done.
+ Total genotyping rate is 0.972329.
+ 66225 variants and 2071 people pass filters and QC.
+ Among remaining phenotypes, 0 are cases and 2071 are controls.
+ --make-bed to transverSNPs_allind.bed + transverSNPs_allind.bim + transverSNPs_allind.fam ... done.
+ ```
   
    
 
@@ -373,9 +372,8 @@ F4442   22
  
  
  # Log results
- 
  PLINK v1.90b4 64-bit (20 Mar 2017)             www.cog-genomics.org/plink/1.9/
-(C) 2005-2017 Shaun Purcell, Christopher Chang   GNU General Public License v3
+ (C) 2005-2017 Shaun Purcell, Christopher Chang   GNU General Public License v3
  Logging to WE_An_ind_transverSNPs.log.
  Options in effect:
   --bfile transverSNPs_allind
@@ -395,14 +393,11 @@ F4442   22
  66225 variants and 869 people pass filters and QC.
  Among remaining phenotypes, 0 are cases and 869 are controls.
  --make-bed to WE_An_ind_transverSNPs.bed + WE_An_ind_transverSNPs.bim + WE_An_ind_transverSNPs.fam ... done.
-  
  ```
 
 
 
-   
-   
-   
+    
    
    
      
