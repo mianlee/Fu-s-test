@@ -161,6 +161,8 @@ Based on the Figure lengends of Figure 2a and Figure S5.1, I found out/identifie
    .
    ```
    cat data.snp | grep -v -E  "G A|A G|C T|T C" > transversionSNP.txt
+   
+   # The 'transversionSNP.txt' will be used to extract all transversion SNPs using Plink later.
    ```
    
    Now we can extract those 869 individuals (777 present-day West Eurasians and 92 ancient individuals), and 66,225 transvrsion SNPs from the genotype dataset.
