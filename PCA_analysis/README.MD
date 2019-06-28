@@ -262,40 +262,11 @@ snp101
 ```
 As shown above, the list of SNPs file I made is called 'transversionSNP.txt'
 
-  ```
-  # Keep/Extract 66,225 transvrsion SNPs only and make new bed files called 'transverSNPs_allind'.
-  # 'allind' means that still keeping all individuals (n = 2071).
-  
-  plink --bfile data --extract transversionSNP.txt --make-bed --out transverSNPs_allind
-  
-  
-  
-  
-  # Log results
-  PLINK v1.90b4 64-bit (20 Mar 2017)             www.cog-genomics.org/plink/1.9/
-  (C) 2005-2017 Shaun Purcell, Christopher Chang   GNU General Public License v3
-  Logging to transverSNPs_allind.log.
-  Options in effect:
-  --bfile data
-  --extract transversionSNP.txt
-  --make-bed
-  --out transverSNPs_allind
-
-  8703 MB RAM detected; reserving 4351 MB for main workspace.
-  354212 variants loaded from .bim file.
-  2071 people (1307 males, 764 females) loaded from .fam.
-  2071 phenotype values loaded from .fam.
-  --extract: 66225 variants remaining.
-  Using 1 thread (no multithreaded calculations invoked).
-  Before main variant filters, 2071 founders and 0 nonfounders present.
-  Calculating allele frequencies... done.
-  Total genotyping rate is 0.972329.
-  66225 variants and 2071 people pass filters and QC.
-  Among remaining phenotypes, 0 are cases and 2071 are controls.
-  --make-bed to transverSNPs_allind.bed + transverSNPs_allind.bim + transverSNPs_allind.fam ... done.
-  ```
-  
-   
+```
+ cat data.snp | grep -v -E  "G A|A G|C T|T C" > transversionSNP.txt
+```
+ 
+ 
    
  Making a list file of individuals you want to keep. 
  
@@ -349,45 +320,84 @@ F4442   22
  Adygei  HGDP01381
 
  ```
-   
-   
-   
+ 
+ 
+ 
+ **Extract 66,225 transvrsion SNPs, and keep 777 present-day West Eurasians and 92 ancient individuals.**
 
-```
-To keep only certain individuals in a file, use the option:
-plink --file data --keep mylist.txt
-where the file mylist.txt is, as for the --remove command, just a list of Family ID / Individual ID
-pairs, one set per line, i.e. one person per line. (fields can occur after the 2nd column but they will be
-ignored – i.e. you could use a FAM file as the parameter of the --keep command, or have comments in the
-file. For example
-F101 1
-F1001 2 B
-F3033 1 A Drop this individual because of consent issues
-F4442 22
-```
-
-   
   ```
-  plink --file WestEuroTransver --make-bed --out WestEuroTransver
+  # Keep/Extract 66,225 transvrsion SNPs only and make new bed files called 'transverSNPs_allind'.
+  # 'allind' means that still keeping all individuals (n = 2071).
   
-  8703 MB RAM detected; reserving 4351 MB for main workspace.
-.ped scan complete (for binary autoconversion).
-Performing single-pass .bed write (354212 variants, 2071 people).
---file: WestEuroTransver-temporary.bed + WestEuroTransver-temporary.bim +
-WestEuroTransver-temporary.fam written.
-354212 variants loaded from .bim file.
-2071 people (1307 males, 764 females) loaded from .fam.
-2071 phenotype values loaded from .fam.
-Using 1 thread (no multithreaded calculations invoked).
-Before main variant filters, 2071 founders and 0 nonfounders present.
-Calculating allele frequencies... done.
-Total genotyping rate is 0.972586.
-354212 variants and 2071 people pass filters and QC.
-Among remaining phenotypes, 0 are cases and 2071 are controls.
---make-bed to WestEuroTransver.bed + WestEuroTransver.bim +
-WestEuroTransver.fam ... done.
+  plink --bfile data --extract transversionSNP.txt --make-bed --out transverSNPs_allind
+  
+  
+  
+  
+  # Log results
+  PLINK v1.90b4 64-bit (20 Mar 2017)             www.cog-genomics.org/plink/1.9/
+  (C) 2005-2017 Shaun Purcell, Christopher Chang   GNU General Public License v3
+  Logging to transverSNPs_allind.log.
+  Options in effect:
+  --bfile data
+  --extract transversionSNP.txt
+  --make-bed
+  --out transverSNPs_allind
 
-```
+  8703 MB RAM detected; reserving 4351 MB for main workspace.
+  354212 variants loaded from .bim file.
+  2071 people (1307 males, 764 females) loaded from .fam.
+  2071 phenotype values loaded from .fam.
+  --extract: 66225 variants remaining.
+  Using 1 thread (no multithreaded calculations invoked).
+  Before main variant filters, 2071 founders and 0 nonfounders present.
+  Calculating allele frequencies... done.
+  Total genotyping rate is 0.972329.
+  66225 variants and 2071 people pass filters and QC.
+  Among remaining phenotypes, 0 are cases and 2071 are controls.
+  --make-bed to transverSNPs_allind.bed + transverSNPs_allind.bim + transverSNPs_allind.fam ... done.
+  ```
+  
+   
+
+ 
+ 
+ ```
+ # Keep 777 present-day West Eurasians and 92 ancient individuals, n= 869.
+ # WE - West Eurasians; An - Ancient individuals; ind - individuals; transverSNPs - 66,225 transversion SNPs
+ 
+ plink --bfile transverSNPs_allind --keep WE_An_ind_list.txt --make-bed --out WE_An_ind_transverSNPs
+ 
+ 
+ 
+ # Log results
+ 
+ PLINK v1.90b4 64-bit (20 Mar 2017)             www.cog-genomics.org/plink/1.9/
+(C) 2005-2017 Shaun Purcell, Christopher Chang   GNU General Public License v3
+ Logging to WE_An_ind_transverSNPs.log.
+ Options in effect:
+  --bfile transverSNPs_allind
+  --keep WE_An_ind_list.txt
+  --make-bed
+  --out WE_An_ind_transverSNPs
+
+ 8703 MB RAM detected; reserving 4351 MB for main workspace.
+ 66225 variants loaded from .bim file.
+ 2071 people (1307 males, 764 females) loaded from .fam.
+ 2071 phenotype values loaded from .fam.
+ --keep: 869 people remaining.
+ Using 1 thread (no multithreaded calculations invoked).
+ Before main variant filters, 869 founders and 0 nonfounders present.
+ Calculating allele frequencies... done.
+ Total genotyping rate in remaining samples is 0.955644.
+ 66225 variants and 869 people pass filters and QC.
+ Among remaining phenotypes, 0 are cases and 869 are controls.
+ --make-bed to WE_An_ind_transverSNPs.bed + WE_An_ind_transverSNPs.bim + WE_An_ind_transverSNPs.fam ... done.
+  
+ ```
+
+
+
    
    
    
