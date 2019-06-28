@@ -169,7 +169,7 @@ Based on the Figure lengends of Figure 2a and Figure S5.1, I found out/identifie
    
    In order to extract certain individuals and/or SNPs from the full dataset, you need to convert 'PACKEDANCESTRYMAP' format (or any other [EIGENSOFT](https://github.com/chrchang/eigensoft/tree/master/CONVERTF) format, such as ANCESTRYMAP, EIGENSTRAT, PED) to 'PACKEDPED' format cause the [PLINK](https://www.cog-genomics.org/plink2) program will do and does a better job. 
    
-   Note: The EIGENSOFT [PED]((https://github.com/chrchang/eigensoft/tree/master/CONVERTF)) format is equivalent to PLINK [PED](http://zzz.bwh.harvard.edu/plink/data.shtml#ped) format. The EIGENSOFT [PACKEDPED](https://github.com/chrchang/eigensoft/tree/master/CONVERTF)) format is equivalent to PLINK [BED](http://zzz.bwh.harvard.edu/plink/data.shtml#bed) format, as known as Binary PED files. To do individual and SNPs extraction, you need to provide Binary PED files (*.bed, *.bim, *.fam) to the PLINK.
+   Note: The EIGENSOFT [PED](https://github.com/chrchang/eigensoft/tree/master/CONVERTF) format is equivalent to PLINK [PED](http://zzz.bwh.harvard.edu/plink/data.shtml#ped) format. The EIGENSOFT [PACKEDPED](https://github.com/chrchang/eigensoft/tree/master/CONVERTF) format is equivalent to PLINK [BED](http://zzz.bwh.harvard.edu/plink/data.shtml#bed) format, as known as Binary PED files. To do individual and SNPs extraction, you need to provide Binary PED files (*.bed, *.bim, *.fam) to the PLINK.
    
    
    
