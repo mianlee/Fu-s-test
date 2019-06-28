@@ -73,35 +73,37 @@ The dataset contains **2,071** individuals, each represented by **354,212 autoso
    
    ```
    head data.pops 
+   
+   12 AA
+      
+    9 Abkhasian 
+      
+   17 Adygei
+     
+    1 AG2 
+      
+    6 Albanian 
+      
+    1 Alberstedt_LN 
+      
+    7 Aleut 
+      
+    1 Aleutian 
+      
+    7 Algerian 
+      
+    1 Altai
+      
    ```
-      12 AA
       
-      9 Abkhasian 
       
-     17 Adygei
+  
+   ***Calculating the total number of indivduals by add the first column up***
+   ```
+   awk '{sum += $1} END {print sum}' data.pops
      
-      1 AG2 
-      
-      6 Albanian 
-      
-      1 Alberstedt_LN 
-      
-      7 Aleut 
-      
-      1 Aleutian 
-      
-      7 Algerian 
-      
-      1 Altai
-      
-      
-      
-     ***Calculating the total number of indivduals by add the first column up***
-     ```
-     awk '{sum += $1} END {print sum}' data.pops
-     
-     2071  # There are 2071 individuals in this dataset in total
-     ```
+   2071  # There are 2071 individuals in this dataset in total
+   ```
      
 ### How PCA analysis works
 
