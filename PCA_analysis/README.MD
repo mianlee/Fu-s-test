@@ -211,6 +211,36 @@ Based on the Figure lengends of Figure 2a and Figure S5.1, I found out/identifie
    
    
    
+   ```
+   4.14 Extract a subset of SNPs: file-list options
+To extract only a subset of SNPs, it is possible to specify a list of required SNPs and make a new file, or
+perform an analysis on this subset, by using the command
+plink --file data --extract mysnps.txt
+where the file is just a list of SNPs, one per line, e.g.
+snp005
+snp008
+snp101
+```
+
+```
+To keep only certain individuals in a file, use the option:
+plink --file data --keep mylist.txt
+where the file mylist.txt is, as for the --remove command, just a list of Family ID / Individual ID
+pairs, one set per line, i.e. one person per line. (fields can occur after the 2nd column but they will be
+ignored – i.e. you could use a FAM file as the parameter of the --keep command, or have comments in the
+file. For example
+F101 1
+F1001 2 B
+F3033 1 A Drop this individual because of consent issues
+F4442 22
+```
+
+   
+   
+   
+   
+   
+   
    
      
 ### Operating System
