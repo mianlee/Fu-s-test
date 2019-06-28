@@ -136,12 +136,12 @@ Based on the Figure lengends of Figure 2a and Figure S5.1, I found out/identifie
   cat data.snp | grep -v -E  "G A|A G|C T|T C" | head
   
   
-   Affx-4690339      1         0.029735         1205155  A  C
-   Affx-5354053      1         0.032495         1519068  A  C
-   Affx-6395872      1         0.040110         1942033  C  A
-   Affx-6411981      1         0.040627         1948400  C  A
-   Affx-7257140      1         0.044968         2164935  G  T
-   Affx-50018429     1         0.046476         2223669  G  T
+  Affx-4690339      1         0.029735         1205155  A  C
+  Affx-5354053      1         0.032495         1519068  A  C
+  Affx-6395872      1         0.040110         1942033  C  A
+  Affx-6411981      1         0.040627         1948400  C  A
+  Affx-7257140      1         0.044968         2164935  G  T
+  Affx-50018429     1         0.046476         2223669  G  T
    .
    .
    .
