@@ -23,7 +23,7 @@ The dataset contains **2,071** individuals, each represented by **354,212 autoso
    ```
    tar -xvzf Haak2015PublicData.tar.gz
    
-   # The followings will show on your screen
+   # The followings will show on your screen.
    data.geno
    data.ind
    data.pops
@@ -74,7 +74,7 @@ The dataset contains **2,071** individuals, each represented by **354,212 autoso
    ```
    head data.pops 
    
-   # result
+   # result.
    12 AA
     9 Abkhasian 
    17 Adygei
@@ -93,7 +93,7 @@ The dataset contains **2,071** individuals, each represented by **354,212 autoso
    ```
    awk '{sum += $1} END {print sum}' data.pops
      
-   2071  # There are 2071 individuals in this dataset in total
+   2071  # There are 2071 individuals in this dataset in total.
    ```
      
 ### How PCA analysis works
@@ -207,13 +207,13 @@ Based on the Figure lengends of Figure 2a and Figure S5.1, I found out/identifie
    packed geno read OK
    numvalidind:   2071  maxmiss: 2071001
    packedped output
-   ##end of convertf run
+   ##end of convertf run.
    ```
    
   You will get three Binary PED files ***data.bed, data.bim, data.fam***. If you check the ***data.fam*** file, I noticed that the family/population group information (the first column, showing only numbers) were lost during the format conversion. I found the population group information in the ***data.ind** file, and updated the ***data.fam*** file in excel manually. I also uploaded the modified ***data.fam*** file in the folder.
   
   ```
-  # The original data.fam file
+  # The original data.fam file.
   
   head data.fam
   
@@ -228,7 +228,7 @@ Based on the Figure lengends of Figure 2a and Figure S5.1, I found out/identifie
   9 Yuk_009 0 0 1 1
   10 Yuk_025 0 0 2 1
 
-  # The updated data.fam file
+  # The updated data.fam file.
   
   head data.fam
   
