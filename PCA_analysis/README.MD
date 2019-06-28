@@ -456,6 +456,33 @@ numthreads: 2
 Here, the first three parameters specify the input genotype files. The next two rows specify two output file names, typically with ending ```*.evec``` and ```*.eval```. The parameter line beginning with ```poplistname``` contains a file with a list of populations used for calculating the principal components. The option ```lsqproject``` is important for applications including ancient DNA with lots of missing data. For the analysis, I used ```lsqproject: YES```. The option ```numoutevec``` specifies the number of principal components that we compute.The option ```numthreads``` specifies the number of threads your computer will use. Each core has/equals two threads, my computer has one CPU with quad-cores, so I have 8 threads to use theoretically. Here I used two threads.
 
 
+```
+# I made the parmeter file using nano texteditor in the terminal and typed the following contents.
+
+cat par.smartPCA.WE_An_ind_transverSNPs
+
+
+genotypename: WE_An_ind_transverSNPs.bed
+snpname: WE_An_ind_transverSNPs.bim
+indivname: WE_An_ind_transverSNPs.fam
+evecoutname: WE_An_ind_transverSNPs.evec
+evaloutname: WE_An_ind_transverSNPs.eval
+poplistname: WestEurasia.poplist.txt
+lsqproject: YES
+numoutevec: 4
+numthreads: 2
+
+```
+
+### Running smartPCA
+
+Put all filenames with their absolute path into the parameter file. And run smartPCA using the command: 
+
+```/PATH/TO/bin/smartpca -p par.smartPCA.WE_An_ind_transverSNPs > smartpca.log```
+
+Here, I'm using bash redirection of the log output of smartpca into a log file called smartpca.log, which may be useful for trouble shooting.
+
+
 
 
      
