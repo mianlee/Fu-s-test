@@ -114,7 +114,13 @@ To understand how PCA works, consider a single individual and its representation
 
 ### Preparing the file for SmartPCA analysis
 
-According to the paper (Haak et al, 2015), - supplementary information 5 -, the PCAanalysis was conducted using ```smartpca``` on 777 present-day West Eurasians and 92 ancient individuals.
+According to the paper [(Haak et al, 2015)](https://www.nature.com/articles/nature14317), - supplementary information 5 -, the PCAanalysis was conducted using ```smartpca``` on 777 present-day West Eurasians and 92 ancient individuals.
+
+
+As I mentioned above, the genotype dataset itself from [(Haak et al, 2015)](https://www.nature.com/articles/nature14317) contains **2,071** individuals, which belong to **224** population groups/catergories. I need to figure out which 777 present-day West Eurasians and 92 ancient individuals were used by the authors for the PCA analysis.
+
+Based on the Figure lengends of Figure 2a and Figure S5.1, I found out/identified those 777 West Eurasians ( from 59 population) and 92 ancient individuals (from 33 population), the details were summarized in the ***SampleInformation.xlsx*** under this folder.
+
 
 
      
