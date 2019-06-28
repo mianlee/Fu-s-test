@@ -220,7 +220,7 @@ Based on the Figure lengends of Figure 2a and Figure S5.1, I found out/identifie
    ##end of convertf run
    ```
    
-  You will get three Binary PED files ***data.bed, data.bim, data.fam***. If you check the ***data.fam*** file, I noticed that the family/population group information (the first column, became only numbers) were lost during the format conversion. I found the population group information in the ***data.ind** file, and updated the ***data.fam*** file in excel manually. I also uploaded the modified ***data.fam*** file in the folder.
+  You will get three Binary PED files ***data.bed, data.bim, data.fam***. If you check the ***data.fam*** file, I noticed that the family/population group information (the first column, showing only numbers) were lost during the format conversion. I found the population group information in the ***data.ind** file, and updated the ***data.fam*** file in excel manually. I also uploaded the modified ***data.fam*** file in the folder.
   
   ```
   # The original data.fam file
