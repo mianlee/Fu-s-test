@@ -180,7 +180,7 @@ Based on the Figure lengends of Figure 2a and Figure S5.1, I found out/identifie
    outputformat: PACKEDPED
    genotypeoutname: WestEuroTransver.bed
    snpoutname: WestEuroTransver.bim
-   indivoutname: WestEuroTranver.fam
+   indivoutname: WestEuroTransver.fam
 
    ```
    
@@ -193,7 +193,7 @@ Based on the Figure lengends of Figure 2a and Figure S5.1, I found out/identifie
    outputformat: PACKEDPED
    genotypeoutname: WestEuroTransver.bed
    snpoutname: WestEuroTransver.bim
-   indivoutname: WestEuroTranver.fam
+   indivoutname: WestEuroTransver.fam
    
    ```
    
