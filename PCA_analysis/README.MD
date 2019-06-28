@@ -405,13 +405,13 @@ poplistname:   yourfile
     
 ### Population lists vs. Projection
 
-*"The parameter named poplistname is a very crucial one. It specifies the populations whose individuals are used to calculate the principal components. Why not just all of them you ask?*
+*"The parameter named **poplistname** in smartpca is a very crucial one. It specifies the populations whose individuals are used to calculate the principal components. Why not just all of them you ask?*
 
 *For two reasons: First, there are simply too many of them, and we don't want to use all of them, since the computation would take too long (this is not our case here). More importantly, however, we generally try to avoid using ancient samples to compute principal components, to avoid specific ancient-DNA related artefacts affecting the computation.*
 
 *So what happens to individuals that are not in populations listed in the population list? Well, fortunately, they are not just ignored, but "projected". This means that after the principal components have been computed, all individuals (not just the one in the list) are projected onto these principal components. That way, we can visualise ancient populations in the context of modern genetic variation. While that may sound a bit problematic at first (surely there must be variation in ancient populations that is not represented well by modern populations), but it turns out to be nevertheless one of the most useful tools for this purpose. The advantage of avoiding ancient-DNA artefacts and batch effects to affect the visualisation outweighs the disadvantage of missing some private genetic variation components in the ancient populations themselves. Of course, that argument breaks down once the analysed populations become too ancient and detached from modern genetic variation. But for our purposes it will work just fine."* I quoted from Stephan Schiffels whith slightly changes.
 
-**Reference**: Stephan Schiffels, [compPopGenWorkshop2019](https://github.com/stschiff/compPopGenWorkshop2019_docs): [PCA]
+**Reference**: Stephan Schiffels, [compPopGenWorkshop2019](https://github.com/stschiff/compPopGenWorkshop2019_docs): [PCA](https://github.com/stschiff/compPopGenWorkshop2019_docs/tree/master/contents/03_pca).
 
 Here are two scenarios that you should use ```lsqproject: YES``` for smartpca analysis, as mentioned in the [manual](https://github.com/chrchang/eigensoft/blob/master/POPGEN/lsqproject.pdf) and I quote here:
 
