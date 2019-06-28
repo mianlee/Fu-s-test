@@ -77,7 +77,6 @@ The dataset contains **2,071** individuals, each represented by **354,212 autoso
    # result
   
    12 AA
-      
     9 Abkhasian 
       
    17 Adygei
