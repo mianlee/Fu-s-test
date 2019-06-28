@@ -395,13 +395,6 @@ F4442   22
  --make-bed to WE_An_ind_transverSNPs.bed + WE_An_ind_transverSNPs.bim + WE_An_ind_transverSNPs.fam ... done.
  ```
 
-
-(NEW)
-poplistname:   yourfile
-  yourfile should consist of a list of populations (1/line) where populations 
-  are the labels in the last column of the input .ind file (eigenstrat or 
-  packedped format).  Only the samples with listed labels will be output.
-
     
 ### Population lists vs. Projection
 
@@ -421,6 +414,10 @@ Here are two scenarios that you should use ```lsqproject: YES``` for smartpca an
 
 
 To repeat the analysis, I prepared one population list: "WestEurasia.poplist.txt", which only contains 59 present-day West Eurasian groups. So, 777 present-day West Eurasian individuals are used to calculate the principal components, and 92 ancient individuals will be projected onto the PCA axes.
+
+
+```poplistname: yourfile```
+***yourfile***should consist of a list of populations (1/line) where populations are the labels in the last column of the input .ind file (eigenstrat or packedped format).Only the samples with listed labels will be output.
 
 
    
