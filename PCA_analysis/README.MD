@@ -298,22 +298,35 @@ As shown above, the list of SNPs file I made is called 'transversionSNP.txt'
   
    
    
+ Making a list file of individuals you want to keep. 
+ 
+ To keep only certain individuals in a file, use the option:
+```plink --bfile data --keep mylist.txt --make-bed --out newdata```
+
+ where the file mylist.txt is, as for the --remove command, just a list of Family ID / Individual ID
+pairs, one set per line, i.e. one person per line. (fields can occur after the 2nd column but they will be
+ignored – i.e. you could use a FAM file as the parameter of the --keep command, or have comments in the
+file. 
+
+For example:
+
+F101  1
+
+F1001  2 
+
+F3033  1 
+
+F4442  22
+ 
+ 
+ I made a list of family IDs/population groups called "WE_An_Family.txt", which including 92 family groups (59 West Eurosian groups + 33 ancient groups). I need to extract all individuals (n=869) from those 92 family groups to make the inviduals list file.
+
+ ```
+ 
+ ```
    
    
    
-   
-   
-   
-   ```
-   4.14 Extract a subset of SNPs: file-list options
-To extract only a subset of SNPs, it is possible to specify a list of required SNPs and make a new file, or
-perform an analysis on this subset, by using the command
-plink --file data --extract mysnps.txt
-where the file is just a list of SNPs, one per line, e.g.
-snp005
-snp008
-snp101
-```
 
 ```
 To keep only certain individuals in a file, use the option:
