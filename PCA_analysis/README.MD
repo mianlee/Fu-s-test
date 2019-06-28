@@ -167,12 +167,12 @@ Based on the Figure lengends of Figure 2a and Figure S5.1, I found out/identifie
    Now we can extract those 869 individuals (777 present-day West Eurasians and 92 ancient individuals), and 66,225 transvrsion SNPs from the genotype dataset.
    
    ```
-   # To use plink, convert the PACKEDANCESTRYMAP format to PACKEDPED .
-   # Use nano text editor in the terminal to make the par file named : " par.PACKEDANCESTRYMAP.PACKEDPED " .
+   # To use plink, convert the PACKEDANCESTRYMAP format to PACKEDPED.
+   # Use nano text editor in the terminal to make the par file named: " par.PACKEDANCESTRYMAP.PACKEDPED ".
    
    nano par.PACKEDANCESTRYMAP.PACKEDPED
    
-   # And type the following in the text editor and save it .
+   # And type the following in the text editor and save it.
    
    
    genotypename: data.geno
