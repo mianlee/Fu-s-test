@@ -172,9 +172,9 @@ Based on the Figure lengends of Figure 2a and Figure S5.1, I found out/identifie
    Note: The EIGENSOFT [PED](https://github.com/chrchang/eigensoft/tree/master/CONVERTF) format is equivalent to PLINK [PED](http://zzz.bwh.harvard.edu/plink/data.shtml#ped) format. The EIGENSOFT [PACKEDPED](https://github.com/chrchang/eigensoft/tree/master/CONVERTF) format is equivalent to PLINK [BED](http://zzz.bwh.harvard.edu/plink/data.shtml#bed) format, as known as Binary PED files. To do individual and SNPs extraction, you need to provide Binary PED files (*.bed, *.bim, *.fam) to the PLINK.
    
    
-   EIGENSOFT 6.1.4
+   ***EIGENSOFT 6.1.4***
    
-   PLINK 1.9
+   ***PLINK 1.9***
    
    ```
    # Convert the PACKEDANCESTRYMAP format to PACKEDPED.
@@ -208,7 +208,7 @@ Based on the Figure lengends of Figure 2a and Figure S5.1, I found out/identifie
    
    ```
    
-   I used EIGENSOFT 6.1.4, you can download it [here](https://data.broadinstitute.org/alkesgroup/EIGENSOFT/).  ```convertf``` is a program in the EIGENSOFT package, see [the manual](https://github.com/chrchang/eigensoft/tree/master/CONVERTF) in the github.
+   I used EIGENSOFT 6.1.4, you can download it [here](https://data.broadinstitute.org/alkesgroup/EIGENSOFT/).  ```convertf``` is a program in the EIGENSOFT package, see [the manual](https://github.com/chrchang/eigensoft/tree/master/CONVERTF) in github.
    
    ```
    /Path/To/EIG-6.1.4/bin/convertf -p par.PACKEDANCESTRYMAP.PACKEDPED 
