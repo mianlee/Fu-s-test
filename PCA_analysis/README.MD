@@ -122,6 +122,18 @@ As I mentioned above, the genotype dataset itself from [(Haak et al, 2015)](http
 Based on the Figure lengends of Figure 2a and Figure S5.1, I found out/identified those 777 West Eurasians ( from 59 population) and 92 ancient individuals (from 33 population), the details were summarized in the ***SampleInformation.xlsx*** under this folder.
 
 
+#### Figure 2a and Figure S5.1
+
+The first PCA analysis was conducted on 777 presnet-day West Eurasians and 92 ancient individuals at **66,225 transversion SNPs**. 
+
+
+**A word about DNA damage**
+
+If the samples you are analysing are ancient samples, the DNA will likely contain DNA damage, so C->T changes which are seen as C->T and G->A substitutions. There are two ways how to deal with that. First, if your data is not UDG-treated, so if it contains the full damage, you should restrict your analysis to Transversion SNPs only. If your data is UDG-treated, you will have much less damage, but you can still see damaged sites in particular in the boundary of the reads in your BAM-file. In that case, you probably want to make a modified bam file for each sample, where the first 2 bases on each end of the read are clipped. [Reference and see details](https://gaworkshop.readthedocs.io/en/latest/contents/04_genotyping/genotyping.html)
+
+Haak et al. claimed that I quoate here: "We excluded tranmsition
+SNPs in this analysis as non-UDG-treated ancient DNA libraries from the literature had high rates of damage causing apparent C->T and G->A substitutions,which potentially leads to misleading results, for example by causing ancient DNA samples to apper aas extreme outliers, dominating one the first two pricipal components.
+
 
      
 ### Operating System
