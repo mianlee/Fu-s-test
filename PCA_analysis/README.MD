@@ -122,7 +122,7 @@ As I mentioned above, the genotype dataset itself from [(Haak et al, 2015)](http
 Based on the Figure lengends of Figure 2a and Figure S5.1, I found out/identified those 777 West Eurasians ( from 59 population) and 92 ancient individuals (from 33 population), the details were summarized in the ***SampleInformation.xlsx*** under this folder.
 
 
-**1. Figure 2a and Figure S5.1
+**1. Figure 2a and Figure S5.1**
 
   The first PCA analysis was conducted on 777 presnet-day West Eurasians and 92 ancient individuals only at **66,225 transversion SNPs**. 
 
