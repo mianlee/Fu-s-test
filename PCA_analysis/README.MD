@@ -141,7 +141,7 @@ Based on the Figure lengends of Figure 2a and Figure S5.1, I found out/identifie
 
   66,225
 
-  cat data.snp | grep -v -E  "G A|A G|C T|T C" 
+  cat data.snp | grep -v -E  "G A|A G|C T|T C" | head
   ```
 
    Affx-4690339      1         0.029735         1205155  A  C
@@ -159,6 +159,31 @@ Based on the Figure lengends of Figure 2a and Figure S5.1, I found out/identifie
    .
    .
    .
+   .
+   ```
+   cat data.snp | grep -v -E  "G A|A G|C T|T C" > transversionSNP.txt
+   ```
+   
+   Now we can extract those 869 individuals (777 present-day West Eurasians and 92 ancient individuals), and 66,225 transvrsion SNPs from the genotype dataset.
+   
+   ```
+   # To use plink, convert the PACKEDANCESTRYMAP format to PACKEDPED
+   # Use nano as text editor to make the par file named : par.PACKEDANCESTRYMAP.PACKEDPED
+   
+   nano par.PACKEDANCESTRYMAP.PACKEDPED
+   
+   
+   cat par.PACKEDANCESTRYMAP.PACKEDPED
+   
+   genotypename: data.geno
+   snpname: data.snp
+   indivname: data.ind
+   outputformat: PACKEDPED
+   genotypeoutname: WestEuroTransver.bed
+   snpoutname: WestEuroTransver.bim
+   indivoutname: WestEuroTranver.fam
+
+   ```
    
    
    
