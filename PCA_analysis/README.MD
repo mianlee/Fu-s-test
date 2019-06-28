@@ -198,6 +198,19 @@ Based on the Figure lengends of Figure 2a and Figure S5.1, I found out/identifie
    
    ```
    
+   I used EIGENSOFT 6.1.4
+   
+   ```
+   /Path/To/EIG-6.1.4/bin/convertf -p par.PACKEDANCESTRYMAP.PACKEDPED 
+   
+   
+   packed geno read OK
+   numvalidind:   2071  maxmiss: 2071001
+   packedped output
+   ##end of convertf run
+   ```
+   
+   
    
    
      
