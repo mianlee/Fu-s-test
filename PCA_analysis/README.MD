@@ -213,6 +213,13 @@ Based on the Figure lengends of Figure 2a and Figure S5.1, I found out/identifie
    
    
    
+   
+   
+   
+   
+   
+   
+   
    ```
    4.14 Extract a subset of SNPs: file-list options
 To extract only a subset of SNPs, it is possible to specify a list of required SNPs and make a new file, or
@@ -238,7 +245,27 @@ F4442 22
 ```
 
    
-   
+  ```
+  plink --file WestEuroTransver --make-bed --out WestEuroTransver
+  
+  8703 MB RAM detected; reserving 4351 MB for main workspace.
+.ped scan complete (for binary autoconversion).
+Performing single-pass .bed write (354212 variants, 2071 people).
+--file: WestEuroTransver-temporary.bed + WestEuroTransver-temporary.bim +
+WestEuroTransver-temporary.fam written.
+354212 variants loaded from .bim file.
+2071 people (1307 males, 764 females) loaded from .fam.
+2071 phenotype values loaded from .fam.
+Using 1 thread (no multithreaded calculations invoked).
+Before main variant filters, 2071 founders and 0 nonfounders present.
+Calculating allele frequencies... done.
+Total genotyping rate is 0.972586.
+354212 variants and 2071 people pass filters and QC.
+Among remaining phenotypes, 0 are cases and 2071 are controls.
+--make-bed to WestEuroTransver.bed + WestEuroTransver.bim +
+WestEuroTransver.fam ... done.
+
+```
    
    
    
