@@ -405,7 +405,7 @@ poplistname:   yourfile
     
 ### Population lists vs. Projection
 
-*"The parameter named poplistname is a very crucial one. It specifies the populations whose individuals are used to calculate the principal components. Why not just all of them you ask? *
+*"The parameter named poplistname is a very crucial one. It specifies the populations whose individuals are used to calculate the principal components. Why not just all of them you ask?*
 
 *For two reasons: First, there are simply too many of them, and we don't want to use all of them, since the computation would take too long (this is not our case here). More importantly, however, we generally try to avoid using ancient samples to compute principal components, to avoid specific ancient-DNA related artefacts affecting the computation.*
 
