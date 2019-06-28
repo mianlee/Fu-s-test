@@ -450,10 +450,10 @@ evaloutname: <OUT_FILE>.eval
 poplistname: <POPULATION_LIST_FILE>.txt
 lsqproject: YES
 numoutevec: 4
-numthreads: 1
+numthreads: 2
 ```
 
-Here, the first three parameters specify the input genotype files. The next two rows specify two output file names, typically with ending ```*.evec``` and ```*.eval```. The parameter line beginning with ```poplistname``` contains a file with a list of populations used for calculating the principal components. The option ```lsqproject``` is important for applications including ancient DNA with lots of missing data. For the analysis, I used ```lsqproject: YES```. The option ```numoutevec``` specifies the number of principal components that we compute, and the option ```numthreads``` specifies the number of thread your computer will use.
+Here, the first three parameters specify the input genotype files. The next two rows specify two output file names, typically with ending ```*.evec``` and ```*.eval```. The parameter line beginning with ```poplistname``` contains a file with a list of populations used for calculating the principal components. The option ```lsqproject``` is important for applications including ancient DNA with lots of missing data. For the analysis, I used ```lsqproject: YES```. The option ```numoutevec``` specifies the number of principal components that we compute.The option ```numthreads``` specifies the number of threads your computer will use. Each core has/equals two threads, my computer has one CPU with quad-cores, so I have 8 threads to use theoretically. Here I used two threads.
 
 
 
