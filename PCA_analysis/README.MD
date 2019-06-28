@@ -186,7 +186,7 @@ Based on the Figure lengends of Figure 2a and Figure S5.1, I found out/identifie
    ```
    
    ```
-    cat par.PACKEDANCESTRYMAP.PACKEDPED
+   cat par.PACKEDANCESTRYMAP.PACKEDPED
     
    genotypename: data.geno
    snpname: data.snp
