@@ -440,15 +440,6 @@ Belarusian
 
 
 
-
-
-
-
-
-
-
-
-
 For actually running the analysis, I used a software called [smartPCA](https://github.com/chrchang/eigensoft/tree/master/POPGEN) from the [Eigensoft](https://github.com/chrchang/eigensoft) package. As many other tools from this and related packages, smartPCA reads in a parameter file which specifies its input and output files and options. The basic format of the parameter file with one extra option (lsqproject) looks like this:
 
 
@@ -488,14 +479,14 @@ numthreads: 2
 And then I run this code: 
 
 ```
-/PATH/TO/bin/smartpca -p par.smartPCA.WE_An_ind_transverSNPs > smartpca.log
+/PATH/TO/bin/smartpca -p par.smartPCA.WE_An_ind_transverSNPs
 
 ```
 
 It was not running through......
 
 
-After several trials, I was wondering PACKEDPED file won't work for ```poplistname``` and ```lsqproject``` commmands because the format of ```*.ind``` file. So, I changed the PACKEDPED format to PACKEDANCESTRYMAP by making par file and runing covertf.
+After several trials, I was wondering PACKEDPED file won't work for ```poplistname``` and ```lsqproject``` commmands because the format of ```*.ind``` file. So, I converted the PACKEDPED format back to PACKEDANCESTRYMAP by making ```par``` file and runing ```covertf```.
 
 
 ```
