@@ -474,6 +474,41 @@ numthreads: 2
 
 ```
 
+
+
+```
+cat par.PACKEDPED.PACKEDANCESTRYMAP 
+
+genotypename: WE_An_ind_transverSNPs.bed
+snpname: WE_An_ind_transverSNPs.bim
+indivname: WE_An_ind_transverSNPs.fam
+outputformat: PACKEDANCESTRYMAP
+genooutfilename: WE_An_ind_transverSNPs.geno
+snpoutfilename: WE_An_ind_transverSNPs.snp
+indoutfilename: WE_An_ind_transverSNPs.ind
+
+/PATH/TO/bin/convertf -p par.PACKEDPED.PACKEDANCESTRYMAP
+
+```
+
+```
+head WE_An_ind_transverSNPs.ind 
+
+
+French:HGDP00511 M    Control
+French:HGDP00512 M    Control
+French:HGDP00513 F    Control
+French:HGDP00514 F    Control
+French:HGDP00515 M    Control
+French:HGDP00516 F    Control
+French:HGDP00517 F    Control
+French:HGDP00518 M    Control
+French:HGDP00519 M    Control
+French:HGDP00522 M    Control
+
+
+```
+
 ### Running smartPCA
 
 Put all filenames with their absolute path into the parameter file. And run smartPCA using the command: 
