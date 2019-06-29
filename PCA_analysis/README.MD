@@ -506,7 +506,7 @@ indoutfilename: WE_An_ind_transverSNPs.ind
 
 ```
 
-I checked the ```*.ind``` file, and it looks like this following...which the third column is not family/population groups, whereas all labeled with 'Control'. The family/population groups labels are in the first columnm, followed by coma and individual ID...
+I checked the ```*.ind``` file, and it looks like this following...which the third column is not family/population groups, whereas all labeled with 'Control'. The family/population groups labels are in the first columnm, followed by colon and individual ID...
 
 
 ```
@@ -551,6 +551,7 @@ French:HGDP00519	M	French
 French:HGDP00522	M	French
 ```
 
+Don't change the names in the first column, otherwise they won't match with the ```*.geno``` file.
 
 ### Running smartPCA
 
@@ -576,9 +577,13 @@ numthreads: 1
 Now we have five files: 
 
 **'WE_An_ind_transverSNPs.geno'**
+
 **'WE_An_ind_transverSNPs.snp'**
+
 **'WE_An_ind_transverSNPs.ind'**
+
 **'WestEurasia.poplist.txt'**
+
 **'par.smartPCA.WE_An_ind_transverSNPs'**. 
 
 Put all filenames with their absolute path into the parameter file. And run smartPCA using the command: 
