@@ -438,6 +438,17 @@ BedouinB
 Belarusian
 ```
 
+
+
+
+
+
+
+
+
+
+
+
 For actually running the analysis, I used a software called [smartPCA](https://github.com/chrchang/eigensoft/tree/master/POPGEN) from the [Eigensoft](https://github.com/chrchang/eigensoft) package. As many other tools from this and related packages, smartPCA reads in a parameter file which specifies its input and output files and options. The basic format of the parameter file with one extra option (lsqproject) looks like this:
 
 
@@ -474,6 +485,17 @@ numthreads: 2
 
 ```
 
+And then I run this code: 
+
+```
+/PATH/TO/bin/smartpca -p par.smartPCA.WE_An_ind_transverSNPs > smartpca.log
+
+```
+
+It was not running through......
+
+
+After several trials, I was wondering PACKEDPED file won't work for ```poplistname``` and ```lsqproject``` commmands because the format of ```*.ind``` file. So, I changed the PACKEDPED format to PACKEDANCESTRYMAP by making par file and runing covertf.
 
 
 ```
@@ -487,9 +509,14 @@ genooutfilename: WE_An_ind_transverSNPs.geno
 snpoutfilename: WE_An_ind_transverSNPs.snp
 indoutfilename: WE_An_ind_transverSNPs.ind
 
+
+
 /PATH/TO/bin/convertf -p par.PACKEDPED.PACKEDANCESTRYMAP
 
 ```
+
+I checked the ```*.ind``` file, and it looks like this following...which the third column is not family/population groups, whereas all labeled with 'Control'. The family/population groups labels are in the first columnm, followed by coma and individual ID...
+
 
 ```
 head WE_An_ind_transverSNPs.ind 
@@ -509,14 +536,59 @@ French:HGDP00522 M    Control
 
 ```
 
+I fixed the ```*.ind``` file by runing: 
+
+
 ```
+awk -F ":" '{print $2 "\t" $1}' WE_An_ind_transverSNPs.ind | awk '{print $4":"$1 "\t" $2 "\t" $4}' > new.ind
 
-awk -F ":" '{print$1 "\t" $2}' WE_An_ind_transverSNPs.ind | awk '{print$2 "\t" $3 "\t" $1}'
+mv new.ind WE_An_ind_transverSNPs.ind
 
+# Now the new 'WE_An_ind_transverSNPs.ind' file should look like this:
+
+head WE_An_ind_transverSNPs.ind
+
+French:HGDP00511	M	French
+French:HGDP00512	M	French
+French:HGDP00513	F	French
+French:HGDP00514	F	French
+French:HGDP00515	M	French
+French:HGDP00516	F	French
+French:HGDP00517	F	French
+French:HGDP00518	M	French
+French:HGDP00519	M	French
+French:HGDP00522	M	French
 ```
 
 
 ### Running smartPCA
+
+Remake ```par``` file:
+
+```
+nano par.smartPCA.WE_An_ind_transverSNPs
+
+genotypename: WE_An_ind_transverSNPs.geno
+snpname: WE_An_ind_transverSNPs.snp
+indivname: WE_An_ind_transverSNPs.ind
+evecoutname: WE_An_ind_transverSNPs.evec
+evaloutname: WE_An_ind_transverSNPs.eval
+poplistname: WestEurasia.poplist.txt
+lsqproject: YES
+numoutevec: 4
+numthreads: 1
+
+
+```
+
+
+Now we have five files: 
+
+**'WE_An_ind_transverSNPs.geno'**
+**'WE_An_ind_transverSNPs.snp'**
+**'WE_An_ind_transverSNPs.ind'**
+**'WestEurasia.poplist.txt'**
+**'par.smartPCA.WE_An_ind_transverSNPs'**. 
 
 Put all filenames with their absolute path into the parameter file. And run smartPCA using the command: 
 
