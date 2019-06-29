@@ -509,6 +509,13 @@ French:HGDP00522 M    Control
 
 ```
 
+```
+
+awk -F ":" '{print$1 "\t" $2}' WE_An_ind_transverSNPs.ind | awk '{print$2 "\t" $3 "\t" $1}'
+
+```
+
+
 ### Running smartPCA
 
 Put all filenames with their absolute path into the parameter file. And run smartPCA using the command: 
