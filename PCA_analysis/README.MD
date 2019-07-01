@@ -626,9 +626,12 @@ ggplot(evecData, aes(x = PC1,y = PC2)) +
 2. Advanced version
 
 ```
+# Load ggplot2 package
 library(ggplot2)
+# Read in the data
 evecData <- read.table("WE_An_ind_transverSNPs.evec", col.names=c("SampleID", "PC1", "PC2", "PC3", "PC4","Population"))
 
+# Plot the graph
 ggplot(evecData, aes(x = PC1,y = PC2)) +
   geom_point(aes(shape = Population, color = Population), size = 2.5) +
   ggtitle("SmartPCA Plot") + 
@@ -645,7 +648,7 @@ ggplot(evecData, aes(x = PC1,y = PC2)) +
 
 ```scale_shape_manual(values = rep(1:17, len = 92)``` will choose shape 1 to 17 and loop through till 92.
 
-```scale_shape_manual(values = rep(c(1,3,4,6,7), len = 92))``` will use shape 1,3,4,6,7,and loop through till 92, so you can pick a shape/multiple shapes you want to use.
+```scale_shape_manual(values = rep(c(1,3,4,6,7), len = 92))``` will use shape 1, 3 ,4 ,6 , 7,and loop through till 92, so you can pick a shape/multiple shapes you want to use.
 
 
 [Difference between geom_point() and geom_jitter() in ggplot2 in R?](https://stackoverflow.com/questions/39255781/what-is-difference-between-geom-point-and-geom-jitter-in-simple-language-in-r)
