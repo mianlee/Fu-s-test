@@ -5,7 +5,7 @@ I am trying to repeat all analyses in the nature paper named: **"Massive migrati
 Here, I record down all steps, codes and solutions, and my researches about the backgroud. My solutions, all programs that I used may be different from the orginal paper, but would acheive the same goal or at least do similar work. I can't repeat the whole process perfectly, but I will try my best.
 
 
-This github is about, here I quote my favorite words from [Hansjörg Plieninger](https://hansjoerg.me/page/about/)
+This github is about, here I quote my favorite words from [Hansjörg Plieninger](https://hansjoerg.me/page/about/):
 
 - things I learned, to make it simpler for other people to learn the same thing quicker,
 - things I learned, to make it simpler for me to do the same thing quicker next time,
