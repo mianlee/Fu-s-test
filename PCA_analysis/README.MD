@@ -654,7 +654,7 @@ ggplot(evecData, aes(x = PC1,y = PC2)) +
 
 4. Final version
 
-Based on my aesthetic preference and publications, here I present the R code for the final version.
+Based on my aesthetic preference and publications, here I present the R code for my final version.
 
 - I moved the legend inside the plot on the top left corner. You can adjust the legend postion by changeing the parameter 'x' and 'y' in the ```legend.position = c(x,y)``` argument according to your own plot. The value range of x and y is [0,1].
 - I adjusted the legend key size through the ```legend.key.size = unit(0.20, "cm")``` argument, so the legend can fit the plot. 
