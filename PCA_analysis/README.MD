@@ -651,9 +651,39 @@ ggplot(evecData, aes(x = PC1,y = PC2)) +
 ```scale_shape_manual(values = rep(c(1,3,4,6,7), len = 92))``` will use shape 1, 3 ,4 ,6 , 7,and loop through till 92, so you can pick a shape/multiple shapes you want to use.
 
 
+
+4. Final version
+
+```
+ggplot(evecData, aes(x = PC1,y = PC2)) +
+  geom_point(aes(shape = Population, color = Population), size = 2.5) +
+  theme_bw() +
+  theme(panel.grid.major = element_blank(),
+        panel.grid.minor = element_blank(),
+        axis.text.x = element_text(size =11, margin = margin (t = 9) ),
+        axis.text.y = element_text(size=11, margin = margin (r = 9) ),
+        legend.position = c(0.3,0.85),        # adjust legend relative poition with the plot
+        legend.key.size = unit(0.20, "cm"),   # the size of legend
+        legend.title = element_blank(),       # get rid of legend title
+        axis.title.x = element_text (margin = margin (t = 20) ),  # X title distance to the x axis
+        axis.title.y = element_text (margin = margin (r = 15) )
+  ) +
+  scale_shape_manual(values = rep(c(0:3,5:7,9:12,15:19,25), len = 92)) +
+  scale_colour_manual(values = rep(c("red", "blue", "green", "orange", "black", "lightblue"),len =92))
+
+```
+
+
+
+#### Note:
+
+Margins can be specified for top (t), right (r), bottom (b), and left (l) to position text vertically and horizontally. So to move X-axis title down you would use ```theme(axis.title.x = element_text(margin = margin(t = 20))``` and move Y-axis title to the left you would use ```theme(axis.title.x = element_text(margin = margin(l = 20))```
+
 [Difference between geom_point() and geom_jitter() in ggplot2 in R?](https://stackoverflow.com/questions/39255781/what-is-difference-between-geom-point-and-geom-jitter-in-simple-language-in-r)
 
 [ggplot2 point shapes](http://www.sthda.com/english/wiki/ggplot2-point-shapes)
+
+[ggplot2 legend](http://www.sthda.com/english/wiki/ggplot2-legend-easy-steps-to-change-the-position-and-the-appearance-of-a-graph-legend-in-r-software)
 
 
      
