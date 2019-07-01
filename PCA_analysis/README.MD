@@ -621,6 +621,39 @@ ggplot(evecData, aes(x = PC1,y = PC2)) +
 ```
 ![](Images/SmartPCASimpleplot.png)
 
+
+
+2. Advanced version
+
+```
+library(ggplot2)
+evecData <- read.table("WE_An_ind_transverSNPs.evec", col.names=c("SampleID", "PC1", "PC2", "PC3", "PC4","Population"))
+
+ggplot(evecData, aes(x = PC1,y = PC2)) +
+  geom_point(aes(shape = Population, color = Population), size = 2.5) +
+  ggtitle("SmartPCA Plot") + 
+  theme_bw() +
+  theme(panel.grid.major = element_blank(),
+        panel.grid.minor = element_blank(),
+        plot.title = element_text(hjust = 0.5, size =15, face ="bold"),
+        axis.text.x = element_text(size =10),
+        axis.text.y = element_text(size=10)) +
+  scale_shape_manual(values = rep(c(0:3,5:7,9:12,15:19,25), len = 92)) +
+  scale_colour_manual(values = rep(c("red", "blue", "green", "orange","black","lightblue"),len =92))
+```
+
+
+```scale_shape_manual(values = rep(1:17, len = 92)``` will choose shape 1 to 17 and loop through till 92.
+
+```scale_shape_manual(values = rep(c(1,3,4,6,7), len = 92))``` will use shape 1,3,4,6,7,and loop through till 92, so you can pick a shape/multiple shapes you want to use.
+
+
+
+[Difference between geom_point() and geom_jitter() in ggplot2 in R?](https://stackoverflow.com/questions/39255781/what-is-difference-between-geom-point-and-geom-jitter-in-simple-language-in-r)
+
+[ggplot2 point shapes](http://www.sthda.com/english/wiki/ggplot2-point-shapes)
+
+
      
 ### Operating System and program version
 I did all analyses above under Ubuntu 16.04.5 LTS-xenial, lunched through [VirtualBox](https://www.virtualbox.org/) on a Window 10 PC.
