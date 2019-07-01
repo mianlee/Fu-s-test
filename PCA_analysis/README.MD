@@ -650,6 +650,60 @@ ggplot(evecData, aes(x = PC1,y = PC2)) +
 
 ```scale_shape_manual(values = rep(c(1,3,4,6,7), len = 92))``` will use shape 1, 3 ,4 ,6 , 7,and loop through till 92, so you can pick a shape/multiple shapes you want to use.
 
+3.Plot the data and legend separately
+
+Since the data points are too many, the legend will take large space. So it is hard to see those data points itself. Here I will plot those data points and display the legend separately.
+
+**Only data points***
+
+```
+# By adding '  legend.position="none" ' argument, we can get rid of the legend.
+
+ggplot(evecData, aes(x = PC1,y = PC2)) +
+  geom_point(aes(shape = Population, color = Population), size = 2.5) +
+  ggtitle("SmartPCA Plot") + 
+  theme_bw() +
+  theme(panel.grid.major = element_blank(),
+        panel.grid.minor = element_blank(),
+        plot.title = element_text(hjust = 0.5, size =15, face ="bold"),
+        axis.text.x = element_text(size =10),
+        axis.text.y = element_text(size=10),
+        legend.position="none"
+        ) +
+  scale_shape_manual(values = rep(c(0:3,5:7,9:12,15:19,25), len = 92)) +
+  scale_colour_manual(values = rep(c("red", "blue", "green", "orange","black","lightblue"),len =92))
+
+```
+![](Images/SmartPCA_OnlyPlot.png)
+
+**Only legend
+
+```
+library(ggplot2)
+library(ggpubr)
+
+
+P<- ggplot(evecData, aes(x = PC1,y = PC2)) +
+  geom_point(aes(shape = Population, color = Population), size = 2.5) +
+  ggtitle("SmartPCA Plot") + 
+  theme_bw() +
+  theme(panel.grid.major = element_blank(),
+        panel.grid.minor = element_blank(),
+        plot.title = element_text(hjust = 0.5, size =15, face ="bold"),
+        axis.text.x = element_text(size =10),
+        axis.text.y = element_text(size=10)
+  ) +
+  scale_shape_manual(values = rep(c(0:3,5:7,9:12,15:19,25), len = 92)) +
+  scale_colour_manual(values = rep(c("red", "blue", "green", "orange","black","lightblue"),len =92))
+
+# Extract the legend. Returns a gtable
+leg <- get_legend(P)
+
+# Convert to a ggplot and print
+as_ggplot(leg)
+```
+
+![](Images/PCA_Legend.png)
 
 
 4. Final version
