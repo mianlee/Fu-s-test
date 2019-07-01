@@ -592,7 +592,33 @@ Put all filenames with their absolute path into the parameter file. And run smar
 
 Here, I'm using bash redirection of the log output of smartpca into a log file called smartpca.log, which may be useful for trouble shooting.
 
+### Plot PCA in R studio 
 
+R version 3.5.1
+
+1. Simply version
+
+```
+library(ggplot2)
+
+# Read data, the .evec file, and assgin column names to each column by using col.names().
+# Since we calculated four components, this first column is going to be Sample ID, and followd by four columns of coordinates of four components.
+# The last column is always the name of family/population group.
+
+
+evecData <- read.table("WE_An_ind_transverSNPs.evec", col.names=c("SampleID", "PC1", "PC2", "PC3", "PC4","Population"))
+
+
+
+# plot the first and second components
+
+
+ggplot(evecData, aes(x = PC1,y = PC2)) +
+  geom_point() +
+  ggtitle("SmartPCA Plot") + theme(panel.background = element_blank())
+
+
+```
 
 
      
