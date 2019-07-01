@@ -654,7 +654,21 @@ ggplot(evecData, aes(x = PC1,y = PC2)) +
 
 4. Final version
 
+Based on my aesthetic preference and publications, here I present the R code for the final version.
+
+- I moved the legend inside the plot on the top left corner. You can adjust the legend postion by changeing the parameter 'x' and 'y' in the ```legend.position = c(x,y)``` argument according to your own plot. The value range of x and y is [0,1].
+- I adjusted the legend key size through the ```legend.key.size = unit(0.20, "cm")``` argument, so the legend can fit the plot. 
+- Their are a lot of aspects you can adjust and change. I tried many times and did a lot of google searches to meet my stardard and aesthetic preference.
+- The good thing about ggplot2 is that you can custormize your plot relative easy.
+
 ```
+# Load ggplot2 package
+library(ggplot2)
+# Read in the data
+evecData <- read.table("WE_An_ind_transverSNPs.evec", col.names=c("SampleID", "PC1", "PC2", "PC3", "PC4","Population"))
+
+
+# Plot the graph
 ggplot(evecData, aes(x = PC1,y = PC2)) +
   geom_point(aes(shape = Population, color = Population), size = 2.5) +
   theme_bw() +
@@ -672,12 +686,12 @@ ggplot(evecData, aes(x = PC1,y = PC2)) +
   scale_colour_manual(values = rep(c("red", "blue", "green", "orange", "black", "lightblue"),len =92))
 
 ```
-
+![](Images/FinalPCA_plot.png)
 
 
 #### Note:
 
-Margins can be specified for top (t), right (r), bottom (b), and left (l) to position text vertically and horizontally. So to move X-axis title down you would use ```theme(axis.title.x = element_text(margin = margin(t = 20))``` and move Y-axis title to the left you would use ```theme(axis.title.x = element_text(margin = margin(l = 20))```
+Margins can be specified for top (t), right (r), bottom (b), and left (l) to position text vertically and horizontally. So to move X-axis title down you would use ```theme(axis.title.x = element_text(margin = margin(t = 20))``` and move Y-axis title to the left you would use ```theme(axis.title.x = element_text(margin = margin(l = 20))```.
 
 [Difference between geom_point() and geom_jitter() in ggplot2 in R?](https://stackoverflow.com/questions/39255781/what-is-difference-between-geom-point-and-geom-jitter-in-simple-language-in-r)
 
