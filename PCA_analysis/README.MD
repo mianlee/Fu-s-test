@@ -643,6 +643,8 @@ ggplot(evecData, aes(x = PC1,y = PC2)) +
         axis.text.y = element_text(size=10)) +
   scale_shape_manual(values = rep(c(0:3,5:7,9:12,15:19,25), len = 92)) +
   scale_colour_manual(values = rep(c("red", "blue", "green", "orange","black","lightblue"),len =92))
+  
+  # There are 92 population groups, so len = 92. You need to change this number based on how many populations you have
 ```
 ![](Images/PCA_Advance1.png)
 
