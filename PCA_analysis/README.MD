@@ -650,11 +650,11 @@ ggplot(evecData, aes(x = PC1,y = PC2)) +
 
 ```scale_shape_manual(values = rep(c(1,3,4,6,7), len = 92))``` will use shape 1, 3 ,4 ,6 , 7,and loop through till 92, so you can pick a shape/multiple shapes you want to use.
 
-3.Plot the data and legend separately
+3. Plot the data and legend separately
 
 Since the data points are too many, the legend will take large space. So it is hard to see those data points itself. Here I will plot those data points and display the legend separately.
 
-**Only data points***
+**Only data points**
 
 ```
 # By adding '  legend.position="none" ' argument, we can get rid of the legend.
@@ -676,7 +676,7 @@ ggplot(evecData, aes(x = PC1,y = PC2)) +
 ```
 ![](Images/SmartPCA_OnlyPlot.png)
 
-**Only legend
+**Only legend**
 
 ```
 library(ggplot2)
