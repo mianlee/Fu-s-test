@@ -641,12 +641,11 @@ ggplot(evecData, aes(x = PC1,y = PC2)) +
   scale_shape_manual(values = rep(c(0:3,5:7,9:12,15:19,25), len = 92)) +
   scale_colour_manual(values = rep(c("red", "blue", "green", "orange","black","lightblue"),len =92))
 ```
-
+![](Images/PCA_Advance1.png)
 
 ```scale_shape_manual(values = rep(1:17, len = 92)``` will choose shape 1 to 17 and loop through till 92.
 
 ```scale_shape_manual(values = rep(c(1,3,4,6,7), len = 92))``` will use shape 1,3,4,6,7,and loop through till 92, so you can pick a shape/multiple shapes you want to use.
-
 
 
 [Difference between geom_point() and geom_jitter() in ggplot2 in R?](https://stackoverflow.com/questions/39255781/what-is-difference-between-geom-point-and-geom-jitter-in-simple-language-in-r)
