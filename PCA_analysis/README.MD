@@ -619,7 +619,7 @@ ggplot(evecData, aes(x = PC1,y = PC2)) +
 
 
 ```
-![](/Images/SimplePCA_plot.jpeg)
+![](PCA_analysis/Images/SimplePCA_plot.jpeg)
 
      
 ### Operating System and program version
