@@ -745,6 +745,13 @@ ggplot(evecData, aes(x = PC1,y = PC2)) +
 ![](Images/FinalPCA_plot.png)
 
 
+5. Only color-coded ancient individuals and Only color-coded modern West Euroaisans.
+
+In Figure 2a, to avodi visual clutter, the authors represented modern individuals as grey dots, and used colored and labeled symbols to represent the ancient individuals.
+
+Here, I separated ancient individuals from modern West Eroaisans from [WE_An_ind_transverSNPs.evec](WE_An_ind_transverSNPs.evec), named Ancient_PCA.txt and WestEurasians_PCA.txt
+
+
 #### Note:
 
 Margins can be specified for top (t), right (r), bottom (b), and left (l) to position text vertically and horizontally. So to move X-axis title down you would use ```theme(axis.title.x = element_text(margin = margin(t = 20))``` and move Y-axis title to the left you would use ```theme(axis.title.x = element_text(margin = margin(l = 20))```.
