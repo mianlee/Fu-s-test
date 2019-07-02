@@ -1,0 +1,92 @@
+Alberstedt_LN:I0118    -0.0340      0.0079      0.0067      0.0034    Alberstedt_LN
+ Baalberge_MN:I0559    -0.0096      0.0529     -0.0261     -0.0073     Baalberge_MN
+ Baalberge_MN:I0560    -0.0157      0.0426     -0.0334     -0.0129     Baalberge_MN
+ Baalberge_MN:I0807    -0.0191      0.0527     -0.0423     -0.0166     Baalberge_MN
+Bell_Beaker_LN:I0060    -0.0274      0.0067     -0.0042      0.0144   Bell_Beaker_LN
+Bell_Beaker_LN:I0108    -0.0315      0.0206      0.0022     -0.0029   Bell_Beaker_LN
+Bell_Beaker_LN:I0111    -0.0324     -0.0012     -0.0008     -0.0056   Bell_Beaker_LN
+Bell_Beaker_LN:I0112    -0.0397      0.0088      0.0154     -0.0005   Bell_Beaker_LN
+Bell_Beaker_LN:I0113    -0.0325      0.0183     -0.0024      0.0057   Bell_Beaker_LN
+Bell_Beaker_LN:I0806    -0.0368     -0.0074      0.0188      0.0154   Bell_Beaker_LN
+BenzigerodeHeimburg_LN:I0058    -0.0364     -0.0066      0.0174      0.0105  BenzigerodeHeimburg_LN
+BenzigerodeHeimburg_LN:I0059    -0.0392     -0.0022      0.0090      0.0021  BenzigerodeHeimburg_LN
+BenzigerodeHeimburg_LN:I0171    -0.0308     -0.0121      0.0287      0.0227  BenzigerodeHeimburg_LN
+Corded_Ware_LN:I0049    -0.0442     -0.0238      0.0313      0.0130   Corded_Ware_LN
+Corded_Ware_LN:I0103    -0.0379     -0.0162      0.0299      0.0062   Corded_Ware_LN
+Corded_Ware_LN:I0104    -0.0357     -0.0150      0.0263      0.0047   Corded_Ware_LN
+Corded_Ware_LN:I0106    -0.0461     -0.0200      0.0309      0.0164   Corded_Ware_LN
+Esperstedt_MN:I0172    -0.0105      0.0375     -0.0423     -0.0088    Esperstedt_MN
+Halberstadt_LBA:I0099    -0.0391      0.0047      0.0097      0.0087  Halberstadt_LBA
+HungaryGamba_BA:BR1    -0.0408      0.0154      0.0026      0.0022  HungaryGamba_BA
+HungaryGamba_BA:BR2    -0.0274      0.0093      0.0017      0.0010  HungaryGamba_BA
+HungaryGamba_CA:CO1    -0.0144      0.0271     -0.0329     -0.0039  HungaryGamba_CA
+HungaryGamba_EN:KO2     0.0100      0.0348     -0.0571     -0.0152  HungaryGamba_EN
+HungaryGamba_EN:NE1     0.0046      0.0350     -0.0426     -0.0140  HungaryGamba_EN
+HungaryGamba_EN:NE2    -0.0061      0.0314     -0.0484     -0.0030  HungaryGamba_EN
+HungaryGamba_EN:NE3     0.0012      0.0288     -0.0557     -0.0114  HungaryGamba_EN
+HungaryGamba_EN:NE4     0.0074      0.0355     -0.0405     -0.0256  HungaryGamba_EN
+HungaryGamba_EN:NE5     0.0015      0.0312     -0.0413     -0.0211  HungaryGamba_EN
+HungaryGamba_EN:NE7    -0.0018      0.0355     -0.0352     -0.0135  HungaryGamba_EN
+HungaryGamba_EN:NE6     0.0105      0.0415     -0.0472     -0.0260  HungaryGamba_EN
+HungaryGamba_HG:KO1    -0.0883      0.0513      0.0301      0.0181  HungaryGamba_HG
+HungaryGamba_IA:IR1    -0.0185     -0.0104      0.0154      0.0037  HungaryGamba_IA
+      Iceman:Iceman    -0.0074      0.0393     -0.0414     -0.0166           Iceman
+Kostenki14:Kostenki14     0.0011     -0.0068      0.0205      0.0226       Kostenki14
+   Karelia_HG:I0061    -0.0709     -0.0218      0.0717      0.0290       Karelia_HG
+  Karsdorf_LN:I0550    -0.0405     -0.0212      0.0251      0.0169      Karsdorf_LN
+Loschbour:Loschbour    -0.0997      0.0609      0.0350      0.0226        Loschbour
+  LaBrana1:LaBrana1    -0.0790      0.0437      0.0251      0.0164         LaBrana1
+       LBK_EN:I0022     0.0124      0.0317     -0.0279     -0.0179           LBK_EN
+       LBK_EN:I0025     0.0011      0.0337     -0.0470     -0.0143           LBK_EN
+       LBK_EN:I0026     0.0087      0.0342     -0.0482     -0.0155           LBK_EN
+       LBK_EN:I0046     0.0018      0.0357     -0.0463     -0.0161           LBK_EN
+       LBK_EN:I0048     0.0025      0.0203     -0.0532     -0.0157           LBK_EN
+       LBK_EN:I0054    -0.0012      0.0303     -0.0432     -0.0189           LBK_EN
+       LBK_EN:I0056     0.0020      0.0468     -0.0371     -0.0067           LBK_EN
+       LBK_EN:I0057     0.0005      0.0237     -0.0403     -0.0070           LBK_EN
+       LBK_EN:I0100    -0.0002      0.0379     -0.0510     -0.0185           LBK_EN
+       LBK_EN:I0659     0.0045      0.0432     -0.0524     -0.0207           LBK_EN
+       LBK_EN:I0795     0.0017      0.0293     -0.0479     -0.0029           LBK_EN
+       LBK_EN:I0821     0.0022      0.0218     -0.0365     -0.0146           LBK_EN
+      LBKT_EN:I0176     0.0131      0.0351     -0.0395     -0.0155          LBKT_EN
+            MA1:MA1    -0.0337     -0.0544      0.0714      0.0386              MA1
+    Motala_HG:I0011    -0.0838      0.0170      0.0499      0.0236        Motala_HG
+    Motala_HG:I0012    -0.0878      0.0188      0.0446      0.0237        Motala_HG
+    Motala_HG:I0013    -0.0814      0.0217      0.0473      0.0218        Motala_HG
+    Motala_HG:I0014    -0.0889      0.0212      0.0463      0.0247        Motala_HG
+    Motala_HG:I0015    -0.0813      0.0125      0.0482      0.0237        Motala_HG
+    Motala_HG:I0016    -0.0808      0.0259      0.0370      0.0209        Motala_HG
+    Motala_HG:I0017    -0.0827      0.0258      0.0499      0.0182        Motala_HG
+    Samara_HG:I0124    -0.0701     -0.0268      0.0797      0.0273        Samara_HG
+  Starcevo_EN:I0174     0.0087      0.0440     -0.0462     -0.0286      Starcevo_EN
+     Spain_EN:I0409    -0.0147      0.0502     -0.0436     -0.0130         Spain_EN
+     Spain_EN:I0410    -0.0045      0.0522     -0.0529     -0.0202         Spain_EN
+     Spain_EN:I0412    -0.0028      0.0450     -0.0485     -0.0201         Spain_EN
+     Spain_EN:I0413    -0.0057      0.0422     -0.0509     -0.0214         Spain_EN
+     Spain_MN:I0405    -0.0214      0.0577     -0.0397     -0.0085         Spain_MN
+     Spain_MN:I0406    -0.0187      0.0457     -0.0416     -0.0094         Spain_MN
+     Spain_MN:I0407    -0.0161      0.0441     -0.0466     -0.0227         Spain_MN
+     Spain_MN:I0408    -0.0193      0.0496     -0.0398     -0.0096         Spain_MN
+Stuttgart:Stuttgart     0.0028      0.0312     -0.0453     -0.0166        Stuttgart
+SwedenSkoglund_MHG:StoraForvar11    -0.0679      0.0195      0.0166      0.0152  SwedenSkoglund_MHG
+SwedenSkoglund_MN:Gokhem2    -0.0194      0.0453     -0.0327     -0.0095  SwedenSkoglund_MN
+SwedenSkoglund_NHG:Ajvide52    -0.0759      0.0206      0.0435      0.0140  SwedenSkoglund_NHG
+SwedenSkoglund_NHG:Ajvide58    -0.0696      0.0232      0.0374      0.0202  SwedenSkoglund_NHG
+SwedenSkoglund_NHG:Ajvide70    -0.0680      0.0236      0.0299      0.0167  SwedenSkoglund_NHG
+  Unetice_EBA:I0047    -0.0325      0.0031      0.0162     -0.0035      Unetice_EBA
+  Unetice_EBA:I0115    -0.0398      0.0020      0.0201      0.0030      Unetice_EBA
+  Unetice_EBA:I0116    -0.0375      0.0039      0.0138      0.0050      Unetice_EBA
+  Unetice_EBA:I0117    -0.0350      0.0046      0.0106      0.0065      Unetice_EBA
+  Unetice_EBA:I0164    -0.0365     -0.0011      0.0178      0.0135      Unetice_EBA
+  Unetice_EBA:I0803    -0.0328     -0.0084      0.0131     -0.0012      Unetice_EBA
+  Unetice_EBA:I0804    -0.0227      0.0149     -0.0051     -0.0066      Unetice_EBA
+Ust_Ishim:Ust_Ishim     0.0271     -0.0324      0.0394      0.0453        Ust_Ishim
+      Yamnaya:I0231    -0.0385     -0.0357      0.0458      0.0089          Yamnaya
+      Yamnaya:I0357    -0.0316     -0.0325      0.0339      0.0087          Yamnaya
+      Yamnaya:I0370    -0.0370     -0.0436      0.0475      0.0206          Yamnaya
+      Yamnaya:I0429    -0.0410     -0.0441      0.0524      0.0231          Yamnaya
+      Yamnaya:I0438    -0.0388     -0.0458      0.0468      0.0134          Yamnaya
+      Yamnaya:I0439    -0.0351     -0.0454      0.0530      0.0156          Yamnaya
+      Yamnaya:I0441    -0.0491     -0.0343      0.0506      0.0255          Yamnaya
+      Yamnaya:I0443    -0.0327     -0.0354      0.0503      0.0109          Yamnaya
+      Yamnaya:I0444    -0.0358     -0.0319      0.0488      0.0103          Yamnaya
