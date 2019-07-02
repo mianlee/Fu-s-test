@@ -647,7 +647,7 @@ ggplot(evecData, aes(x = PC1,y = PC2)) +
         axis.text.x = element_text(size =10),
         axis.text.y = element_text(size=10)) +
   scale_shape_manual(values = rep(c(0:3,5:7,9:12,15:19,25), len = 92)) +
-  scale_colour_manual(values = rep(c("red", "blue", "green", "orange","black","lightblue"),len =92))
+  scale_colour_manual(values = rep(c("red", "blue", "green", "orange","black","lightblue"), len = 92))
   
   # There are 92 population groups, so len = 92. You need to change this number based on how many populations you have
 ```
@@ -678,7 +678,7 @@ ggplot(evecData, aes(x = PC1,y = PC2)) +
         legend.position="none"
         ) +
   scale_shape_manual(values = rep(c(0:3,5:7,9:12,15:19,25), len = 92)) +
-  scale_colour_manual(values = rep(c("red", "blue", "green", "orange","black","lightblue"),len =92))
+  scale_colour_manual(values = rep(c("red", "blue", "green", "orange","black","lightblue"), len = 92))
 
 ```
 ![](Images/SmartPCA_OnlyPlot.png)
@@ -701,7 +701,7 @@ P<- ggplot(evecData, aes(x = PC1,y = PC2)) +
         axis.text.y = element_text(size=10)
   ) +
   scale_shape_manual(values = rep(c(0:3,5:7,9:12,15:19,25), len = 92)) +
-  scale_colour_manual(values = rep(c("red", "blue", "green", "orange","black","lightblue"),len =92))
+  scale_colour_manual(values = rep(c("red", "blue", "green", "orange","black","lightblue"), len = 92))
 
 # Extract the legend. Returns a gtable
 leg <- get_legend(P)
@@ -737,14 +737,14 @@ ggplot(evecData, aes(x = PC1,y = PC2)) +
         panel.grid.minor = element_blank(),
         axis.text.x = element_text(size =11, margin = margin (t = 9) ),
         axis.text.y = element_text(size=11, margin = margin (r = 9) ),
-        legend.position = c(0.3,0.85),        # adjust legend relative poition with the plot
+        legend.position = c(0.3, 0.85),        # adjust legend relative poition with the plot
         legend.key.size = unit(0.20, "cm"),   # the size of legend
         legend.title = element_blank(),       # get rid of legend title
         axis.title.x = element_text (margin = margin (t = 20) ),  # X title distance to the x axis
         axis.title.y = element_text (margin = margin (r = 15) )
   ) +
   scale_shape_manual(values = rep(c(0:3,5:7,9:12,15:19,25), len = 92)) +
-  scale_colour_manual(values = rep(c("red", "blue", "green", "orange", "black", "lightblue"),len =92))
+  scale_colour_manual(values = rep(c("red", "blue", "green", "orange", "black", "lightblue"), len = 92))
 
 ```
 ![](Images/FinalPCA_plot.png)
@@ -776,14 +776,14 @@ ggplot(Ancient, aes(x = PC1,y = PC2)) +     # read ancient data
         panel.grid.minor = element_blank(),
         axis.text.x = element_text(size =11, margin = margin (t = 9) ),
         axis.text.y = element_text(size=11, margin = margin (r = 9) ),
-        legend.position = c(0.2,0.85),        
+        legend.position = c(0.2, 0.85),        
         legend.key.size = unit(0.30, "cm"),   
         legend.title = element_blank(),       
         axis.title.x = element_text (margin = margin (t = 20) ),  
         axis.title.y = element_text (margin = margin (r = 15) )
   ) +
   scale_shape_manual(values = rep(c(10,11,12,15,19,23,25), len = 33)) +   # len = 33, cause there 33 groups of ancient individuals
-  scale_colour_manual(values = rep(c("red", "blue", "green", "orange", "black", "lightblue"),len = 33))
+  scale_colour_manual(values = rep(c("red", "blue", "green", "orange", "black", "lightblue"), len = 33))
   
  ```
  ![](Images/AncientColor.png)
@@ -807,14 +807,14 @@ ggplot(WE, aes(x = PC1,y = PC2)) +
         panel.grid.minor = element_blank(),
         axis.text.x = element_text(size =11, margin = margin (t = 9) ),
         axis.text.y = element_text(size=11, margin = margin (r = 9) ),
-        legend.position = c(0.2,0.825),        #adjust legend relative poition with the plot
+        legend.position = c(0.2, 0.825),        #adjust legend relative poition with the plot
         legend.key.size = unit(0.20, "cm"),   #the size of legend
         legend.title = element_blank(),       #get rid of legend title
         axis.title.x = element_text (margin = margin (t = 20) ),  # X title position to the x axis
         axis.title.y = element_text (margin = margin (r = 15) )
   ) +
   scale_shape_manual(values = rep(c(0,1,8,10,11,12,15,19,23,25), len = 59)) +   # len = 33, cause there 33 groups of modern individuals
-  scale_colour_manual(values = rep(c("red", "blue", "green", "orange", "black", "lightblue"),len = 59))
+  scale_colour_manual(values = rep(c("red", "blue", "green", "orange", "black", "lightblue"), len = 59))
  
 ```
 
