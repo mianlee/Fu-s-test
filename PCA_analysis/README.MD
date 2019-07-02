@@ -594,7 +594,12 @@ Here, I'm using bash redirection of the log output of smartpca into a log file c
 
 ### Plot PCA in R studio 
 
+```
 R version 3.5.1
+RStudio Desktop 1.2.1335
+ggplot2 3.0.0
+macOS Mojave v10.14.4
+```
 
 1. Simply version
 
@@ -749,8 +754,75 @@ ggplot(evecData, aes(x = PC1,y = PC2)) +
 
 In Figure 2a, to avodi visual clutter, the authors represented modern individuals as grey dots, and used colored and labeled symbols to represent the ancient individuals.
 
-Here, I separated ancient individuals from modern West Eroaisans from [WE_An_ind_transverSNPs.evec](WE_An_ind_transverSNPs.evec), named Ancient_PCA.txt and WestEurasians_PCA.txt
+In Figure S5.1. the authors showed the completment of Figure 2a by color coding modern individuals and representing ancient ones as grey dots.
 
+Here, I separated ancient individuals from modern West Eroaisans in [WE_An_ind_transverSNPs.evec](WE_An_ind_transverSNPs.evec), named [Ancient_PCA.txt](Ancient_PCA.txt) and [WestEurasians_PCA.txt](WestEurasians_PCA.txt) respectively.
+
+```
+# Loading ggplot2 package
+library(ggplot2)
+
+# Read in both ancient and modern data
+Ancient <- read.table("Ancient_PCA.txt", col.names=c("SampleID", "PC1", "PC2", "PC3", "PC4","Population"))
+WE <- read.table("WestEurasians_PCA.txt", col.names=c("SampleID", "PC1", "PC2", "PC3", "PC4","Population"))
+
+# Color-coded ancient individuals, and leave modern individuals as grey solid cycles.
+
+ggplot(Ancient, aes(x = PC1,y = PC2)) +     # read ancient data
+  geom_point(data = WE, aes(x = PC1,y = PC2), shape = 16, color = "grey", size = 2) +  # read modern data, and plot modern individuals
+  geom_point(aes(shape = Population, color = Population), size = 2.6) +             # then plot ancient individuals on top of modern ones
+  theme_bw() +
+  theme(panel.grid.major = element_blank(),
+        panel.grid.minor = element_blank(),
+        axis.text.x = element_text(size =11, margin = margin (t = 9) ),
+        axis.text.y = element_text(size=11, margin = margin (r = 9) ),
+        legend.position = c(0.2,0.85),        
+        legend.key.size = unit(0.30, "cm"),   
+        legend.title = element_blank(),       
+        axis.title.x = element_text (margin = margin (t = 20) ),  
+        axis.title.y = element_text (margin = margin (r = 15) )
+  ) +
+  scale_shape_manual(values = rep(c(10,11,12,15,19,23,25), len = 33)) +   # len = 33, cause there 33 groups of ancient individuals
+  scale_colour_manual(values = rep(c("red", "blue", "green", "orange", "black", "lightblue"),len = 33))
+  
+ ```
+ ![](Images/AncientColor.png)
+
+
+```
+# Loading ggplot2 package
+library(ggplot2)
+
+# Read in both ancient and modern data
+Ancient <- read.table("Ancient_PCA.txt", col.names=c("SampleID", "PC1", "PC2", "PC3", "PC4","Population"))
+WE <- read.table("WestEurasians_PCA.txt", col.names=c("SampleID", "PC1", "PC2", "PC3", "PC4","Population"))
+
+# Color-coded modern West Euroaisans, and leave ancient individuals as grey solid cycles.
+
+ggplot(WE, aes(x = PC1,y = PC2)) +
+  geom_point(data = Ancient, aes(x = PC1,y = PC2), shape = 16, color = "grey", size = 2) +
+  geom_point(aes(shape = Population, color = Population), size = 2.4) +
+  theme_bw() +
+  theme(panel.grid.major = element_blank(),
+        panel.grid.minor = element_blank(),
+        axis.text.x = element_text(size =11, margin = margin (t = 9) ),
+        axis.text.y = element_text(size=11, margin = margin (r = 9) ),
+        legend.position = c(0.2,0.825),        #adjust legend relative poition with the plot
+        legend.key.size = unit(0.20, "cm"),   #the size of legend
+        legend.title = element_blank(),       #get rid of legend title
+        axis.title.x = element_text (margin = margin (t = 20) ),  # X title position to the x axis
+        axis.title.y = element_text (margin = margin (r = 15) )
+  ) +
+  scale_shape_manual(values = rep(c(0,1,8,10,11,12,15,19,23,25), len = 59)) +   # len = 33, cause there 33 groups of modern individuals
+  scale_colour_manual(values = rep(c("red", "blue", "green", "orange", "black", "lightblue"),len = 59))
+ 
+```
+
+![](Images/WestEuroasiansColor.png)
+
+
+
+**R codes**: I put all my R codes here in .R file, [SmartPCA.R](SmartPCA.R). 
 
 #### Note:
 
