@@ -601,7 +601,7 @@ ggplot2 3.0.0
 macOS Mojave v10.14.4
 ```
 
-1. Simply version
+**1. Simply Version**
 
 ```
 library(ggplot2)
@@ -628,7 +628,7 @@ ggplot(evecData, aes(x = PC1,y = PC2)) +
 
 
 
-2. Advanced version
+**2. Refined/Advanced Version**
 
 ```
 # Load ggplot2 package
@@ -713,7 +713,7 @@ as_ggplot(leg)
 ![](Images/PCA_Legend.png)
 
 
-4. Final version
+**4. Final Version**
 
 Based on my aesthetic preference and publications, here I present the R code for my final version.
 
@@ -750,7 +750,7 @@ ggplot(evecData, aes(x = PC1,y = PC2)) +
 ![](Images/FinalPCA_plot.png)
 
 
-5. Only color-coded ancient individuals and Only color-coded modern West Euroaisans.
+**5. Only color-coded ancient individuals and Only color-coded modern West Euroaisans**
 
 In Figure 2a, to avoid visual clutter, the authors represented modern individuals as grey dots, and used colored and labeled symbols to represent the ancient individuals.
 
