@@ -752,7 +752,7 @@ ggplot(evecData, aes(x = PC1,y = PC2)) +
 
 5. Only color-coded ancient individuals and Only color-coded modern West Euroaisans.
 
-In Figure 2a, to avodi visual clutter, the authors represented modern individuals as grey dots, and used colored and labeled symbols to represent the ancient individuals.
+In Figure 2a, to avoid visual clutter, the authors represented modern individuals as grey dots, and used colored and labeled symbols to represent the ancient individuals.
 
 In Figure S5.1. the authors showed the completment of Figure 2a by color coding modern individuals and representing ancient ones as grey dots.
 
