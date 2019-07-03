@@ -295,14 +295,14 @@ F4442   22
  # Here, I used a while loop.
  # -w grep exact match
  
- cat WE_An_individuals.txt | while read line
+ cat WE_An_Family.txt | while read line
  >do 
  >grep -w "$line" transverSNPs_allind.fam | awk '{print$1 "\t" $2}' >> WE_An_ind_list.txt
  >done
 
  # or you can type: 
  
- cat WE_An_individuals.txt | while read line ; do grep -w "$line" transverSNPs_allind.fam | awk '{print$1 "\t" $2}' >> WE_An_ind_list.txt; done
+ cat WE_An_Family.txt | while read line ; do grep -w "$line" transverSNPs_allind.fam | awk '{print$1 "\t" $2}' >> WE_An_ind_list.txt; done
 
 
  # What 'WE_An_ind_list.txt' looks like.
