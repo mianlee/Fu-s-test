@@ -858,7 +858,9 @@ macOS Mojave v10.14.4
 
 ### PCA over all 354.212 SNPs 
 
-In FIgure S5.2, the authors show a PCA over all 354,212 SNPs, with ancient individuals projected onto the variation of the modern ones.
+In FIgure S5.2, the authors show a PCA over all 354,212 SNPs, with ancient individuals projected onto the variation of the modern ones (West Euroasians).
+
+**Format the data, and extract ancient individuals/west Euroasians 
 
 I have the following files in my folder:
 
@@ -913,7 +915,7 @@ awk -F ":" '{print $2 "\t" $1}' WE_AN_ind.ind | awk '{print $4":"$1 "\t" $2 "\t"
 mv new.ind WE_AN_ind.ind
 ```
 
-Running SmartPCA
+**Running SmartPCA**
 
 ```
 nano par.smartPCA.WE_AN_ind
@@ -933,7 +935,37 @@ numthreads: 1
 /PATH/TO/bin/smartpca -p par.smartPCA.WE_AN_ind > smartpca.log
 
 ```
+**Plot in R**
 
+Again, I separated ancient individuals from modern West Eroaisans in [WE_AN_ind.evec](WE_AN_ind.evec), named [Ancient_allSNPs_PCA.txt](Ancient_allSNPs_PCA.txt) and [Modern_allSNPs_PCA.txt](Modern_allSNPs_PCA.txt) respectively.
+
+```
+# All 354,212 SNPs PCA 
+library(ggplot2)
+
+
+Ancient <- read.table("Ancient_allSNPs_PCA.txt", col.names=c("SampleID", "PC1", "PC2", "PC3", "PC4","Population"))
+WE <- read.table("Modern_allSNPs_PCA.txt", col.names=c("SampleID", "PC1", "PC2", "PC3", "PC4","Population"))
+
+
+#Ancient color
+ggplot(Ancient, aes(x = PC1,y = PC2)) +
+  geom_point(data = WE, aes(x = PC1,y = PC2), shape = 16, color = "grey", size = 1.6) +
+  geom_point(aes(shape = Population, color = Population), size = 2.4) +
+  theme_bw() +
+  theme(panel.grid.major = element_blank(),
+        panel.grid.minor = element_blank(),
+        axis.text.x = element_text(size =11, margin = margin (t = 9) ),
+        axis.text.y = element_text(size=11, margin = margin (r = 9) ),
+        legend.position = c(0.78,0.18),        #adjust legend relative poition with the plot
+        legend.key.size = unit(0.30, "cm"),   #the size of legend
+        legend.title = element_blank(),       #get rid of legend title
+        axis.title.x = element_text (margin = margin (t = 20) ),  # X title position to the x axis
+        axis.title.y = element_text (margin = margin (r = 15) )
+  ) +
+  scale_shape_manual(values = rep(c(10,11,15,12,19,23,25), len = 33)) +
+  scale_colour_manual(values = rep(c("red", "blue", "springgreen4", "orange2", "black", "yellow2"),len = 33))
+  ```
 
 
 
