@@ -836,12 +836,24 @@ Margins can be specified for top (t), right (r), bottom (b), and left (l) to pos
 
 
      
-### Operating System and program version
-I did all analyses above under Ubuntu 16.04.5 LTS-xenial, lunched through [VirtualBox](https://www.virtualbox.org/) on a Window 10 PC.
+### Operating System and Program Version
+
+I did data formating, SmartPCA analyses under Ubuntu 16.04.5 LTS-xenial, lunched through [VirtualBox](https://www.virtualbox.org/) on a Window 10 PC.
    
+```
 EIGENSOFT 6.1.4
-   
 PLINK 1.9
+```
+
+I plot the PCA results in R on a Macbook.
+
+```
+R version 3.5.1
+RStudio Desktop 1.2.1335
+ggplot2 3.0.0
+macOS Mojave v10.14.4
+```
+
 
 **Reference**: 
 
