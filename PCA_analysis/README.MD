@@ -821,7 +821,6 @@ ggplot(WE, aes(x = PC1,y = PC2)) +
 ![](Images/WestEuroasiansColor.png)
 
 
-
 **R codes**: I put all my R codes here in .R file, [SmartPCA.R](SmartPCA.R). 
 
 #### Note:
@@ -836,24 +835,6 @@ Margins can be specified for top (t), right (r), bottom (b), and left (l) to pos
 
 The names of different color: [Color Palette Cheatsheet](colorPaletteCheatsheet.pdf)
 
-     
-### Operating System and Program Version
-
-I did data formating, SmartPCA analyses under Ubuntu 16.04.5 LTS-xenial, lunched through [VirtualBox](https://www.virtualbox.org/) on a Window 10 PC.
-   
-```
-EIGENSOFT 6.1.4
-PLINK 1.9
-```
-
-I plotted the PCA results in R on a Macbook.
-
-```
-R version 3.5.1
-RStudio Desktop 1.2.1335
-ggplot2 3.0.0
-macOS Mojave v10.14.4
-```
 
 
 ### PCA over all 354.212 SNPs 
@@ -970,6 +951,25 @@ ggplot(Ancient, aes(x = PC1,y = PC2)) +
 ![](Images/WE_ANcolor_allSNPs.png)
 
 
+**R codes**: I put all my R codes here in .R file, [SmartPCA.R](SmartPCA.R). 
+     
+### Operating System and Program Version
+
+I did data formating, SmartPCA analyses under Ubuntu 16.04.5 LTS-xenial, lunched through [VirtualBox](https://www.virtualbox.org/) on a Window 10 PC.
+   
+```
+EIGENSOFT 6.1.4
+PLINK 1.9
+```
+
+I plotted the PCA results in R on a Macbook.
+
+```
+R version 3.5.1
+RStudio Desktop 1.2.1335
+ggplot2 3.0.0
+macOS Mojave v10.14.4
+```
 
 **Reference**: 
 
