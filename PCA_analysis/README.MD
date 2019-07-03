@@ -833,7 +833,7 @@ Margins can be specified for top (t), right (r), bottom (b), and left (l) to pos
 [ggplot2 point shapes](http://www.sthda.com/english/wiki/ggplot2-point-shapes)
 
 [ggplot2 legend](http://www.sthda.com/english/wiki/ggplot2-legend-easy-steps-to-change-the-position-and-the-appearance-of-a-graph-legend-in-r-software)
-[colorPaletteCheatsheet.pdf](colorPaletteCheatsheet.pdf)
+The names of different color: [Color Palette Cheatsheet](colorPaletteCheatsheet.pdf)
 
      
 ### Operating System and Program Version
