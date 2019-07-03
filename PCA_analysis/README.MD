@@ -295,14 +295,14 @@ F4442   22
  # Here, I used a while loop.
  # -w grep exact match
  
- cat WE_An_Family.txt | while read line
+ cat WE_An_individuals.txt | while read line
  >do 
  >grep -w "$line" transverSNPs_allind.fam | awk '{print$1 "\t" $2}' >> WE_An_ind_list.txt
  >done
 
  # or you can type: 
  
- cat WE_An_Family.txt | while read line ; do grep -w "$line" transverSNPs_allind.fam | awk '{print$1 "\t" $2}' >> WE_An_ind_list.txt; done
+ cat WE_An_individuals.txt | while read line ; do grep -w "$line" transverSNPs_allind.fam | awk '{print$1 "\t" $2}' >> WE_An_ind_list.txt; done
 
 
  # What 'WE_An_ind_list.txt' looks like.
@@ -853,6 +853,16 @@ RStudio Desktop 1.2.1335
 ggplot2 3.0.0
 macOS Mojave v10.14.4
 ```
+
+
+### PCA over all 354.212 SNPs 
+
+In FIgure S5.2, the authors show a PCA over all 354,212 SNPs, with ancient individuals projected onto the variation of the modern ones.
+
+
+
+
+
 
 
 **Reference**: 
