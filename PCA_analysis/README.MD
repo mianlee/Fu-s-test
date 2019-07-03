@@ -289,7 +289,7 @@ F4442   22
 # The space between the first column and the second column is a tab.
 ```
  
- I made a list of family IDs/population groups called "WE_An_Family.txt", which including 92 family groups (59 West Eurosian groups + 33 ancient groups). I need to extract all individuals (n=869) from those 92 family groups (from 'transverSNPs_allind.fam')  to make the inviduals list file.
+ I made a list of family IDs/population groups called [WE_An_Family.txt](WE_An_Family.txt), which including 92 family groups (59 West Eurosian groups + 33 ancient groups). I need to extract all individuals (n=869) from those 92 family groups (from 'transverSNPs_allind.fam')  to make the inviduals list file.
 
  ```
  # Here, I used a while loop.
