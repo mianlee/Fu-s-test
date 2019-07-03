@@ -859,6 +859,83 @@ macOS Mojave v10.14.4
 
 In FIgure S5.2, the authors show a PCA over all 354,212 SNPs, with ancient individuals projected onto the variation of the modern ones.
 
+I have the following files in my folder:
+
+```data.bed```
+```data.bim```
+```data.fam```
+[WE_An_ind_list.txt](WE_An_ind_list.txt)
+
+```
+plink --bfile data --keep WE_An_ind_list.txt --make-bed --out WE_AN_ind
+
+
+# Results:
+
+8703 MB RAM detected; reserving 4351 MB for main workspace.
+354212 variants loaded from .bim file.
+2071 people (1307 males, 764 females) loaded from .fam.
+2071 phenotype values loaded from .fam.
+--keep: 869 people remaining.
+Using 1 thread (no multithreaded calculations invoked).
+Before main variant filters, 869 founders and 0 nonfounders present.
+Calculating allele frequencies... done.
+Total genotyping rate in remaining samples is 0.956065.
+354212 variants and 869 people pass filters and QC.
+Among remaining phenotypes, 0 are cases and 869 are controls.
+--make-bed to WE_AN_ind.bed + WE_AN_ind.bim + WE_AN_ind.fam ... done.
+
+```
+
+```
+cat par.PACKEDPED.PACKEDANCESTRYMAP
+
+
+genotypename: WE_AN_ind.bed
+snpname: WE_AN_ind.bim
+indivname: WE_AN_ind.fam
+outputformat: PACKEDANCESTRYMAP
+genooutfilename: WE_AN_ind.geno 
+snpoutfilename: WE_AN_ind.snp
+indoutfilename: WE_AN_ind.ind
+
+
+/PATH/TO/bin/convertf -p par.PACKEDPED.PACKEDANCESTRYMAP
+
+```
+
+I fixed the ***.ind*** file by running:
+
+```
+awk -F ":" '{print $2 "\t" $1}' WE_AN_ind.ind | awk '{print $4":"$1 "\t" $2 "\t" $4}' > new.ind
+
+mv new.ind WE_AN_ind.ind
+```
+
+Running SmartPCA
+
+```
+nano par.smartPCA.WE_AN_ind
+
+
+genotypename: WE_AN_ind.geno
+snpname: WE_AN_ind.snp
+indivname: WE_AN_ind.ind
+evecoutname: WE_AN_ind.evec
+evaloutname: WE_AN_ind.eval
+poplistname: WestEurasia.poplist.txt
+lsqproject: YES
+numoutevec: 4
+numthreads: 1
+
+
+/PATH/TO/bin/smartpca -p par.smartPCA.WE_AN_ind > smartpca.log
+
+```
+
+
+
+
 
 
 
