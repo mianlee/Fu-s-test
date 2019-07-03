@@ -1,4 +1,4 @@
-My name is Mian Li, a PhD student at Binghamton University. This challage (at least to me) is given by Dr.Fu Qiaomei during the post-doc interview.
+My name is Mian Li, a PhD student at Binghamton University. This challage (at least to me) is given by Dr. Fu Qiaomei during my post-doc interview.
 
 I am trying to repeat all analyses in the nature paper named: **"Massive migration from the steppe was a source for Indo-European languages in Europe"**.
 
