@@ -845,7 +845,7 @@ EIGENSOFT 6.1.4
 PLINK 1.9
 ```
 
-I plot the PCA results in R on a Macbook.
+I plotted the PCA results in R on a Macbook.
 
 ```
 R version 3.5.1
