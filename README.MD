@@ -17,9 +17,11 @@ This github is about, here I quote my favorite words from [Hansjörg Plieninger]
 
 
 
+
+
 **Reference**: Haak, W., Lazaridis, I., Patterson, N., Rohland, N., Mallick, S., Llamas, B., ... & Fu, Q. (2015). **Massive migration from the steppe was a source for Indo-European languages in Europe**. Nature, 522(7555), 207. [Link](https://www.nature.com/articles/nature14317)
 
 
-If you have any questions or want to discuss something with me, feel free to contact me through email, limian1987@gmail.com.
+If you have any questions about my codes and steps, feel free to reach out to me through email, limian1987@gmail.com.
 
 ![](OnePiece.jpg)
