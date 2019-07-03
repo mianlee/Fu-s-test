@@ -413,7 +413,7 @@ Here are two scenarios that you should use ```lsqproject: YES``` for smartpca an
 2. Another situation is analysis of ancient DNA where poor preservation may mean that coverage is poor, with many SNPs having missing data.
 
 
-To repeat the analysis, I prepared one population list: "WestEurasia.poplist.txt", which only contains 59 present-day West Eurasian groups. So, 777 present-day West Eurasian individuals are used to calculate the principal components, and 92 ancient individuals will be projected onto the PCA axes.
+To repeat the analysis, I prepared one population list: [WestEurasia.poplist.txt](WestEurasia.poplist.txt), which only contains 59 present-day West Eurasian groups. So, 777 present-day West Eurasian individuals are used to calculate the principal components, and 92 ancient individuals will be projected onto the PCA axes.
 
 
 ```poplistname: yourfile```
