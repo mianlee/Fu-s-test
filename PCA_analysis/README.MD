@@ -967,7 +967,7 @@ ggplot(Ancient, aes(x = PC1,y = PC2)) +
   scale_colour_manual(values = rep(c("red", "blue", "springgreen4", "orange2", "black", "yellow2"),len = 33))
   ```
 
-![](WE_ANcolor_allSNPs.png)
+![](/Images/WE_ANcolor_allSNPs.png)
 
 
 
