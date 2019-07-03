@@ -1,0 +1,728 @@
+     Abkhasian:abh27    -0.0146      0.0601     -0.0212     -0.0190        Abkhasian
+    Abkhasian:abh107    -0.0155      0.0626     -0.0204     -0.0154        Abkhasian
+     Abkhasian:abh41    -0.0157      0.0758     -0.0376     -0.0156        Abkhasian
+    Abkhasian:abh119    -0.0164      0.0651     -0.0193     -0.0118        Abkhasian
+    Abkhasian:abh122    -0.0152      0.0561     -0.0178     -0.0117        Abkhasian
+    Abkhasian:abh133    -0.0165      0.0716     -0.0254     -0.0161        Abkhasian
+    Abkhasian:abh147    -0.0157      0.0625     -0.0214     -0.0180        Abkhasian
+    Abkhasian:abh154    -0.0208      0.0626     -0.0160     -0.0118        Abkhasian
+     Abkhasian:abh24    -0.0245      0.0676     -0.0144     -0.0078        Abkhasian
+    Adygei:HGDP01381    -0.0025      0.0624     -0.0373     -0.0027           Adygei
+    Adygei:HGDP01382    -0.0049      0.0683     -0.0417     -0.0017           Adygei
+    Adygei:HGDP01383    -0.0066      0.0536     -0.0258     -0.0136           Adygei
+    Adygei:HGDP01385    -0.0039      0.0534     -0.0348     -0.0084           Adygei
+    Adygei:HGDP01386    -0.0062      0.0557     -0.0207     -0.0082           Adygei
+    Adygei:HGDP01387    -0.0043      0.0558     -0.0319     -0.0030           Adygei
+    Adygei:HGDP01396     0.0067      0.0431     -0.0387     -0.0015           Adygei
+    Adygei:HGDP01397    -0.0020      0.0570     -0.0305     -0.0001           Adygei
+    Adygei:HGDP01398    -0.0102      0.0600     -0.0291     -0.0121           Adygei
+    Adygei:HGDP01399    -0.0071      0.0597     -0.0269     -0.0087           Adygei
+    Adygei:HGDP01400    -0.0073      0.0565     -0.0293     -0.0081           Adygei
+    Adygei:HGDP01401    -0.0062      0.0593     -0.0270      0.0005           Adygei
+    Adygei:HGDP01402    -0.0005      0.0566     -0.0256     -0.0134           Adygei
+    Adygei:HGDP01403    -0.0040      0.0465     -0.0252     -0.0099           Adygei
+    Adygei:HGDP01404    -0.0091      0.0621     -0.0371     -0.0040           Adygei
+      Adygei:NA13626    -0.0050      0.0570     -0.0326     -0.0047           Adygei
+      Adygei:NA13619    -0.0046      0.0701     -0.0411      0.0002           Adygei
+     Albanian:ALB191     0.0112      0.0070      0.0030     -0.0056         Albanian
+     Albanian:ALB213     0.0080      0.0011      0.0050     -0.0050         Albanian
+     Albanian:ALB202     0.0099      0.0040      0.0071     -0.0096         Albanian
+     Albanian:ALB212     0.0082     -0.0057      0.0182     -0.0079         Albanian
+     Albanian:ALB220     0.0047     -0.0002      0.0106     -0.0057         Albanian
+     Albanian:ALB230     0.0106     -0.0011      0.0099     -0.0091         Albanian
+ Armenian:armenia176    -0.0253      0.0363      0.0021     -0.0178         Armenian
+ Armenian:armenia191    -0.0210      0.0407     -0.0023     -0.0125         Armenian
+  Armenian:armenia86    -0.0206      0.0388      0.0015     -0.0135         Armenian
+ Armenian:armenia279    -0.0314      0.0375      0.0050     -0.0124         Armenian
+  Armenian:armenia91    -0.0282      0.0344      0.0006     -0.0198         Armenian
+ Armenian:armenia293    -0.0261      0.0485     -0.0018     -0.0135         Armenian
+ Armenian:armenia102    -0.0203      0.0396     -0.0023     -0.0079         Armenian
+ Armenian:armenia106    -0.0223      0.0441     -0.0010     -0.0208         Armenian
+ Armenian:armenia139    -0.0294      0.0307      0.0065     -0.0146         Armenian
+ Armenian:armenia162    -0.0268      0.0411     -0.0037     -0.0143         Armenian
+Ashkenazi_Jew:AshkenaziJew5779    -0.0110     -0.0004      0.0222     -0.0048    Ashkenazi_Jew
+Ashkenazi_Jew:AshkenaziJew5782    -0.0103      0.0001      0.0218     -0.0060    Ashkenazi_Jew
+Ashkenazi_Jew:AshkenaziJew5783    -0.0066      0.0003      0.0126      0.0041    Ashkenazi_Jew
+Ashkenazi_Jew:AshkenaziJew5704    -0.0118      0.0047      0.0200     -0.0024    Ashkenazi_Jew
+Ashkenazi_Jew:AshkenaziJew5728    -0.0069      0.0026      0.0179      0.0046    Ashkenazi_Jew
+Ashkenazi_Jew:AshkenaziJew5790    -0.0103     -0.0068      0.0204     -0.0003    Ashkenazi_Jew
+Ashkenazi_Jew:AshkenaziJew5788    -0.0093      0.0005      0.0198     -0.0046    Ashkenazi_Jew
+       Balkar:bal102    -0.0037      0.0510     -0.0337     -0.0055           Balkar
+        Balkar:bal64    -0.0035      0.0587     -0.0344     -0.0046           Balkar
+       Balkar:bal124    -0.0048      0.0553     -0.0330     -0.0039           Balkar
+        Balkar:bal97    -0.0098      0.0608     -0.0367      0.0019           Balkar
+       Balkar:bal136    -0.0029      0.0521     -0.0371     -0.0096           Balkar
+        Balkar:bal22    -0.0037      0.0544     -0.0310     -0.0001           Balkar
+        Balkar:bal41    -0.0052      0.0610     -0.0309     -0.0046           Balkar
+        Balkar:bal42    -0.0021      0.0589     -0.0282      0.0015           Balkar
+        Balkar:bal45    -0.0051      0.0600     -0.0280      0.0004           Balkar
+        Balkar:bal50    -0.0026      0.0533     -0.0357     -0.0098           Balkar
+    Basque:HGDP01357     0.0313     -0.0412      0.0419     -0.0178           Basque
+    Basque:HGDP01358     0.0350     -0.0443      0.0386     -0.0155           Basque
+    Basque:HGDP01359     0.0362     -0.0467      0.0443     -0.0096           Basque
+    Basque:HGDP01360     0.0408     -0.0502      0.0431     -0.0151           Basque
+    Basque:HGDP01362     0.0343     -0.0446      0.0407     -0.0145           Basque
+    Basque:HGDP01363     0.0346     -0.0426      0.0353     -0.0098           Basque
+    Basque:HGDP01364     0.0282     -0.0406      0.0393     -0.0149           Basque
+    Basque:HGDP01365     0.0338     -0.0442      0.0417     -0.0093           Basque
+    Basque:HGDP01366     0.0337     -0.0415      0.0356     -0.0108           Basque
+    Basque:HGDP01367     0.0368     -0.0413      0.0389     -0.0128           Basque
+    Basque:HGDP01368     0.0330     -0.0342      0.0373     -0.0133           Basque
+    Basque:HGDP01370     0.0332     -0.0430      0.0411     -0.0149           Basque
+    Basque:HGDP01371     0.0362     -0.0376      0.0331     -0.0125           Basque
+    Basque:HGDP01373     0.0345     -0.0479      0.0395     -0.0084           Basque
+    Basque:HGDP01374     0.0352     -0.0484      0.0374     -0.0153           Basque
+    Basque:HGDP01375     0.0315     -0.0402      0.0431     -0.0183           Basque
+    Basque:HGDP01377     0.0342     -0.0403      0.0458     -0.0149           Basque
+    Basque:HGDP01378     0.0355     -0.0433      0.0346     -0.0133           Basque
+    Basque:HGDP01379     0.0353     -0.0498      0.0407     -0.0177           Basque
+    Basque:HGDP01380     0.0347     -0.0458      0.0438     -0.0151           Basque
+        Basque:BAS35     0.0362     -0.0437      0.0417     -0.0200           Basque
+        Basque:BAS31     0.0366     -0.0446      0.0396     -0.0193           Basque
+        Basque:BAS22     0.0363     -0.0454      0.0358     -0.0104           Basque
+        Basque:BAS25     0.0352     -0.0421      0.0376     -0.0181           Basque
+        Basque:BAS32     0.0321     -0.0418      0.0443     -0.0177           Basque
+        Basque:BAS30     0.0350     -0.0504      0.0401     -0.0117           Basque
+        Basque:BAS28     0.0360     -0.0432      0.0416     -0.0118           Basque
+        Basque:BAS27     0.0339     -0.0429      0.0461     -0.0185           Basque
+        Basque:BAS33     0.0341     -0.0418      0.0386     -0.0225           Basque
+  BedouinA:HGDP00625    -0.0666     -0.0338     -0.0034      0.0558         BedouinA
+  BedouinA:HGDP00639    -0.0793     -0.0618     -0.0325      0.0486         BedouinA
+  BedouinA:HGDP00644    -0.0623     -0.0116      0.0157      0.0734         BedouinA
+  BedouinA:HGDP00654    -0.0560      0.0020     -0.0105      0.0604         BedouinA
+  BedouinB:HGDP00607    -0.1076     -0.1324     -0.1227     -0.0155         BedouinB
+  BedouinB:HGDP00608    -0.0894     -0.0851     -0.0441     -0.0083         BedouinB
+  BedouinB:HGDP00610    -0.1056     -0.1417     -0.1301     -0.0517         BedouinB
+  BedouinB:HGDP00612    -0.1090     -0.1406     -0.1302     -0.0679         BedouinB
+  BedouinB:HGDP00616    -0.1031     -0.1501     -0.1458     -0.0543         BedouinB
+  BedouinB:HGDP00618    -0.1082     -0.1425     -0.1404     -0.0513         BedouinB
+  BedouinB:HGDP00623    -0.1124     -0.1458     -0.1345     -0.0190         BedouinB
+  BedouinB:HGDP00624    -0.1053     -0.1248     -0.1079     -0.0360         BedouinB
+  BedouinB:HGDP00630    -0.1160     -0.1655     -0.1772     -0.0714         BedouinB
+  BedouinB:HGDP00631    -0.1138     -0.1499     -0.1493     -0.0643         BedouinB
+  BedouinB:HGDP00636    -0.0972     -0.0988     -0.0864     -0.0222         BedouinB
+  BedouinB:HGDP00641    -0.1027     -0.1258     -0.1229     -0.0521         BedouinB
+  BedouinB:HGDP00643    -0.0971     -0.1150     -0.0907     -0.0375         BedouinB
+  BedouinB:HGDP00648    -0.1008     -0.1278     -0.1272     -0.0443         BedouinB
+  BedouinB:HGDP00649    -0.1058     -0.1434     -0.1454     -0.0695         BedouinB
+  BedouinB:HGDP00650    -0.0956     -0.1184     -0.1205     -0.0401         BedouinB
+  BedouinB:HGDP00651    -0.1032     -0.1283     -0.1053     -0.0044         BedouinB
+  BedouinB:HGDP00653    -0.1030     -0.1136     -0.1296     -0.0535         BedouinB
+  BedouinB:HGDP00701    -0.1015     -0.1302     -0.1311     -0.0624         BedouinB
+   Belarusian:bel43s     0.0461     -0.0065     -0.0379      0.0165       Belarusian
+   Belarusian:bel30s     0.0463     -0.0103     -0.0333      0.0115       Belarusian
+   Belarusian:bel72c     0.0425     -0.0033     -0.0385      0.0159       Belarusian
+   Belarusian:bel93c     0.0469     -0.0053     -0.0395      0.0193       Belarusian
+  Belarusian:bel110c     0.0451     -0.0057     -0.0359      0.0208       Belarusian
+    Belarusian:bel8s     0.0393     -0.0066     -0.0357      0.0137       Belarusian
+Belarusian:belarusian23vp     0.0443     -0.0006     -0.0387      0.0124       Belarusian
+   Belarusian:bel23s     0.0500     -0.0065     -0.0343      0.0101       Belarusian
+Belarusian:belarusian47zp     0.0454     -0.0083     -0.0326      0.0123       Belarusian
+   Belarusian:bel82s     0.0447     -0.0069     -0.0332      0.0156       Belarusian
+   Bergamo:HGDP01147     0.0185     -0.0097      0.0222     -0.0085          Bergamo
+   Bergamo:HGDP01151     0.0199     -0.0163      0.0223     -0.0090          Bergamo
+   Bergamo:HGDP01152     0.0148     -0.0137      0.0258     -0.0106          Bergamo
+   Bergamo:HGDP01153     0.0151     -0.0137      0.0192     -0.0066          Bergamo
+   Bergamo:HGDP01155     0.0115     -0.0138      0.0220     -0.0104          Bergamo
+   Bergamo:HGDP01156     0.0137     -0.0163      0.0243     -0.0094          Bergamo
+   Bergamo:HGDP01157     0.0173     -0.0079      0.0195     -0.0110          Bergamo
+   Bergamo:HGDP01171     0.0144     -0.0134      0.0190     -0.0106          Bergamo
+   Bergamo:HGDP01172     0.0135     -0.0085      0.0134     -0.0092          Bergamo
+   Bergamo:HGDP01173     0.0193     -0.0132      0.0231     -0.0087          Bergamo
+   Bergamo:HGDP01174     0.0112     -0.0175      0.0236     -0.0093          Bergamo
+   Bergamo:HGDP01177     0.0168     -0.0154      0.0248     -0.0036          Bergamo
+Bulgarian:BulgarianD6     0.0205     -0.0030     -0.0022     -0.0011        Bulgarian
+Bulgarian:BulgarianA4     0.0223     -0.0023     -0.0029      0.0058        Bulgarian
+Bulgarian:BulgarianE2     0.0179      0.0010     -0.0029     -0.0023        Bulgarian
+Bulgarian:BulgarianB4     0.0152      0.0039     -0.0037      0.0012        Bulgarian
+Bulgarian:BulgarianA1     0.0161      0.0032     -0.0029      0.0014        Bulgarian
+Bulgarian:BulgarianB1     0.0176     -0.0042     -0.0004     -0.0005        Bulgarian
+Bulgarian:BulgarianC1     0.0127     -0.0008     -0.0009     -0.0003        Bulgarian
+Bulgarian:BulgarianF1     0.0197      0.0024     -0.0066     -0.0034        Bulgarian
+Bulgarian:BulgarianH2     0.0110      0.0001     -0.0024      0.0008        Bulgarian
+Bulgarian:BulgarianF2     0.0188     -0.0006     -0.0029      0.0023        Bulgarian
+Canary_Islanders:HG01695     0.0041     -0.0417      0.0339      0.0306  Canary_Islanders
+Canary_Islanders:HG01694     0.0047     -0.0319      0.0354      0.0120  Canary_Islanders
+       Chechen:ch126    -0.0029      0.0589     -0.0355     -0.0011          Chechen
+        Chechen:ch16    -0.0049      0.0528     -0.0332     -0.0016          Chechen
+       Chechen:ch174     0.0001      0.0500     -0.0342     -0.0052          Chechen
+       Chechen:ch179    -0.0054      0.0633     -0.0422     -0.0014          Chechen
+       Chechen:ch193    -0.0079      0.0574     -0.0364     -0.0065          Chechen
+        Chechen:ch21    -0.0020      0.0604     -0.0357     -0.0035          Chechen
+         Chechen:ch3    -0.0061      0.0596     -0.0416      0.0043          Chechen
+       Chechen:ch113    -0.0039      0.0584     -0.0344     -0.0050          Chechen
+        Chechen:ch31    -0.0019      0.0501     -0.0336     -0.0092          Chechen
+      Croatian:CRO53     0.0290     -0.0075     -0.0116      0.0034         Croatian
+     Croatian:CRO103     0.0278     -0.0059     -0.0153     -0.0004         Croatian
+     Croatian:CRO107     0.0290     -0.0018     -0.0139     -0.0032         Croatian
+      Croatian:CRO47     0.0324     -0.0109     -0.0034      0.0059         Croatian
+      Croatian:CRO41     0.0295     -0.0053     -0.0157      0.0002         Croatian
+      Croatian:CRO66     0.0231     -0.0020     -0.0089      0.0040         Croatian
+     Croatian:CRO153     0.0269     -0.0048     -0.0114     -0.0029         Croatian
+      Croatian:CRO31     0.0283     -0.0087     -0.0090     -0.0008         Croatian
+      Croatian:CRO93     0.0282     -0.0098     -0.0124      0.0063         Croatian
+      Croatian:CRO48     0.0275     -0.0040     -0.0037     -0.0019         Croatian
+       Cypriot:CYP19    -0.0242      0.0094      0.0288     -0.0031          Cypriot
+        Cypriot:CYP5    -0.0249      0.0165      0.0213     -0.0105          Cypriot
+Cypriot:Cyprus13AJ19    -0.0166      0.0081      0.0121     -0.0052          Cypriot
+Cypriot:Cyprus24AJ19    -0.0246      0.0108      0.0218     -0.0083          Cypriot
+        Cypriot:CYP2    -0.0238      0.0125      0.0183     -0.0095          Cypriot
+ Cypriot:Cyprus2AJ19    -0.0404      0.0123      0.0266     -0.0144          Cypriot
+Cypriot:Cyprus22AJ19    -0.0237      0.0031      0.0228     -0.0137          Cypriot
+Cypriot:Cyprus21AJ19    -0.0306      0.0165      0.0200     -0.0053          Cypriot
+       Czech:NA15725     0.0386     -0.0123     -0.0172      0.0077            Czech
+       Czech:NA15733     0.0389     -0.0029     -0.0185      0.0088            Czech
+       Czech:NA15726     0.0369     -0.0067     -0.0141      0.0020            Czech
+       Czech:NA15727     0.0389     -0.0125     -0.0177      0.0000            Czech
+       Czech:NA15728     0.0364     -0.0112     -0.0194      0.0059            Czech
+       Czech:NA15729     0.0362     -0.0094     -0.0156      0.0044            Czech
+       Czech:NA15730     0.0353     -0.0120     -0.0156      0.0002            Czech
+       Czech:NA15731     0.0399     -0.0056     -0.0172      0.0086            Czech
+       Czech:NA15724     0.0405     -0.0091     -0.0184      0.0096            Czech
+       Czech:NA15732     0.0415     -0.0061     -0.0233      0.0098            Czech
+     Druze:HGDP00557    -0.0428      0.0236      0.0341     -0.0866            Druze
+     Druze:HGDP00558    -0.0472      0.0311      0.0479     -0.1211            Druze
+     Druze:HGDP00559    -0.0386      0.0265      0.0320     -0.0699            Druze
+     Druze:HGDP00560    -0.0435      0.0366      0.0419     -0.1011            Druze
+     Druze:HGDP00561    -0.0433      0.0225      0.0369     -0.0672            Druze
+     Druze:HGDP00562    -0.0411      0.0270      0.0352     -0.0828            Druze
+     Druze:HGDP00563    -0.0417      0.0216      0.0225     -0.0073            Druze
+     Druze:HGDP00564    -0.0392      0.0292      0.0374     -0.0666            Druze
+     Druze:HGDP00565    -0.0451      0.0286      0.0471     -0.1048            Druze
+     Druze:HGDP00566    -0.0417      0.0095      0.0107     -0.0238            Druze
+     Druze:HGDP00567    -0.0503      0.0305      0.0434     -0.1514            Druze
+     Druze:HGDP00568    -0.0423      0.0422      0.0424     -0.1522            Druze
+     Druze:HGDP00569    -0.0388      0.0208      0.0265     -0.0486            Druze
+     Druze:HGDP00571    -0.0346      0.0262      0.0282     -0.0717            Druze
+     Druze:HGDP00572    -0.0463      0.0322      0.0372     -0.1020            Druze
+     Druze:HGDP00573    -0.0425      0.0257      0.0354     -0.0930            Druze
+     Druze:HGDP00574    -0.0499      0.0365      0.0466     -0.1228            Druze
+     Druze:HGDP00575    -0.0428      0.0312      0.0433     -0.1194            Druze
+     Druze:HGDP00577    -0.0451      0.0336      0.0426     -0.1238            Druze
+     Druze:HGDP00578    -0.0418      0.0187      0.0377     -0.0507            Druze
+     Druze:HGDP00579    -0.0366      0.0116      0.0212     -0.0139            Druze
+     Druze:HGDP00580    -0.0354      0.0189      0.0199     -0.0425            Druze
+     Druze:HGDP00582    -0.0412      0.0231      0.0308     -0.0473            Druze
+     Druze:HGDP00583    -0.0471      0.0442      0.0417     -0.1470            Druze
+     Druze:HGDP00584    -0.0369      0.0227      0.0190     -0.0263            Druze
+     Druze:HGDP00586    -0.0413      0.0121      0.0246     -0.0450            Druze
+     Druze:HGDP00587    -0.0349      0.0189      0.0268     -0.0128            Druze
+     Druze:HGDP00588    -0.0512      0.0334      0.0497     -0.1479            Druze
+     Druze:HGDP00591    -0.0389      0.0302      0.0401     -0.1057            Druze
+     Druze:HGDP00594    -0.0447      0.0199      0.0405     -0.0817            Druze
+     Druze:HGDP00595    -0.0388      0.0315      0.0287     -0.0861            Druze
+     Druze:HGDP00597    -0.0393      0.0151      0.0153     -0.0267            Druze
+     Druze:HGDP00598    -0.0452      0.0248      0.0387     -0.0755            Druze
+     Druze:HGDP00599    -0.0339      0.0310      0.0313     -0.0764            Druze
+     Druze:HGDP00600    -0.0394      0.0123      0.0199     -0.0160            Druze
+     Druze:HGDP00601    -0.0466      0.0274      0.0267     -0.0789            Druze
+     Druze:HGDP00602    -0.0351      0.0158      0.0174     -0.0235            Druze
+     Druze:HGDP00604    -0.0434      0.0314      0.0331     -0.1135            Druze
+     Druze:HGDP00606    -0.0399      0.0233      0.0344     -0.0642            Druze
+     English:HG00128     0.0375     -0.0132     -0.0032      0.0009          English
+     English:HG00129     0.0384     -0.0173     -0.0120      0.0028          English
+     English:HG00130     0.0352     -0.0129     -0.0018      0.0026          English
+     English:HG00131     0.0359     -0.0151     -0.0054      0.0017          English
+     English:HG00233     0.0373     -0.0192      0.0011     -0.0019          English
+     English:HG00234     0.0377     -0.0140     -0.0050      0.0014          English
+     English:HG00232     0.0372     -0.0122     -0.0044     -0.0011          English
+     English:HG00231     0.0366     -0.0076     -0.0061      0.0011          English
+     English:HG00126     0.0400     -0.0127     -0.0027      0.0011          English
+     English:HG00160     0.0404     -0.0131     -0.0109     -0.0037          English
+     Estonian:Est393     0.0516     -0.0101     -0.0396      0.0078         Estonian
+     Estonian:Est375     0.0538     -0.0068     -0.0381      0.0211         Estonian
+     Estonian:Est380     0.0532     -0.0090     -0.0393      0.0187         Estonian
+     Estonian:Est391     0.0557     -0.0103     -0.0446      0.0190         Estonian
+     Estonian:Est377     0.0556     -0.0090     -0.0521      0.0177         Estonian
+     Estonian:Est372     0.0542     -0.0077     -0.0400      0.0197         Estonian
+     Estonian:Est358     0.0527     -0.0101     -0.0419      0.0134         Estonian
+     Estonian:Est400     0.0483     -0.0041     -0.0381      0.0224         Estonian
+     Estonian:Est397     0.0506     -0.0100     -0.0411      0.0139         Estonian
+     Estonian:Est394     0.0499     -0.0099     -0.0419      0.0194         Estonian
+     Finnish:HG00171     0.0561     -0.0015     -0.0550      0.0254          Finnish
+     Finnish:HG00174     0.0474     -0.0090     -0.0423      0.0167          Finnish
+     Finnish:HG00190     0.0496     -0.0079     -0.0403      0.0146          Finnish
+     Finnish:HG00266     0.0490     -0.0024     -0.0452      0.0203          Finnish
+     Finnish:HG00183     0.0484      0.0024     -0.0479      0.0260          Finnish
+     Finnish:HG00173     0.0528     -0.0038     -0.0499      0.0191          Finnish
+     Finnish:HG00182     0.0520     -0.0002     -0.0582      0.0252          Finnish
+    French:HGDP00511     0.0309     -0.0194     -0.0004     -0.0006           French
+    French:HGDP00512     0.0272     -0.0150      0.0030     -0.0013           French
+    French:HGDP00513     0.0298     -0.0148      0.0125     -0.0035           French
+    French:HGDP00514     0.0309     -0.0161      0.0049     -0.0060           French
+    French:HGDP00515     0.0338     -0.0203      0.0016     -0.0004           French
+    French:HGDP00516     0.0266     -0.0082      0.0050     -0.0081           French
+    French:HGDP00517     0.0299     -0.0156      0.0042      0.0016           French
+    French:HGDP00518     0.0331     -0.0158      0.0078     -0.0007           French
+    French:HGDP00519     0.0357     -0.0112     -0.0066     -0.0053           French
+    French:HGDP00522     0.0303     -0.0142      0.0070     -0.0107           French
+    French:HGDP00523     0.0363     -0.0179     -0.0000     -0.0058           French
+    French:HGDP00524     0.0275     -0.0229      0.0153     -0.0093           French
+    French:HGDP00525     0.0277     -0.0152      0.0055     -0.0002           French
+    French:HGDP00526     0.0315     -0.0153     -0.0005     -0.0031           French
+    French:HGDP00527     0.0316     -0.0154      0.0011     -0.0052           French
+    French:HGDP00528     0.0325     -0.0167      0.0006      0.0016           French
+    French:HGDP00529     0.0294     -0.0170      0.0040     -0.0006           French
+    French:HGDP00531     0.0305     -0.0277      0.0280     -0.0052           French
+    French:HGDP00533     0.0382     -0.0067     -0.0086     -0.0026           French
+    French:HGDP00534     0.0312     -0.0185     -0.0053      0.0055           French
+    French:HGDP00535     0.0363     -0.0113     -0.0052      0.0010           French
+    French:HGDP00536     0.0231     -0.0186      0.0108     -0.0017           French
+    French:HGDP00537     0.0282     -0.0151      0.0081      0.0021           French
+    French:HGDP00538     0.0290     -0.0178      0.0021      0.0048           French
+    French:HGDP00539     0.0282     -0.0174      0.0119     -0.0067           French
+French_South:SouthFrench3326     0.0344     -0.0319      0.0327     -0.0099     French_South
+French_South:SouthFrench3947     0.0293     -0.0318      0.0260     -0.0064     French_South
+French_South:SouthFrench1323     0.0318     -0.0345      0.0338     -0.0122     French_South
+French_South:SouthFrench3951     0.0294     -0.0390      0.0357     -0.0133     French_South
+French_South:SouthFrench3068     0.0314     -0.0319      0.0310     -0.0052     French_South
+French_South:SouthFrench1112     0.0290     -0.0321      0.0348     -0.0130     French_South
+French_South:SouthFrench4018     0.0316     -0.0378      0.0398     -0.0146     French_South
+       Georgian:mg43    -0.0159      0.0656     -0.0180     -0.0151         Georgian
+       Georgian:mg47    -0.0174      0.0578     -0.0111     -0.0120         Georgian
+       Georgian:mg22    -0.0173      0.0562     -0.0107     -0.0179         Georgian
+       Georgian:mg49    -0.0196      0.0580     -0.0102     -0.0153         Georgian
+       Georgian:mg23    -0.0188      0.0569     -0.0190     -0.0235         Georgian
+       Georgian:mg62    -0.0210      0.0628     -0.0122     -0.0189         Georgian
+       Georgian:mg27    -0.0204      0.0611     -0.0159     -0.0187         Georgian
+       Georgian:mg31    -0.0175      0.0606     -0.0130     -0.0201         Georgian
+       Georgian:mg34    -0.0181      0.0628     -0.0116     -0.0187         Georgian
+       Georgian:mg40    -0.0184      0.0637     -0.0137     -0.0126         Georgian
+Georgian_Jew:GeorgianJew1607    -0.0277      0.0384     -0.0009     -0.0058     Georgian_Jew
+Georgian_Jew:GeorgianJew1671    -0.0300      0.0408      0.0022     -0.0115     Georgian_Jew
+Georgian_Jew:GeorgianJew1577    -0.0282      0.0357      0.0001     -0.0144     Georgian_Jew
+Georgian_Jew:GeorgianJew1971    -0.0269      0.0344     -0.0012     -0.0085     Georgian_Jew
+Georgian_Jew:GeorgianJew1594    -0.0296      0.0372      0.0038     -0.0168     Georgian_Jew
+Georgian_Jew:GeorgianJew1654    -0.0317      0.0385      0.0066     -0.0074     Georgian_Jew
+Georgian_Jew:GeorgianJew1883    -0.0280      0.0358     -0.0058     -0.0077     Georgian_Jew
+       Greek:NA17373     0.0089     -0.0058      0.0082     -0.0102            Greek
+       Greek:NA17374    -0.0210      0.0356      0.0120     -0.0166            Greek
+       Greek:NA17375    -0.0056      0.0072      0.0092     -0.0129            Greek
+       Greek:NA17376    -0.0150      0.0141      0.0124     -0.0140            Greek
+       Greek:NA17377     0.0090      0.0016     -0.0015     -0.0056            Greek
+       Greek:NA17372     0.0002      0.0005      0.0037     -0.0002            Greek
+Greek:GREEKGRALPOP18     0.0087     -0.0024      0.0163     -0.0039            Greek
+Greek:GREEKGRALPOP13     0.0071     -0.0027      0.0094      0.0035            Greek
+Greek:GREEKGRALPOP15     0.0105      0.0036      0.0111     -0.0008            Greek
+ Greek:GREEKGRALPOP5     0.0078      0.0006      0.0069     -0.0047            Greek
+ Greek:GREEKGRALPOP9     0.0109      0.0004      0.0075     -0.0042            Greek
+ Greek:GREEKGRALPOP4     0.0038      0.0021      0.0079     -0.0134            Greek
+Greek:GREEKGRALPOP17     0.0098      0.0004      0.0046     -0.0008            Greek
+Greek:GREEKGRALPOP16     0.0058      0.0012      0.0100     -0.0081            Greek
+Greek:GREEKGRALPOP11     0.0091      0.0020      0.0085     -0.0020            Greek
+Greek:GREEKGRALPOP10     0.0068      0.0043      0.0018     -0.0093            Greek
+ Greek:GREEKGRALPOP3     0.0091     -0.0029      0.0110     -0.0065            Greek
+ Greek:GREEKGRALPOP8     0.0104     -0.0009      0.0059     -0.0130            Greek
+Greek:GREEKGRALPOP12     0.0037      0.0072      0.0038     -0.0103            Greek
+Greek:GREEKGRALPOP14     0.0048     -0.0016      0.0164     -0.0105            Greek
+  Hungarian:hungary3     0.0307     -0.0090     -0.0103      0.0002        Hungarian
+  Hungarian:hungary6     0.0308     -0.0079     -0.0082      0.0054        Hungarian
+Hungarian:HungarianC5     0.0348     -0.0042     -0.0252      0.0065        Hungarian
+  Hungarian:hungary7     0.0334     -0.0040     -0.0148      0.0083        Hungarian
+Hungarian:HungarianE5     0.0326     -0.0077     -0.0171      0.0041        Hungarian
+Hungarian:HungarianH3     0.0338     -0.0075     -0.0158      0.0043        Hungarian
+ Hungarian:hungary15     0.0312     -0.0048     -0.0158      0.0078        Hungarian
+ Hungarian:hungary20     0.0340     -0.0103     -0.0120      0.0096        Hungarian
+  Hungarian:hungary2     0.0340     -0.0046     -0.0184      0.0092        Hungarian
+Hungarian:HungarianD1     0.0238     -0.0020     -0.0158      0.0023        Hungarian
+   Hungarian:NA15202     0.0372     -0.0135     -0.0158      0.0034        Hungarian
+   Hungarian:NA15203     0.0357     -0.0065     -0.0132      0.0021        Hungarian
+   Hungarian:NA15204     0.0292     -0.0047     -0.0166      0.0069        Hungarian
+   Hungarian:NA15205     0.0364     -0.0101     -0.0144      0.0017        Hungarian
+   Hungarian:NA15206     0.0323     -0.0070     -0.0093      0.0007        Hungarian
+   Hungarian:NA15199     0.0357     -0.0077     -0.0146      0.0092        Hungarian
+   Hungarian:NA15207     0.0313     -0.0031     -0.0192      0.0084        Hungarian
+   Hungarian:NA15200     0.0355     -0.0102     -0.0169      0.0114        Hungarian
+   Hungarian:NA15208     0.0355     -0.0105     -0.0092      0.0083        Hungarian
+   Hungarian:NA15201     0.0342     -0.0051     -0.0118      0.0046        Hungarian
+   Icelandic:NA15762     0.0455     -0.0083     -0.0190      0.0006        Icelandic
+   Icelandic:NA15755     0.0484     -0.0205     -0.0124      0.0037        Icelandic
+   Icelandic:NA15763     0.0447     -0.0131     -0.0184      0.0049        Icelandic
+   Icelandic:NA15756     0.0422     -0.0119     -0.0156      0.0044        Icelandic
+   Icelandic:NA15764     0.0396     -0.0141     -0.0159      0.0004        Icelandic
+   Icelandic:NA15757     0.0414     -0.0122     -0.0124      0.0017        Icelandic
+   Icelandic:NA15765     0.0450     -0.0149     -0.0199      0.0064        Icelandic
+   Icelandic:NA15758     0.0425     -0.0107     -0.0203      0.0041        Icelandic
+   Icelandic:NA15766     0.0443     -0.0112     -0.0165      0.0016        Icelandic
+   Icelandic:NA15759     0.0437     -0.0119     -0.0155      0.0034        Icelandic
+   Icelandic:NA15760     0.0450     -0.0106     -0.0191      0.0105        Icelandic
+   Icelandic:NA15761     0.0450     -0.0132     -0.0211      0.0072        Icelandic
+      Iranian:iran19    -0.0243      0.0403     -0.0185      0.0030          Iranian
+      Iranian:iran14    -0.0212      0.0468     -0.0205      0.0120          Iranian
+       Iranian:iran2    -0.0243      0.0525     -0.0254     -0.0004          Iranian
+      Iranian:iran20    -0.0270      0.0473     -0.0183      0.0042          Iranian
+       Iranian:iran3    -0.0323      0.0478     -0.0221     -0.0002          Iranian
+      Iranian:iran11    -0.0218      0.0517     -0.0134     -0.0147          Iranian
+      Iranian:iran16    -0.0256      0.0509     -0.0175     -0.0019          Iranian
+      Iranian:iran17    -0.0292      0.0513     -0.0288      0.0201          Iranian
+Iranian_Jew:IranianJew1409    -0.0348      0.0368      0.0052     -0.0164      Iranian_Jew
+Iranian_Jew:IranianJew1132    -0.0346      0.0323      0.0091     -0.0130      Iranian_Jew
+Iranian_Jew:IranianJew1159    -0.0361      0.0343      0.0074     -0.0152      Iranian_Jew
+Iranian_Jew:IranianJew1513    -0.0342      0.0351      0.0045     -0.0137      Iranian_Jew
+Iranian_Jew:IranianJew1556    -0.0338      0.0285      0.0059     -0.0198      Iranian_Jew
+Iranian_Jew:IranianJew1557    -0.0269      0.0382     -0.0015     -0.0034      Iranian_Jew
+Iranian_Jew:IranianJew1143    -0.0390      0.0326      0.0116     -0.0131      Iranian_Jew
+Iranian_Jew:IranianJew1832    -0.0336      0.0340      0.0029     -0.0094      Iranian_Jew
+Iranian_Jew:IranianJew1845    -0.0365      0.0338      0.0004     -0.0053      Iranian_Jew
+Iraqi_Jew:IraqiJew4061    -0.0384      0.0249      0.0075     -0.0145        Iraqi_Jew
+Iraqi_Jew:IraqiJew4241    -0.0382      0.0293      0.0080     -0.0122        Iraqi_Jew
+Iraqi_Jew:IraqiJew1417    -0.0385      0.0267      0.0111     -0.0132        Iraqi_Jew
+Iraqi_Jew:IraqiJew1771    -0.0337      0.0246      0.0142     -0.0084        Iraqi_Jew
+Iraqi_Jew:IraqiJew4291    -0.0382      0.0240      0.0097     -0.0071        Iraqi_Jew
+Iraqi_Jew:IraqiJew1430    -0.0377      0.0286      0.0079     -0.0134        Iraqi_Jew
+ Italian_South:BEL57    -0.0073      0.0002      0.0254     -0.0083    Italian_South
+ Jordanian:Jordan543    -0.0570     -0.0087      0.0254      0.0682        Jordanian
+ Jordanian:Jordan214    -0.0499      0.0054      0.0218      0.0488        Jordanian
+ Jordanian:Jordan445    -0.0546      0.0020      0.0214      0.0799        Jordanian
+ Jordanian:Jordan603    -0.0586      0.0049      0.0238      0.0862        Jordanian
+ Jordanian:Jordan503    -0.0504      0.0207      0.0013      0.0636        Jordanian
+ Jordanian:Jordan646    -0.0569      0.0044      0.0151      0.0554        Jordanian
+      Kumyk:kumyks44    -0.0075      0.0538     -0.0351      0.0035            Kumyk
+      Kumyk:kumyks93    -0.0049      0.0543     -0.0295     -0.0106            Kumyk
+      Kumyk:kumyks98    -0.0056      0.0540     -0.0366      0.0002            Kumyk
+      Kumyk:kumyks90     0.0019      0.0533     -0.0284      0.0026            Kumyk
+      Kumyk:kumyks40    -0.0109      0.0435     -0.0127     -0.0031            Kumyk
+      Kumyk:kumyks94    -0.0078      0.0547     -0.0326     -0.0013            Kumyk
+      Kumyk:kumyks41    -0.0020      0.0550     -0.0336      0.0011            Kumyk
+      Kumyk:kumyks97    -0.0012      0.0443     -0.0280     -0.0019            Kumyk
+   Lebanese:Lebanon6    -0.0325      0.0347     -0.0117      0.0227         Lebanese
+   Lebanese:Lebanon7    -0.0431      0.0060      0.0172      0.0155         Lebanese
+   Lebanese:Lebanon8    -0.0330      0.0229      0.0031      0.0092         Lebanese
+   Lebanese:Lebanon1    -0.0378      0.0136      0.0134     -0.0087         Lebanese
+   Lebanese:Lebanon2    -0.0421      0.0123      0.0164      0.0027         Lebanese
+   Lebanese:Lebanon3    -0.0412      0.0110      0.0148      0.0220         Lebanese
+        Lezgin:lez38    -0.0070      0.0667     -0.0440      0.0100           Lezgin
+        Lezgin:lez40    -0.0021      0.0604     -0.0382     -0.0006           Lezgin
+        Lezgin:lez49    -0.0011      0.0495     -0.0360     -0.0033           Lezgin
+        Lezgin:lez31    -0.0012      0.0505     -0.0370     -0.0036           Lezgin
+         Lezgin:lez7    -0.0045      0.0525     -0.0309     -0.0019           Lezgin
+        Lezgin:lez33    -0.0015      0.0511     -0.0312     -0.0023           Lezgin
+         Lezgin:lez9    -0.0007      0.0530     -0.0308     -0.0016           Lezgin
+        Lezgin:lez36    -0.0052      0.0542     -0.0433      0.0088           Lezgin
+        Lezgin:lez37    -0.0030      0.0544     -0.0337     -0.0034           Lezgin
+Libyan_Jew:LibyanJew1601    -0.0365     -0.0113      0.0500      0.0144       Libyan_Jew
+Libyan_Jew:LibyanJew1104    -0.0345     -0.0085      0.0449      0.0232       Libyan_Jew
+Libyan_Jew:LibyanJew1462    -0.0345     -0.0082      0.0538      0.0173       Libyan_Jew
+Libyan_Jew:LibyanJew1263    -0.0434     -0.0193      0.0658      0.0367       Libyan_Jew
+Libyan_Jew:LibyanJew1611    -0.0336     -0.0119      0.0499      0.0240       Libyan_Jew
+Libyan_Jew:LibyanJew1605    -0.0386     -0.0123      0.0551      0.0329       Libyan_Jew
+Libyan_Jew:LibyanJew1639    -0.0405     -0.0103      0.0414      0.0123       Libyan_Jew
+Libyan_Jew:LibyanJew1659    -0.0415     -0.0159      0.0626      0.0407       Libyan_Jew
+Lithuanian:LithuanianF1     0.0571     -0.0133     -0.0438      0.0185       Lithuanian
+Lithuanian:lithuania3     0.0506     -0.0091     -0.0433      0.0138       Lithuanian
+Lithuanian:lithuania10     0.0560     -0.0080     -0.0471      0.0186       Lithuanian
+Lithuanian:lithuania9     0.0542     -0.0122     -0.0438      0.0203       Lithuanian
+Lithuanian:LithuanianA1     0.0549     -0.0121     -0.0404      0.0191       Lithuanian
+Lithuanian:LithuanianE2     0.0518     -0.0100     -0.0470      0.0121       Lithuanian
+Lithuanian:lithuania1     0.0511     -0.0088     -0.0348      0.0122       Lithuanian
+Lithuanian:lithuania8     0.0522     -0.0091     -0.0430      0.0212       Lithuanian
+Lithuanian:lithuania2     0.0539     -0.0119     -0.0422      0.0144       Lithuanian
+Lithuanian:LithuanianD1     0.0505     -0.0125     -0.0368      0.0208       Lithuanian
+  Maltese:Malta4AM91    -0.0104     -0.0070      0.0277      0.0117          Maltese
+  Maltese:Malta8AM91    -0.0102     -0.0107      0.0308      0.0083          Maltese
+  Maltese:Malta7AM91    -0.0149     -0.0137      0.0256     -0.0022          Maltese
+ Maltese:Malta17AM91    -0.0145     -0.0123      0.0327      0.0055          Maltese
+  Maltese:Malta2AM91    -0.0180      0.0029      0.0232      0.0073          Maltese
+ Maltese:Malta16AM91    -0.0178     -0.0118      0.0437      0.0078          Maltese
+ Maltese:Malta15AM91    -0.0121     -0.0023      0.0255      0.0066          Maltese
+ Maltese:Malta12AM91    -0.0163     -0.0134      0.0299      0.0084          Maltese
+Mordovian:Mordovians27     0.0428      0.0101     -0.0511      0.0230        Mordovian
+Mordovian:Mordovians28     0.0451      0.0057     -0.0484      0.0191        Mordovian
+Mordovian:Mordovians30     0.0412      0.0159     -0.0528      0.0232        Mordovian
+Mordovian:Mordovians4     0.0416      0.0031     -0.0512      0.0271        Mordovian
+Mordovian:Mordovians31     0.0434      0.0071     -0.0484      0.0127        Mordovian
+Mordovian:Mordovians17     0.0414      0.0041     -0.0493      0.0242        Mordovian
+Mordovian:Mordovians1     0.0410      0.0076     -0.0483      0.0143        Mordovian
+Mordovian:Mordovians22     0.0427      0.0047     -0.0525      0.0221        Mordovian
+Mordovian:Mordovians32     0.0451      0.0062     -0.0522      0.0211        Mordovian
+Mordovian:Mordovians5     0.0456      0.0019     -0.0494      0.0192        Mordovian
+Moroccan_Jew:MoroccanJew5126    -0.0257     -0.0129      0.0530      0.0150     Moroccan_Jew
+Moroccan_Jew:MoroccanJew4634    -0.0274     -0.0036      0.0329      0.0147     Moroccan_Jew
+Moroccan_Jew:MoroccanJew4789    -0.0274     -0.0035      0.0425      0.0083     Moroccan_Jew
+Moroccan_Jew:MoroccanJew5168    -0.0269     -0.0081      0.0347      0.0213     Moroccan_Jew
+Moroccan_Jew:MoroccanJew4692    -0.0303     -0.0078      0.0464      0.0184     Moroccan_Jew
+Moroccan_Jew:MoroccanJew4683    -0.0256     -0.0053      0.0377      0.0060     Moroccan_Jew
+North_Ossetian:NorthOssetia19    -0.0044      0.0622     -0.0396     -0.0004   North_Ossetian
+North_Ossetian:NorthOssetia2    -0.0078      0.0614     -0.0368     -0.0017   North_Ossetian
+North_Ossetian:NorthOssetia3    -0.0040      0.0581     -0.0346     -0.0005   North_Ossetian
+North_Ossetian:NorthOssetia5    -0.0070      0.0619     -0.0322     -0.0065   North_Ossetian
+North_Ossetian:NorthOssetia11    -0.0038      0.0529     -0.0266     -0.0006   North_Ossetian
+North_Ossetian:NorthOssetia8    -0.0083      0.0590     -0.0401     -0.0038   North_Ossetian
+North_Ossetian:NorthOssetia12    -0.0060      0.0624     -0.0327     -0.0039   North_Ossetian
+North_Ossetian:NorthOssetia9    -0.0036      0.0603     -0.0304     -0.0052   North_Ossetian
+North_Ossetian:NorthOssetia14    -0.0038      0.0556     -0.0278     -0.0021   North_Ossetian
+North_Ossetian:NorthOssetia17    -0.0124      0.0600     -0.0308     -0.0107   North_Ossetian
+    Norwegian:NOR119     0.0432     -0.0166     -0.0174      0.0022        Norwegian
+    Norwegian:NOR124     0.0427     -0.0127     -0.0196      0.0101        Norwegian
+    Norwegian:NOR106     0.0391     -0.0106     -0.0135      0.0073        Norwegian
+    Norwegian:NOR101     0.0407     -0.0130     -0.0102      0.0030        Norwegian
+    Norwegian:NOR146     0.0425     -0.0118     -0.0170      0.0113        Norwegian
+    Norwegian:NOR108     0.0445     -0.0136     -0.0164      0.0064        Norwegian
+    Norwegian:NOR126     0.0441     -0.0129     -0.0182      0.0023        Norwegian
+    Norwegian:NOR107     0.0448     -0.0107     -0.0190      0.0045        Norwegian
+    Norwegian:NOR109     0.0464     -0.0143     -0.0111     -0.0004        Norwegian
+    Norwegian:NOR148     0.0468     -0.0110     -0.0183      0.0079        Norwegian
+    Norwegian:NOR111     0.0421     -0.0168     -0.0164      0.0029        Norwegian
+  Orcadian:HGDP00794     0.0392     -0.0125     -0.0093      0.0007         Orcadian
+  Orcadian:HGDP00796     0.0409     -0.0124     -0.0149      0.0140         Orcadian
+  Orcadian:HGDP00797     0.0403     -0.0135     -0.0054      0.0046         Orcadian
+  Orcadian:HGDP00798     0.0376     -0.0101     -0.0071      0.0050         Orcadian
+  Orcadian:HGDP00799     0.0440     -0.0133     -0.0165      0.0027         Orcadian
+  Orcadian:HGDP00800     0.0401     -0.0149     -0.0075     -0.0029         Orcadian
+  Orcadian:HGDP00802     0.0415     -0.0146     -0.0175      0.0016         Orcadian
+  Orcadian:HGDP00803     0.0398     -0.0112     -0.0134      0.0014         Orcadian
+  Orcadian:HGDP00805     0.0429     -0.0128     -0.0097      0.0064         Orcadian
+  Orcadian:HGDP00806     0.0399     -0.0151     -0.0160      0.0007         Orcadian
+  Orcadian:HGDP00807     0.0434     -0.0129     -0.0164      0.0023         Orcadian
+  Orcadian:HGDP00808     0.0438     -0.0158     -0.0142      0.0036         Orcadian
+  Orcadian:HGDP00810     0.0402     -0.0109     -0.0067      0.0042         Orcadian
+Palestinian:HGDP00676    -0.0584     -0.0009      0.0345      0.0868      Palestinian
+Palestinian:HGDP00679    -0.0589      0.0040      0.0261      0.1291      Palestinian
+Palestinian:HGDP00687    -0.0588     -0.0002      0.0261      0.0947      Palestinian
+Palestinian:HGDP00688    -0.0541      0.0050      0.0400      0.1462      Palestinian
+Palestinian:HGDP00689    -0.0573      0.0034      0.0449      0.1160      Palestinian
+Palestinian:HGDP00690    -0.0564      0.0037      0.0356      0.1240      Palestinian
+Palestinian:HGDP00691    -0.0643     -0.0074      0.0447      0.1580      Palestinian
+Palestinian:HGDP00694    -0.0532      0.0066      0.0284      0.1021      Palestinian
+Palestinian:HGDP00696    -0.0562      0.0081      0.0316      0.1838      Palestinian
+Palestinian:HGDP00697    -0.0612     -0.0122      0.0303      0.1966      Palestinian
+Palestinian:HGDP00699    -0.0568     -0.0028      0.0296      0.0997      Palestinian
+Palestinian:HGDP00722    -0.0579     -0.0058      0.0209      0.1381      Palestinian
+Palestinian:HGDP00726    -0.0697     -0.0049      0.0430      0.2104      Palestinian
+Palestinian:HGDP00727    -0.0594     -0.0000      0.0373      0.1463      Palestinian
+Palestinian:HGDP00729    -0.0652     -0.0038      0.0390      0.1894      Palestinian
+Palestinian:HGDP00730    -0.0597      0.0027      0.0399      0.1630      Palestinian
+Palestinian:HGDP00732    -0.0630     -0.0044      0.0445      0.1674      Palestinian
+Palestinian:HGDP00733    -0.0596     -0.0033      0.0395      0.1677      Palestinian
+Palestinian:HGDP00734    -0.0631      0.0022      0.0331      0.1673      Palestinian
+Palestinian:HGDP00735    -0.0599     -0.0002      0.0514      0.1731      Palestinian
+Palestinian:HGDP00736    -0.0549      0.0035      0.0348      0.0829      Palestinian
+Palestinian:HGDP00740    -0.0582     -0.0038      0.0410      0.1462      Palestinian
+Palestinian:HGDP00745    -0.0588      0.0015      0.0199      0.0897      Palestinian
+   Russian:HGDP00879     0.0453      0.0029     -0.0489      0.0189          Russian
+   Russian:HGDP00880     0.0452      0.0066     -0.0491      0.0246          Russian
+   Russian:HGDP00882     0.0446      0.0023     -0.0600      0.0236          Russian
+   Russian:HGDP00883     0.0490      0.0003     -0.0577      0.0223          Russian
+   Russian:HGDP00884     0.0457      0.0010     -0.0433      0.0242          Russian
+   Russian:HGDP00887     0.0449      0.0011     -0.0529      0.0223          Russian
+   Russian:HGDP00888     0.0427      0.0014     -0.0432      0.0127          Russian
+   Russian:HGDP00889     0.0437      0.0046     -0.0493      0.0186          Russian
+   Russian:HGDP00890     0.0490      0.0053     -0.0458      0.0168          Russian
+   Russian:HGDP00891     0.0450      0.0069     -0.0552      0.0210          Russian
+   Russian:HGDP00892     0.0494      0.0039     -0.0532      0.0265          Russian
+   Russian:HGDP00893     0.0467      0.0070     -0.0504      0.0193          Russian
+   Russian:HGDP00894     0.0440      0.0030     -0.0581      0.0218          Russian
+   Russian:HGDP00895     0.0480      0.0037     -0.0484      0.0237          Russian
+   Russian:HGDP00896     0.0445      0.0070     -0.0556      0.0216          Russian
+   Russian:HGDP00897     0.0457      0.0039     -0.0544      0.0188          Russian
+   Russian:HGDP00898     0.0468      0.0093     -0.0568      0.0168          Russian
+   Russian:HGDP00899     0.0424      0.0081     -0.0455      0.0232          Russian
+   Russian:HGDP00900     0.0459      0.0001     -0.0449      0.0213          Russian
+   Russian:HGDP00901     0.0448      0.0026     -0.0520      0.0197          Russian
+   Russian:HGDP00902     0.0442      0.0047     -0.0508      0.0232          Russian
+   Russian:HGDP00903     0.0470      0.0012     -0.0494      0.0222          Russian
+ Sardinian:HGDP00666     0.0072     -0.0390      0.0758     -0.0309        Sardinian
+ Sardinian:HGDP00667     0.0118     -0.0392      0.0652     -0.0223        Sardinian
+ Sardinian:HGDP00668     0.0086     -0.0464      0.0738     -0.0292        Sardinian
+ Sardinian:HGDP00669     0.0075     -0.0437      0.0660     -0.0348        Sardinian
+ Sardinian:HGDP00670     0.0085     -0.0428      0.0768     -0.0248        Sardinian
+ Sardinian:HGDP00671     0.0100     -0.0414      0.0715     -0.0262        Sardinian
+ Sardinian:HGDP00672     0.0048     -0.0390      0.0708     -0.0325        Sardinian
+ Sardinian:HGDP00673     0.0048     -0.0404      0.0661     -0.0205        Sardinian
+ Sardinian:HGDP00674     0.0105     -0.0435      0.0730     -0.0248        Sardinian
+ Sardinian:HGDP01062     0.0086     -0.0422      0.0742     -0.0220        Sardinian
+ Sardinian:HGDP01063     0.0068     -0.0406      0.0721     -0.0287        Sardinian
+ Sardinian:HGDP01064     0.0055     -0.0439      0.0854     -0.0328        Sardinian
+ Sardinian:HGDP01065     0.0100     -0.0422      0.0722     -0.0197        Sardinian
+ Sardinian:HGDP01066     0.0085     -0.0510      0.0722     -0.0259        Sardinian
+ Sardinian:HGDP01067     0.0055     -0.0425      0.0737     -0.0262        Sardinian
+ Sardinian:HGDP01068     0.0042     -0.0364      0.0693     -0.0280        Sardinian
+ Sardinian:HGDP01069     0.0104     -0.0419      0.0728     -0.0359        Sardinian
+ Sardinian:HGDP01070     0.0069     -0.0423      0.0721     -0.0268        Sardinian
+ Sardinian:HGDP01071     0.0055     -0.0412      0.0727     -0.0214        Sardinian
+ Sardinian:HGDP01072     0.0036     -0.0400      0.0718     -0.0308        Sardinian
+ Sardinian:HGDP01073     0.0071     -0.0375      0.0804     -0.0250        Sardinian
+ Sardinian:HGDP01074     0.0083     -0.0423      0.0692     -0.0236        Sardinian
+ Sardinian:HGDP01075     0.0058     -0.0443      0.0789     -0.0286        Sardinian
+ Sardinian:HGDP01076     0.0065     -0.0416      0.0778     -0.0277        Sardinian
+ Sardinian:HGDP01077     0.0086     -0.0368      0.0701     -0.0165        Sardinian
+ Sardinian:HGDP01078     0.0085     -0.0408      0.0703     -0.0247        Sardinian
+ Sardinian:HGDP01079     0.0100     -0.0406      0.0719     -0.0205        Sardinian
+       Saudi:SaudiA5    -0.0877     -0.0654     -0.0239      0.0208            Saudi
+       Saudi:SaudiA6    -0.0698     -0.0212     -0.0049      0.0311            Saudi
+       Saudi:SaudiA7    -0.0397      0.0112      0.0189      0.0001            Saudi
+     Saudi:saudi1434    -0.0826     -0.0661     -0.0202      0.0152            Saudi
+     Saudi:saudi1424    -0.0850     -0.0657     -0.0401      0.0193            Saudi
+       Saudi:SaudiA9    -0.0613     -0.0034     -0.0045      0.0182            Saudi
+       Saudi:SaudiA1    -0.0882     -0.0631     -0.0226      0.0294            Saudi
+     Saudi:saudi1403    -0.0841     -0.0640     -0.0253      0.0235            Saudi
+    Scottish:HG00103     0.0404     -0.0125     -0.0085      0.0089         Scottish
+    Scottish:HG00104     0.0358     -0.0067     -0.0137      0.0010         Scottish
+    Scottish:HG00105     0.0421     -0.0164     -0.0121      0.0018         Scottish
+    Scottish:HG00106     0.0401     -0.0093     -0.0141     -0.0016         Scottish
+       Sicilian:TP08    -0.0035     -0.0023      0.0222     -0.0011         Sicilian
+       Sicilian:SR23    -0.0037      0.0019      0.0295     -0.0013         Sicilian
+       Sicilian:TP05    -0.0119     -0.0068      0.0226      0.0012         Sicilian
+       Sicilian:SR60    -0.0113     -0.0060      0.0163     -0.0059         Sicilian
+       Sicilian:TP06    -0.0028     -0.0070      0.0225     -0.0038         Sicilian
+       Sicilian:TP07    -0.0120     -0.0052      0.0213      0.0112         Sicilian
+       Sicilian:TP04    -0.0033     -0.0084      0.0268     -0.0010         Sicilian
+       Sicilian:TP25    -0.0050     -0.0058      0.0247     -0.0029         Sicilian
+      Sicilian:SR48R    -0.0067      0.0001      0.0189     -0.0050         Sicilian
+       Sicilian:SR44    -0.0074     -0.0075      0.0223     -0.0009         Sicilian
+       Sicilian:SR64    -0.0085      0.0011      0.0191     -0.0010         Sicilian
+     Spanish:HG01500     0.0147     -0.0321      0.0300      0.0057          Spanish
+     Spanish:HG01501     0.0165     -0.0313      0.0209      0.0056          Spanish
+     Spanish:HG01503     0.0213     -0.0256      0.0263     -0.0002          Spanish
+     Spanish:HG01504     0.0144     -0.0286      0.0354     -0.0099          Spanish
+     Spanish:HG01506     0.0185     -0.0297      0.0246     -0.0061          Spanish
+     Spanish:HG01507     0.0213     -0.0285      0.0283      0.0029          Spanish
+     Spanish:HG01509     0.0100     -0.0321      0.0272     -0.0109          Spanish
+     Spanish:HG01510     0.0196     -0.0281      0.0167     -0.0105          Spanish
+     Spanish:HG01512     0.0255     -0.0307      0.0262     -0.0120          Spanish
+     Spanish:HG01513     0.0268     -0.0327      0.0270      0.0000          Spanish
+     Spanish:HG01524     0.0162     -0.0307      0.0235     -0.0006          Spanish
+     Spanish:HG01527     0.0114     -0.0317      0.0300      0.0162          Spanish
+     Spanish:HG01528     0.0178     -0.0342      0.0369      0.0042          Spanish
+     Spanish:HG01530     0.0194     -0.0271      0.0256     -0.0015          Spanish
+     Spanish:HG01536     0.0232     -0.0295      0.0204     -0.0019          Spanish
+     Spanish:HG01537     0.0224     -0.0211      0.0248     -0.0036          Spanish
+     Spanish:HG01605     0.0236     -0.0238      0.0280     -0.0064          Spanish
+     Spanish:HG01606     0.0251     -0.0292      0.0248     -0.0006          Spanish
+     Spanish:HG01607     0.0157     -0.0213      0.0332     -0.0062          Spanish
+     Spanish:HG01608     0.0221     -0.0274      0.0286     -0.0020          Spanish
+     Spanish:HG01613     0.0210     -0.0232      0.0253     -0.0068          Spanish
+     Spanish:HG01615     0.0201     -0.0211      0.0226      0.0016          Spanish
+     Spanish:HG01617     0.0167     -0.0262      0.0286     -0.0042          Spanish
+     Spanish:HG01618     0.0194     -0.0245      0.0230     -0.0067          Spanish
+     Spanish:HG01619     0.0155     -0.0270      0.0335     -0.0070          Spanish
+     Spanish:HG01620     0.0164     -0.0274      0.0320      0.0008          Spanish
+     Spanish:HG01623     0.0160     -0.0332      0.0327     -0.0009          Spanish
+     Spanish:HG01624     0.0134     -0.0354      0.0286     -0.0024          Spanish
+     Spanish:HG01625     0.0191     -0.0227      0.0205     -0.0015          Spanish
+     Spanish:HG01626     0.0080     -0.0171      0.0346     -0.0107          Spanish
+     Spanish:HG01747     0.0213     -0.0233      0.0242     -0.0023          Spanish
+     Spanish:HG01746     0.0236     -0.0294      0.0265     -0.0036          Spanish
+     Spanish:HG01675     0.0232     -0.0323      0.0351     -0.0060          Spanish
+     Spanish:HG01680     0.0239     -0.0303      0.0344      0.0018          Spanish
+     Spanish:HG01682     0.0255     -0.0289      0.0247      0.0023          Spanish
+     Spanish:HG01679     0.0223     -0.0323      0.0324     -0.0130          Spanish
+     Spanish:HG01676     0.0270     -0.0351      0.0310     -0.0087          Spanish
+     Spanish:HG01684     0.0226     -0.0296      0.0317     -0.0092          Spanish
+     Spanish:HG01705     0.0156     -0.0300      0.0334      0.0058          Spanish
+     Spanish:HG01707     0.0183     -0.0293      0.0271     -0.0073          Spanish
+     Spanish:HG01685     0.0163     -0.0278      0.0188      0.0150          Spanish
+     Spanish:HG01686     0.0193     -0.0357      0.0236      0.0030          Spanish
+     Spanish:HG01704     0.0112     -0.0309      0.0280      0.0045          Spanish
+     Spanish:HG01673     0.0218     -0.0239      0.0266      0.0013          Spanish
+     Spanish:HG01761     0.0216     -0.0298      0.0300     -0.0072          Spanish
+     Spanish:HG01770     0.0196     -0.0305      0.0365     -0.0053          Spanish
+     Spanish:HG01762     0.0245     -0.0327      0.0202      0.0048          Spanish
+     Spanish:HG01773     0.0240     -0.0294      0.0326     -0.0002          Spanish
+     Spanish:HG02220     0.0204     -0.0183      0.0198     -0.0042          Spanish
+     Spanish:HG02238     0.0199     -0.0353      0.0253     -0.0029          Spanish
+     Spanish:HG01678     0.0212     -0.0315      0.0313     -0.0012          Spanish
+     Spanish:HG01699     0.0150     -0.0325      0.0312     -0.0065          Spanish
+     Spanish:HG01697     0.0167     -0.0276      0.0262      0.0039          Spanish
+Spanish_North:HG01515     0.0308     -0.0351      0.0261     -0.0064    Spanish_North
+Spanish_North:HG01516     0.0328     -0.0364      0.0346     -0.0134    Spanish_North
+Spanish_North:HG01518     0.0319     -0.0357      0.0325     -0.0112    Spanish_North
+Spanish_North:HG01700     0.0332     -0.0376      0.0341     -0.0101    Spanish_North
+Spanish_North:HG01702     0.0336     -0.0413      0.0354     -0.0120    Spanish_North
+     Syrian:syria361    -0.0260      0.0319      0.0105     -0.0063           Syrian
+     Syrian:syria485    -0.0429      0.0094      0.0140      0.0354           Syrian
+       Syrian:syria4    -0.0432      0.0079      0.0132      0.0169           Syrian
+Tunisian_Jew:TunisianJew1763    -0.0389     -0.0157      0.0511      0.0192     Tunisian_Jew
+Tunisian_Jew:TunisianJew1544    -0.0319     -0.0045      0.0399      0.0104     Tunisian_Jew
+Tunisian_Jew:TunisianJew1170    -0.0368     -0.0101      0.0435      0.0129     Tunisian_Jew
+Tunisian_Jew:TunisianJew1531    -0.0364     -0.0125      0.0557      0.0089     Tunisian_Jew
+Tunisian_Jew:TunisianJew1511    -0.0368     -0.0135      0.0398      0.0165     Tunisian_Jew
+Turkish:Kayseri24392    -0.0142      0.0318     -0.0003     -0.0012          Turkish
+Turkish:Balikesir16675    -0.0092      0.0336     -0.0241      0.0037          Turkish
+Turkish:Turkish7BA57    -0.0070      0.0267     -0.0059     -0.0093          Turkish
+Turkish:Balikesir16790    -0.0094      0.0424     -0.0258      0.0067          Turkish
+Turkish:Turkish8BA62     0.0032      0.0191     -0.0188      0.0057          Turkish
+Turkish:Istanbul20010    -0.0192      0.0352     -0.0084     -0.0013          Turkish
+Turkish:Turkish4BA57    -0.0088      0.0300     -0.0180     -0.0066          Turkish
+  Turkish:Adana23114    -0.0172      0.0346     -0.0054     -0.0066          Turkish
+Turkish:Trabzon21177    -0.0257      0.0440      0.0056     -0.0200          Turkish
+  Turkish:Aydin18784    -0.0120      0.0294     -0.0162      0.0091          Turkish
+Turkish:Istanbul19810    -0.0111      0.0423     -0.0089     -0.0079          Turkish
+Turkish:Trabzon21557    -0.0260      0.0438      0.0181     -0.0222          Turkish
+Turkish:Trabzon21534    -0.0226      0.0393      0.0061     -0.0162          Turkish
+Turkish:Turkish9BA57    -0.0147      0.0376     -0.0134      0.0036          Turkish
+Turkish:Kayseri24075    -0.0183      0.0341     -0.0097     -0.0112          Turkish
+  Turkish:Adana23108    -0.0363      0.0184      0.0230     -0.0113          Turkish
+Turkish:Balikesir16887    -0.0084      0.0350     -0.0248      0.0083          Turkish
+Turkish:Kayseri24266    -0.0148      0.0346     -0.0102     -0.0028          Turkish
+Turkish:Balikesir16653    -0.0097      0.0447     -0.0301      0.0085          Turkish
+Turkish:Istanbul25095     0.0134      0.0116     -0.0188      0.0056          Turkish
+  Turkish:Aydin18112    -0.0134      0.0368     -0.0135      0.0023          Turkish
+Turkish:Kayseri24402    -0.0129      0.0310     -0.0069     -0.0062          Turkish
+Turkish:Istanbul25081    -0.0066      0.0290     -0.0093     -0.0002          Turkish
+  Turkish:Aydin18596    -0.0086      0.0391     -0.0287      0.0030          Turkish
+Turkish:Istanbul17778    -0.0155      0.0442     -0.0169     -0.0053          Turkish
+Turkish:Istanbul15781     0.0030      0.0105     -0.0082      0.0098          Turkish
+  Turkish:Adana23136    -0.0347      0.0161      0.0179     -0.0108          Turkish
+  Turkish:Adana23113    -0.0204      0.0500     -0.0133      0.0007          Turkish
+Turkish:Trabzon21575    -0.0208      0.0449      0.0106     -0.0152          Turkish
+  Turkish:Aydin18636    -0.0115      0.0350     -0.0191      0.0017          Turkish
+Turkish:Istanbul20040    -0.0227      0.0445     -0.0143      0.0033          Turkish
+Turkish:Balikesir16837    -0.0023      0.0376     -0.0275     -0.0051          Turkish
+  Turkish:Adana23144    -0.0208      0.0496     -0.0247      0.0227          Turkish
+Turkish:Kayseri23967    -0.0165      0.0413     -0.0149     -0.0032          Turkish
+Turkish:Trabzon21174    -0.0202      0.0431      0.0015     -0.0143          Turkish
+  Turkish:Aydin18873    -0.0073      0.0291     -0.0140      0.0045          Turkish
+Turkish:Kayseri23892    -0.0183      0.0341     -0.0054      0.0002          Turkish
+Turkish:Istanbul19185    -0.0116      0.0380     -0.0163      0.0013          Turkish
+Turkish:Istanbul25098     0.0156      0.0017      0.0008     -0.0037          Turkish
+  Turkish:Adana23133    -0.0221      0.0319     -0.0106     -0.0043          Turkish
+Turkish:Trabzon21515    -0.0199      0.0376      0.0160     -0.0181          Turkish
+Turkish:Kayseri24032    -0.0199      0.0355     -0.0096     -0.0114          Turkish
+Turkish:Kayseri23549    -0.0193      0.0378     -0.0168      0.0075          Turkish
+Turkish:Trabzon21544    -0.0226      0.0462      0.0045     -0.0157          Turkish
+  Turkish:Adana23150    -0.0080      0.0278     -0.0159      0.0057          Turkish
+Turkish:Kayseri23271    -0.0180      0.0346     -0.0005     -0.0115          Turkish
+Turkish:Trabzon21645    -0.0173      0.0411     -0.0043     -0.0137          Turkish
+  Turkish:Adana23147    -0.0246      0.0208     -0.0007     -0.0047          Turkish
+  Turkish:Aydin18483    -0.0119      0.0476     -0.0278      0.0081          Turkish
+Turkish:Balikesir17006    -0.0078      0.0397     -0.0263      0.0065          Turkish
+  Turkish:Aydin18419    -0.0064      0.0334     -0.0114     -0.0035          Turkish
+Turkish:Kayseri24276    -0.0218      0.0356     -0.0067     -0.0052          Turkish
+Turkish:Istanbul19708    -0.0153      0.0407     -0.0230     -0.0046          Turkish
+Turkish:Trabzon21173    -0.0248      0.0493      0.0073     -0.0193          Turkish
+  Turkish:Adana23112    -0.0167      0.0351     -0.0178      0.0032          Turkish
+  Turkish:Adana23117    -0.0175      0.0334     -0.0153      0.0092          Turkish
+Turkish_Jew:SephardiJewTurkey4955    -0.0206      0.0015      0.0237      0.0017      Turkish_Jew
+Turkish_Jew:SephardiJewTurkey5877    -0.0180      0.0045      0.0251     -0.0031      Turkish_Jew
+Turkish_Jew:SephardiJewTurkey4953    -0.0270     -0.0104      0.0323      0.0036      Turkish_Jew
+Turkish_Jew:SephardiJewTurkey6077    -0.0248     -0.0082      0.0310     -0.0110      Turkish_Jew
+Turkish_Jew:SephardiJewTurkey5832    -0.0238      0.0042      0.0312     -0.0078      Turkish_Jew
+Turkish_Jew:SephardiJewTurkey5075    -0.0163     -0.0015      0.0204     -0.0128      Turkish_Jew
+Turkish_Jew:SephardiJewTurkey4950    -0.0156      0.0035      0.0188     -0.0059      Turkish_Jew
+Turkish_Jew:SephardiJewTurkey5033    -0.0206     -0.0045      0.0345     -0.0016      Turkish_Jew
+    Tuscan:HGDP01161     0.0060     -0.0095      0.0215     -0.0069           Tuscan
+    Tuscan:HGDP01162     0.0074     -0.0060      0.0180     -0.0069           Tuscan
+    Tuscan:HGDP01163     0.0079     -0.0052      0.0140     -0.0062           Tuscan
+    Tuscan:HGDP01164     0.0078     -0.0126      0.0203     -0.0098           Tuscan
+    Tuscan:HGDP01166     0.0102     -0.0109      0.0214     -0.0088           Tuscan
+    Tuscan:HGDP01167     0.0073     -0.0059      0.0206     -0.0102           Tuscan
+    Tuscan:HGDP01168     0.0095     -0.0060      0.0183     -0.0017           Tuscan
+    Tuscan:HGDP01169     0.0069     -0.0088      0.0174     -0.0111           Tuscan
+ Ukrainian:UkrBel618     0.0435      0.0003     -0.0381      0.0189        Ukrainian
+  Ukrainian:UkrLv240     0.0361      0.0041     -0.0356      0.0120        Ukrainian
+ Ukrainian:UkrBel620     0.0398     -0.0048     -0.0263      0.0104        Ukrainian
+ Ukrainian:UkrBel622     0.0393     -0.0001     -0.0369      0.0166        Ukrainian
+ Ukrainian:UkrBel733     0.0426     -0.0063     -0.0384      0.0125        Ukrainian
+ Ukrainian:UkrBel736     0.0400      0.0001     -0.0338      0.0158        Ukrainian
+  Ukrainian:UkrLv228     0.0371     -0.0042     -0.0313      0.0075        Ukrainian
+ Ukrainian:UkrBel614     0.0440      0.0019     -0.0447      0.0205        Ukrainian
+  Ukrainian:UkrLv237     0.0384     -0.0051     -0.0265      0.0063        Ukrainian
+Yemenite_Jew:YemeniteJew4684    -0.0730     -0.0187      0.0238      0.0538     Yemenite_Jew
+Yemenite_Jew:YemeniteJew4695    -0.0773     -0.0292      0.0214      0.0458     Yemenite_Jew
+Yemenite_Jew:YemeniteJew4675    -0.0700     -0.0137      0.0308      0.0398     Yemenite_Jew
+Yemenite_Jew:YemeniteJew4938    -0.0724     -0.0178      0.0095      0.0227     Yemenite_Jew
+Yemenite_Jew:YemeniteJew4667    -0.0810     -0.0340      0.0286      0.0586     Yemenite_Jew
+Yemenite_Jew:YemeniteJew4960    -0.0705     -0.0266      0.0214      0.0357     Yemenite_Jew
+Yemenite_Jew:YemeniteJew5433    -0.0736     -0.0239      0.0243      0.0351     Yemenite_Jew
+Yemenite_Jew:YemeniteJew4937    -0.0766     -0.0141      0.0239      0.0678     Yemenite_Jew
