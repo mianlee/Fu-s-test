@@ -2,7 +2,7 @@ F-statistics (not Wright’s fixation indexes, Fst), a simple and intuitive appr
 shared evolutionary history. -- [Peter,BM. (2016)](https://www.genetics.org/content/202/4/1485.abstract)
 
 
-
+The “drift” is defined as the frequency change of an allele along a graph edge (hence drift between two populations A and B is a function of the difference in the allele frequency of polymorphisms in A and B),[Patterson et al. (2012)](https://www.genetics.org/content/192/3/1065)
 
 
 
