@@ -4,7 +4,7 @@ The authors carried out admixture analysis using ADMIXTURE1 (v. 1.23), including
 
 The dataset that I will work with is the [Fully public genotype dataset (354,212 SNPs)](https://reich.hms.harvard.edu/datasets) provided by [Haak et al. Nature 2015](https://www.nature.com/articles/nature14317)
 
-The dataset contains **2,071** individuals (1979 modern humans and 92 ancient ones), each represented by **354,212 autosomal*** single nucleotide polymorphisms (SNPs).The full dataset of 2,437 individuals includes samples that cannot be posted in public.
+The dataset contains **2,071** individuals, each represented by **354,212 autosomal** single nucleotide polymorphisms (SNPs).The full dataset of 2,437 individuals includes samples that cannot be posted in public.
 
 The authors excluded individuals I0114 and I0411 that appear to be related to individuals I0117 and I0410 respectively, as in their experience, unsupervised ADMIXTURE clustering analysis often infers spurious clusters when pairs of relatives are included in the analysis dataset. 
 
@@ -17,6 +17,7 @@ plink 1.9
 ```
 # Remove 6 individuals listed in the 'Exclude_list.txt'
 plink --bfile data --remove Exclude_list.txt --make-bed --out admixture
+
 
 # Log file
 PLINK v1.90b4 64-bit (20 Mar 2017)             www.cog-genomics.org/plink/1.9/
@@ -46,7 +47,7 @@ So now, the data set contains 1,973 modern humans and 92 ancient ones.
 
 
 
-
+The initial set of 354,212 SNPs was pruned for linkage disequilibrium in PLINK (v. 1.9) using parameters ```--indep-pairwise 200 25 0.5```
 
 
 
