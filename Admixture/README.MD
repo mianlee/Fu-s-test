@@ -58,7 +58,6 @@ plink --bfile admixture --indep-pairwise 200 25 0.5
 
 
 # log file
-
 PLINK v1.90b4 64-bit (20 Mar 2017)             www.cog-genomics.org/plink/1.9/
 (C) 2005-2017 Shaun Purcell, Christopher Chang   GNU General Public License v3
 Logging to plink.log.
@@ -109,7 +108,6 @@ plink --bfile admixture --extract plink.prune.in --make-bed --out admixture_prun
 
 
 # Log file
-
 PLINK v1.90b4 64-bit (20 Mar 2017)             www.cog-genomics.org/plink/1.9/
 (C) 2005-2017 Shaun Purcell, Christopher Chang   GNU General Public License v3
 Logging to admixture_prune.log.
