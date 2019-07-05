@@ -111,7 +111,10 @@ indivname: ancient_92_Yoruba.ind
 popfilename: ancientpopfile.txt
 ```
 
+```
+/PATH/TO/AdmixTools_master/bin/qp3Pop -p par.f3.ancient
 
+```
 
 
 **Reference**:
