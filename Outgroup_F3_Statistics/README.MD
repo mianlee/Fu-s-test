@@ -117,7 +117,7 @@ ADMIXTOOLS version 5.1  9/18/18 (for Linux and Mac)
 /PATH/TO/AdmixTools_master/bin/qp3Pop -p par.f3.ancient > f3.results
 
 ```
-
+[f3.result](f3.result)
 
 **Reference**:
 1.Reich, D., Thangaraj, K., Patterson, N., Price, A. L., & Singh, L. (2009). Reconstructing Indian population history. Nature, 461(7263), 489.
