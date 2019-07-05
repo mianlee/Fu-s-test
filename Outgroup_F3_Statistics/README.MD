@@ -98,6 +98,22 @@ Here, the ```while read ``` command loops through all rows (eahc population) in 
 In the Haak et al 2015, the authors used **Dinka** as an outgroup. However, the dataset they provided doesn't have Dinka population, so I use Yoruba instead. The authors mentioned in the paper that "results with other African outgroups such as Yoruba or Ju_hoan_North (San) are qualitatively similar".
 
 
+Similar to the ```convertf``` and the ```smartpca``` programs we have already used, ```qp3Pop``` requires a parameter file as input. 
+In my case, it looks like this:
+
+```
+nano par.f3.ancient
+
+
+genotypename: ancient_92_Yoruba.geno
+snpname: ancient_92_Yoruba.snp
+indivname: ancient_92_Yoruba.ind
+popfilename: ancientpopfile.txt
+```
+
+
+
+
 **Reference**:
 1.Reich, D., Thangaraj, K., Patterson, N., Price, A. L., & Singh, L. (2009). Reconstructing Indian population history. Nature, 461(7263), 489.
 
