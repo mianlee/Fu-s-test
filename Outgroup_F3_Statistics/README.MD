@@ -25,13 +25,16 @@ Here, E[ ] denotes the average over all genotyped sites, and a, b and c denote t
 
 ### Exctract all 92 ancient individuals and Yoruba population as outgroup
 
+Files:
+
 [ancient_Yoruba_list.txt](ancient_Yoruba_list.txt)
 
+```
 data.bed
-
 data.bim
-
 data.fam
+```
+
 
 ```
 plink --bfile data --keep ancient_Yoruba_list.txt --make-bed --out ancient_92_Yoruba
