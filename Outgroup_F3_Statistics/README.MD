@@ -92,10 +92,7 @@ grep -v "$line" pop.list.txt | awk -v s=$line '{print s "\t" $1 "\t" "Yoruba"}' 
 done
 
 ```
-Here, the ```while read ``` command loops through all rows (eahc population) in [pop.list.txt](pop.list.txt), ```line``` is a variable name (you can you other names, like sample, n...). First column ```s``` is the population A, the second column are other populations (B1, B2, B3...), and “Yoruba” as an outgroup in last position. See the [ancientpopfile.txt](ancientpopfile.txt)
-
-
- assigned as variable s in ```awk``` through a command line option ```-v s=$line```
+Here, the ```while read ``` command loops through all rows (eahc population) in [pop.list.txt](pop.list.txt), ```line``` is a variable name (you can you other names, like sample, n...). First column ```s``` is the population A, the second column are other populations (B1, B2, B3...), and “Yoruba” as an outgroup in last position. (assigned as variable s in ```awk``` through a command line option ```-v s=$line```). See the [ancientpopfile.txt](ancientpopfile.txt).
 
 
 In the Haak et al 2015, the authors used **Dinka** as an outgroup. However, the dataset they provided doesn't have Dinka population, so I use Yoruba instead. The authors mentioned in the paper that "results with other African outgroups such as Yoruba or Ju_hoan_North (San) are qualitatively similar".
