@@ -33,17 +33,17 @@ Options in effect:
 354212 variants loaded from .bim file.
 2071 people (1307 males, 764 females) loaded from .fam.
 2071 phenotype values loaded from .fam.
---remove: 2065 people remaining.
+--remove: 2064 people remaining.
 Using 1 thread (no multithreaded calculations invoked).
-Before main variant filters, 2065 founders and 0 nonfounders present.
+Before main variant filters, 2064 founders and 0 nonfounders present.
 Calculating allele frequencies... done.
-Total genotyping rate in remaining samples is 0.973221.
-354212 variants and 2065 people pass filters and QC.
-Among remaining phenotypes, 0 are cases and 2065 are controls.
---make-bed to admixture.bed + admixture.bim + admixture.fam ... done.
+Total genotyping rate in remaining samples is 0.973208.
+354212 variants and 2064 people pass filters and QC.
+Among remaining phenotypes, 0 are cases and 2064 are controls.
+--make-bed to admixture.bed + admixture.bim + admixture.fam ... done.e.
 ```
 
-So now, the data set contains 1,973 modern humans and 92 ancient ones.
+So now, the data set contains 1,972 modern humans and 92 ancient ones.
 
 
 
@@ -67,38 +67,38 @@ Options in effect:
 
 8703 MB RAM detected; reserving 4351 MB for main workspace.
 354212 variants loaded from .bim file.
-2065 people (1305 males, 760 females) loaded from .fam.
-2065 phenotype values loaded from .fam.
+2064 people (1304 males, 760 females) loaded from .fam.
+2064 phenotype values loaded from .fam.
 Using 1 thread (no multithreaded calculations invoked).
-Before main variant filters, 2065 founders and 0 nonfounders present.
+Before main variant filters, 2064 founders and 0 nonfounders present.
 Calculating allele frequencies... done.
-Total genotyping rate is 0.973221.
-354212 variants and 2065 people pass filters and QC.
-Among remaining phenotypes, 0 are cases and 2065 are controls.
-Pruned 11123 variants from chromosome 1, leaving 18864.
-Pruned 11747 variants from chromosome 2, leaving 19737.
-Pruned 9740 variants from chromosome 3, leaving 16149.
-Pruned 8278 variants from chromosome 4, leaving 14079.
-Pruned 8329 variants from chromosome 5, leaving 14129.
-Pruned 8390 variants from chromosome 6, leaving 13226.
-Pruned 6474 variants from chromosome 7, leaving 11213.
-Pruned 6922 variants from chromosome 8, leaving 11547.
-Pruned 5187 variants from chromosome 9, leaving 9807.
-Pruned 7348 variants from chromosome 10, leaving 12323.
-Pruned 6874 variants from chromosome 11, leaving 11421.
-Pruned 6547 variants from chromosome 12, leaving 11411.
-Pruned 4008 variants from chromosome 13, leaving 7992.
-Pruned 4375 variants from chromosome 14, leaving 7786.
-Pruned 4118 variants from chromosome 15, leaving 7515.
-Pruned 3875 variants from chromosome 16, leaving 7716.
-Pruned 3081 variants from chromosome 17, leaving 6412.
-Pruned 3935 variants from chromosome 18, leaving 7295.
-Pruned 1552 variants from chromosome 19, leaving 3800.
-Pruned 3567 variants from chromosome 20, leaving 6416.
-Pruned 1609 variants from chromosome 21, leaving 3435.
-Pruned 1495 variants from chromosome 22, leaving 3365.
-Pruning complete.  128574 of 354212 variants removed.
-Marker lists written to plink.prune.in and plink.prune.out .
+Total genotyping rate is 0.973208.
+354212 variants and 2064 people pass filters and QC.
+Among remaining phenotypes, 0 are cases and 2064 are controls.
+Pruned 11148 variants from chromosome 1, leaving 18839.
+Pruned 11773 variants from chromosome 2, leaving 19711.
+Pruned 9764 variants from chromosome 3, leaving 16125.
+Pruned 8300 variants from chromosome 4, leaving 14057.
+Pruned 8346 variants from chromosome 5, leaving 14112.
+Pruned 8413 variants from chromosome 6, leaving 13203.
+Pruned 6491 variants from chromosome 7, leaving 11196.
+Pruned 6946 variants from chromosome 8, leaving 11523.
+Pruned 5200 variants from chromosome 9, leaving 9794.
+Pruned 7358 variants from chromosome 10, leaving 12313.
+Pruned 6889 variants from chromosome 11, leaving 11406.
+Pruned 6559 variants from chromosome 12, leaving 11399.
+Pruned 4015 variants from chromosome 13, leaving 7985.
+Pruned 4380 variants from chromosome 14, leaving 7781.
+Pruned 4129 variants from chromosome 15, leaving 7504.
+Pruned 3886 variants from chromosome 16, leaving 7705.
+Pruned 3089 variants from chromosome 17, leaving 6404.
+Pruned 3941 variants from chromosome 18, leaving 7289.
+Pruned 1561 variants from chromosome 19, leaving 3791.
+Pruned 3577 variants from chromosome 20, leaving 6406.
+Pruned 1612 variants from chromosome 21, leaving 3432.
+Pruned 1503 variants from chromosome 22, leaving 3357.
+Pruning complete.  128880 of 354212 variants removed.
+Marker lists written to plink.prune.in and plink.prune.out.
 ```
 
 You are getting two files [plink.prune.in](plink.prune.in) and [plink.prune.out](plink.prune.out). To make a new, pruned file, then use the following command to extract SNPs that meet the LD standard.
@@ -119,21 +119,21 @@ Options in effect:
 
 8703 MB RAM detected; reserving 4351 MB for main workspace.
 354212 variants loaded from .bim file.
-2065 people (1305 males, 760 females) loaded from .fam.
-2065 phenotype values loaded from .fam.
---extract: 225638 variants remaining.
+2064 people (1304 males, 760 females) loaded from .fam.
+2064 phenotype values loaded from .fam.
+--extract: 225332 variants remaining.
 Using 1 thread (no multithreaded calculations invoked).
-Before main variant filters, 2065 founders and 0 nonfounders present.
+Before main variant filters, 2064 founders and 0 nonfounders present.
 Calculating allele frequencies... done.
-Total genotyping rate is 0.973292.
-225638 variants and 2065 people pass filters and QC.
-Among remaining phenotypes, 0 are cases and 2065 are controls.
+Total genotyping rate is 0.973276.
+225332 variants and 2064 people pass filters and QC.
+Among remaining phenotypes, 0 are cases and 2064 are controls.
 --make-bed to admixture_prune.bed + admixture_prune.bim + admixture_prune.fam
 ... done.
 
 ```
 
-Thus, resulting in a pruned set of 225,638 SNPs used for admxiture analysis. 
+Thus, resulting in a pruned set of 225,332 SNPs used for admxiture analysis. 
 
 
 
