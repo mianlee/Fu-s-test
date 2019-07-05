@@ -4,3 +4,4 @@ Altai	Altai
 Ancient_Denisova	Denisova_light
 Denisovan	Denisova
 Ancient_Neandertal	Vindija_light
+Chimp Chimp
