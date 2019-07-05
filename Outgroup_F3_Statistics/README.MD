@@ -22,6 +22,48 @@ Here, E[ ] denotes the average over all genotyped sites, and a, b and c denote t
 
 [GAWorkshop](https://gaworkshop.readthedocs.io/en/latest/contents/06_f3/f3.html)
 
+
+### Exctract all 92 ancient individuals and Yoruba population as outgroup
+
+[ancient_Yoruba_list.txt](ancient_Yoruba_list.txt)
+
+data.bed
+
+data.bim
+
+data.fam
+
+```
+plink --bfile data --keep ancient_Yoruba_list.txt --make-bed --out ancient_92_Yoruba
+
+# Log file
+PLINK v1.90b4 64-bit (20 Mar 2017)             www.cog-genomics.org/plink/1.9/
+(C) 2005-2017 Shaun Purcell, Christopher Chang   GNU General Public License v3
+Logging to ancient_92_Yoruba.log.
+Options in effect:
+  --bfile data
+  --keep ancient_Yoruba_list.txt
+  --make-bed
+  --out ancient_92_Yoruba
+
+8703 MB RAM detected; reserving 4351 MB for main workspace.
+354212 variants loaded from .bim file.
+2071 people (1307 males, 764 females) loaded from .fam.
+2071 phenotype values loaded from .fam.
+--keep: 162 people remaining.
+Using 1 thread (no multithreaded calculations invoked).
+Before main variant filters, 162 founders and 0 nonfounders present.
+Calculating allele frequencies... done.
+Total genotyping rate in remaining samples is 0.773673.
+354212 variants and 162 people pass filters and QC.
+Among remaining phenotypes, 0 are cases and 162 are controls.
+--make-bed to ancient_92_Yoruba.bed + ancient_92_Yoruba.bim +
+ancient_92_Yoruba.fam ... done.
+```
+
+
+
+
 **Reference**:
 1.Reich, D., Thangaraj, K., Patterson, N., Price, A. L., & Singh, L. (2009). Reconstructing Indian population history. Nature, 461(7263), 489.
 
