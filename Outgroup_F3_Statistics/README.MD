@@ -114,7 +114,7 @@ popfilename: ancientpopfile.txt
 ADMIXTOOLS version 5.1  9/18/18 (for Linux and Mac)
 
 ```
-/PATH/TO/AdmixTools_master/bin/qp3Pop -p par.f3.ancient
+/PATH/TO/AdmixTools_master/bin/qp3Pop -p par.f3.ancient > f3.results
 
 ```
 
