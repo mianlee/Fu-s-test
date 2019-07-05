@@ -71,7 +71,7 @@ snpoutname: ancient_92_Yoruba.snp
 indivoutname: ancient_92_Yoruba.ind
 ```
 
-Fix the .ind file:
+Fix the ***.ind** file:
 
 ```
 awk -F ":" '{print $1 "\t" $2}' ancient_92_Yoruba.ind | awk '{print $1":"$2 "\t" $3 "\t" $1}' > fixed.ind
@@ -81,7 +81,24 @@ mv fixed.ind ancient_92_Yoruba.ind
 [ancient_92_Yoruba.ind](ancient_92_Yoruba.ind)
 
 
+For computing F3 statistics including error bars, we will use the ```qp3Pop``` program from [Admixtools](https://github.com/DReichLab/AdmixTools).
 
+One more ingredient that you need is a list of population triples. This should be a file with three population names in each row, separated by space or tab. So I am going to make this population file using [pop.list.txt](pop.list.txt).
+
+```
+cat pop.list.txt | while read line
+do 
+grep -v "$line" pop.list.txt | awk -v s=$line '{print s "\t" $1 "\t" "Yoruba"}' >> ancientpopfile.txt
+done
+
+```
+Here, the ```while read ``` command loops through all rows (eahc population) in [pop.list.txt](pop.list.txt), ```line``` is a variable name (you can you other names, like sample, n...). First column ```s``` is the population A, the second column are other populations (B1, B2, B3...), and “Yoruba” as an outgroup in last position. See the [ancientpopfile.txt](ancientpopfile.txt)
+
+
+ assigned as variable s in ```awk``` through a command line option ```-v s=$line```
+
+
+In the Haak et al 2015, the authors used **Dinka** as an outgroup. However, the dataset they provided doesn't have Dinka population, so I use Yoruba instead. The authors mentioned in the paper that "results with other African outgroups such as Yoruba or Ju_hoan_North (San) are qualitatively similar".
 
 
 **Reference**:
@@ -90,3 +107,5 @@ mv fixed.ind ancient_92_Yoruba.ind
 2.Patterson, N., Moorjani, P., Luo, Y., Mallick, S., Rohland, N., Zhan, Y., ... & Reich, D. (2012). Ancient admixture in human history. Genetics, 192(3), 1065-1093.
 
 3.Peter, B. M. (2016). Admixture, population structure, and F-statistics. Genetics, 202(4), 1485-1501.
+
+4.Haak, W., Lazaridis, I., Patterson, N., Rohland, N., Mallick, S., Llamas, B., ... & Fu, Q. (2015). Massive migration from the steppe was a source for Indo-European languages in Europe. Nature, 522(7555), 207.
