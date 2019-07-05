@@ -27,13 +27,7 @@ Here, E[ ] denotes the average over all genotyped sites, and a, b and c denote t
 
 Files:
 
-[ancient_Yoruba_list.txt](ancient_Yoruba_list.txt)
-
-```
-data.bed
-data.bim
-data.fam
-```
+[ancient_Yoruba_list.txt](ancient_Yoruba_list.txt), ```data.bed```, ```data.bim```, ```data.fam```.
 
 
 ```
@@ -63,6 +57,29 @@ Among remaining phenotypes, 0 are cases and 162 are controls.
 --make-bed to ancient_92_Yoruba.bed + ancient_92_Yoruba.bim +
 ancient_92_Yoruba.fam ... done.
 ```
+
+```
+nano par.packedped.PACKEDANCESTRYMAP 
+
+
+genotypename: ancient_92_Yoruba.bed
+snpname: ancient_92_Yoruba.bim
+indivname: ancient_92_Yoruba.fam
+outputformat: PACKEDANCESTRYMAP
+genotypeoutname: ancient_92_Yoruba.geno
+snpoutname: ancient_92_Yoruba.snp
+indivoutname: ancient_92_Yoruba.ind
+```
+
+Fix the .ind file:
+
+```
+awk -F ":" '{print $1 "\t" $2}' ancient_92_Yoruba.ind | awk '{print $1":"$2 "\t" $3 "\t" $1}' > fixed.ind
+
+mv fixed.ind ancient_92_Yoruba.ind
+```
+[ancient_92_Yoruba.ind](ancient_92_Yoruba.ind)
+
 
 
 
