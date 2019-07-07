@@ -147,8 +147,8 @@ library(ggplot2)
 library(ggrepel) #tool for labelling in ggplot
 
 ggplot(Odered_Loschbour, aes(y = F3, x = factor(Odered_Loschbour$PopB, levels = Odered_Loschbour$PopB))) +
+  geom_errorbar(aes(ymin = F3-3*StdErr, ymax = F3+3*StdErr), width = 0.0, size = 0.5, color = "grey") +
   geom_point(size = 2) +
-  geom_errorbar(aes(ymin = F3-3*StdErr, ymax = F3+3*StdErr), width = 0.0, size = 0.5, alpha = 0.7) +
   coord_flip() +
   theme_bw() +
   theme(panel.grid.major = element_blank(),
