@@ -144,7 +144,6 @@ Odered_Loschbour <- Loschbour[order(Loschbour$F3),]  # $F3 means by f3 values
 
 # Plot f3 values with standard error
 library(ggplot2)
-library(ggrepel) #tool for labelling in ggplot
 
 ggplot(Odered_Loschbour, aes(y = F3, x = factor(Odered_Loschbour$PopB, levels = Odered_Loschbour$PopB))) +
   geom_errorbar(aes(ymin = F3-3*StdErr, ymax = F3+3*StdErr), width = 0.0, size = 0.5, color = "grey") +
@@ -162,8 +161,46 @@ ggplot(Odered_Loschbour, aes(y = F3, x = factor(Odered_Loschbour$PopB, levels = 
         axis.ticks.length = unit(0.2, "cm") ) +
   geom_text(aes(label=PopB),position = position_nudge(y = -0.024))
 
+
+
+library(ggrepel) #tool for labelling in ggplot
+
 ```
 ![](Images/Loschbour.png)
+
+Refined Plot
+
+```
+f3data <- read.table("f3.ancient.results", col.names=c("PopA", "PopB", "Outgroup", "F3", "StdErr", "Z", "SNPs"))
+
+attach(f3data)
+
+# Extract certain comparisions 
+
+Loschbour <- f3data[PopA == "Loschbour", ]   # Loschbour vs other populations
+
+Odered_Loschbour <- Loschbour[order(Loschbour$F3),]  # $F3 means by f3 values
+
+
+ggplot(Odered_Loschbour, aes(y = F3, x = factor(Odered_Loschbour$PopB, levels = Odered_Loschbour$PopB))) +
+  geom_errorbar(aes(ymin = F3-3*StdErr, ymax = F3+3*StdErr), width = 0.0, size = 0.5, color = "grey") +
+  geom_point(size = 2) +
+  ylim(0.11, 0.225)+
+  coord_flip() +
+  theme_bw() +
+  theme(panel.grid.major = element_blank(),
+        panel.grid.minor = element_blank(),
+        panel.border = element_blank(),
+        axis.line.x = element_line(colour = "black"),
+        axis.title = element_blank(),
+        axis.text.y = element_blank(),
+        axis.text.x = element_text(size =12, margin = margin (t = 9) ),
+        axis.ticks.y = element_blank(),
+        axis.ticks.length = unit(0.2, "cm")) +
+  geom_text(aes(y = F3-3*StdErr,label=PopB), hjust =1.1)
+```
+![](Images/Loschbour_refined.png)
+
 
 **Reference**:
 1.Reich, D., Thangaraj, K., Patterson, N., Price, A. L., & Singh, L. (2009). Reconstructing Indian population history. Nature, 461(7263), 489.
