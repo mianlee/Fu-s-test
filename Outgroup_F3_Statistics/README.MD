@@ -163,7 +163,7 @@ ggplot(Odered_Loschbour, aes(y = F3, x = factor(Odered_Loschbour$PopB, levels = 
   geom_text(aes(label=PopB),position = position_nudge(y = -0.024))
 
 ```
-
+![](Loschbour.jpeg)
 
 **Reference**:
 1.Reich, D., Thangaraj, K., Patterson, N., Price, A. L., & Singh, L. (2009). Reconstructing Indian population history. Nature, 461(7263), 489.
