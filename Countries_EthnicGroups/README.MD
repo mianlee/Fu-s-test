@@ -1,3 +1,7 @@
+## Northern Europe
+
+The arrival of farming in northern Europe around 4000 b.c. changed substantially the life of prehistoric communities in the Baltic Sea basin and southern Scandinavia. Archaeologically, this event was marked by the development of the Funnel Beaker (also known as Trichterbecher, or TRB) cultural tradition—indeed, in the view of most scholars, Funnel Beaker culture arose as a result of the adoption of new farming practices and cultural traditions (such as new ways of making pottery, production of long-bladed flint and of polished stone tools, and new burial practices and house construction) by the local hunter-gatherer communities after a prolonged period of contact with the first farmers to the south, in central Europe. 
+
 ### Norway
 Its capital is Oslo.
 
