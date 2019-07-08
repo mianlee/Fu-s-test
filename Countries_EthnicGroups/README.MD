@@ -1,3 +1,16 @@
+### Norway
+Its capital is Oslo.
+
+### Scandinavia
+
+The term Scandinavia in local usage covers the three kingdoms of Denmark, Norway, and Sweden. In English usage, Scandinavia also sometimes refers to the Scandinavian Peninsula, or to the broader region including Finland and Iceland, which is always known locally as the Nordic countries.
+
+### Pitted Ware culture
+
+The Pitted Ware culture was a hunter-gatherer culture in southern Scandinavia.
+
+[Pitted Ware And Related Cultures Of Neolithic Northern Europe](https://www.encyclopedia.com/humanities/encyclopedias-almanacs-transcripts-and-maps/pitted-ware-and-related-cultures-neolithic-northern-europe)
+
 ### Dinka people
 The Dinka people are a Nilotic ethnic group native to **South Sudan**, but also having a sizable diaspora population.
 
