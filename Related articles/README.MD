@@ -13,7 +13,7 @@ The hunter-gatherers, from the island of Gotland, bore a distinct genetic resemb
 
 "People have known for some time that agriculture spread from the Middle East to Eastern Europe and northward and westward," Jakobsson said. "But it's been difficult to determine if people migrated and brought farming with them, or if local hunter-gatherers changed their practices."
 
-**whether the migration of people or the spread of ideas pushed farming practices north**
+**"whether the migration of people or the spread of ideas pushed farming practices north"**
 
 [Ancient DNA sheds light on spread of European farming](https://www.latimes.com/science/la-xpm-2012-apr-27-la-sci-dna-europe-agriculture-20120427-story.html)
 
