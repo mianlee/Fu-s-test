@@ -1,3 +1,13 @@
+## Neolithic Transition/Revolution
+
+Demic or Cultural Defusion?
+
+Transtion from nomadic hunter-gatherer lifestyle to sedentary herders and agriculturalist starting in central Europe around 7,000 year ago with LBK culture.
+
+Meolithic settlement to Neolithic farmer.
+
+In Old World archaeology, Mesolithic  is the period between the Upper Paleolithic and the Neolithic. The Mesolithic has different time spans in different parts of Eurasia. It refers to the final period of hunter-gatherer cultures in Europe and Western Asia, between the end of the Last Glacial Maximum and the Neolithic Revolution. In Europe it spans roughly 15,000 to 5,000 BP.
+
 ## Northern Europe
 
 The arrival of farming in northern Europe around 4000 b.c. changed substantially the life of prehistoric communities in the Baltic Sea basin and southern Scandinavia. Archaeologically, this event was marked by the development of the Funnel Beaker (also known as Trichterbecher, or TRB) cultural tradition—indeed, in the view of most scholars, Funnel Beaker culture arose as a result of the adoption of new farming practices and cultural traditions (such as new ways of making pottery, production of long-bladed flint and of polished stone tools, and new burial practices and house construction) by the local hunter-gatherer communities after a prolonged period of contact with the first farmers to the south, in central Europe. 
