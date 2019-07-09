@@ -25,6 +25,12 @@ The Pitted Ware culture was a hunter-gatherer culture in southern Scandinavia.
 
 [Pitted Ware And Related Cultures Of Neolithic Northern Europe](https://www.encyclopedia.com/humanities/encyclopedias-almanacs-transcripts-and-maps/pitted-ware-and-related-cultures-neolithic-northern-europe)
 
+
+### Bedouin
+
+Bedouins are Arabs and desert nomads who hail from and continue to live primarily in the Arabian peninsula and the Middle East and North Africa.
+
+
 ### Dinka people
 The Dinka people are a Nilotic ethnic group native to **South Sudan**, but also having a sizable diaspora population.
 
