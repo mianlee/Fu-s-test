@@ -9,7 +9,9 @@ Meolithic settlement to Neolithic farmer.
 In Old World archaeology, Mesolithic  is the period between the Upper Paleolithic and the Neolithic. The Mesolithic has different time spans in different parts of Eurasia. It refers to the final period of hunter-gatherer cultures in Europe and Western Asia, between the end of the Last Glacial Maximum and the Neolithic Revolution. In Europe it spans roughly 15,000 to 5,000 BP.
 
 
-For most of the last 45,000 years Europe was inhabited solely by hunter-gatherers. About 8,500 years ago a new form of subsistence - farming - started to spread across the continent from modern-day Turkey, reaching central Europe by 7,500 years ago and Britain by 6,100 years ago. This new subsistence strategy led to profound changes in society, including greater population density, new diseases, and poorer health. Such was the impact of farming on how we live that scientists have debated for more than 100 years how it was spread across Europe. Many believed that farming was spread as an idea to European hunter-gatherers but without a major migration of farmers themselves
+For most of the last 45,000 years Europe was inhabited solely by hunter-gatherers. About 8,500 years ago a new form of subsistence - farming - started to spread across the continent from modern-day Turkey, reaching central Europe by 7,500 years ago and Britain by 6,100 years ago. This new subsistence strategy led to profound changes in society, including greater population density, new diseases, and poorer health. Such was the impact of farming on how we live that scientists have debated for more than 100 years how it was spread across Europe. Many believed that farming was spread as an idea to European hunter-gatherers but without a major migration of farmers themselves.
+
+The spread of farming, and farmers, was not the last major migration to Europe. Approximately 5,000 years ago people of the eastern Steppe reached Central Europe and mixed with the former hunter-gatherers and early farmers. The majority of current European populations arose as a mixture of these three groups.
 
 ## Northern Europe
 
