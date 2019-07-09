@@ -22,6 +22,15 @@ The hunter-gatherers, from the island of Gotland, bore a distinct genetic resemb
 Losif Lazaridis, Patterson, N., Mittnik, A., Renaud, G., Mallick, S., Kirsanow, K., ... & Berger, B. (2014). **Ancient human genomes suggest three ancestral populations for present-day Europeans**. Nature, 513(7518), 409.
 
 
+This paper sequenced nine ancient genomes: 
+
+1. ‘Stuttgart’ (19-fold coverage), a ∼7,000-year-old skeleton found in Germany in the context of artefacts from the first widespread farming culture of central Europe, the Linearbandkeramik.
+
+2. ‘Loschbour’ (22-fold), an ∼8,000-year-old skeleton from the Loschbour rock shelter in Luxembourg, discovered in the context of hunter-gatherer artefacts (Supplementary Information sections 1 and 2).
+
+3. seven ∼8,000-year-old samples (0.01–2.4-fold) from a hunter-gatherer burial in Motala, Sweden (the highest coverage individual was ‘Motala12’).
+
+
 ### Massive migration from the steppe was a source for Indo-European languages in Europe
 
 Haak, Wolfgang, Lazaridis, I., Patterson, N., Rohland, N., Mallick, S., Llamas, B., ... & Fu, Q. (2015). **Massive migration from the steppe was a source for Indo-European languages in Europe**. Nature, 522(7555), 207.
