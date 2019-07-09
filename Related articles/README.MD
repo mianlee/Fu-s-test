@@ -27,7 +27,7 @@ Losif Lazaridis, Patterson, N., Mittnik, A., Renaud, G., Mallick, S., Kirsanow, 
 Haak, Wolfgang, Lazaridis, I., Patterson, N., Rohland, N., Mallick, S., Llamas, B., ... & Fu, Q. (2015). **Massive migration from the steppe was a source for Indo-European languages in Europe**. Nature, 522(7555), 207.
 
 
-### enomic insights into the origin of farming in the ancient Near East
+### Genomic insights into the origin of farming in the ancient Near East
 
 Losif Lazaridis, Nadel, D., Rollefson, G., Merrett, D. C., Rohland, N., Mallick, S., ... & Connell, S. (2016). Genomic insights into the origin of farming in the ancient Near East. Nature, 536(7617), 419.
 
