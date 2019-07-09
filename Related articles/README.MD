@@ -1,6 +1,6 @@
 ### Origins and genetic legacy of Neolithic farmers and hunter-gatherers in Europe
 
-Skoglund Pontus., Malmström, H., Raghavan, M., Storå, J., Hall, P., Willerslev, E., ... & Jakobsson, M. (2012). **Origins and genetic legacy of Neolithic farmers and hunter-gatherers in Europe**. Science, 336(6080), 466-469.
+Pontus Skoglund, Malmström, H., Raghavan, M., Storå, J., Hall, P., Willerslev, E., ... & Jakobsson, M. (2012). **Origins and genetic legacy of Neolithic farmers and hunter-gatherers in Europe**. Science, 336(6080), 466-469.
 
 **Three hunter-gathers**: Ajv52, Ajv70 and Ire8. A hunter-gather context, Neolithic hunter-gathers associated with the Pitted Ware Culture (PWC).5300 to 4400 years old.
 
@@ -19,4 +19,16 @@ The hunter-gatherers, from the island of Gotland, bore a distinct genetic resemb
 
 ### Ancient human genomes suggest three ancestral populations for present-day Europeans
 
-Lazaridis, I., Patterson, N., Mittnik, A., Renaud, G., Mallick, S., Kirsanow, K., ... & Berger, B. (2014). **Ancient human genomes suggest three ancestral populations for present-day Europeans**. Nature, 513(7518), 409.
+Losif Lazaridis, Patterson, N., Mittnik, A., Renaud, G., Mallick, S., Kirsanow, K., ... & Berger, B. (2014). **Ancient human genomes suggest three ancestral populations for present-day Europeans**. Nature, 513(7518), 409.
+
+
+### Massive migration from the steppe was a source for Indo-European languages in Europe
+
+Haak, Wolfgang, Lazaridis, I., Patterson, N., Rohland, N., Mallick, S., Llamas, B., ... & Fu, Q. (2015). **Massive migration from the steppe was a source for Indo-European languages in Europe**. Nature, 522(7555), 207.
+
+
+### enomic insights into the origin of farming in the ancient Near East
+
+Losif Lazaridis, Nadel, D., Rollefson, G., Merrett, D. C., Rohland, N., Mallick, S., ... & Connell, S. (2016). Genomic insights into the origin of farming in the ancient Near East. Nature, 536(7617), 419.
+
+
