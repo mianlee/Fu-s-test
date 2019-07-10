@@ -2,7 +2,7 @@ My name is Mian Li, a PhD student at Binghamton University. This challage (at le
 
 I am trying to repeat all analyses in the Nature paper named: **"Massive migration from the steppe was a source for Indo-European languages in Europe"**.
 
-Here, I will write down all steps, codes and solutions for test, and my researches about the backgroud. My solutions, all programs that I used may be different from the orginal paper, but would acheive the same goal or at least do similar work. I can't repeat the whole process perfectly, but I will try my best.
+Here, I will write down all steps, codes and solutions for the test, and my researches about the backgroud. My solutions, all programs that I used may be different from the orginal paper, but would acheive the same goal or at least do similar work. I can't repeat the whole process perfectly, but I will try my best.
 
 
 This github is about, here I quote my favorite words from [Hansjörg Plieninger](https://hansjoerg.me/page/about/):
