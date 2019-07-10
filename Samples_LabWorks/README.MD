@@ -1,4 +1,4 @@
-## Protocols for DNA extraction and library preparation
+## Protocols for DNA extraction
 
 Originally, the authors have 119 samples and with corresponding 212 libraries. Finally, 69 samples (from 95 ancient DNA libraries) were used in their study after screening and quality control. [Online Table 1](OnlineTable1)
 
