@@ -20,7 +20,7 @@ Here is summary of ancient DNA extraction protocal used by other papers:
 
 "Genomic insights into the origin of farming in the ancient Near East" [Iosif Lazaridi *et al*. (2016)](https://www.nature.com/articles/nature19310) uses [Dabney *et al*. (2013)](https://www.pnas.org/content/110/39/15758#sec-8), but replaced the assembly of Qiagen MinElute columns and extension reservoirs from Zymo Research with a High Pure Extender Assembly from the High Pure Viral Nucleic Acid Large Volume Kit (Roche Applied Science).
 
-"The Genomic Formation of South and Central Asia" Narasimhan, [Vagheesh *et al*. (2018)](https://www.biorxiv.org/content/10.1101/292581v1 uses [Dabney *et al*. (2013)](https://www.pnas.org/content/110/39/15758#sec-8) and [Korlević *et al.* (2015)](https://www.ncbi.nlm.nih.gov/pubmed/26260087).
+"The Genomic Formation of South and Central Asia" Narasimhan, [Vagheesh *et al*. (2018)](https://www.biorxiv.org/content/10.1101/292581v1) uses [Dabney *et al*. (2013)](https://www.pnas.org/content/110/39/15758#sec-8) and [Korlević *et al.* (2015)](https://www.ncbi.nlm.nih.gov/pubmed/26260087).
 
 
 ## Refenece: 
