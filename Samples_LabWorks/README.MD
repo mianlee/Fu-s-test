@@ -49,7 +49,7 @@ Extracting ancient is not an easy task:
 
 In general, ancient DNA is first released from a pulverized sample by dissolving the bone/ tooth matrix in a minimal extraction buffer containing EDTA and Proteinase K. DNA is then bound to silica in the presence of guanidine hydrochloride and isopropanol, purified, and eluted in a low-salt buffer.
 
-The following steps are from [Jesse Dabney *et al*. (2019)](https://link.springer.com/protocol/10.1007/978-1-4939-9176-1_4), I think they are good for ancient bone and teeth samples. For other ancient samples, you may check [Nadin Rohland *et al*. (2018)](https://www.nature.com/articles/s41596-018-0050-5), Nadin gave a lot of suggestions in her paper.
+The following steps are from [Jesse Dabney *et al*. (2019)](https://link.springer.com/protocol/10.1007/978-1-4939-9176-1_4), I think they are good for ancient bone and teeth samples. I also did some researches for each step and wrote in my notes. For other ancient samples, such as feces, you may check the paper from [Nadin Rohland *et al*. (2018)](https://www.nature.com/articles/s41596-018-0050-5), Nadin gave a lot of suggestions in her paper.
  
 **1. Prepare Samples**
 
