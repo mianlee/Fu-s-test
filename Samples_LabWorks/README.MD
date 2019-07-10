@@ -67,14 +67,59 @@ Binding Buffer (5 M GuHCl, 40% Isopropanol [finalconcentrations])
  - Pour the sample/binding buffer mixture into the reservoir of the spin-column assembly, and close the 50 mL tube with a screw cap. Centrifuge for 4 min at 400 g. Rotate tubes 90 degree and centrifuge for another 2 min at 400 g.
  
  <img src="Images/C1016-25-Zymo-Spin-V-with-reservoir.jpg" width=300, hight=500>
+ 
  Zymo-Spin V Columns w/ Reservoir
  
  
+**Note**:
 
-These days, most labs use commercial DNA extraction kits based on spin column technology. Silica spin column contains a **silica resin** that selectively binds DNA, depending on salt conditions and other factors influenced by the extraction method. Silica spin column, membrane or Silica-coated glass beads has the property to bind DNA reversibly in the presence of high salt, in this case is Guanidine hydrochloride (GuHCl). DNA is also insoluble in alcohols (Ethanol & Isopropanol) 
-
+These days, most labs use commercial DNA extraction kits based on spin column technology. Silica spin column contains a **silica resin** that selectively binds DNA, depending on salt conditions and other factors influenced by the extraction method. Silica spin column, membrane or Silica-coated glass beads has the property to bind DNA reversibly in the presence of high salt. DNA is also insoluble in alcohols (Ethanol & Isopropanol). 
 
 The basic procedure is that salt and ethanol are added to the aqueous solution, which forces the precipitation of nucleic acids out of solution. After precipitation the nucleic acids can then be separated from the rest of the solution by attaching silica spin column.
+
+Lysis buffers contain a high concentration of chaotropic salts. Chaotropes have two important roles in nucleic acid extraction. Firstly, they destabilize hydrogen bonds, van der Waals forces and hydrophobic interactions, leading to destabilization of proteins, including nucleases. Secondly, they disrupt the association of nucleic acids with water, thereby providing optimal conditions for their transfer to silica.
+
+Chaotropic salts include guanidine HCL, guanidine thiocyanate, urea, and lithium perchlorate.
+
+In addition to chaotropes, a detergent is often present in the lysis buffer to aid protein solubilization and cell lysis. Enzymes may also feature here, depending on sample type. The broad-spectrum serine protease proteinase K is very efficient in digesting proteins away from nucleic acid preparations. 
+
+As discussed above, chaotropic salts are critical for lysis and binding to the column. The addition of alcohol (or sometimes isopropanol) will further enhance and influence the binding of nucleic acids to the silica.
+
+Note that the percentage and volume of ethanol used are important. Too much ethanol will bring down degraded material and small species that will influence UV260 readings. On the other hand, too little ethanol may impede washing of the salt from the membrane. 
+
+
+Melzak et al. (1996) Driving forces for DNA adsorption to silica in perchlorate solutions. J. Colloid Interface Sci. 181: 635 - 644.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ### Refenece: 
 
