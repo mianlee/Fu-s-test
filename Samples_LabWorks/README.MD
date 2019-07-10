@@ -27,7 +27,7 @@ Here is summary of ancient DNA extraction protocal used by other papers:
 
 Recent new protocal for ancient DNA extraction： 
 
-**“Extraction of highly degraded DNA from ancient bones, teeth and sediments for high-throughput sequencing”**, [Nadin Rohland *et al*. (2018)](https://www.nature.com/articles/s41596-018-0050-5) 
+**“Extraction of highly degraded DNA from ancient bones, teeth and sediments for high-throughput sequencing”**, [Nadin Rohland *et al*. (2018)](https://www.nature.com/articles/s41596-018-0050-5).
 
 This protocol update above replaces a now-outdated version that was published 11 years ago, before high-throughput sequencing technologies became widely available. [Nadin Rohland *et al*. (2007)](https://www.nature.com/articles/nprot.2007.247), "Ancient DNA extraction from bones and teeth."
 
