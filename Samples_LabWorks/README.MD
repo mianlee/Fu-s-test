@@ -34,6 +34,32 @@ This protocol update above replaces a now-outdated version that was published 11
 Jesse Dabney also updated his 2013 ancient DNA extraction protocal in 2019 March: **"Extraction of Highly Degraded DNA from Ancient Bones and Teeth"**, [Jesse Dabney *et al*. (2013)](https://link.springer.com/protocol/10.1007/978-1-4939-9176-1_4).
 
 
+## Prepare Samples, DNA Binding, Wash, and Elution
+
+In general, ancient DNA is first released from a pulverized sample by dissolving the bone/ tooth matrix in a minimal extraction buffer containing EDTA and Proteinase K. DNA is then bound to silica in the presence of guanidine hydrochloride and isopropanol, purified, and eluted in a low-salt buffer.
+
+
+**1. Prepare Samples**
+
+ Extraction Buffer (0.45 M EDTA, 0.25 mg/mL Proteinase K, 0.05% Tween-20 [final concentrations]).
+ 
+ - Collect 10–150 mg powderized sample in a 2 mL tube.
+ 
+ - Add 1 mL of extraction buffer. Mix well by vortexing.
+ 
+ - Incubate 16–24 h, rotating at 37 Celsius.
+ 
+ **Note**: Decalcification of Bone: A chelator, such as EDTA, tetra sodium at various concentrations and varying pH is, EDTA tetra sodium, a chelating agent, remove calcium’s, magnesium, and iron from bone and calcified cartilage. EDTA takes longer to decalcifying compared to acid decalcifying agents. However, it’s much gentler on the tissue; Proteinase K will degrade and digest all proteins and enzymes; Tween-20 prevent DNA binding to the inner wall of tube.
+ 
+
+
+
+These days, most labs use commercial DNA extraction kits based on spin column technology. Silica spin column contains a **silica resin** that selectively binds DNA, depending on salt conditions and other factors influenced by the extraction method. Silica spin column or Silica-coated glass beads has the property to bind DNA reversibly in the presence of high salt, in this case is Guanidine hydrochloride (GuHCl). DNA is also insoluble in alcohols (Ethanol & Isopropanol) 
+
+silica membrane/beads/particle
+
+The basic procedure is that salt and ethanol are added to the aqueous solution, which forces the precipitation of nucleic acids out of solution. After precipitation the nucleic acids can then be separated from the rest of the solution by 
+
 ### Refenece: 
 
 1. Jesse Dabney, et al. "Complete mitochondrial genome sequence of a Middle Pleistocene cave bear reconstructed from ultrashort DNA fragments." Proceedings of the National Academy of Sciences 110.39 (2013): 15758-15763.
