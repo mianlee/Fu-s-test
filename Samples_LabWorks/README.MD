@@ -49,16 +49,32 @@ In general, ancient DNA is first released from a pulverized sample by dissolving
  
  - Incubate 16–24 h, rotating at 37 Celsius.
  
- **Note**: Decalcification of Bone: A chelator, such as EDTA, tetra sodium at various concentrations and varying pH is, EDTA tetra sodium, a chelating agent, remove calcium’s, magnesium, and iron from bone and calcified cartilage. EDTA takes longer to decalcifying compared to acid decalcifying agents. However, it’s much gentler on the tissue; Proteinase K will degrade and digest all proteins and enzymes; Tween-20 prevent DNA binding to the inner wall of tube.
+ **Note**: 
+ 
+Decalcification of Bone: A chelator, such as EDTA, tetra sodium at various concentrations and varying pH is, EDTA tetra sodium, a chelating agent, remove calcium’s, magnesium, and iron from bone and calcified cartilage. EDTA takes longer to decalcifying compared to acid decalcifying agents. However, it’s much gentler on the tissue; Proteinase K will degrade and digest all proteins and enzymes; Tween-20 prevent DNA binding to the inner wall of tube.
+ 
+**2. DNA Binding**
+
+Binding Buffer (5 M GuHCl, 40% Isopropanol [finalconcentrations])
+
+
+ - For each sample and control, transfer ~10 mL of binding buffer to a labeled 15 mL tube, and add 400 μL 3M sodium acetate.
+ 
+ - Centrifuge samples from step 1 (after 24h extraction buffer incubation) for 2 min at maximum speed in a benchtop centrifuge to pellet residual solid.
+ 
+ - Transfer supernatant to the 15 mL tube containing binding buffer. Mix gently by shaking. The pellet can be saved for future use.
+ 
+ - Pour the sample/binding buffer mixture into the reservoir of the spin-column assembly, and close the 50 mL tube with a screw cap. Centrifuge for 4 min at 400 g. Rotate tubes 90 degree and centrifuge for another 2 min at 400 g.
+ 
+ ![](Images/C1016-25-Zymo-Spin-V-with-reservoir.jpg)
+ Zymo-Spin V Columns w/ Reservoir
+ 
  
 
+These days, most labs use commercial DNA extraction kits based on spin column technology. Silica spin column contains a **silica resin** that selectively binds DNA, depending on salt conditions and other factors influenced by the extraction method. Silica spin column, membrane or Silica-coated glass beads has the property to bind DNA reversibly in the presence of high salt, in this case is Guanidine hydrochloride (GuHCl). DNA is also insoluble in alcohols (Ethanol & Isopropanol) 
 
 
-These days, most labs use commercial DNA extraction kits based on spin column technology. Silica spin column contains a **silica resin** that selectively binds DNA, depending on salt conditions and other factors influenced by the extraction method. Silica spin column or Silica-coated glass beads has the property to bind DNA reversibly in the presence of high salt, in this case is Guanidine hydrochloride (GuHCl). DNA is also insoluble in alcohols (Ethanol & Isopropanol) 
-
-silica membrane/beads/particle
-
-The basic procedure is that salt and ethanol are added to the aqueous solution, which forces the precipitation of nucleic acids out of solution. After precipitation the nucleic acids can then be separated from the rest of the solution by 
+The basic procedure is that salt and ethanol are added to the aqueous solution, which forces the precipitation of nucleic acids out of solution. After precipitation the nucleic acids can then be separated from the rest of the solution by attaching silica spin column.
 
 ### Refenece: 
 
