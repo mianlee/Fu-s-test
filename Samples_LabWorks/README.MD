@@ -55,7 +55,7 @@ Decalcification of Bone: A chelator, such as EDTA, tetra sodium at various conce
  
 **2. DNA Binding**
 
-Binding Buffer (5 M GuHCl, 40% Isopropanol [finalconcentrations])
+Binding Buffer (5 M GuHCl, 40% Isopropanol [finalconcentrations]), 3 M sodium acetate pH 5.2
 
 
  - For each sample and control, transfer ~10 mL of binding buffer to a labeled 15 mL tube, and add 400 μL 3M sodium acetate.
@@ -70,7 +70,12 @@ Binding Buffer (5 M GuHCl, 40% Isopropanol [finalconcentrations])
  
  Zymo-Spin V Columns w/ Reservoir
  
- 
+ - Remove the screw cap from the 50 mL tube, and transfer the spin-column assembly to a clean 2 mL collection tube. Carefully remove and discard the extension reservoir. If desired, the 50 mL tube with flow-through can be stored at -20 Celsius.
+
+- Close and label the spin-column cap.
+
+- Perform a dry spin for 1 min at 3000  g in a benchtop centrifuge. Discard any flow-through.
+
 **Note**:
 
 These days, most labs use commercial DNA extraction kits based on spin column technology. Silica spin column contains a **silica resin** that selectively binds DNA, depending on salt conditions and other factors influenced by the extraction method. Silica spin column, membrane or Silica-coated glass beads has the property to bind DNA reversibly in the presence of high salt. DNA is also insoluble in alcohols (Ethanol & Isopropanol). 
@@ -90,19 +95,27 @@ Note that the percentage and volume of ethanol used are important. Too much etha
 
 Melzak et al. (1996) Driving forces for DNA adsorption to silica in perchlorate solutions. J. Colloid Interface Sci. 181: 635 - 644.
 
+**3. DNA Wash and Elution**
 
+PE buffer (Qiagen)
 
+- Add 750 μL PE buffer to each column. Centrifuge for 30 s at 3000 g. Discard flow-through.
 
+- Repeat step 8 for a total of two washes.
 
+- Perform a dry spin for 1 min at maximum speed (~16,000 g), turning the columns in the centrifuge 180 relative to their previous orientation.
 
+- Transfer the column to a clean 1.5 mL tube.
 
+- Add 50 μL TET buffer directly onto the silica membrane. Let sit for 5 min.
 
+- Centrifuge 1 min at maximum speed
 
+- Repeat elution step.
 
+- Transfer the eluate (final DNA extract) to a clean 1.5 mL tube. Extracts can be stored at -20 Celsius.
 
-
-
-
+**Note**: The first wash will often include a low concentration of chaotropic salts to remove residual proteins and pigments. This is always followed with an ethanol wash to remove the salts. If the sample didn’t contain a lot of protein starting out (e.g., plasmid preps or PCR clean ups), an ethanol wash is sufficient. Here, it uses PE wash buffer from commercial product (Qiagen).
 
 
 
