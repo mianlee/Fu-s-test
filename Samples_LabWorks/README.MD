@@ -12,7 +12,7 @@ Ancient DNA were extracted and libraries were prepared in three different labs:
 
 
 
-DNA extraction was carried out in the clean-room facilities, using Silica-based DNA extraction method/protocal by [Dabney *et al*. (2013)](https://www.pnas.org/content/110/39/15758#sec-8)(Tubingen lab & Boston lab) and [Brotherton *et al*.(2013)](https://www.nature.com/articles/ncomms2656#s1)(Adelaide lab).
+DNA extraction was carried out in the clean-room facilities, using Silica-based DNA extraction method/protocal by [Dabney *et al*. (2013)](https://www.pnas.org/content/110/39/15758#sec-8)(Tubingen lab & Boston lab) and [Brotherton *et al*. (2013)](https://www.nature.com/articles/ncomms2656#s1)(Adelaide lab).
 
 
 
