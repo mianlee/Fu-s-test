@@ -28,7 +28,7 @@ Here is summary of ancient DNA extraction protocal used by other papers:
 Recent new protocal： “Extraction of highly degraded DNA from ancient bones, teeth and sediments for high-throughput sequencing” [Rohland Nadin *et al*. (2018)](https://www.nature.com/articles/s41596-018-0050-5) 
 
 
-## Refenece: 
+### Refenece: 
 
 1. Dabney Jesse, et al. "Complete mitochondrial genome sequence of a Middle Pleistocene cave bear reconstructed from ultrashort DNA fragments." Proceedings of the National Academy of Sciences 110.39 (2013): 15758-15763.
 
