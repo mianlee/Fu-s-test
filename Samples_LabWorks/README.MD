@@ -66,7 +66,7 @@ Binding Buffer (5 M GuHCl, 40% Isopropanol [finalconcentrations])
  
  - Pour the sample/binding buffer mixture into the reservoir of the spin-column assembly, and close the 50 mL tube with a screw cap. Centrifuge for 4 min at 400 g. Rotate tubes 90 degree and centrifuge for another 2 min at 400 g.
  
- <img scr="Images/C1016-25-Zymo-Spin-V-with-reservoir.jpg" width=300, hight=100>
+ <img scr="Images/C1016-25-Zymo-Spin-V-with-reservoir.jpg" width=300, hight=500>
  Zymo-Spin V Columns w/ Reservoir
  
  
