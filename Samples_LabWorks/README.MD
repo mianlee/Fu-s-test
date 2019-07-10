@@ -1,4 +1,4 @@
-## Protocols for DNA extraction
+##  Samples
 
 Originally, the authors have 119 samples and with corresponding 212 libraries. Finally, 69 samples (from 95 ancient DNA libraries) were used in their study after screening and quality control. [Online Table 1](OnlineTable1)
 
@@ -10,7 +10,7 @@ Ancient DNA were extracted and libraries were prepared in three different labs:
 
 3. The Boston lab, the Harvard Medical School, Boston, USA, [David Reich's lab](https://reich.hms.harvard.edu/). n =45 libraries.
 
-
+## Protocols for DNA extraction
 
 DNA extraction was carried out in the clean-room facilities, using Silica-based DNA extraction method/protocal by [Jesse Dabney *et al*. (2013)](https://www.pnas.org/content/110/39/15758#sec-8)(Tubingen lab & Boston lab) and [Brotherton *et al*. (2013)](https://www.nature.com/articles/ncomms2656#s1)(Adelaide lab).
 
