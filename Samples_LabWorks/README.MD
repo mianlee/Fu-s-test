@@ -25,7 +25,7 @@ Here is summary of ancient DNA extraction protocal used by other papers:
 - "Reconstructing the Deep Population History of Central and South America" [Cosimo Posth   *et al*. (2018)](https://www.sciencedirect.com/science/article/pii/S0092867418313801) uses [Jesse Dabney *et al*. (2013)](https://www.pnas.org/content/110/39/15758#sec-8).
 
 
-Recent new protocal： 
+Recent new protocal for ancient DNA extraction： 
 
 **“Extraction of highly degraded DNA from ancient bones, teeth and sediments for high-throughput sequencing”** [Nadin Rohland *et al*. (2018)](https://www.nature.com/articles/s41596-018-0050-5) 
 
