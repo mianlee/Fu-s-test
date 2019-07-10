@@ -22,7 +22,7 @@ Here is summary of ancient DNA extraction protocal used by other papers:
 
 - "The Genomic Formation of South and Central Asia" [Narasimhan Vagheesh *et al*. (2018)](https://www.biorxiv.org/content/10.1101/292581v1) uses [Dabney *et al*. (2013)](https://www.pnas.org/content/110/39/15758#sec-8) and [Korlević *et al.* (2015)](https://www.ncbi.nlm.nih.gov/pubmed/26260087).
 
-- "Reconstructing the Deep Population History of Central and South America" [Posth Cosimo  *et al*. (2018)] uses [Dabney *et al*. (2013)](https://www.pnas.org/content/110/39/15758#sec-8).
+- "Reconstructing the Deep Population History of Central and South America" [Posth Cosimo  *et al*. (2018)](https://www.sciencedirect.com/science/article/pii/S0092867418313801) uses [Dabney *et al*. (2013)](https://www.pnas.org/content/110/39/15758#sec-8).
 
 
 Recent new protocal： “Extraction of highly degraded DNA from ancient bones, teeth and sediments for high-throughput sequencing” [Rohland Nadin *et al*. (2018)](https://www.nature.com/articles/s41596-018-0050-5) 
