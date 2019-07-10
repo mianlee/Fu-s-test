@@ -6,7 +6,7 @@ Ancient DNA were extracted and libraries were prepared in three different labs:
 
 1. The adelaide lab, the University of Adelaide's [Australian Centre for Ancient DNA (ACAD)](https://www.adelaide.edu.au/acad/about/). n = 151 libraires.
 
-2. The Tubingen lab, the [Institute for Archaeological Sciences at the University of Tübingen](https://uni-tuebingen.de/en/), Germany. The 9 Stuttgart *Linienbandkeramik*(LBK) samples, n = 16 libraries.
+2. The Tubingen lab, the [Institute for Archaeological Sciences at the University of Tübingen](https://uni-tuebingen.de/en/faculties/faculty-of-science/departments/interfaculty-facilities/tza/tza/), Germany. The 9 Stuttgart *Linienbandkeramik*(LBK) samples, n = 16 libraries.
 
 3. The Boston lab, the Harvard Medical School, Boston, USA, [David Reich's lab](https://reich.hms.harvard.edu/). n =45 libraries.
 
@@ -14,7 +14,9 @@ Ancient DNA were extracted and libraries were prepared in three different labs:
 
 DNA extraction was carried out in the clean-room facilities, using Silica-based DNA extraction method/protocal by [Dabney *et al*. (2013)](https://www.pnas.org/content/110/39/15758#sec-8)(Tubingen lab & Boston lab) and [Brotherton *et al*. (2013)](https://www.nature.com/articles/ncomms2656#s1)(Adelaide lab).
 
-[Iosif Lazaridi *et al*. (2014)](https://www.nature.com/articles/nature13673) uses [Dabney *et al*. (2013)](https://www.pnas.org/content/110/39/15758#sec-8)
+Here is summary of ancient DNA extraction protocal used by other papers:
+
+[Iosif Lazaridi *et al*. (2014)](https://www.nature.com/articles/nature13673) "Ancient human genomes suggest three ancestral populations for present-day Europeans" uses [Dabney *et al*. (2013)](https://www.pnas.org/content/110/39/15758#sec-8).
 
 
 
