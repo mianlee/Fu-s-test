@@ -31,14 +31,26 @@ Recent new protocal for ancient DNA extraction：
 
 This protocol update above replaces a now-outdated version that was published 11 years ago, before high-throughput sequencing technologies became widely available. [Nadin Rohland *et al*. (2007)](https://www.nature.com/articles/nprot.2007.247), "Ancient DNA extraction from bones and teeth."
 
-Jesse Dabney also updated his 2013 ancient DNA extraction protocal in 2019 March: **"Extraction of Highly Degraded DNA from Ancient Bones and Teeth"**, [Jesse Dabney *et al*. (2013)](https://link.springer.com/protocol/10.1007/978-1-4939-9176-1_4).
+Jesse Dabney also updated his 2013 ancient DNA extraction protocal in 2019 March: **"Extraction of Highly Degraded DNA from Ancient Bones and Teeth"**, [Jesse Dabney *et al*. (2019)](https://link.springer.com/protocol/10.1007/978-1-4939-9176-1_4).
 
 
 ## Prepare Samples, DNA Binding, Wash, and Elution
 
+
+Extracting ancient is not an easy task: 
+
+1. In ancient specimens, usually no or little cell structures are preserved, and, owing to as yet uncharacterized chemical modifications, it may even be difficult to get the DNA into aqueous solution.
+
+2. Ancient DNA is damaged in various ways, so extraction methods also have to avoid overly aggressive treatments, such as high temperatures or use of strong detergents.
+
+3. Ancient bones and teeth often contain large amounts of PCR inhibitors13,14,15 that interfere with DNA amplification and are co-purified with ancient DNA.
+
+[Nadin Rohland *et al*. (2018)](https://www.nature.com/articles/s41596-018-0050-5)
+
 In general, ancient DNA is first released from a pulverized sample by dissolving the bone/ tooth matrix in a minimal extraction buffer containing EDTA and Proteinase K. DNA is then bound to silica in the presence of guanidine hydrochloride and isopropanol, purified, and eluted in a low-salt buffer.
 
-
+The following steps are from [Jesse Dabney *et al*. (2019)](https://link.springer.com/protocol/10.1007/978-1-4939-9176-1_4), I think they are good for ancient bone and teeth samples. For other ancient samples, you may check [Nadin Rohland *et al*. (2018)](https://www.nature.com/articles/s41596-018-0050-5), Nadin gave a lot of suggestions in her paper.
+ 
 **1. Prepare Samples**
 
  Extraction Buffer (0.45 M EDTA, 0.25 mg/mL Proteinase K, 0.05% Tween-20 [final concentrations]).
