@@ -19,7 +19,9 @@ The **transition** from a **hunter–gatherer existence** to a **sedentary farmi
 
 **[Pinhasi Ron *et al*. (2005)](https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.0030410)**
 
+The origins of early farming and its spread to Europe have been the subject of major interest for some time. The main controversy today is over the **nature of the Neolithic transition in Europe**: the extent to which the spread was, for the most part, **indigenous and animated by imitation (cultural diffusion)** or else was **driven by an influx of dispersing populations (demic diffusion)**. 
 
+First Neolithic crops and domesticated animals did **not** reach Europe **by means of trade or exchange** but **by means of migration or the colonization of farmers and shepherds from the Near East**.
 
 ### Reference
 
