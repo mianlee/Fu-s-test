@@ -17,6 +17,18 @@ The hunter-gatherers, from the island of Gotland, bore a distinct genetic resemb
 
 [Ancient DNA sheds light on spread of European farming](https://www.latimes.com/science/la-xpm-2012-apr-27-la-sci-dna-europe-agriculture-20120427-story.html)
 
+### Upper Palaeolithic Siberian genome reveals dual ancestry of Native Americans
+
+Maanasa Raghavan, Skoglund, P., Graf, K. E., Metspalu, M., Albrechtsen, A., Moltke, I., ... & Karmin, M. (2014). **Upper Palaeolithic Siberian genome reveals dual ancestry of Native Americans**. Nature, 505(7481), 87.
+
+
+The authors sequenced the draft genome of an approximately **24,000-year-old** individual **(MA-1)**, from **Mal’ta** in south-central Siberia.
+
+The **MA-1 mitochondrial genome** belongs to **haplogroup U**, which has also been found at high frequency among Upper Palaeolithic and Mesolithic European hunter-gatherers.
+
+Autosomal evidence is shown that MA-1 is basal to modern-day western Eurasians and genetically closely related to modern-day Native Americans, with no close affinity to east Asians.
+
+
 ### Ancient human genomes suggest three ancestral populations for present-day Europeans
 
 Losif Lazaridis, Patterson, N., Mittnik, A., Renaud, G., Mallick, S., Kirsanow, K., ... & Berger, B. (2014). **Ancient human genomes suggest three ancestral populations for present-day Europeans**. Nature, 513(7518), 409.
