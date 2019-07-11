@@ -12,4 +12,4 @@ Ancient DNA studies([Haak Wolfgang, *et al*. 2010](https://journals.plos.org/plo
 
 2. Haak, Wolfgang, et al. "Ancient DNA from European early neolithic farmers reveals their near eastern affinities." PLoS biology 8.11 (2010): e1000536.
 
-3.Bramanti, Barbara, et al. "Genetic discontinuity between local hunter-gatherers and central Europe’s first farmers." science 326.5949 (2009): 137-140.
+3. Bramanti, Barbara, et al. "Genetic discontinuity between local hunter-gatherers and central Europe’s first farmers." science 326.5949 (2009): 137-140.
