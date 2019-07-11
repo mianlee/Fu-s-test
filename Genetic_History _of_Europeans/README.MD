@@ -17,7 +17,7 @@ The LBK population shared an affinity with the modern-day Near East and Anatolia
  
 The **transition** from a **hunter–gatherer existence** to a **sedentary farming-based lifestyle** has had key consequences for human groups around the world and has profoundly shaped human societies. **Originating in the Near East around 11,000 y ago**, an **agricultural lifestyle** subsequently spread across **Europe** during the **New Stone Age (Neolithic)**. **Whether it was mediated by incoming farmers** or **driven by the transmission of innovative ideas and techniques** remains a subject of continuing debate in archaeology, anthropology, and human population genetics. Ancient DNA from the earliest farmers can provide a direct view of the genetic diversity of these populations in the earliest Neolithic. Neolithic haplotypes that left clear traces in modern populations, and the data suggest a route for the migrating farmers that extends from the Near East and Anatolia into Central Europe. When compared to indigenous hunter–gatherer populations, the unique and characteristic genetic signature of the early farmers suggests a significant demographic input from the Near East during the onset of farming in Europe.
 
-[Pinhasi Ron *et al*. (2005)](https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.0030410)
+**[Pinhasi Ron *et al*. (2005)](https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.0030410)**
 
 
 
