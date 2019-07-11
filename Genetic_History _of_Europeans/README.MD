@@ -25,10 +25,10 @@ First Neolithic crops and domesticated animals did **not** reach Europe **by mea
 
 ### Reference
 
-1. Brandt, Guido, et al. "Ancient DNA reveals key stages in the formation of central European mitochondrial genetic diversity." Science (New York, NY) 342.6155 (2013): 257.
+1. Brandt, Guido, et al. **"Ancient DNA reveals key stages in the formation of central European mitochondrial genetic diversity."** Science (New York, NY) 342.6155 (2013): 257.
 
-2. Haak, Wolfgang, et al. "Ancient DNA from European early neolithic farmers reveals their near eastern affinities." PLoS biology 8.11 (2010): e1000536.
+2. Haak, Wolfgang, et al. **"Ancient DNA from European early neolithic farmers reveals their near eastern affinities."** PLoS biology 8.11 (2010): e1000536.
 
-3. Bramanti, Barbara, et al. "Genetic discontinuity between local hunter-gatherers and central Europe’s first farmers." science 326.5949 (2009): 137-140.
+3. Bramanti, Barbara, et al. **"Genetic discontinuity between local hunter-gatherers and central Europe’s first farmers."** science 326.5949 (2009): 137-140.
 
-4. Pinhasi, Ron, Joaquim Fort, and Albert J. Ammerman. "Tracing the origin and spread of agriculture in Europe." PLoS biology 3.12 (2005): e410.
+4. Pinhasi, Ron, Joaquim Fort, and Albert J. Ammerman. **"Tracing the origin and spread of agriculture in Europe."** PLoS biology 3.12 (2005): e410.
