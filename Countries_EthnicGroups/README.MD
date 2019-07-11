@@ -20,6 +20,16 @@ The arrival of farming in northern Europe around 4000 b.c. changed substantially
 ### Norway
 Its capital is Oslo.
 
+### Sweden
+
+### Finland
+
+### Estonia
+
+Officially the Republic of Estonia, is a country in Northern Europe. It is bordered to the north by the Gulf of Finland with Finland on the other side, to the west by the Baltic Sea with Sweden on the other side, to the south by Latvia, and to the east by Lake Peipus and Russia.
+
+###  Latvia
+
 ### Scandinavia
 
 The term Scandinavia in local usage covers the three kingdoms of Denmark, Norway, and Sweden. In English usage, Scandinavia also sometimes refers to the Scandinavian Peninsula, or to the broader region including Finland and Iceland, which is always known locally as the Nordic countries.
