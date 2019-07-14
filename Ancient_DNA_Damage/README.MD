@@ -26,6 +26,10 @@ Ancient DNA is expected to be highly fragmented, a reduction in DNA fragment siz
 
 ### Deamination of cytosine to uracil
 
+Nucleotide bases are susceptible to hydrolytic deamination, resulting in modifications that cause them to be misread by DNA polymerases. A primary target of deamination is cytosine. Its product, uracil will direct the incorporation of adenine (A) during DNA replication. These substitutions are primarily localized to fragment ends, followed by an exponential decrease of such substitutions along the DNA molecule.
+
+Notably, blunt-end repair by T4 DNA polymerase used to prepare the DNA sequencing libraires results in the elimination of overhangig 3' ends, whereas overhanging
+
 **Cause**: Cytosine → uracil 5-methyl-cytosine → thymine.
 
 **Mechnism**: Deamination of cytosine to uracil.
