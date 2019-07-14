@@ -28,7 +28,7 @@ Ancient DNA is expected to be highly fragmented, a reduction in DNA fragment siz
 
 Nucleotide bases are susceptible to hydrolytic deamination, resulting in modifications that cause them to be misread by DNA polymerases. A primary target of deamination is cytosine. Its product, uracil will direct the incorporation of adenine (A) during DNA replication. These substitutions are primarily localized to fragment ends, followed by an exponential decrease of such substitutions along the DNA molecule.
 
-Notably, blunt-end repair by T4 DNA polymerase used to prepare the DNA sequencing libraires results in the elimination of overhangig 3' ends, whereas overhanging
+Notably, blunt-end repair by T4 DNA polymerase used to prepare the DNA sequencing libraires results in the elimination of overhanging 3' ends, whereas overhanging 5' ends are filled in. Consequently, toward the 5′ ends of the sequenced molecules, deaminated cytosine residues result in apparent C to T substitutions, and toward the 3′ ends of the sequenced molecules, deaminated cytosine residues result in apparent G to A substitutions.
 
 **Cause**: Cytosine → uracil 5-methyl-cytosine → thymine.
 
@@ -37,6 +37,11 @@ Notably, blunt-end repair by T4 DNA polymerase used to prepare the DNA sequencin
 ![](Deamination.PNG)
 
 [Dabney Jesse *et al*. 2013](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3685887/), Figure 1 B.
+
+**Solution**: Treatment by DNA uracil-N-glycosylase, which removes cytosine deamination products. 
+
+
+DNA glycosylase that removes the target base by N-glycosidic bond hydrolysis and generates an apurinic/apyrimidinic (AP) site, which is recognized by an AP endonuclease that hydrolyzes the phosphodiester bond 5′ to the lesion. The complete restoration of DNA integrity requires DNA polymerase, DNA ligase
 
 ### Blocking lesions
 
