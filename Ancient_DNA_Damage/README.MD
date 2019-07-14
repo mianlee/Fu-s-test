@@ -65,8 +65,9 @@ eg.  5-hydroxy-5-methylhydantoin and 5-hydroxyhydantoin, which are oxidation pro
 
 
 
+### Using damage pattern to indentify authetic ancient molecules
 
-**Cytosine deamination, manifested by an elevated C to T substitution frequency, can therefore be used as an indication that DNA molecules are indeed ancient.**
+Cytosine deamination, manifested by an elevated C to T substitution frequency, can therefore be used as an indication that DNA molecules are indeed ancient.
 
 
 
