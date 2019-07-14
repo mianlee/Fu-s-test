@@ -1,13 +1,15 @@
 ### Degradation/Fragmentation
 
 
-Ancient DNA is expected to be highly fragmented, a reduction in DMA fragment size. In age between 4 and 13,000 years was degraded to freagements fo 40 - 500 bp.
+Ancient DNA is expected to be highly fragmented, a reduction in DNA fragment size. In age between 4 and 13,000 years was degraded to freagements fo 40 - 500 bp.
 
 **Cause**: Intracellular nucleases, degradation by microorganisms and other chemical processes.
 
 **Mechnism**: It has been suggested that fragmentation is owing to **hydrolytic depurination** and sunsequent **β elimination**.
 
 ![](Fragmentation.PNG)
+
+[Dabney Jesse *et al*. 2013](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3685887/), Figure 1.
 
 β elimination: the cleavage of the C3'-O-P bond 3' from the apurinic or apyrimidinic site in DNA via beta-elimination reaction.
 
