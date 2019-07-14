@@ -24,6 +24,24 @@ Ancient DNA is expected to be highly fragmented, a reduction in DNA fragment siz
 **Evidence**: the pruines adenine(A) and guanine(G) are overrepresented next to the 5' ends of DNA fragments, G residues were evern more overrepresented than A residues adjacent to the 5' ends.
 
 
+### Deamination of cytosine to uracil
+
+**Cause**: Cytosine → uracil 5-methyl-cytosine → thymine.
+
+**Mechnism**: Deamnination of cytosine to uracil.
+![](Deamnination.PNG)
+
+### Blocking lesions
+
+Some DNA modifications obstruct the movment of DNA polymerases along a template strand, preventing their amplification and sequencing.
+
+eg.  5-hydroxy-5-methylhydantoin and 5-hydroxyhydantoin, which are oxidation products of pyrimidines; cross-links.
+
+**Cause**: Alkylation, Maillard reaction (chemical reaction between a sugar molecule and an amino group of a nucleobase or an amino acid).
+
+**Effect**: Cross-links between DNA strands in a single molecule; cross-links between DNA strands of different molecules; or cross-links between DNA and proteins.
+
+
 
 **[Dabney Jesse *et al*. 2013](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3685887/), Ancient DNA Damage.**
 
