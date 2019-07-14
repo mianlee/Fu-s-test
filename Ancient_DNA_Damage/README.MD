@@ -16,6 +16,8 @@ Ancient DNA is expected to be highly fragmented, a reduction in DNA fragment siz
 
 **Effect**: Apurinization of DNA, strand breaks, decrease of DNA fragment size, decrease of the overall amount of DNA.
 
+**Evidence**: the pruines adenine(A) and guanine(G) are overrepresented next to the 5' ends of DNA fragments, G residues were evern more overrepresented than A residues adjacent to the 5' ends.
+
 
 
 **[Dabney Jesse *et al*. 2013](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3685887/), Ancient DNA Damage.**
