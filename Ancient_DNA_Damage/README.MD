@@ -5,7 +5,7 @@ Ancient DNA is expected to be highly fragmented, a reduction in DMA fragment siz
 
 Intracellular nucleases, degradation by microorganisms and other chemical processes.
 
-It has been suggested that fragmentation is owing to hydrolytic depurination and sunsequent β elimination.
+It has been suggested that fragmentation is owing to **hydrolytic depurination** and sunsequent **β elimination**.
 
 ![](Fragmentation.PNG)
 
