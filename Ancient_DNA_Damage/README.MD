@@ -1,3 +1,8 @@
+- Degradation
+- Deamination of cytosine to uracil
+- Other lesions, eg. block the replication of the DNA molecules
+
+
 ### Degradation/Fragmentation
 
 
