@@ -7,6 +7,8 @@ Intracellular nucleases, degradation by microorganisms and other chemical proces
 
 It has been suggested that fragmentation is owing to hydrolytic depurination and sunsequent β elimination.
 
+![](Fragmentation.PNG)
+
 
 **[Dabney Jesse *et al*. 2013](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3685887/), Ancient DNA Damage.**
 
