@@ -14,7 +14,7 @@ Ancient DNA is expected to be highly fragmented, a reduction in DNA fragment siz
 
 ![](Fragmentation.PNG)
 
-[Dabney Jesse *et al*. 2013](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3685887/), Figure 1.
+[Dabney Jesse *et al*. 2013](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3685887/), Figure 1 A.
 
 β elimination: the cleavage of the C3'-O-P bond 3' from the apurinic or apyrimidinic site in DNA via beta-elimination reaction.
 
@@ -28,8 +28,11 @@ Ancient DNA is expected to be highly fragmented, a reduction in DNA fragment siz
 
 **Cause**: Cytosine → uracil 5-methyl-cytosine → thymine.
 
-**Mechnism**: Deamnination of cytosine to uracil.
-![](Deamnination.PNG)
+**Mechnism**: Deamination of cytosine to uracil.
+
+![](Deamination.PNG)
+
+[Dabney Jesse *et al*. 2013](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3685887/), Figure 1 B.
 
 ### Blocking lesions
 
