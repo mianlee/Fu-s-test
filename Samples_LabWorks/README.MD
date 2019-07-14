@@ -50,7 +50,7 @@ Extracting ancient is not an easy task:
 In general, ancient DNA is first released from a pulverized sample by dissolving the bone/ tooth matrix in a minimal extraction buffer containing EDTA and Proteinase K. DNA is then bound to silica in the presence of guanidine hydrochloride and isopropanol, purified, and eluted in a low-salt buffer.
 
 The first step in this process is DNA extraction. Lysis of bone or tooth powder is usually performed using an EDTA/proteinase K buffer, which degrades hydroxyapatite and collagen (the two major components of the bone or tooth matrix), releasing DNA from the sample. The DNA then needs to be purified from the lysis buffer reagents and substances that can inhibit downstream enzymatic reactions—for example humic and fulvic acids, tannins, porphyrin products, phenolic compounds, collagen type I, and Maillard products.
-[Glocke Isabelle, and Matthias Meyer (2017)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5495074/).
+[Glocke Isabelle and Matthias Meyer (2017)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5495074/).
 
 
 
