@@ -1,3 +1,11 @@
+
+Two important aspects of ancient DNA sequenceing:
+
+1. Obtaining enough molecules to permit whole genome analysis / maximizing the number of molecules that are extracted from ancient remains.
+
+2. Minimizing artefacts owing to contamination and **damage**.
+
+
 **[Dabney Jesse *et al*. 2013](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3685887/), Ancient DNA Damage.**
 
 - Degradation
@@ -58,12 +66,8 @@ eg.  5-hydroxy-5-methylhydantoin and 5-hydroxyhydantoin, which are oxidation pro
 
 
 
+**Cytosine deamination, manifested by an elevated C to T substitution frequency, can therefore be used as an indication that DNA molecules are indeed ancient.**
 
-Two important aspects of ancient DNA sequenceing:
-
-1. Obtaining enough molecules to permit whole genome analysis / maximizing the number of molecules that are extracted from ancient remains.
-
-2. Minimizing artefacts owing to contamination and damage.
 
 
 ## Reference:
