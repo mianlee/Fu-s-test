@@ -25,7 +25,7 @@ Here is summary of ancient DNA extraction protocal used by other papers:
 - "Reconstructing the Deep Population History of Central and South America" [Cosimo Posth   *et al*. (2018)](https://www.sciencedirect.com/science/article/pii/S0092867418313801) uses [Jesse Dabney *et al*. (2013)](https://www.pnas.org/content/110/39/15758#sec-8).
 
 
-Recent new protocal for ancient DNA extraction： 
+**Recent new protocal for ancient DNA extraction**： 
 
 **“Extraction of highly degraded DNA from ancient bones, teeth and sediments for high-throughput sequencing”**, [Nadin Rohland *et al*. (2018)](https://www.nature.com/articles/s41596-018-0050-5).
 
@@ -48,6 +48,13 @@ Extracting ancient is not an easy task:
 [Nadin Rohland *et al*. (2018)](https://www.nature.com/articles/s41596-018-0050-5)
 
 In general, ancient DNA is first released from a pulverized sample by dissolving the bone/ tooth matrix in a minimal extraction buffer containing EDTA and Proteinase K. DNA is then bound to silica in the presence of guanidine hydrochloride and isopropanol, purified, and eluted in a low-salt buffer.
+
+The first step in this process is DNA extraction. Lysis of bone or tooth powder is usually performed using an EDTA/proteinase K buffer, which degrades hydroxyapatite and collagen (the two major components of the bone or tooth matrix), releasing DNA from the sample. The DNA then needs to be purified from the lysis buffer reagents and substances that can inhibit downstream enzymatic reactions—for example humic and fulvic acids, tannins, porphyrin products, phenolic compounds, collagen type I, and Maillard products.
+[Glocke Isabelle, and Matthias Meyer (2017)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5495074/).
+
+
+
+
 
 The following steps are from [Jesse Dabney *et al*. (2019)](https://link.springer.com/protocol/10.1007/978-1-4939-9176-1_4), I think they are good for ancient bone and teeth samples. I also did some researches for each step and wrote in my notes. For other ancient samples, such as feces, you may check the paper from [Nadin Rohland *et al*. (2018)](https://www.nature.com/articles/s41596-018-0050-5), Nadin gave a lot of suggestions in her paper.
  
@@ -157,3 +164,5 @@ PE buffer (Qiagen)
 9. Nadin Rohland and Michael Hofreiter. "Ancient DNA extraction from bones and teeth." Nature protocols 2.7 (2007): 1756.
 
 10. Jesse Dabney , and Matthias Meyer. "Extraction of Highly Degraded DNA from Ancient Bones and Teeth." Ancient DNA. Humana Press, New York, NY, 2019. 25-29.
+
+11. Glocke Isabelle, and Matthias Meyer. "Extending the spectrum of DNA sequences retrieved from ancient bones and teeth." Genome research 27.7 (2017): 1230-1237.
