@@ -150,6 +150,8 @@ Here, [Nadin Rohland *et al*. (2015)](https://www.ncbi.nlm.nih.gov/pmc/articles/
 
 <img src="Images/ngs_adapter_designs.png" width=900, hight=600>
 
+[Figure 1. Examples of adapter designs.](https://www.idtdna.com/pages/products/next-generation-sequencing/adapters)
+
 
 
 
