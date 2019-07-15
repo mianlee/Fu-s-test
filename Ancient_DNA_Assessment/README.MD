@@ -68,11 +68,59 @@ You can explore the alignment with the Zoom option at the top-right corner. You 
 
 <img src="images/IGVZoomin.png" width=650, hight=1000>
 
-**Summary statistics for the BAM alignment**
+### Summary statistics for the BAM alignment
 
- Using [Qualimap](http://qualimap.bioinfo.cipf.es/) to generate overall statistics for ```.BAM``` file. Qualimap examines sequencing alignment data in SAM/BAM files according to the features of the mapped reads and provides an overall view of the data that helps to the detect biases in the sequencing
+Using [Qualimap](http://qualimap.bioinfo.cipf.es/) to generate overall statistics for ```.BAM``` file. Qualimap examines sequencing alignment data in SAM/BAM files according to the features of the mapped reads and provides an overall view of the data that helps to the detect biases in the sequencing
+ 
+ 1. Installing Qualimap on Ubuntu. Follow the [manual](http://qualimap.bioinfo.cipf.es/doc_html/intro.html#installing-qualimap-on-ubuntu) to download and intall Qualimap on Ubuntu.
+
+**Install Java**
+
+ Update your system.
+ ```
+ sudo apt-get update && sudo apt-get upgrade
+ ```
+ Update your apt-get/Install the “Main” repository with apt.
+ ```
+ sudo apt-get update
+ ```
+ Install OpenJDK 8
+ ```
+ sudo apt-get install openjdk-8-jdk
+ ```
+ This package will run an installer for The OpenJDK 8, which is the latest LTS version available for Ubuntu 16.04 release.
+ 
+ **Install R**
+ 
+ ```
+ # Add R repository, Note the “xenial” in the line, indicating Ubuntu 16.04. If you have a different version, just change that.
+
+ sudo echo "deb http://cran.rstudio.com/bin/linux/ubuntu xenial/" | sudo tee -a /etc/apt/sources.list
  
  
+ # Add R to Ubuntu Keyring
+ 
+ gpg --keyserver keyserver.ubuntu.com --recv-key E298A3A825C0D65DFD57CBB651716619E084DAB9
+ 
+ gpg -a --export E298A3A825C0D65DFD57CBB651716619E084DAB9 | sudo apt-key add -
+ 
+ 
+ #Install R Base
+
+ sudo apt-get update
+ sudo apt-get install r-base r-base-dev
+ 
+```
+More details about installation are available: [Here](https://cran.r-project.org/bin/linux/ubuntu/README)
+
+
+**Install required R-packages**
+
+Some packages depend on external libraries, so you might need to install them either:
+
+```sudo apt-get install libxml2-dev```
+
+```sudo apt-get install libcurl4-openssl-dev```
 
 
 ### References:
