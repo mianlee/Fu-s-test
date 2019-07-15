@@ -72,7 +72,7 @@ You can explore the alignment with the Zoom option at the top-right corner. You 
 
 Using [Qualimap](http://qualimap.bioinfo.cipf.es/) to generate overall statistics for ```.BAM``` file. Qualimap examines sequencing alignment data in SAM/BAM files according to the features of the mapped reads and provides an overall view of the data that helps to the detect biases in the sequencing
  
- 1. Installing Qualimap on Ubuntu. Follow the [manual](http://qualimap.bioinfo.cipf.es/doc_html/intro.html#installing-qualimap-on-ubuntu) to download and intall Qualimap on Ubuntu.
+**1. Installing Qualimap on Ubuntu. Follow the [manual](http://qualimap.bioinfo.cipf.es/doc_html/intro.html#installing-qualimap-on-ubuntu) to download and intall Qualimap on Ubuntu.**
 
 **Install Java**
 
