@@ -9,8 +9,24 @@ I will use ```.BAM``` files provided by Maria Nieves Colón in [her github](http
 
 ### Input files 
 
-Dataset provided by [Maria Nieves Colón](https://github.com/mnievesc/ENAH_curso_aDNA_2019/tree/master/Ex1_aDNA_BAM), and I downloaded and deposited in the [Data](Data/) folder.
+The frist Dataset provided by [Maria Nieves Colón](https://github.com/mnievesc/ENAH_curso_aDNA_2019/tree/master/Ex1_aDNA_BAM), and I downloaded and deposited in the [Data](Data/) folder.
 
+
+**Mapped BAM files post mapping and filtering and BAI index files.**
+
+```
+IndA.bam
+IndA.bam.bai
+IndB.bam
+IndB.bam.bai
+IndC.bam
+IndC.bam.bai
+```
+The BAM files contain ancient DNA read mapped to the mitochondrial human genome (mtDNA). The reads were previously quality filtered and sorted in SAMtools. Duplicate reads and reads with multiple mappings have also been removed. The BAI file was generated using the samtools index command.
+
+**MtDNA reference genome FASTA file: ```rCRS.fasta```and index ```rCRS.fasta.fai```.**
+
+The reference genome has been previously indexed using command samtools index rCRS.fasta
 
 
 
