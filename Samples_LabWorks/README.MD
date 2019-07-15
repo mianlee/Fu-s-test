@@ -148,7 +148,7 @@ Here, [Nadin Rohland *et al*. (2015)](https://www.ncbi.nlm.nih.gov/pmc/articles/
 
 - the DNA molecules are ligated to a unique pair of barcodes, which eliminates undetected cross-contamination from this step onwards.
 
-<img src="Images/ngs_adapter_designs.png" width=300, hight=500>
+<img src="Images/ngs_adapter_designs.png" width=600, hight=500>
 
 
 
