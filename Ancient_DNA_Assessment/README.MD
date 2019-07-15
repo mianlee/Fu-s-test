@@ -156,6 +156,7 @@ When you installed all dependencies (Java, R, and R libraries), download the ZIP
 ```
 ./qualimap
 ```
+<img src="images/Qualimap.png" width=650, hight=1000>
 
 
 
