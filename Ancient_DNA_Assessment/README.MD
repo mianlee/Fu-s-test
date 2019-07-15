@@ -9,7 +9,7 @@ I will use ```.BAM``` files provided by Maria Nieves Colón in [her github](http
 
 ### Input files 
 
-The frist Dataset provided by [Maria Nieves Colón](https://github.com/mnievesc/ENAH_curso_aDNA_2019/tree/master/Ex1_aDNA_BAM), and I downloaded and deposited in the [Data](Data/) folder.
+The frist Dataset provided by [Maria Nieves Colón](https://github.com/mnievesc/ENAH_curso_aDNA_2019/tree/master/Ex1_aDNA_BAM), and I downloaded and deposited them in the [Data](Data/) folder.
 
 
 **Mapped BAM files post mapping and filtering and BAI index files.**
