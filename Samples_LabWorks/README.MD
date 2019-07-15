@@ -158,7 +158,7 @@ Here, [Nadin Rohland *et al*. (2015)](https://www.ncbi.nlm.nih.gov/pmc/articles/
 
 Three different libraries were constructed:  **(I) without UDG treatment**, **(II) with our ‘new’ partial UDG treatment** and **(III) with regular UDG treatment**. 
 
-The protocols differ in that we use no USER enzyme for I, whereas we add USER (NEB) in the blunting step of both II and III. Protocol II differs from protocol III in that T4 DNA polymerase and T4 polynucleotide kinase are only added after USER treatment is completed and UDG is blocked by UDG inhibitor. This has the effect that some terminal deaminated cytosines of the ancient molecules are not efficiently removed, and means that ancient DNA damage is expected to persist at these positions.The protocols also differ in the polymerases used for the final amplification of the library (for I and II, we use a polymerase that can read over uracil, whereas for III, several different polymerases can be used).
+The protocols differ in that we use no USER enzyme for I, whereas we add USER (NEB) in the blunting step of both II and III. Protocol II differs from protocol III in that T4 DNA polymerase and T4 polynucleotide kinase are only added after USER treatment is completed and UDG is blocked by UDG inhibitor. This has the effect that some terminal deaminated cytosines of the ancient molecules are not efficiently removed, and means that ancient DNA damage is expected to persist at these positions. The protocols also differ in the polymerases used for the final amplification of the library (for I and II, we use a polymerase that can read over uracil, whereas for III, several different polymerases can be used).
 
 **Note**:  
 
