@@ -9,7 +9,7 @@ I will use ```.BAM``` files provided by Maria Nieves Colón in [her github](http
 
 ### Input files 
 
-Dataset provided by [Maria Nieves Colón](https://github.com/mnievesc/ENAH_curso_aDNA_2019/tree/master/Ex1_aDNA_BAM), and I downloaded and deposited in the [Data](/Data) folder.
+Dataset provided by [Maria Nieves Colón](https://github.com/mnievesc/ENAH_curso_aDNA_2019/tree/master/Ex1_aDNA_BAM), and I downloaded and deposited in the [Data](Data/) folder.
 
 
 
