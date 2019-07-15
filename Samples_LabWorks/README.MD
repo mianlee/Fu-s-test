@@ -53,9 +53,6 @@ The first step in this process is DNA extraction. Lysis of bone or tooth powder 
 [Glocke Isabelle and Matthias Meyer (2017)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5495074/).
 
 
-
-
-
 The following steps are from [Jesse Dabney *et al*. (2019)](https://link.springer.com/protocol/10.1007/978-1-4939-9176-1_4), I think they are good for ancient bone and teeth samples. I also did some researches for each step and wrote in my notes. For other ancient samples, such as feces, you may check the paper from [Nadin Rohland *et al*. (2018)](https://www.nature.com/articles/s41596-018-0050-5), Nadin gave a lot of suggestions in her paper.
  
 **1. Prepare Samples**
@@ -136,6 +133,20 @@ PE buffer (Qiagen)
 
 **Note**: The first wash will often include a low concentration of chaotropic salts to remove residual proteins and pigments. This is always followed with an ethanol wash to remove the salts. If the sample didn’t contain a lot of protein starting out (e.g., plasmid preps or PCR clean ups), an ethanol wash is sufficient. Here, it uses PE wash buffer from commercial product (Qiagen).
 
+## Library preparation 
+
+Two important aspects or challenges of ancient DNA sequenceing:
+
+1. Obtaining enough molecules to permit whole genome analysis / maximizing the number of molecules that are extracted from ancient remains.
+
+2. Minimizing artefacts owing to contamination and **damage**.
+
+
+Here, [Nadin Rohland *et al*. (2015)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4275898/) developped "partial uracil-DNA-glycosylase" treatment to reducing the time required to screen samples. The library is uracil-DNA-glycosylase(UDG)-treated, but preserves a damage signal at the terminal bases of the molecules. The library can be used not only for screening, but also for larger-scale experiments, such as shotgun sequencing and target enrichment.
+
+- the DNA extract is treated using a protocol that causes characteristic ancient DNA damage to be restricted to the terminal nucleotides, while nealy eliminating it in the interior of the DNA molecules, allowing a single library to be used both to test for ancient authenticity and to carry out population genetic analysis.
+
+- the DNA molecules are ligated to a unique pair of barcodes, which eliminates undetected cross-contamination from this step onwards.
 
 
 
@@ -165,4 +176,6 @@ PE buffer (Qiagen)
 
 10. Jesse Dabney , and Matthias Meyer. "Extraction of Highly Degraded DNA from Ancient Bones and Teeth." Ancient DNA. Humana Press, New York, NY, 2019. 25-29.
 
-11. Glocke Isabelle, and Matthias Meyer. "Extending the spectrum of DNA sequences retrieved from ancient bones and teeth." Genome research 27.7 (2017): 1230-1237.
+11. Glocke Isabelle and Matthias Meyer. "Extending the spectrum of DNA sequences retrieved from ancient bones and teeth." Genome research 27.7 (2017): 1230-1237.
+
+12. Nadin Rohland, et al. "Partial uracil–DNA–glycosylase treatment for screening of ancient DNA." Philosophical Transactions of the Royal Society B: Biological Sciences 370.1660 (2015): 20130624.
