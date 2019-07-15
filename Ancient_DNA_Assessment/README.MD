@@ -124,7 +124,7 @@ Some packages depend on external libraries, so you might need to install them ei
 
 ```sudo apt-get install libcurl4-openssl-dev```
 
-**Install some missing R-packages in R
+**Install some missing R-packages in R**
 
 ```
 install.packages("XML")
