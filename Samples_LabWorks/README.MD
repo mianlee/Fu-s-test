@@ -152,6 +152,8 @@ Here, [Nadin Rohland *et al*. (2015)](https://www.ncbi.nlm.nih.gov/pmc/articles/
 
 [Figure 1. Examples of adapter designs.](https://www.idtdna.com/pages/products/next-generation-sequencing/adapters)
 
+- the barcoded library molecules include incomplete adapters of short length that can increase the specificity of hybridization-based genomic target enrichment.
+
 
 
 
