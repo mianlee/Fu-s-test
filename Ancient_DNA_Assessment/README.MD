@@ -72,7 +72,7 @@ You can explore the alignment with the Zoom option at the top-right corner. You 
 
 Using [Qualimap](http://qualimap.bioinfo.cipf.es/) to generate overall statistics for ```.BAM``` file. Qualimap examines sequencing alignment data in SAM/BAM files according to the features of the mapped reads and provides an overall view of the data that helps to the detect biases in the sequencing
  
-**Installing Qualimap on Ubuntu, follow the [manual](http://qualimap.bioinfo.cipf.es/doc_html/intro.html#installing-qualimap-on-ubuntu) to download and intall Qualimap on Ubuntu.**
+**Installing Qualimap on Ubuntu, follow the [manual](http://qualimap.bioinfo.cipf.es/doc_html/intro.html#installing-qualimap-on-ubuntu) to download and install Qualimap on Ubuntu.**
 
 Here, I show how I installed:
 
@@ -174,7 +174,7 @@ I follwed the [mapDamage2 homepage](https://ginolhac.github.io/mapDamage/) to in
 
 - ```Python 3.6.7 ```   
 
--  Intall 'git'   
+-  Install 'git'   
 
 ```sudo apt-get install git-core```
 
@@ -190,7 +190,7 @@ I follwed the [mapDamage2 homepage](https://ginolhac.github.io/mapDamage/) to in
 
 - ```gsl 2.1``` 
 
-**Intall R libraries in R**
+**Install R libraries in R**
 
 ```
 install.packages("inline")   # inline v0.3.15
