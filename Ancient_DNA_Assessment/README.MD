@@ -74,7 +74,7 @@ Using [Qualimap](http://qualimap.bioinfo.cipf.es/) to generate overall statistic
  
 **Installing Qualimap on Ubuntu, follow the [manual](http://qualimap.bioinfo.cipf.es/doc_html/intro.html#installing-qualimap-on-ubuntu) to download and intall Qualimap on Ubuntu.**
 
-Here, I show how I installed.
+Here, I show how I installed:
 
 **Install Java**
 
