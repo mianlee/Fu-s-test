@@ -49,11 +49,11 @@ Also, Maria Nieves Colón shows you how to use the [Tablet](https://ics.hutton.a
 
 2. Run ``` ./igv.sh ``` to lunch the IGV interface, or you also can read the ```README``` file to customize your setting.
 
-<img src="images/IGV.png" width=300, hight=500>
+<img src="images/IGV.png" width=500, hight=700>
 
-3. Load reference genome files: click ```Genomes``` tab and click ```Load Genome from file...```, choose ```rCRS.fasta``` file and click ```Open```.
+3. Load reference genome files: click ```Genomes``` tab and click ```Load Genome from file...```, choose ```rCRS.fasta``` file and click ```Open``` botton.
 
-4. Load individual ```.bam``` file: click ```File``` tab and click ```Load from File...```, choose ```IndA.bam``` file and click ```Open```.
+4. Load individual ```.bam``` file: click ```File``` tab and click ```Load from File...```, choose ```IndA.bam``` file and click ```Open``` botton.
 
 
 
