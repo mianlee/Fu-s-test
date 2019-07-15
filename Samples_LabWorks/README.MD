@@ -131,7 +131,9 @@ PE buffer (Qiagen)
 
 - Transfer the eluate (final DNA extract) to a clean 1.5 mL tube. Extracts can be stored at -20 Celsius.
 
-**Note**: The first wash will often include a low concentration of chaotropic salts to remove residual proteins and pigments. This is always followed with an ethanol wash to remove the salts. If the sample didn’t contain a lot of protein starting out (e.g., plasmid preps or PCR clean ups), an ethanol wash is sufficient. Here, it uses PE wash buffer from commercial product (Qiagen).
+**Note**: 
+
+The first wash will often include a low concentration of chaotropic salts to remove residual proteins and pigments. This is always followed with an ethanol wash to remove the salts. If the sample didn’t contain a lot of protein starting out (e.g., plasmid preps or PCR clean ups), an ethanol wash is sufficient. Here, it uses PE wash buffer from commercial product (Qiagen).
 
 ## Library preparation 
 
