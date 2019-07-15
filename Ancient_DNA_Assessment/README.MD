@@ -172,28 +172,35 @@ I follwed the [mapDamage2 homepage](https://ginolhac.github.io/mapDamage/) to in
 
 **Requirements**:
 
-- ```Python 3.6.7 ``` My python version
+- ```Python 3.6.7 ```   My python version
 
--  Intall git 
- 
- ```sudo apt-get install git-core`` `
-git-core is already the newest version (1:2.7.4-0ubuntu1.6)
+-  Intall 'git'   ```sudo apt-get install git-core```
 
+git-core version: 1:2.7.4-0 ubuntu1.6
+
+``` R version 3.6.1 ``` My R version
+
+- Install 'pysam'  ``` sudo pip3 install pygame```
+
+pygame-1.9.6
+
+- ```gsl 2.1```  My gsl version
+
+Intall R libraries in R
 
 ```
-Python (version >= 2.6)
-Git
-R (version >= 2.15.1) must be present in your $PATH. Otherwise, only tables will be produced.
-pysam (version >= 0.6) python package, an interface for reading/writing SAM/BAM files
-Cython package, only necessary if pysam needs to be built
-gsl GNU scientific library (GSL)
-R libraries:
-inline
-gam
-Rcpp
-RcppGSL
-ggplot2 (>=0.9.2)
+install.packages("inline")  # inline v0.3.15
+
+install.packages("gam")     # gam v1.16.1
+
+install.packages("Rcpp")    # Rcpp v1.0.1
+
+install.packages("RcppGSL") # RcppGSL v0.3.6
+
+install.packages("ggplot2")  # ggplot2 v3.2.0
+
 ```
+
 
 
 
