@@ -172,30 +172,34 @@ I follwed the [mapDamage2 homepage](https://ginolhac.github.io/mapDamage/) to in
 
 **Requirements**:
 
-- ```Python 3.6.7 ```   My python version
+- ```Python 3.6.7 ```   
 
--  Intall 'git'   ```sudo apt-get install git-core```
+-  Intall 'git'   
 
-git-core version: 1:2.7.4-0 ubuntu1.6
+```sudo apt-get install git-core```
 
-``` R version 3.6.1 ``` My R version
+```git-core version: 1:2.7.4-0 ubuntu1.6```
 
-- Install 'pysam'  ``` sudo pip3 install pygame```
+- ``` R version 3.6.1 ``` 
 
-pygame-1.9.6
+- Install 'pysam'  
 
-- ```gsl 2.1```  My gsl version
+``` sudo pip3 install pygame```
 
-Intall R libraries in R
+```pygame-1.9.6```
+
+- ```gsl 2.1``` 
+
+**Intall R libraries in R**
 
 ```
-install.packages("inline")  # inline v0.3.15
+install.packages("inline")   # inline v0.3.15
 
-install.packages("gam")     # gam v1.16.1
+install.packages("gam")      # gam v1.16.1
 
-install.packages("Rcpp")    # Rcpp v1.0.1
+install.packages("Rcpp")     # Rcpp v1.0.1
 
-install.packages("RcppGSL") # RcppGSL v0.3.6
+install.packages("RcppGSL")  # RcppGSL v0.3.6
 
 install.packages("ggplot2")  # ggplot2 v3.2.0
 
