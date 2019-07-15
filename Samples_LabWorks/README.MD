@@ -139,7 +139,7 @@ Two important aspects or challenges of ancient DNA sequenceing:
 
 1. Obtaining enough molecules to permit whole genome analysis / maximizing the number of molecules that are extracted from ancient remains.
 
-2. Minimizing artefacts owing to contamination and **damage**.
+2. Minimizing artefacts owing to contamination and damage.
 
 
 Here, [Nadin Rohland *et al*. (2015)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4275898/) developped "partial uracil-DNA-glycosylase" treatment to reducing the time required to screen samples. The library is uracil-DNA-glycosylase(UDG)-treated, but preserves a damage signal at the terminal bases of the molecules. The library can be used not only for screening, but also for larger-scale experiments, such as shotgun sequencing and target enrichment.
@@ -148,7 +148,7 @@ Here, [Nadin Rohland *et al*. (2015)](https://www.ncbi.nlm.nih.gov/pmc/articles/
 
 - the DNA molecules are ligated to a unique pair of barcodes, which eliminates undetected cross-contamination from this step onwards.
 
-<img src="Images/ngs_adapter_designs.png" width=900, hight=600>
+<img src="Images/ngs_adapter_designs.png" width=900, hight=550>
 
 [Figure 1. Examples of adapter designs.](https://www.idtdna.com/pages/products/next-generation-sequencing/adapters)
 
