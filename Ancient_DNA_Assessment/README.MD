@@ -53,8 +53,11 @@ Also, Maria Nieves Colón shows you how to use the [Tablet](https://ics.hutton.a
 
 3. Load reference genome files: click ```Genomes``` tab and click ```Load Genome from file...```, choose ```rCRS.fasta``` file and click ```Open``` botton.
 
+<img src="images/Reference.png" width=650, hight=900>
+
 4. Load individual ```.bam``` file: click ```File``` tab and click ```Load from File...```, choose ```IndA.bam``` file and click ```Open``` botton.
 
+<img src="images/IndividualA.png" width=650, hight=900>
 
 
 
