@@ -8,7 +8,7 @@ I will use ```.BAM``` files provided by Maria Nieves Colón in [her github](http
 
 
 
-Visualizing and performing QC analysis on aDNA BAM files
+### Visualizing aDNA ```.BAM``` files
 
 
 
