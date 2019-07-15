@@ -113,7 +113,7 @@ Here, I show how I installed:
  sudo apt-get install r-base r-base-dev
  
 ```
-More details about installation are available: [Here](https://cran.r-project.org/bin/linux/ubuntu/README)
+More details about installation are available: [Here](https://cran.r-project.org/bin/linux/ubuntu/README).
 
 
 **Install required R-packages**
