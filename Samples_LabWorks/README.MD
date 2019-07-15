@@ -156,13 +156,13 @@ Here, [Nadin Rohland *et al*. (2015)](https://www.ncbi.nlm.nih.gov/pmc/articles/
 
 - the barcoded library molecules include incomplete adapters of short length that can increase the specificity of hybridization-based genomic target enrichment.
 
-Three different libraries were constructed:  (I) without UDG treatment, (II) with our ‘new’ partial UDG treatment and (III) with regular UDG treatment. 
+Three different libraries were constructed:  **(I) without UDG treatment**, **(II) with our ‘new’ partial UDG treatment** and **(III) with regular UDG treatment**. 
 
 The protocols differ in that we use no USER enzyme for I, whereas we add USER (NEB) in the blunting step of both II and III. Protocol II differs from protocol III in that T4 DNA polymerase and T4 polynucleotide kinase are only added after USER treatment is completed and UDG is blocked by UDG inhibitor. This has the effect that some terminal deaminated cytosines of the ancient molecules are not efficiently removed, and means that ancient DNA damage is expected to persist at these positions.The protocols also differ in the polymerases used for the final amplification of the library (for I and II, we use a polymerase that can read over uracil, whereas for III, several different polymerases can be used).
 
 **Note**:  
 
-USER (Uracil-Specific Excision Reagent) Enzyme, it generates a single nucleotide gap at the location of a uracil.
+**USER** (Uracil-Specific Excision Reagent) Enzyme, it generates a single nucleotide gap at the location of a uracil.
 
 USER Enzyme is a mixture of Uracil DNA glycosylase (UDG) and the DNA glycosylase-lyase Endonuclease VIII. UDG catalyses the excision of a uracil base, forming an abasic (apyrimidinic) site while leaving the phosphodiester backbone intact (2,3). The lyase activity
 of Endonuclease VIII breaks the phosphodiester backbone at the 3´ and 5´ sides of the abasic site so that base-free deoxyribose is released.
