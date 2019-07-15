@@ -36,7 +36,7 @@ The reference genome has been previously indexed using command samtools index rC
 
 
 
-### Visualizing aDNA ```.BAM``` files
+### 1. Visualizing aDNA ```.BAM``` files
 
 There are some popular visualization tools for interactive exploration of genomic datasets as I know of and used before, such [Geneious](https://www.geneious.com/) and [Integrative Genomics Viewer (IGV)](http://software.broadinstitute.org/software/igv/home). Geneious is amazing software to deal with sequences(also sequence management), such as visualization, manipulation and phylogenetic analysis. However, it is a commercial sofeware, you have to pay for it. Instead, IGV is a free software to visualze your ```.BAM``` files. Here, I am going to show you how to use it briefly.
 
