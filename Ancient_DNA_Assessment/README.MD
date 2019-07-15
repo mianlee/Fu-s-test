@@ -49,19 +49,24 @@ Also, Maria Nieves Colón shows you how to use the [Tablet](https://ics.hutton.a
 
 2. Run ``` ./igv.sh ``` to lunch the IGV interface, or you also can read the ```README``` file to customize your setting.
 
-<img src="images/IGV.png" width=650, hight=900>
+<img src="images/IGV.png" width=600, hight=900>
 
 3. Load reference genome files: click ```Genomes``` tab and click ```Load Genome from file...```, choose ```rCRS.fasta``` file and click ```Open``` botton.
 
-<img src="images/Reference.png" width=650, hight=900>
+<img src="images/Reference.png" width=600, hight=900>
 
 4. Load individual ```.bam``` file: click ```File``` tab and click ```Load from File...```, choose ```IndA.bam``` file and click ```Open``` botton.
 
-<img src="images/IndividualA.png" width=650, hight=900>
+<img src="images/IndividualA.png" width=600, hight=900>
 
 
+Once the ```.BAM``` file loads into IGV, you should now be able to see the reads aligned to the reference.
 
+<img src="images/IndividualA_allignment.png" width=600, hight=900>
 
+You can explore the alignment with the Zoom option at the top-right corner. You can check certain SNP position, alignment and base coverage in detail.
+
+<img src="images/IGVZoomin.png" width=600, hight=900>
 
 
 
