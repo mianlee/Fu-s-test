@@ -158,6 +158,12 @@ When you installed all dependencies (Java, R, and R libraries), download the ZIP
 ```
 <img src="images/Qualimap.png" width=650, hight=1000>
 
+Following the Qualimap [workflow](http://qualimap.bioinfo.cipf.es/doc_html/workflow.html) to finish the analysis. Here I choose **New Analysis** -> **BAM QC** (e.g. IndA.bam) and stay with default and click **>>> Start analysis**.
+
+You can go over statistics in the Qualimap interface or save as PDF file, [IndA result](). 
+
+
+
 
 
 ### References:
