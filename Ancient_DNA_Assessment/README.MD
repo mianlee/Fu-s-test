@@ -146,6 +146,17 @@ BiocManager::install("Rsamtools")
 BiocManager::install("Repitools")
 
 ```
+It will take a while to install "Repitools" and "rtracklayer", like 10 to 15 mins.
+
+
+When you installed all dependencies (Java, R, and R libraries), download the ZIP file from the [Qualimap homepage](http://qualimap.bioinfo.cipf.es/), unpack it to desired directory.
+
+```cd``` to the Qulaimap folder in your terminal and run Qualimap from this directory using the prebuilt script:
+
+```
+./qualimap
+```
+
 
 
 ### References:
