@@ -12,7 +12,7 @@ Three main technical challenges affect ancient DNA studies:
 
 Purines are overrepresented at positions adjacent to the breaks in the ancient DNA, suggesting that depurination has contributed to its degradation. 
 
-<img src="BaseComposition.PNG" width=1000, hight=1200>
+<img src="BaseComposition.PNG" width=850, hight=1100>
 
 
 **Figure 2**. Base composition at ends of Neandertal DNA sequences. The base composition of the human reference sequence is plotted as a function of distance from 5- and 3-ends of Neandertal sequences.
