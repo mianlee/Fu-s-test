@@ -1,4 +1,4 @@
-**[Briggs *et al*. (2007)](https://www.pnas.org/content/104/37/14616.long)**
+**[Briggs *et al*. (2007)](https://www.pnas.org/content/104/37/14616.long), Patterns of damage in genomic DNA sequences from a Neandertal.**
 
 Three main technical challenges affect ancient DNA studies: 
 
