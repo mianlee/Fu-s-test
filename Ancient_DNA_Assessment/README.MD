@@ -227,13 +227,13 @@ source deactivate
 
 **Fragmisincorporation_plot**
 
-It shows that purines are overrepresented at positions adjacent to the breaks in the ancient DNA, suggesting that depurination has contributed to its degradation. For IndA for example:
+- It shows that purines are overrepresented at positions adjacent to the breaks in the ancient DNA, suggesting that depurination has contributed to its degradation. For IndA for example:
 
-<img src="images/Depurination.PNG">
+<img src="images/Depurination.PNG" width=1000, hight=1300>
 
 Full results [available here](Data/Fragmisincorporation_plot.pdf).
 
-It also displays the patterns of C -> T and G-> A changes across the DNA fragments of a given sample. For IndA for example:
+- It also displays the patterns of C -> T and G-> A changes across the DNA fragments of a given sample. For IndA for example:
 
 **T** base reprensents by red, and **A** base reprensents by blue.
 
