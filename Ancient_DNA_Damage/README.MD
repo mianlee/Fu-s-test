@@ -1,4 +1,4 @@
-**[Briggs *et al*. (2007)](https://www.pnas.org/content/104/37/14616.long), Patterns of damage in genomic DNA sequences from a Neandertal.**
+## [Briggs *et al*. (2007)](https://www.pnas.org/content/104/37/14616.long), Patterns of damage in genomic DNA sequences from a Neandertal.
 
 Three main technical challenges affect ancient DNA studies: 
 
@@ -8,7 +8,7 @@ Three main technical challenges affect ancient DNA studies:
 
 3. Because ancient DNA is present in low amounts or absent in many specimens, traces of modern DNA from extraneous sources may cause modern DNA sequences to be mistaken for endogenous ancient DNA sequences.
 
-**Ancient DNA Fragmentation**
+### Ancient DNA Fragmentation
 
 Purines are overrepresented at positions adjacent to the breaks in the ancient DNA, suggesting that depurination has contributed to its degradation. 
 
@@ -20,14 +20,14 @@ Purines are overrepresented at positions adjacent to the breaks in the ancient D
 Strikingly, at the -1 position of the 5'-ends, i.e., the first position upstream of the 5'-most base sequenced, the frequency of G is elevated from ~22% seen across all Neandertal reads analyzed to ~29% , and the frequency of A is elevated from ~28% to ~31%, whereas C and T are depressed. Conversely, at the position +1 downstream of 3'-ends, thefrequency of C as well as T 
 is elevated to ~30%, whereas G and A are depressed.
 
-**Nucleotide Misincorporations**
+### Nucleotide Misincorporations
 
 Substitutions resulting from miscoding cytosine residues are vastly overrepresented in the DNA sequences and drastically clustered in the ends of the molecules, whereas other substitutions are rare.
 
 
 
 
-**[Dabney Jesse *et al*. 2013](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3685887/), Ancient DNA Damage.**
+## [Dabney Jesse *et al*. 2013](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3685887/), Ancient DNA Damage.
 
 - Degradation
 - Deamination of cytosine to uracil
