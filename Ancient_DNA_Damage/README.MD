@@ -43,7 +43,8 @@ Ancient DNA is expected to be highly fragmented, a reduction in DNA fragment siz
 
 **Mechnism**: It has been suggested that fragmentation is owing to **hydrolytic depurination** and sunsequent **β elimination**.
 
-![](Fragmentation.PNG)
+<img src="Fragmentation.PNG" width=800, hight=1050>
+
 
 [Dabney Jesse *et al*. 2013](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3685887/), Figure 1 A.
 
@@ -65,7 +66,8 @@ Notably, blunt-end repair by T4 DNA polymerase used to prepare the DNA sequencin
 
 **Mechnism**: Deamination of cytosine to uracil.
 
-![](Deamination.PNG)
+<img src="Deamination.PNG" width=800, hight=1050>
+
 
 [Dabney Jesse *et al*. 2013](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3685887/), Figure 1 B.
 
