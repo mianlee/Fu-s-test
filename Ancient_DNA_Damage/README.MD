@@ -14,7 +14,7 @@ Purines are overrepresented at positions adjacent to the breaks in the ancient D
 
 ![](BaseComposition.PNG)
 
-Fig. 2. Base composition at ends of Neandertal DNA sequences. The base composition of the human reference sequence is plotted as a function of distance from 5- and 3-ends of Neandertal sequences.
+**Figure 2**. Base composition at ends of Neandertal DNA sequences. The base composition of the human reference sequence is plotted as a function of distance from 5- and 3-ends of Neandertal sequences.
 
 Strikingly, at the -1 position of the 5'-ends, i.e., the first position upstream of the 5'-most base sequenced, the frequency of G is elevated from ~22% seen across all Neandertal reads analyzed to ~29% , and the frequency of A is elevated from ~28% to ~31%, whereas C and T are depressed. Conversely, at the position +1 downstream of 3'-ends, thefrequency of C as well as T 
 is elevated to ~30%, whereas G and A are depressed.
