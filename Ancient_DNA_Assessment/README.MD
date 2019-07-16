@@ -253,3 +253,17 @@ We'll use Conda and Bioconda to create a controlled environment in which we can 
 ### References:
 
 1. Haak, Wolfgang, et al. "Massive migration from the steppe was a source for Indo-European languages in Europe." Nature 522.7555 (2015): 207.
+
+2. Andrews, R. M., I. Kubacka, P. F. Chinnery, R. N. Lightowlers, D. M. Turnbull, and N. Howell. 1999. "Reanalysis and revision of the Cambridge reference sequence for human mitochondrial DNA." Nature Genetics 23 (2):147-147.
+
+3. Jónsson, H., A. Gonolhac, M. Schubert, P. Johnson, and L. Orlando. 2013. "mapDamage2.0: fast approximate Bayesian estimates of ancient DNA damage parameters." Bioinformatics 29 (13):1682-1684.
+
+4. Milne, I., G. Stephen, M. Bayer, P. J. A. Cock, L. Pritchard, L. Cardle, P. D. Shaw, and D. Marshall. 2013. "Using Tablet for visual exploration of second-generation sequencing data." Briefings in Bioinformatics 14 (2):193-202.
+
+5. Okonechnikov, K., A. Conesa, and F. García-Alcalde. 2016. "Qualimap 2: advanced multi-sample quality control for high-throughput sequencing data." Bioinformatics 32 (2):292-294.
+
+6. Peltzer, A., G. Jäger, A. Herbig, A. Seitz, C. Kniep, J. Krause, and K. Nieselt. 2016. "EAGER: efficient ancient genome reconstruction." Genome Biology 17 (1):60.
+
+7. Renaud, G., Slon, V., Duggan, A.T. and Kelso J. 2015. "Schmutzi: estimation of contamination and endogenous mitochondrial consensus calling for ancient DNA". Genome Biology 16:224.
+
+8. Robinson, James T., et al. "Integrative genomics viewer." Nature biotechnology 29.1 (2011): 24.
