@@ -102,7 +102,7 @@ Cytosine deamination, manifested by an elevated C to T substitution frequency, c
 
 #### Reference:
 
-Briggs Adrian W., et al. "Patterns of damage in genomic DNA sequences from a Neandertal." Proceedings of the National Academy of Sciences 104.37 (2007): 14616-14621.
+Briggs Adrian W., et al. "Patterns of damage in genomic DNA sequences from a Neandertal." Proceedings of the National Academy of Sciences 104.37 (2007): 14616-14621. [Full PDF Here](Patterns of damage in genomic DNA sequences.pdf)
 
 Dabney Jesse, Matthias Meyer, and Svante Pääbo. "Ancient DNA damage." Cold Spring Harbor perspectives in biology 5.7 (2013): a012567.
 
