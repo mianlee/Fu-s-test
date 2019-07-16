@@ -226,7 +226,7 @@ source deactivate
 
 It displays the patterns of C -> T and G-> A changes across the DNA fragments of a given sample. For IndA for example:
 
-T reprensents by red, and A reprensents by blue.
+**T** base reprensents by red, and **A** base reprensents by blue.
 
 <img src="images/Fragmisincorporation.PNG">
 
