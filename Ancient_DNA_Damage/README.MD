@@ -32,7 +32,7 @@ Substitutions resulting from miscoding cytosine residues are vastly overrepresen
 
 <img src="Misincoperation.PNG" width=800, hight=1050>
 
-**Figure 3**. Misincorporation patterns in Neandertal DNA sequences
+**Figure 3**. Misincorporation patterns in Neandertal DNA sequences.
 
 
 The frequencies of the 12 possible mismatches are plotted as a function of distance from 5'-and 3'-ends. At each position, the substitution frequency, e.g., C-T, is calculated as the proportion of human reference sequence positions carrying C where the sequencing base is T. **This means (my understanding) that given the human reference sequence positions carrying C, what is the frequency of C -> T transition? (Other possible events are C -> G, C -> A, and no mismatch C -> C)
