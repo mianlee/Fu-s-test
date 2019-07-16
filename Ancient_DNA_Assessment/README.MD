@@ -225,7 +225,7 @@ source deactivate
 
 #### Results:
 
-**Fragmisincorporation_plot**
+**1. Fragmisincorporation_plot**
 
 1. It shows that purines (**As** and **Gs**) are overrepresented at positions adjacent to the breaks in the ancient DNA, suggesting that depurination has contributed to its degradation. For IndA for example:
 
@@ -248,7 +248,7 @@ Full results [available here](Data/Fragmisincorporation_plot.pdf).
 The main diagnostic feature documented so far is a pattern of Cytosine (C) → Thymine (T) substitutionsthat increases toward the 5′ end of the sequence reads, which in most applications, results in a complementary Guanine (G) → Adenine (A) pattern in the 3′ end caused by enzymatic repair. This pattern has been attributed to Cytosine deamination at single-stranded ends of the molecules and shows a clear tendency of increase over time in contrast to other potential diagnostic features, such as fragment length and preferential fragmentation at purines. **[Pontus Skoglund *et al*. 2014](https://www.pnas.org/content/111/6/2229)**
 
 
-Futher readings:
+**Futher readings**:
 
 [Briggs *et al*. (2007)](https://www.pnas.org/content/104/37/14616.long), Patterns of damage in genomic DNA sequences from a Neandertal.
 
@@ -257,7 +257,7 @@ Futher readings:
 [Nadin Rohland *et al*. (2013)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4275898/), Partial uracil–DNA–glycosylase treatment for screening of ancient DNA
 
 
-**Read Length_plot** 
+**2. Read Length_plot** 
 
 It displays the distribution of read lengths of a given sample. For IndA for example: 
 
