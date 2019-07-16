@@ -17,8 +17,14 @@ Purines are overrepresented at positions adjacent to the breaks in the ancient D
 
 **Figure 2**. Base composition at ends of Neandertal DNA sequences. The base composition of the human reference sequence is plotted as a function of distance from 5- and 3-ends of Neandertal sequences.
 
-Strikingly, at the -1 position of the 5'-ends, i.e., the first position upstream of the 5'-most base sequenced, the frequency of G is elevated from ~22% seen across all Neandertal reads analyzed to ~29% , and the frequency of A is elevated from ~28% to ~31%, whereas C and T are depressed. Conversely, at the position +1 downstream of 3'-ends, thefrequency of C as well as T 
-is elevated to ~30%, whereas G and A are depressed.
+Strikingly, at the -1 position of the 5'-ends, i.e., the first position upstream of the 5'-most base sequenced, the frequency of G is elevated from ~22% seen across all Neandertal reads analyzed to ~29% , and the frequency of A is elevated from ~28% to ~31%, whereas C and T are depressed. Conversely, at the position +1 downstream of 3'-ends, thefrequency of C as well as T  is elevated to ~30%, whereas G and A are depressed.
+
+A mechanism that is likely to be responsible for this is depurination, i.e., the hydrolysis of purine bases from the deoxyribose-phosphate backbone of DNA. After depurination events, the sugar phosphate backbone is susceptible to hydrolysis 3' to the depurinated
+site. DNA is affected by depurination under many conditions, and baseless sites have been shown to occur in ancient DNA. It should be noticed, however, that this appears to explain only in the order of **10% of all strand breaks** in the directly sequenced Neandertal sample.
+
+It should also be noted that, in addition to an elevation of purines adjacent to breaks, other base compositional aberrations
+close to ends of molecules are seen in some specimens.
+
 
 ### Nucleotide Misincorporations
 
