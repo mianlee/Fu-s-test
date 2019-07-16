@@ -236,10 +236,11 @@ Full results [available here](Data/Fragmisincorporation_plot.pdf).
 2. It also displays the patterns of C -> T and G -> A changes across the DNA fragments of a given sample. For IndA for example:
 
 
-
 <img src="images/Fragmisincorporation.PNG">
 
  **T** reprensents by red, and **A** reprensents by blue.
+ 
+The frequencies of the 12 possible mismatches are plotted as a function of distance from 5'-and 3'-ends. At each position, the substitution frequency, e.g., C -> T, is calculated as the proportion of human reference sequence positions carrying C where the sequencing base is T. This means (my understanding) that given the human reference sequence positions carrying C, what is the frequency of C -> T transition? (Other possible events are C -> G, C -> A, and no mismatch C -> C).
 
 Full results [available here](Data/Fragmisincorporation_plot.pdf).
  
