@@ -170,7 +170,7 @@ You can go over all statistics through the Qualimap interface or save output as 
 
 I follwed the [mapDamage2 homepage](https://ginolhac.github.io/mapDamage/) to install Requirements for mapDamage2 and then mapDamage2 itself. And I failed to run the mapDamage2, I think because of my system configuration issue, epecially I have miniconda and python3.6 installed, and I can connet ```pysam ``` to python2.7 in my system, even I installed ```pysam``` under phthon3.6.
 
-So I created an conda envirment named mapdamage:
+So I created an conda envirment named "mapdamage":
 
 ```
 conda create --name mapdamage
