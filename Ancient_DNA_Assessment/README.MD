@@ -277,6 +277,31 @@ We'll use Conda and Bioconda to create a controlled environment in which we can 
 
 ### 4. Evidence of contamination
 
+[**schmutzi**](https://github.com/grenaud/schmutzi) is a set of programs aimed at ancient DNA data that can :
+
+- estimate contamination based on deamination patterns alone
+- call a mitonchondrial consensus for the endogenous genome. This consensus calls takes into account contamination and deamination.
+- estimate mitonchondrial contamination and identify the most likely contaminant from a set.
+
+Following intruction to install **schmutzi** on Ubuntu, [available here](https://github.com/grenaud/schmutzi).
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ### 5. Separating endogenous ancient DNA from modern day contamination
 
 **[Pontus Skoglund *et al*. 2014](https://www.pnas.org/content/111/6/2229)**
