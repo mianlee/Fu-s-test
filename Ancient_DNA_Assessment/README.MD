@@ -307,3 +307,5 @@ DNA fragments isolated from ancient specimens show a characteristic DNA damage p
 9. Skoglund, Pontus, et al. "Separating endogenous ancient DNA from modern day contamination in a Siberian Neandertal." Proceedings of the National Academy of Sciences 111.6 (2014): 2229-2234.
 
 10. Briggs Adrian W., et al. "Patterns of damage in genomic DNA sequences from a Neandertal." Proceedings of the National Academy of Sciences 104.37 (2007): 14616-14621.
+
+11. Rohland, Nadin, et al. "Partial uracil–DNA–glycosylase treatment for screening of ancient DNA." Philosophical Transactions of the Royal Society B: Biological Sciences 370.1660 (2015): 20130624.
