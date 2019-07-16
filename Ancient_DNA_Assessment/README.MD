@@ -228,7 +228,7 @@ It displays the patterns of C -> T and G-> A changes across the DNA fragments of
 
 <img src="images/Fragmisincorporation.PNG">
 
-Full results [available here](Data/Fragmisincorporation_plot.pdf)
+Full results [available here](Data/Fragmisincorporation_plot.pdf).
 
 **Read Length_plot** 
 
@@ -236,7 +236,7 @@ It displays the distribution of read lengths of a given sample. For IndA for exa
 
 <img src="images/Readlength.PNG">
 
-Full results [available here](Data/Length_plot.pdf)
+Full results [available here](Data/Length_plot.pdf).
 
 
 **Note**:
