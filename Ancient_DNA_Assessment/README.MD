@@ -254,7 +254,9 @@ The main diagnostic feature documented so far is a pattern of Cytosine (C) → T
 
 [Dabney Jesse *et al*. (2013)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3685887/), Ancient DNA Damage.
 
-[Nadin Rohland *et al*. (2013)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4275898/), Partial uracil–DNA–glycosylase treatment for screening of ancient DNA
+[Nadin Rohland *et al*. (2013)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4275898/), Partial uracil–DNA–glycosylase treatment for screening of ancient DNA.
+
+[My own summary](https://github.com/mianlee/Fu-s-test/tree/master/Ancient_DNA_Damage)
 
 
 **2. Read Length_plot** 
