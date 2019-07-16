@@ -1,3 +1,28 @@
+**[Briggs *et al*. (2007)](https://www.pnas.org/content/104/37/14616.long)**
+
+Three main technical challenges affect ancient DNA studies: 
+
+1. when DNA is preserved in ancient specimens, it is invariably degraded to a small average size. 
+
+2. Chemical damage is present in ancient DNA that may cause incorrect DNA sequences to be determined. 
+
+3. Because ancient DNA is present in low amounts or absent in many specimens, traces of modern DNA from extraneous sources may cause modern DNA sequences to be mistaken for endogenous ancient DNA sequences.
+
+
+- Purines are overrepresented at positions adjacent to the breaks in the ancient DNA, suggesting that depurination has contributed to its degradation. 
+
+![](BaseComposition.PNG)
+
+Fig. 2. Base composition at ends of Neandertal DNA sequences. The base composition of the human reference sequence is plotted as a function of distance from 5- and 3-ends of Neandertal sequences.
+
+Strikingly, at the -1 position of the 5'-ends, i.e., the first position upstream of the 5'-most base sequenced, the frequency of G is elevated from ~22% seen across all Neandertal reads analyzed to ~29% , and the frequency of A is elevated from ~28% to ~31%, whereas C and T are depressed. Conversely, at the position +1 downstream of 3'-ends, thefrequency of C as well as T 
+is elevated to ~30%, whereas G and A are depressed.
+
+- Substitutions resulting from miscoding cytosine residues are vastly overrepresented in the DNA sequences and drastically clustered in the ends of the molecules, whereas other substitutions are rare.
+
+
+
+
 **[Dabney Jesse *et al*. 2013](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3685887/), Ancient DNA Damage.**
 
 - Degradation
@@ -65,4 +90,8 @@ Cytosine deamination, manifested by an elevated C to T substitution frequency, c
 
 ### Reference:
 
-Dabney, Jesse, Matthias Meyer, and Svante Pääbo. "Ancient DNA damage." Cold Spring Harbor perspectives in biology 5.7 (2013): a
+Dabney Jesse, Matthias Meyer, and Svante Pääbo. "Ancient DNA damage." Cold Spring Harbor perspectives in biology 5.7 (2013): a012567.
+
+Briggs Adrian W., et al. "Patterns of damage in genomic DNA sequences from a Neandertal." Proceedings of the National Academy of Sciences 104.37 (2007): 14616-14621.
+
+
