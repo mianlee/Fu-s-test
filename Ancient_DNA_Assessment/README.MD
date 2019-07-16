@@ -250,6 +250,11 @@ We'll use Conda and Bioconda to create a controlled environment in which we can 
 
 ### 4. Evidence of contamination
 
+### 5. Separating endogenous ancient DNA from modern day contamination
+
+[Pontus Skoglund *et al*. 2014](https://www.pnas.org/content/111/6/2229)
+
+
 ### References:
 
 1. Haak, Wolfgang, et al. "Massive migration from the steppe was a source for Indo-European languages in Europe." Nature 522.7555 (2015): 207.
@@ -267,3 +272,5 @@ We'll use Conda and Bioconda to create a controlled environment in which we can 
 7. Renaud, G., Slon, V., Duggan, A.T. and Kelso J. 2015. "Schmutzi: estimation of contamination and endogenous mitochondrial consensus calling for ancient DNA". Genome Biology 16:224.
 
 8. Robinson, James T., et al. "Integrative genomics viewer." Nature biotechnology 29.1 (2011): 24.
+
+9. Skoglund, Pontus, et al. "Separating endogenous ancient DNA from modern day contamination in a Siberian Neandertal." Proceedings of the National Academy of Sciences 111.6 (2014): 2229-2234.
