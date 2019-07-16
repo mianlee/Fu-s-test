@@ -235,12 +235,13 @@ Full results [available here](Data/Fragmisincorporation_plot.pdf).
 
 2. It also displays the patterns of C -> T and G -> A changes across the DNA fragments of a given sample. For IndA for example:
 
-**T** base reprensents by red, and **A** base reprensents by blue.
+
 
 <img src="images/Fragmisincorporation.PNG">
 
 Full results [available here](Data/Fragmisincorporation_plot.pdf).
-
+ 
+ **T** reprensents by red, and **A** reprensents by blue.
 
 The main diagnostic feature documented so far is a pattern of Cytosine (C) → Thymine (T) substitutionsthat increases toward the 5′ end of the sequence reads, which in most applications, results in a complementary Guanine (G) → Adenine (A) pattern in the 3′ end caused by enzymatic repair. This pattern has been attributed to Cytosine deamination at single-stranded ends of the molecules and shows a clear tendency of increase over time in contrast to other potential diagnostic features, such as fragment length and preferential fragmentation at purines. **[Pontus Skoglund *et al*. 2014](https://www.pnas.org/content/111/6/2229)**
 
