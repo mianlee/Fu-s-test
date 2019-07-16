@@ -248,6 +248,7 @@ Full results [available here](Data/Length_plot.pdf).
 
 We'll use Conda and Bioconda to create a controlled environment in which we can manage software specific to this pipeline. When we're done, we can use Conda to print the contents of this environment (every piece of software installed, plus its version and source; [details here](https://conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html#sharing-an-environment)) so we can share it. In general, I recommend creating a new Conda environment for every project.
 
+### 4. Evidence of contamination
 
 ### References:
 
