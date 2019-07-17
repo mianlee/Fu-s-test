@@ -344,13 +344,45 @@ For the MIA manual, you have to type ```mia```, ```ma``` or ```ccheck``` in the 
 
 mia -r rCRS.fasta  -f IndA.fq -c -C -U -i -F -k 14 -m Inda.fq.maln  
 
+# Results:
+setting collapsing tolerance to 0
+Starting assembly of IndA.fq
+using rCRS.fasta
+as reference at Tue Jul 16 22:45:12 2019
+
+Making kmer list for k-mer filtering...
+Starting to align sequences to the reference...
+................
+Repeat and score filtering
+Repeat and score filtering
+Generating new assembly consensus
+Starting assembly iteration 2
+Repeat and score filtering
+Starting assembly iteration 3
+Repeat and score filtering
+Assembly convergence - writing final maln
+Assembly finished at Tue Jul 16 22:47:53 2019
+
+
+
 ```
-I use the following parameters: 
+I used the following parameters: 
 
-**-r** reference sequence, **-f** input fastq or fasta file, **-c** means reference/assembly is circular, **-C** collapse sequences with same start, end, strand info into a single sequence, **-U** fasta database has repeat sequences, keep one based on sum of q-scores, **-i** iterate assembly until convergence (default), **-F** only output the FINAL assembly, each iteration **-k** use kmer filter with kmers of this length (parameter used by other researchers), **-m** file name for output file
+**-r** reference sequence, **-f** input fastq or fasta file, **-c** means reference/assembly is circular, **-C** collapse sequences with same start, end, strand info into a single sequence, **-U** fasta database has repeat sequences, keep one based on sum of q-scores, **-i** iterate assembly until convergence (default), **-F** only output the FINAL assembly, each iteration **-k** use kmer filter with kmers of this length (parameter used by other researchers), **-m** file name for output file.
 
+After running ```mia``` command, I recieved a ```.maln``` file named ''Inda.fq.maln.3'', meaning the assembly converged at iteration 3.
 
+```
+# create consensus
 
+ma -M Inda.fq.maln.3 -f 5 -I IndA > IndA.mia.consensus.fasta   
+```
+
+I used the following parameters: 
+
+**-M** input file, **-f 5** fasta format output of assembled sequence only, **-I** makes the consensus have same name as sample.
+
+After running ```ma``` command, I recieved a file named "IndA.mia.consensus.fasta", which contains the consensus sequence.
 
 
 
