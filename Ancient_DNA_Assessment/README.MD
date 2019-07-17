@@ -277,7 +277,7 @@ We'll use Conda and Bioconda to create a controlled environment in which we can 
 
 ### 4. Evidence of contamination
 
-To quantify possible contamination / search fro evidence of contamination, [Haak Wolfgang, *et al*. (2015)](https://www.nature.com/articles/nature14317) used contamMix-1.0.9. Here, I present two other programs: [Mapping-Iterative-Assembler(MIA)](https://github.com/mpieva/mapping-iterative-assembler) and [**schmutzi**](https://github.com/grenaud/schmutzi).
+To quantify possible contamination / search fro evidence of contamination, [Haak Wolfgang, *et al*. (2015)](https://www.nature.com/articles/nature14317) used contamMix-1.0.9. Here, I present two other programs: [**Mapping-Iterative-Assembler(MIA)**](https://github.com/mpieva/mapping-iterative-assembler) and [**schmutzi**](https://github.com/grenaud/schmutzi).
 
 
 **[Mapping-Iterative-Assembler(MIA)](https://github.com/mpieva/mapping-iterative-assembler)**
@@ -313,7 +313,7 @@ For the MIA manual, you have to type ```mia```, ```ma``` or ```ccheck``` in the 
 To use MIA, the sequences (that should be assembled to .bam format, in this case sequences aligning to the rCRS mtDNA) have to be present in the ``` fastq``` format. This means you have aligned sequences (```.bam```) and reverse-convert to ```.fastq```. Fastq files can be extracted from the previously generated SAM/BAM alignments using [bedtools](https://bedtools.readthedocs.io/en/latest/index.html#).
 
 
-**Installing bedtools on Ubuntu, for other operating system [see here](https://bedtools.readthedocs.io/en/latest/content/installation.html).**
+**Installing ```bedtools``` on Ubuntu, for other operating system [see here](https://bedtools.readthedocs.io/en/latest/content/installation.html).**
 
 ```
 sudo apt-get install bedtools
@@ -330,7 +330,9 @@ bedtools bamtofastq -i IndA.bam -fq IndA.fq
 ```
 
 
-A ```.maln``` file needs to be produced to make consesus sequence. ```mia``` command is used to produce the ```.maln``` file.
+A ```.maln``` file needs to be produced to make consesus sequence. ```mia``` command is used to produce the ```.maln``` file.  MIA
+will iteratively assemble the reads from the fastq file alongside a given reference. Each iteration uses the information of the prior
+assembly to refine the following until there is no increase in quality. The assembly from the highest iteration is considered the most accurate one and used for further analysis.
 
 ```
 # create maln file
@@ -377,14 +379,34 @@ After running ```ma``` command, I recieved a file named "IndA.mia.consensus.fast
 
 
 
+I was planning to use the output of MIA (consensus sequnece) to conduct ```contamMix-1.0.9```, but I can't find the ```contamMix-1.0.9``` program online, so I emailed the author and waiting for his reply.
 
 
 
+I tried ```ccheck``` build-in MIA and it seems not working...
 
 
-[**schmutzi**](https://github.com/grenaud/schmutzi) is a set of programs aimed at ancient DNA data that can :
+```
+ccheck -a Inda.fq.maln.3
 
-- estimate contamination based on deamination patterns alone
+59 alignment distance between reference and assembly.
+1707 total differences between reference and assembly.
+1707 diagnostic positions, 6 of which are strongly diagnostic.
+
+ *** Low number (6) of diagnostic positions found.
+ *** I will stop now for your own safety.
+ *** If you are sure you want to shoot yourself
+ *** in the foot, read the man page to learn
+ *** how to lift this restriction.
+```
+
+
+[**schmutzi**](https://github.com/grenaud/schmutzi) 
+
+
+schmutzi is a set of programs aimed at ancient DNA data that can :
+
+- estimate contamination based on deamination patterns alone.
 - call a mitonchondrial consensus for the endogenous genome. This consensus calls takes into account contamination and deamination.
 - estimate mitonchondrial contamination and identify the most likely contaminant from a set.
 
@@ -394,7 +416,11 @@ Following intruction to install **schmutzi** on Ubuntu, [available here](https:/
 
 
 
-[bedtools v2.28.0](https://bedtools.readthedocs.io/en/latest/index.html#)
+
+
+
+
+
 
 
 
