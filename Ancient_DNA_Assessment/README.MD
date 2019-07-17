@@ -440,20 +440,6 @@ outputdir/IndA.cont.est      #Estimate for contamination based on deamination
 outputdir/IndA.config	       #Configuration file describing the variables used
 ```
 
-```
-./schmutzi.pl --uselength   --ref ../share/schmutzi/refs/human_MT_wrapped.fa  ~/Downloads/outputdir/IndA  ../share/schmutzi/alleleFreqMT/alleleFreqMT/eurasian/freqs/  ~/Downloads/IndA.bam
-
-
-    --uselength tells the program to use the length of the molecules
-    --ref is for the reference
-
-   outputdir/mez is the output from contDeam
-   share/schmutzi/alleleFreqMT/197/freqs/ is the database of putative contaminants 
-   testdata/mezB9687.bam is the input bam file
-```
-
-
-
 
 
 ### 5. Separating endogenous ancient DNA from modern day contamination
@@ -463,6 +449,33 @@ outputdir/IndA.config	       #Configuration file describing the variables used
 **Logical behind it**: 
 
 DNA fragments isolated from ancient specimens show a characteristic DNA damage pattern caused by miscoding lesions that differs from present day DNA sequences. The authors developed a framework for evaluating the likelihood of a sequence originating from a model with postmortem degradation—summarized in a postmortem degradation score—which allows the identification of DNA fragments that are unlikely to originate from present day sources.
+
+
+[PMDtools](https://github.com/pontussk/PMDtools) implements a likelihood framework incorporating postmortem damage (PMD), base quality scores and biological polymorphism to identify degraded DNA sequences that are unlikely to originate from modern contamination. Using the model, each sequence is assigned a PMD score, for which positive values indicate support for the sequence being genuinely ancient. 
+
+Downloading the PMDtools:
+
+```
+git clone https://github.com/pontussk/PMDtools.git
+```
+
+To restrict to sequences with a PMD score of at least 3, enter:
+
+```
+samtools view -h ~/Downloads/IndA.bam | python2 pmdtools.0.60.py --threshold 3 --header | samtools view -Sb - > IndA.pmds3filter.bam
+
+# Doesn't work with python3
+```
+
+To compute deamination-derived damage patterns separating CpG and non-CpG sites, enter:
+
+```
+samtools view ~/Downloads/IndA.bam | python2 pmdtools.0.60.py --platypus --requirebaseq 30 > PMD_temp.txt
+
+R CMD BATCH plotPMD.v2.R
+
+cp PMD_plot.frag.pdf PMD.plot.IndA.pdf
+```
 
 
 ### References:
