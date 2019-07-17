@@ -439,7 +439,8 @@ outputdir/IndA.cont.pdf	     #Plot of the posterior probability for contaminatio
 outputdir/IndA.cont.est      #Estimate for contamination based on deamination
 outputdir/IndA.config	       #Configuration file describing the variables used
 ```
-<img src="images/Comtamination.PNG" width=1000, hight=1100>
+
+<img src="images/Contamination.PNG" width=1000, hight=1100>
 
 
 ### 5. Separating endogenous ancient DNA from modern day contamination
