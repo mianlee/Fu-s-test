@@ -440,7 +440,7 @@ outputdir/IndA.cont.est      #Estimate for contamination based on deamination
 outputdir/IndA.config	       #Configuration file describing the variables used
 ```
 
-<img src="images/Contamination.PNG" width=800, hight=900>
+<img src="images/Contamination.PNG" width=600, hight=700>
 
 
 ### 5. Separating endogenous ancient DNA from modern day contamination
