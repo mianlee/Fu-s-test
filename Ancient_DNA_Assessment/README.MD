@@ -476,7 +476,7 @@ R CMD BATCH plotPMD.v2.R
 
 cp PMD_plot.frag.pdf PMD.plot.IndA.pdf
 ```
-
+<img src="images/PMD.PNG" width=1000, hight=1300>
 
 ### References:
 
