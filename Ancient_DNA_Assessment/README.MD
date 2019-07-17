@@ -400,6 +400,8 @@ ccheck -a Inda.fq.maln.3
  *** how to lift this restriction.
 ```
 
+The manual page of ```ccheck``` explicitly warns not to use this program to assesscontamination rates in anatomical modern humans. I think that to date, methods to quantify present-day human mitochondrial contamination have relied on the presence of fixed differences between the mitochondrial genomes of archaic and modern humans. This works well when analyzing the genomes of Neanderthals and Denisovans, but early modern human genomes typically carry too few fixed differences to permit a robust estimate of contamination.
+
 
 [**schmutzi**](https://github.com/grenaud/schmutzi) 
 
@@ -413,23 +415,42 @@ schmutzi is a set of programs aimed at ancient DNA data that can :
 Following intruction to install **schmutzi** on Ubuntu, [available here](https://github.com/grenaud/schmutzi).
 
 
+First you need to estimate endogenous deamination rates. First create an output directory in Downloads directory:
+
+```
+mkdir -p outputdir/
+```
+
+Then run contDeam to estimation endogenous deamination rates for "IndA":
 
 
 
 
+```
+# Fortmat: "contDeam.pl --lengthDeam [length] --library [library type] --out [output prefix] [input bam file] "
 
 
+./contDeam.pl  --lengthDeam 5 --library double --out ~/Downloads/outputdir/IndA ~/Downloads/IndA.bam
+```
+This will produce the files:
+
+```
+outputdir/IndA.cont.pdf	     #Plot of the posterior probability for contamination based on deamination
+outputdir/IndA.cont.est      #Estimate for contamination based on deamination
+outputdir/IndA.config	       #Configuration file describing the variables used
+```
+
+```
+./schmutzi.pl --uselength   --ref ../share/schmutzi/refs/human_MT_wrapped.fa  ~/Downloads/outputdir/IndA  ../share/schmutzi/alleleFreqMT/alleleFreqMT/eurasian/freqs/  ~/Downloads/IndA.bam
 
 
+    --uselength tells the program to use the length of the molecules
+    --ref is for the reference
 
-
-
-
-
-
-
-
-
+   outputdir/mez is the output from contDeam
+   share/schmutzi/alleleFreqMT/197/freqs/ is the database of putative contaminants 
+   testdata/mezB9687.bam is the input bam file
+```
 
 
 
