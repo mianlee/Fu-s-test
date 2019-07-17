@@ -277,6 +277,8 @@ We'll use Conda and Bioconda to create a controlled environment in which we can 
 
 ### 4. Evidence of contamination
 
+To quantify possible contamination / search fro evidence of contamination, [Haak Wolfgang, *et al*. (2015)](https://www.nature.com/articles/nature14317) used contamMix-1.0.9. 
+
 [**schmutzi**](https://github.com/grenaud/schmutzi) is a set of programs aimed at ancient DNA data that can :
 
 - estimate contamination based on deamination patterns alone
