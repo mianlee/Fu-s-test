@@ -334,6 +334,31 @@ sudo make install
 For the MIA manual, you have to type ```mia```, ```ma``` or ```ccheck``` in the terminal to get the usage instruction, I have them ready in [here](Data/MIA.pdf).
 
 
+
+ A ```.maln``` file needs to be produced to make consesus sequence. 
+ 
+ ```mia``` command is used to produce the ```.maln```
+
+```
+# create maln file
+
+mia -r rCRS.fasta  -f IndA.fq -c -C -U -i -F -k 14 -m Inda.fq.maln  
+
+```
+I use the following parameters: 
+
+**-r** reference sequence, **-f** input fastq or fasta file, **-c** means reference/assembly is circular, **-C** collapse sequences with same start, end, strand info into a single sequence, **-U** fasta database has repeat sequences, keep one based on sum of q-scores, **-i** iterate assembly until convergence (default), **-F** only output the FINAL assembly, each iteration **-k** use kmer filter with kmers of this length (parameter used by other researchers), **-m** file name for output file
+
+
+
+
+
+
+
+
+
+
+
 ### 5. Separating endogenous ancient DNA from modern day contamination
 
 **[Pontus Skoglund *et al*. 2014](https://www.pnas.org/content/111/6/2229)**
