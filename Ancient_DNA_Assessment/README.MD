@@ -289,15 +289,48 @@ Following intruction to install **schmutzi** on Ubuntu, [available here](https:/
 
 
 
+[bedtools v2.28.0](https://bedtools.readthedocs.io/en/latest/index.html#)
 
 
+Installing bedtools on Ubuntu, for other operating system [see here](https://bedtools.readthedocs.io/en/latest/content/installation.html)
+
+```
+sudo apt-get install bedtools
+
+# after installation, I checked the version.
+bedtools -version
+bedtools v2.25.0
+````
+
+Using bedtools to transform the ```.bam``` (e.g. IndA.bam) file back to ```.fastq```. This ensures we only have the high quality, uniq reads without duplicates for the consensus. 
 
 
+```
+bedtools bamtofastq -i IndA.bam -fq IndA.fq
+
+```
 
 
+[Mapping-Iterative-Assembler(MIA)](https://github.com/mpieva/mapping-iterative-assembler)
 
+The basic idea of this program is to align DNA sequencing fragments (shotgun or targeted resequencing) to a reference, then call a consensus.It assembles fragmented reads to a single consensus sequence assisted by a given reference. Then the consensus is used as new reference and the process is repeated until convergence. Since it was originally designed to be used on ancient DNA, it supports a position specific substitution matrix, which improves both alignment and consensus calling on chemically damaged aDNA.
 
+```
+git clone https://github.com/mpieva/mapping-iterative-assembler.git
 
+cd mapping-iterative-assembler/
+
+sudo apt-get install subversion # I don't have subversion installed
+
+sh bootstrap.sh
+
+./configure
+
+make
+
+sudo make install
+
+```
 
 
 
