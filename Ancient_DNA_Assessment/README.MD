@@ -331,7 +331,7 @@ make
 sudo make install
 
 ```
-For the MIA manual, you have to type ```mia```, ```ma``` or ```ccheck``` in the terminal to get the usage instruction, I have them ready in [here](/Data/MIA.pdf).
+For the MIA manual, you have to type ```mia```, ```ma``` or ```ccheck``` in the terminal to get the usage instruction, I have them ready in [here](Data/MIA.pdf).
 
 
 ### 5. Separating endogenous ancient DNA from modern day contamination
