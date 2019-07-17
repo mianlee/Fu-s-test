@@ -442,6 +442,10 @@ outputdir/IndA.config	       #Configuration file describing the variables used
 
 <img src="images/Contamination.PNG" width=600, hight=700>
 
+Plot of the posterior probability for contamination based on deamination
+
+
+[IndA.cont.est](Data/IndA.cont.est): Contamination estimates confidence intervals.
 
 ### 5. Separating endogenous ancient DNA from modern day contamination
 
