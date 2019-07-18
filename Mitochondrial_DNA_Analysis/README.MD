@@ -143,9 +143,9 @@ Those results match the ancient DNA dagamge pattern (no UDG treatment; partial U
 
 **Note**: 
 
-See my protocal How to install and use mapDamage, [Here](https://github.com/mianlee/Fu-s-test/tree/master/Ancient_DNA_Assessment)
+See my protocal How to install and use mapDamage, [Here](https://github.com/mianlee/Fu-s-test/tree/master/Ancient_DNA_Assessment).
 
-See my notes on ancient DNA damage pattern, [Here](https://github.com/mianlee/Fu-s-test/tree/master/Ancient_DNA_Damage)
+See my notes on ancient DNA damage pattern, [Here](https://github.com/mianlee/Fu-s-test/tree/master/Ancient_DNA_Damage).
 
 
 ### Reference:
