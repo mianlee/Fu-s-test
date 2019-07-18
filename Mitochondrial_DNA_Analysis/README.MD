@@ -141,6 +141,12 @@ mapDamage -i S0061.bam -r rCRS.fa
 
 Those results match the ancient DNA dagamge pattern (no UDG treatment; partial UDG treatment; full UDG treatment), which mentioned in [Nadin Rohland et al. (2013)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4275898/), Partial uracil–DNA–glycosylase treatment for screening of ancient DNA.
 
+**Note**: 
+
+See my protocal How to install and use mapDamage, [Here](https://github.com/mianlee/Fu-s-test/tree/master/Ancient_DNA_Assessment)
+
+See my notes on ancient DNA damage pattern, [Here](https://github.com/mianlee/Fu-s-test/tree/master/Ancient_DNA_Damage)
+
 
 ### Reference:
 
