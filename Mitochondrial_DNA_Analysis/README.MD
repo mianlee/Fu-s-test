@@ -1,4 +1,4 @@
-Here I am trying to repeat all analyses related to mitochondrial DNA in [Haak *et al*. (2015)](https://www.nature.com/articles/nature14317) paper.
+**Here I am trying to repeat all analyses related to mitochondrial DNA in [Haak *et al*. (2015)](https://www.nature.com/articles/nature14317) paper.**
 
 1. Assessment of ancient DNA authenticity, search for evidence of contamination in the mitochondrial DNA.
 
@@ -7,7 +7,7 @@ Here I am trying to repeat all analyses related to mitochondrial DNA in [Haak *e
 3. Population genetic analysis using mtDNA. 
 
 
-Goals:
+**Goals**:
 
 - Know how to estimate contamination rate using mitochondrial DNA
 
@@ -16,6 +16,11 @@ Goals:
 - Be familiar with available online resources for researching human mtDNA haplogroup diversity and finding comparative datasets.
 
 - Understand how ancient mtDNA results are interpreted and contextualized with other lines of evidence.
+
+
+
+
+
 
 
 
