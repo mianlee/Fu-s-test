@@ -126,15 +126,15 @@ mapDamage -i S0061.bam -r rCRS.fa
 
 **Results**:
 
-S0061
+**S0061**, [full plot](Data/S0061_DamagePattern.pdf)
 
 <img src="Images/S0061_DamagePattern.PNG">
 
-S0670
+**S0670**, [full plot](Data/S0670_DamagePattern.pdf)
 
 <img src="Images/S0670_DamagePattern.PNG">
 
-S0230
+**S0230**, [full plot](Data/S0230_DamagePattern.pdf)
 
 <img src="Images/S230_DamagePattern.PNG">
 
