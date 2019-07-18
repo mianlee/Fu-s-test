@@ -21,13 +21,81 @@
 
 ### mtDNA damage pattern
 
-Here, I used NGS data from sample I0061, [here](https://www.ebi.ac.uk/ena/data/view/SAMEA3270053). I checked ancient DNA damage pattern for library **S0061** (non-UDG), **S0670**(half-UDG) and **S0230** (full-UDG) using [mapDamage2](https://ginolhac.github.io/mapDamage/). You can find ```.bam``` file here: [S0061](Data/S0061.bam), [S0670](Data/S0670.bam), [S0230](Data/S0230.bam).
+Here, I used NGS data from sample I0061, [here](https://www.ebi.ac.uk/ena/data/view/SAMEA3270053). I checked ancient DNA damage pattern for library **S0061** (non-UDG), **S0670**(half-UDG) and **S0230** (full-UDG) using [mapDamage2](https://ginolhac.github.io/mapDamage/). You can also download ```.bam``` file from here: [S0061](Data/S0061.bam), [S0670](Data/S0670.bam), [S0230](Data/S0230.bam).
+
+
+If you use ```samtools view -h  *.bam``` to check thoe three files, you will find out **S0061.bam** contains shallow shotgut, and mtDNA capture sequences, and **S0670** and **S0230** only contains capture mtDNA sequences.
+
+I will extract all mtDNA cuptre sequences from **S0061.bam**:
+
+```
+# sorting
+samtools sort S0061.bam -o S0061.sorted.bam 
+
+# indexing
+samtools index S0061.sorted.bam
+
+# sorted and indexed file need to be co-existed to be able to extract mtDNA alignments
+
+samtools view -h S0061.sorted.bam MT > S0061.mt.bam
+
+```
+
+Indexing mitochondral DNA reference using bwa:
+
+Download the ```.fasta``` file of the revised Cambridge Reference Sequence (rCRS) for mtDNA: rCRS-fasta(https://www.ncbi.nlm.nih.gov/nuccore/251831106?report=fasta&log$=seqview) and save as **rCRS.fa**.
+
+
+```
+bwa index rCRS.fa
+```
+
+I run the mapDamage with following command:
+
+```
+mapDamage -i S0061.mt.bam -r rCRS.fa
+```
+
+I receive the error: "FATAL ERROR: No sequences in common!". I think some information do not match between ```.bam ``` and newly indexed rCRS mtDNA reference. In oder to use [mapDamage2](https://ginolhac.github.io/mapDamage/), I have to convert ```.bam``` to ```.fastq``` and re-map those sequnce to rCRS mtDNA reference to generate new ```.sam``` file and finally convert ```.sam``` to ```.bam``` file.
+
+
+```
+# For library S0230.
+
+bedtools bamtofastq -i S0230.bam -fq S0230.fq  # .bam to .fastq
+
+bwa mem rCRS.fa S0230.fq > S0230.re.sam        # re-map fastq sequences to rCRS to get .sam file
+
+samtools view -b S0230.re.sam > S0230.re.bam   # .sam to .bam file
+
+mapDamage -i S0230.re.bam -r rCRS.fa              # run mapDamage 
+
+
+# For library S0061, use different program to achieve the same goal.
+
+samtools fastq S0061.mt.bam > S0061.mt.fq       # .bam to .fastq
+
+bowtie2-build -f rCRS.fa rCRS.bowtie            # bulit bowtie rCRS index
+
+bowtie2 -x rCRS.bowtie -U S0061.mt.fq -S S0061.mt.sam   # re-map fastq sequences to rCRS to get .sam file, -U for Unpaired
+
+samtools view -b S0061.mt.sam > S0061.mt.re.bam  # .sam to .bam file
+
+mapDamage -i S0061.mt.re.bam -r rCRS.fa          # run mapDamage
 
 
 
+# For library S0670.
 
+bedtools bamtofastq -i S0670.bam -fq S0670.fq  # .bam to .fastq
 
+bwa mem rCRS.fa S0670.fq > S0670.re.sam        # re-map fastq sequences to rCRS to get .sam file
 
+samtools fixmate -O bam S0670.re.sam S0670.re.bam   # .sam to .bam file
+
+mapDamage -i S0670.re.bam -r rCRS.fa              # run mapDamage 
+
+```
 
 
 ### Reference:
