@@ -19,6 +19,12 @@
 
 
 
+### mtDNA damage pattern
+
+Here, I used NGS data from sample I0061, [here](https://www.ebi.ac.uk/ena/data/view/SAMEA3270053). I checked ancient DNA damage pattern for library **S0061** (non-UDG), **S0670 **(half-UDG) and **S0230** (full-UDG) using [mapDamage2](https://ginolhac.github.io/mapDamage/). 
+
+
+
 
 
 
