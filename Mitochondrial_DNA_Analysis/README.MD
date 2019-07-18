@@ -126,20 +126,20 @@ mapDamage -i S0061.bam -r rCRS.fa
 
 **Results**:
 
-**S0061**, [full plot](Data/S0061_DamagePattern.pdf)
+**S0061**, no UDG treatment library, [full plot](Data/S0061_DamagePattern.pdf).
 
 <img src="Images/S0061_DamagePattern.PNG">
 
-**S0670**, [full plot](Data/S0670_DamagePattern.pdf)
+**S0670**, partial UDG treatment library, [full plot](Data/S0670_DamagePattern.pdf).
 
 <img src="Images/S0670_DamagePattern.PNG">
 
-**S0230**, [full plot](Data/S0230_DamagePattern.pdf)
+**S0230**, full UDG treatment library, [full plot](Data/S0230_DamagePattern.pdf).
 
 <img src="Images/S230_DamagePattern.PNG">
 
 
-
+Those results match the ancient DNA dagamge pattern (no UDG treatment; partial UDG treatment; full UDG treatment), which mentioned in [Nadin Rohland et al. (2013)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4275898/), Partial uracil–DNA–glycosylase treatment for screening of ancient DNA.
 
 
 ### Reference:
