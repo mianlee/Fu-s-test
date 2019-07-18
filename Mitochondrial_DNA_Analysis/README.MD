@@ -128,15 +128,15 @@ mapDamage -i S0061.bam -r rCRS.fa
 
 S0061
 
-<img src="Images/S0061_DamagePattern.PNG.PNG">
+<img src="Images/S0061_DamagePattern.PNG">
 
 S0670
 
-<img src="Images/S0670_DamagePattern.PNG.PNG">
+<img src="Images/S0670_DamagePattern.PNG">
 
 S0230
 
-<img src="Images/S230_DamagePattern.PNG.PNG">
+<img src="Images/S230_DamagePattern.PNG">
 
 
 
