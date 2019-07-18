@@ -26,7 +26,7 @@ Here, I used NGS data from sample I0061, [here](https://www.ebi.ac.uk/ena/data/v
 
 If you use ```samtools view -h  *.bam``` to check thoe three files, you will find out **S0061.bam** contains both shallow shotgun sequences and mtDNA capture sequences, and **S0670** and **S0230** only contains capture mtDNA sequences.
 
-I will extract all mtDNA cuptre sequences from **S0061.bam**:
+I will extract all mtDNA capture sequences from **S0061.bam**:
 
 ```
 # sorting
