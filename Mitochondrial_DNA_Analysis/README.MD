@@ -167,7 +167,7 @@ See my notes on ancient DNA damage pattern, [Here](https://github.com/mianlee/Fu
 
 To quantify possible contamination / search fro evidence of contamination, [Haak Wolfgang,*et al*. (2015)](https://www.nature.com/articles/nature14317) used **```contamMix-1.0.9```**. But I can't find the **```contamMix-1.0.9```** program online, so I emailed the author and waiting for his reply.
 
-Here, I used **[schmutzi]**(https://github.com/grenaud/schmutzi) to estimate contamination based on deamination patterns alone. I wrote the full protocol about how to install and use ```schmutzi```, [Here](https://github.com/mianlee/Fu-s-test/tree/master/Ancient_DNA_Assessment).
+Here, I used **[schmutzi](https://github.com/grenaud/schmutzi)** to estimate contamination based on deamination patterns alone. I wrote the full protocol about how to install and use **```schmutzi```**, [Here](https://github.com/mianlee/Fu-s-test/tree/master/Ancient_DNA_Assessment).
 
 
 
