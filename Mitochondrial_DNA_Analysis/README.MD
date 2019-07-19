@@ -172,8 +172,6 @@ Here, I used **[schmutzi](https://github.com/grenaud/schmutzi)** to estimate con
 
 
 
-
-
 ### Reference:
 
 1. Haak, Wolfgang, et al. "Massive migration from the steppe was a source for Indo-European languages in Europe." Nature 522.7555 (2015): 207.
