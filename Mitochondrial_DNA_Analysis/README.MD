@@ -167,7 +167,21 @@ See my notes on ancient DNA damage pattern, [here](https://github.com/mianlee/Fu
 
 To quantify possible contamination / search fro evidence of contamination, [Haak Wolfgang,*et al*. (2015)](https://www.nature.com/articles/nature14317) used **```contamMix-1.0.9```**. But I can't find the **```contamMix-1.0.9```** program online, so I emailed the author and waiting for his reply.
 
-###  
+ 
+ 
+### Getting full mtDNA sequence from **```sampleID.390k.bam```** file
+
+
+The sequencing data is available through the European Nucleotide Archive under accession number [PRJEB8448](https://www.ebi.ac.uk/ena/data/view/PRJEB8448). Here, I only use in the form of **```.bam```** file.
+
+For each ancient sample, it includes the aligned sequence for different libraries ( different extractions, different UDG treatment) and a final combined aligned sequences (autosomal + mitochondrial DNA), named **```sampleID.390k.bam```**.
+
+The **```sampleID.390k.bam```** file includes autosomal, Y and mitochondral DNA alignments. I am only extracting mtDNA alignments from **```sampleID.390k.bam```** file.
+
+
+
+
+
 
 
 ### Reference:
