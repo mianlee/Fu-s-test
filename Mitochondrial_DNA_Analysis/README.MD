@@ -219,6 +219,9 @@ mapDamage -i I0061.mt.bam -r rCRS.fa
 
 **I0061 mtDNA damage pattern**, [full plot](Data/I0061.mt.damage.pattern.pdf).
 
+
+This damage pattern consistent with in the paper Methods ( Mitochondrial sequence analyisis and assessment of ancient DNA authenticity): " For population genetic analysis, we onlyu used partially UDG-treated libraries with a minimum of 3% C -> T substitutions as recommended by [Nadin Rohland et al. (2013)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4275898/)."
+
 ### Reference:
 
 1. Haak, Wolfgang, et al. "Massive migration from the steppe was a source for Indo-European languages in Europe." Nature 522.7555 (2015): 207.
