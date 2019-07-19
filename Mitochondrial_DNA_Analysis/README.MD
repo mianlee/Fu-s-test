@@ -181,7 +181,7 @@ The **```sampleID.390k.bam```** file includes autosomal, Y and mitochondral DNA 
 
 1. Download the **```*.390k.bam```** (FTP) file, for example [**```I0061.390k.bam```**](https://www.ebi.ac.uk/ena/data/view/SAMEA3270053).
 
-2. Sorting and indexing the ***.bam*** file.
+2. Sorting and indexing the **```.bam```** file.
 
 ```
 # sorting
