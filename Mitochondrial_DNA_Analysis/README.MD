@@ -292,7 +292,7 @@ percentage of properly paired reads (%):	0.0
 
 By "call variants", I mean statistically infer genotypes. There are a few tools that do this, here I am  going to use the [Genome Analysis Toolkit's (GATK's)](https://software.broadinstitute.org/gatk/) and [BCFtools](https://samtools.github.io/bcftools/howtos/index.html). 
 
-Indexing mitochondral DNA reference using ```bamtools```:
+**Indexing mitochondral DNA reference using ```bamtools```**:
 
 Download the ```.fasta``` file of the revised Cambridge Reference Sequence (rCRS) for mtDNA: [rCRS-fasta](https://www.ncbi.nlm.nih.gov/nuccore/251831106?report=fasta&log$=seqview) and save as ```rCRS.fa```. Change the name header **>NC_012920.1 Homo sapiens mitochondrion, complete genome** to **>MT**.
 
@@ -303,7 +303,7 @@ samtools faidx rCRS.fa
 
 
 
-**Genome Analysis Toolkit's (GATK's)**, [HaplotypeCaller}(https://software.broadinstitute.org/gatk/documentation/tooldocs/current/org_broadinstitute_hellbender_tools_walkers_haplotypecaller_HaplotypeCaller.php).
+**Genome Analysis Toolkit's (GATK's)**, [HaplotypeCaller](https://software.broadinstitute.org/gatk/documentation/tooldocs/current/org_broadinstitute_hellbender_tools_walkers_haplotypecaller_HaplotypeCaller.php).
 
 
 Creating the fasta sequence dictionary file for your reference, ```CreateSequenceDictionary.jar``` from ```Picard``` to create a ```.dict``` file from the ```rCRS.fa``` file.
