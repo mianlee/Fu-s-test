@@ -306,7 +306,7 @@ samtools faidx rCRS.fa
 **Genome Analysis Toolkit's (GATK's)**, [HaplotypeCaller](https://software.broadinstitute.org/gatk/documentation/tooldocs/current/org_broadinstitute_hellbender_tools_walkers_haplotypecaller_HaplotypeCaller.php).
 
 
-Creating the fasta sequence dictionary file for your reference, ```CreateSequenceDictionary.jar``` from ```Picard``` to create a ```.dict``` file from the ```rCRS.fa``` file.
+Creating the fasta sequence dictionary file for your reference, using ```CreateSequenceDictionary.jar``` from ```Picard``` to create a ```.dict``` file from the ```rCRS.fa``` file.
 
 ```
 java -jar $picard CreateSequenceDictionary \
