@@ -325,6 +325,7 @@ gatk --java-options "-Xmx4g" HaplotypeCaller  \
    -O I0061.390k.mt.sorted.bam.vcf
 ```
 
+
 Keep SNPs with a minimum coverage of 2 and a minimum variant frequency of 0.7.
 
 ```
@@ -371,7 +372,8 @@ The option ```-ERC GVCF```, which outputs confidence that an invariant site (hom
 
 ```--java-options "-Xmx4g"``` Specify the maximum size, in bytes, of the memory allocation pool. So, in simple words, you are setting Java heap memory to a maximum of 4G from the available memory, not more.
 
-[GATK command-line syntax](https://software.broadinstitute.org/gatk/documentation/article?id=11050) 
+[GATK command-line syntax](https://software.broadinstitute.org/gatk/documentation/article?id=11050). 
+
 
 ### Reference:
 
