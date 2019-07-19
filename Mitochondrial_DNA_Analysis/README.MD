@@ -82,7 +82,7 @@ bedtools bamtofastq -i S0230.bam -fq S0230.fq  # .bam to .fastq
 
 bwa mem rCRS.fa S0230.fq > S0230.re.sam        # re-map fastq sequences to rCRS to get .sam file
 
-samtools view -b S0230.re.sam > S0230.re.bam   # .sam to .bam file
+samtools view -bS S0230.re.sam > S0230.re.bam   # .sam to .bam file.   -b: output a bam file, -S: input is a sam file, now it has autodection, so you can only use -b > : redirect to a file.
 
 mapDamage -i S0230.re.bam -r rCRS.fa              # run mapDamage 
 
@@ -193,7 +193,7 @@ samtools index I0061.390k.sorted.bam
 # sorted and indexed file need to be co-existed to be able to extract mtDNA alignments
 ```
 
-3. Extracting only mtDNA alignments.
+3. Extracting only mtDNA alignments ```.bam```
 
 ```
 samtools view -h I0061.390k.sorted.bam MT > I0061.390k.mt.sorted.bam
@@ -203,7 +203,9 @@ samtools view -h I0061.390k.sorted.bam MT > I0061.390k.mt.sorted.bam
 # MT: reference for mitochondral DNA.
 ```
 
-4. Check the damage pattern of those mtDNA sequences
+4. Check the damage pattern of those mtDNA sequences.
+
+You don't have to do this step. I am just curious about which library they used for mtDNA sequnces(non-UDG treatment, half or full) base on damage pattern.
 
 ```
 samtools fastq I0061.390k.mt.sorted.bam > I0061.mt.fq
@@ -221,6 +223,11 @@ mapDamage -i I0061.mt.bam -r rCRS.fa
 
 
 This damage pattern consistent with in the paper Methods ( Mitochondrial sequence analyisis and assessment of ancient DNA authenticity): " For population genetic analysis, we only used partially UDG-treated libraries with a minimum of 3% C -> T substitutions as recommended by [Nadin Rohland et al. (2013)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4275898/)."
+
+
+
+
+
 
 ### Reference:
 
