@@ -19,7 +19,7 @@
 
 
 
-### mtDNA damage pattern
+### 1. mtDNA damage pattern
 
 Here, I used NGS data from sample I0061, [here](https://www.ebi.ac.uk/ena/data/view/SAMEA3270053). I checked ancient DNA damage pattern for library **S0061** (non-UDG), **S0670** (half-UDG) and **S0230** (full-UDG) using [mapDamage2](https://ginolhac.github.io/mapDamage/). You can also download ```.bam``` file from here: [S0061](Data/S0061.bam), [S0670](Data/S0670.bam), [S0230](Data/S0230.bam).
 
@@ -163,13 +163,13 @@ See my protocal How to install and use mapDamage, [here](https://github.com/mian
 
 See my notes on ancient DNA damage pattern, [here](https://github.com/mianlee/Fu-s-test/tree/master/Ancient_DNA_Damage).
 
-### Evidence of contamination 
+### 2. Evidence of contamination 
 
 To quantify possible contamination / search fro evidence of contamination, [Haak Wolfgang,*et al*. (2015)](https://www.nature.com/articles/nature14317) used **```contamMix-1.0.9```**. But I can't find the **```contamMix-1.0.9```** program online, so I emailed the author and waiting for his reply.
 
  
  
-### Getting full mtDNA sequence from **```sampleID.390k.bam```** file
+### 3. Getting full mtDNA sequence from **```sampleID.390k.bam```** file
 
 
 The sequencing data is available through the European Nucleotide Archive under accession number [PRJEB8448](https://www.ebi.ac.uk/ena/data/view/PRJEB8448). Here, I only use in the form of **```.bam```** file.
