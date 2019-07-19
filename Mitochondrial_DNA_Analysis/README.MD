@@ -203,21 +203,21 @@ samtools view -h I0061.390k.sorted.bam MT > I0061.390k.mt.sorted.bam
 # MT: reference for mitochondral DNA.
 ```
 
+4. Check the damage pattern of those mtDNA sequences
 
+```
+samtools fastq I0061.390k.mt.sorted.bam > I0061.mt.fq
 
-I0061.390k.mt.sorted.bam
+bwa mem rCRS.fa I0061.mt.fq > I0061.mt.sam
 
+samtools view -b I0061.mt.sam > I0061.mt.bam
 
-bedtools bamtofastq -i I0061.390k.mt.sorted.bam -fq I0061.mt.fq  # .bam to .fastq
+mapDamage -i I0061.mt.bam -r rCRS.fa
+```
 
-bwa mem rCRS.fa I0061.mt.fq > I0061.mt.sam        # re-map fastq sequences to rCRS to get .sam file
+<img src="Images/I0061.mt.damage.PNG">
 
-samtools view -b I0061.mt.sam > I0061.mt.bam   # .sam to .bam file
-
-mapDamage -i I0061.mt.bam -r rCRS.fa              # run mapDamage 
-
-
-
+**I0061 mtDNA damage pattern**, [full plot](Data/I0061.mt.damage.pattern.pdf).
 
 ### Reference:
 
