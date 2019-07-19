@@ -326,7 +326,7 @@ gatk --java-options "-Xmx4g" HaplotypeCaller  \
 ```
 
 
-Keep SNPs with a minimum coverage of 2 and a minimum variant frequency of 0.7.
+Keep SNPs with a minimum coverage of 2 (DP) and a minimum variant frequency of 0.7 (AF).
 
 ```
 gatk --java-options "-Xmx4g" SelectVariants \
@@ -334,6 +334,9 @@ gatk --java-options "-Xmx4g" SelectVariants \
  -V I0061.390k.mt.sorted.bam.vcf	\
  -O I0061.390k.mt.sorted.bam.filter.vcf \
  --selectExpressions "DP > 2 || AF > 70.0"
+ 
+ 
+ # DP: read depth; AF: Allele Frequency.
 ```
 
 
