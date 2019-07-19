@@ -313,7 +313,6 @@ java -jar $picard CreateSequenceDictionary \
     R=rCRS.fa \ 
     O=rCRS.dict 
 
-
 # $picard, see note below
 ```
 
@@ -345,9 +344,7 @@ Download the [gatk package](https://software.broadinstitute.org/gatk/download/) 
 
 2. Install Picart
 
-Download [Picart](https://broadinstitute.github.io/picard/)
-
-Note that it is not possible to add jar files to your path to make the tools available on the command line; you have to specify the full path to the jar file in your java command, which would look like this:
+Download [Picart](https://broadinstitute.github.io/picard/). Note that it is not possible to add jar files to your path to make the tools available on the command line; you have to specify the full path to the jar file in your java command, which would look like this:
 
 ```
 java -jar ~/my_tools/jars/picard.jar <Toolname> [options]
