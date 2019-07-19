@@ -294,7 +294,7 @@ By "call variants", I mean statistically infer genotypes. There are a few tools 
 
 **Indexing mitochondral DNA reference using ```bamtools```**:
 
-Download the ```.fasta``` file of the revised Cambridge Reference Sequence (rCRS) for mtDNA: [rCRS-fasta](https://www.ncbi.nlm.nih.gov/nuccore/251831106?report=fasta&log$=seqview) and save as ```rCRS.fa```. Change the name header **>NC_012920.1 Homo sapiens mitochondrion, complete genome** to **>MT**.
+Download the ```.fasta``` file of the revised Cambridge Reference Sequence (rCRS) for mtDNA: [rCRS-fasta](https://www.ncbi.nlm.nih.gov/nuccore/251831106?report=fasta&log$=seqview) and save as ```rCRS.fa```. Change the name header ">NC_012920.1 Homo sapiens mitochondrion, complete genome" to ">MT".
 
 
 ```
