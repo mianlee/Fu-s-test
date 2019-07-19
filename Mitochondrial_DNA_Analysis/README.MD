@@ -82,7 +82,9 @@ bedtools bamtofastq -i S0230.bam -fq S0230.fq  # .bam to .fastq
 
 bwa mem rCRS.fa S0230.fq > S0230.re.sam        # re-map fastq sequences to rCRS to get .sam file
 
-samtools view -bS S0230.re.sam > S0230.re.bam   # .sam to .bam file.   -b: output a bam file, -S: input is a sam file, now it has autodection, so you can only use -b > : redirect to a file.
+samtools view -bS S0230.re.sam > S0230.re.bam   # .sam to .bam file.  
+
+# -b: output a bam file; -S: input is a sam file, now it has autodection, so you can only use -b; > : redirect to a file.
 
 mapDamage -i S0230.re.bam -r rCRS.fa              # run mapDamage 
 
@@ -196,11 +198,18 @@ samtools index I0061.390k.sorted.bam
 3. Extracting only mtDNA alignments ```.bam```
 
 ```
-samtools view -h I0061.390k.sorted.bam MT > I0061.390k.mt.sorted.bam
+samtools view -h I0061.390k.sorted.bam MT > I0061.390k.mt.bam
 
 # -h, include the header in the output.
 # output all alignments mapped to the reference sequence named `MT' (i.e. @SQ SN:MT).
 # MT: reference for mitochondral DNA.
+
+# sorting
+samtools sort I0061.390k.mt.bam -o I0061.390k.mt.sorted.bam 
+
+# indexing
+samtools index I0061.390k.mt.sorted.bam
+
 ```
 
 4. Check the damage pattern of those mtDNA sequences.
@@ -208,7 +217,7 @@ samtools view -h I0061.390k.sorted.bam MT > I0061.390k.mt.sorted.bam
 You don't have to do this step. I am just curious about which library they used for mtDNA sequnces(non-UDG treatment, half or full) base on damage pattern.
 
 ```
-samtools fastq I0061.390k.mt.sorted.bam > I0061.mt.fq
+samtools fastq I0061.390k.mt.bam > I0061.mt.fq
 
 bwa mem rCRS.fa I0061.mt.fq > I0061.mt.sam
 
@@ -225,8 +234,140 @@ mapDamage -i I0061.mt.bam -r rCRS.fa
 This damage pattern consistent with in the paper Methods ( Mitochondrial sequence analyisis and assessment of ancient DNA authenticity): " For population genetic analysis, we only used partially UDG-treated libraries with a minimum of 3% C -> T substitutions as recommended by [Nadin Rohland et al. (2013)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4275898/)."
 
 
+5. Exploring **```.bam```** file
 
 
+We can view BAM files using ```samtools view```, but there are usually millions of sequencing reads. How can we efficiently summarize a BAM file?
+
+Samtools offers tools to calculate summary statistics. Today,I'll calculate stats using ```samtools stats``` because it provides a bit more detail, but you should have a look at ```samtools flagstat``` as well.
+
+```
+samtools stats I0061.390k.mt.bam | grep ^SN | cut -f 2-
+
+```
+
+Because samtools stats offers a huge range of statistics including a number of very big tables in our output, we'll just grab the summary statistics. This is what ```grep ^SN | cut -f 2-``` in our command does.
+
+
+```
+raw total sequences:	5955
+filtered sequences:	0
+sequences:	5955
+is sorted:	1
+1st fragments:	5955
+last fragments:	0
+reads mapped:	5955
+reads mapped and paired:	0	# paired-end technology bit set + both mates mapped
+reads unmapped:	0
+reads properly paired:	0	# proper-pair bit set
+reads paired:	0	# paired-end technology bit set
+reads duplicated:	0	# PCR or optical duplicate bit set
+reads MQ0:	641	# mapped and MQ=0
+reads QC failed:	0
+non-primary alignments:	0
+total length:	406097	# ignores clipping
+total first fragment length:	406097	# ignores clipping
+total last fragment length:	0	# ignores clipping
+bases mapped:	406097	# ignores clipping
+bases trimmed:	0
+bases duplicated:	0
+mismatches:	1530	# from NM fields
+error rate:	3.767573e-03	# mismatches / bases mapped (cigar)
+average length:	68
+average first fragment length:	68
+average last fragment length:	0
+maximum length:	170
+maximum first fragment length:	0
+average quality:	37.0
+insert size average:	0.0
+insert size standard deviation:	0.0
+inward oriented pairs:	0
+outward oriented pairs:	0
+pairs with other orientation:	0
+pairs on different chromosomes:	0
+percentage of properly paired reads (%):	0.0
+```
+
+6. Variant calling
+
+By "call variants", I mean statistically infer genotypes. There are a few tools that do this, here I am  going to use the [Genome Analysis Toolkit's (GATK's)](https://software.broadinstitute.org/gatk/) and [BCFtools](https://samtools.github.io/bcftools/howtos/index.html). 
+
+Indexing mitochondral DNA reference using ```bamtools```:
+
+Download the ```.fasta``` file of the revised Cambridge Reference Sequence (rCRS) for mtDNA: [rCRS-fasta](https://www.ncbi.nlm.nih.gov/nuccore/251831106?report=fasta&log$=seqview) and save as ```rCRS.fa```. Change the name header **>NC_012920.1 Homo sapiens mitochondrion, complete genome** to **>MT**.
+
+
+```
+samtools faidx rCRS.fa
+```
+
+
+
+**Genome Analysis Toolkit's (GATK's)**, [HaplotypeCaller}(https://software.broadinstitute.org/gatk/documentation/tooldocs/current/org_broadinstitute_hellbender_tools_walkers_haplotypecaller_HaplotypeCaller.php).
+
+
+Creating the fasta sequence dictionary file for your reference, ```CreateSequenceDictionary.jar``` from ```Picard``` to create a ```.dict``` file from the ```rCRS.fa``` file.
+
+```
+java -jar $picard CreateSequenceDictionary \
+    R=rCRS.fa \ 
+    O=rCRS.dict 
+
+
+# $picard, see note below
+```
+
+Generating ```vcf``` file.
+
+```
+gatk --java-options "-Xmx4g" HaplotypeCaller  \
+   -R rCRS.fa \
+   -I I0061.390k.mt.sorted.bam  \
+   -O I0061.390k.mt.sorted.bam.g.vcf.gz \
+   -ERC GVCF
+```
+
+
+The option ```-ERC GVCF```, which outputs confidence that an invariant site (homozygous and matches reference genome) is a reference allele. This is important for the joint genotyping.
+
+
+
+
+
+
+
+
+**Note**:
+
+1. Install GATK:
+
+Download the [gatk package](https://software.broadinstitute.org/gatk/download/) and upzip it. There is no installation necessary in the traditional sense. Although the jars themselves cannot simply be added to your PATH, you can do so with the gatk wrapper script. Please look up instructions depending on the terminal shell you use; in bash the typical syntax is ```export PATH=$PATH:/path/to/gatk-package/gatk``` where ```path/to/gatk-package/``` is the path to the location of the gatk executable.
+
+2. Install Picart
+
+Download [Picart](https://broadinstitute.github.io/picard/)
+
+Note that it is not possible to add jar files to your path to make the tools available on the command line; you have to specify the full path to the jar file in your java command, which would look like this:
+
+```
+java -jar ~/my_tools/jars/picard.jar <Toolname> [options]
+```
+
+However, you can set up a shortcut called an "environment variable" in your shell profile configuration to make this easier. The idea is that you create a variable that tells your system where to find a given jar, like this:
+
+```
+export picard=/home/mianlee/Desktop/Software/gatk-4.1.2.0/picard.jar
+
+#Ubuntu 16.04
+```
+
+So then when you want to run a Picard tool, you just need to call the jar by its shortcut, like this:
+
+```
+java -jar $picard <Toolname> [options]
+```
+
+See details about install software for GATK and picard, [avaiable here](https://software.broadinstitute.org/gatk/documentation/article?id=7098).
 
 
 ### Reference:
