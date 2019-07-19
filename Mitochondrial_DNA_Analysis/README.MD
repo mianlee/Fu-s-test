@@ -174,12 +174,47 @@ To quantify possible contamination / search fro evidence of contamination, [Haak
 
 The sequencing data is available through the European Nucleotide Archive under accession number [PRJEB8448](https://www.ebi.ac.uk/ena/data/view/PRJEB8448). Here, I only use in the form of **```.bam```** file.
 
-For each ancient sample, it includes the aligned sequence for different libraries ( different extractions, different UDG treatment) and a final combined aligned sequences (autosomal + mitochondrial DNA), named **```sampleID.390k.bam```**.
+For each ancient sample, it includes the aligned sequences for different libraries (different extractions, different UDG treatment) and a final combined aligned sequences (autosomal + mitochondrial DNA), named **```sampleID.390k.bam```**.
 
 The **```sampleID.390k.bam```** file includes autosomal, Y and mitochondral DNA alignments. I am only extracting mtDNA alignments from **```sampleID.390k.bam```** file.
 
 
+1. Download the **```*.390k.bam```** (FTP) file, for example [**```I0061.390k.bam```**](https://www.ebi.ac.uk/ena/data/view/SAMEA3270053).
 
+2. Sorting and indexing the ***.bam*** file.
+
+```
+# sorting
+samtools sort I0061.390k.bam -o I0061.390k.sorted.bam #[-o out.bam]
+
+# indexing
+samtools index I0061.390k.sorted.bam
+
+# sorted and indexed file need to be co-existed to be able to extract mtDNA alignments
+```
+
+3. Extracting only mtDNA alignments.
+
+```
+samtools view -h I0061.390k.sorted.bam MT > I0061.390k.mt.sorted.bam
+
+# -h, include the header in the output.
+# output all alignments mapped to the reference sequence named `MT' (i.e. @SQ SN:MT).
+# MT: reference for mitochondral DNA.
+```
+
+
+
+I0061.390k.mt.sorted.bam
+
+
+bedtools bamtofastq -i I0061.390k.mt.sorted.bam -fq I0061.mt.fq  # .bam to .fastq
+
+bwa mem rCRS.fa I0061.mt.fq > I0061.mt.sam        # re-map fastq sequences to rCRS to get .sam file
+
+samtools view -b I0061.mt.sam > I0061.mt.bam   # .sam to .bam file
+
+mapDamage -i I0061.mt.bam -r rCRS.fa              # run mapDamage 
 
 
 
