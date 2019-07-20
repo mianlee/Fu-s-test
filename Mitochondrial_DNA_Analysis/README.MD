@@ -440,8 +440,7 @@ Online resources for mtDNA haplogroup prediction:
 
 [mtProfiler](http://mtprofiler.yonsei.ac.kr/index.php?cat=5).
 
-
-
+[Mitotool](http://www.mitotool.org/index.html), for assigning mtDNA haplogroups using FASTA and polymorphism data, also has a searchable Genbank database
 
 ### Reference:
 
