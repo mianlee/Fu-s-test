@@ -426,6 +426,15 @@ The option ```-ERC GVCF```, which outputs confidence that an invariant site (hom
 
 [GATK command-line syntax](https://software.broadinstitute.org/gatk/documentation/article?id=11050). 
 
+## 4. mtDNA haplogroup prediction
+
+
+
+
+
+
+
+
 
 
 ### Reference:
