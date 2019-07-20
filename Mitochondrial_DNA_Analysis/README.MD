@@ -428,19 +428,29 @@ The option ```-ERC GVCF```, which outputs confidence that an invariant site (hom
 
 ## 4. mtDNA haplogroup prediction
 
+
+
+
+
+
+
 Online resources for mtDNA haplogroup prediction:
 
 [HaploGrep 2](http://HaploGrep.uibk.ac.at/).
 
 [Phylotree](http://www.phylotree.org/).
 
-[MITOMAP](https://www.mitomap.org/foswiki/bin/view/MITOMAP/WebHome).
+[MITOMAP](https://www.mitomap.org/foswiki/bin/view/MITOMAP/WebHome), my favourite/the most comprehensive tool for exploring human mtDNA variation.
 
-[MITOMASTER](https://www.mitomap.org/foswiki/bin/view/MITOMASTER/WebHome).
+[MITOMASTER](https://www.mitomap.org/foswiki/bin/view/MITOMASTER/WebHome), part of MITOMAP for mtDNA haplogroup assignment.
 
-[mtProfiler](http://mtprofiler.yonsei.ac.kr/index.php?cat=5).
+[Mitomap GB database](https://www.mitomap.org/foswiki/bin/view/MITOMAP/GBFreqInfo), a searchable database of mtDNA genomes submitted to Genbank (organized by haplogroup).
 
-[Mitotool](http://www.mitotool.org/index.html), for assigning mtDNA haplogroups using FASTA and polymorphism data, also has a searchable Genbank database
+[mtProfiler](http://mtprofiler.yonsei.ac.kr/index.php?cat=5), I use "mtDNA nomenclature" tool to call mtDNA SNPs and also convert ```.fasta``` sequences to ```.hsd``` format for haplogroup prediction in HaploGreop.
+
+[Mitotool](http://www.mitotool.org/index.html), for assigning mtDNA haplogroups using FASTA and polymorphism data, also has a searchable Genbank database.
+
+[AmtDB](https://amtdb.org/), ancient mtDNA gneome database (mostly from Europe).
 
 ### Reference:
 
