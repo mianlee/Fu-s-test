@@ -19,7 +19,7 @@
 
 
 
-### 1. mtDNA damage pattern
+## 1. mtDNA damage pattern
 
 Here, I used NGS data from sample I0061, [here](https://www.ebi.ac.uk/ena/data/view/SAMEA3270053). I checked ancient DNA damage pattern for library **S0061** (non-UDG), **S0670** (half-UDG) and **S0230** (full-UDG) using [mapDamage2](https://ginolhac.github.io/mapDamage/). You can also download ```.bam``` file from here: [S0061](Data/S0061.bam), [S0670](Data/S0670.bam), [S0230](Data/S0230.bam).
 
@@ -165,13 +165,13 @@ See my protocal How to install and use mapDamage, [here](https://github.com/mian
 
 See my notes on ancient DNA damage pattern, [here](https://github.com/mianlee/Fu-s-test/tree/master/Ancient_DNA_Damage).
 
-### 2. Evidence of contamination 
+## 2. Evidence of contamination 
 
 To quantify possible contamination / search fro evidence of contamination, [Haak Wolfgang,*et al*. (2015)](https://www.nature.com/articles/nature14317) used ```contamMix-1.0.9```. But I can't find the ```contamMix-1.0.9``` program online, so I emailed the author and waiting for his reply.
 
  
  
-### 3. Getting full mtDNA sequence from **```sampleID.390k.bam```** file
+## 3. Getting full mtDNA sequence from **```sampleID.390k.bam```** file
 
 
 The sequencing data is available through the European Nucleotide Archive under accession number [PRJEB8448](https://www.ebi.ac.uk/ena/data/view/PRJEB8448). Here, I only use in the form of ```.bam``` file.
@@ -181,9 +181,9 @@ For each ancient sample, it includes the aligned sequences for different librari
 The ```sampleID.390k.bam``` file includes autosomal, Y and mitochondral DNA alignments. I am only extracting mtDNA alignments from ```sampleID.390k.bam``` file.
 
 
-1. Download the ```*.390k.bam``` (FTP) file, for example [```I0061.390k.bam```](https://www.ebi.ac.uk/ena/data/view/SAMEA3270053).
+### 1. Download the ```*.390k.bam``` (FTP) file, for example [```I0061.390k.bam```](https://www.ebi.ac.uk/ena/data/view/SAMEA3270053).
 
-2. Sorting and indexing the ```.bam``` file.
+### 2. Sorting and indexing the ```.bam``` file.
 
 ```
 # sorting
@@ -195,7 +195,7 @@ samtools index I0061.390k.sorted.bam
 # sorted and indexed file need to be co-existed to be able to extract mtDNA alignments
 ```
 
-3. Extracting only mtDNA alignments ```.bam```.
+### 3. Extracting only mtDNA alignments ```.bam```.
 
 ```
 samtools view -h I0061.390k.sorted.bam MT > I0061.390k.mt.bam
@@ -212,7 +212,7 @@ samtools index I0061.390k.mt.sorted.bam
 
 ```
 
-4. Check the damage pattern of those mtDNA sequences.
+### 4. Check the damage pattern of those mtDNA sequences.
 
 You don't have to do this step. I am just curious about which library they used for mtDNA sequnces(non-UDG treatment, half or full) base on damage pattern.
 
@@ -234,7 +234,7 @@ mapDamage -i I0061.mt.bam -r rCRS.fa
 This damage pattern consistent with in the paper Methods ( Mitochondrial sequence analyisis and assessment of ancient DNA authenticity): " For population genetic analysis, we only used partially UDG-treated libraries with a minimum of 3% C -> T substitutions as recommended by [Nadin Rohland et al. (2013)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4275898/)."
 
 
-5. Exploring **```.bam```** file
+### 5. Exploring **```.bam```** file
 
 
 We can view BAM files using ```samtools view```, but there are usually millions of sequencing reads. How can we efficiently summarize a BAM file?
@@ -288,7 +288,7 @@ pairs on different chromosomes:	0
 percentage of properly paired reads (%):	0.0
 ```
 
-6. Variant calling
+### 6. Variant calling
 
 By "call variants", I mean statistically infer genotypes. There are a few tools that do this, here I am  going to use the [Genome Analysis Toolkit's (GATK's)](https://software.broadinstitute.org/gatk/) and [BCFtools](https://samtools.github.io/bcftools/howtos/index.html). 
 
