@@ -345,6 +345,11 @@ Getting a ```.fasta``` from filtered ```.vcf``` file.
 cat rCRS.fa | bcftools consensus I0061.390k.mt.sorted.bam.filter.vcf > I0061.mt.gatk.fa
 ```
 
+[I0061.390k.mt.sorted.bam.filter.vcf.gz](Data/I0061.390k.mt.sorted.bam.filter.vcf.gz)
+
+[I0061.mt.gatk.fa](Data/I0061.mt.gatk.fa)
+
+
 
 **Samtools and Bcftools**
 
@@ -357,6 +362,12 @@ bcftools index I0061.filter.vcf.gz
 
 cat rCRS.fa | bcftools consensus I0061.filter.vcf.gz > I0061.mt.bcftools.fa
 ```
+
+
+[I0061.filter.vcf.gz](Data/I0061.filter.vcf.gz)
+[I0061.mt.bcftools.fa](Data/I0061.mt.bcftools.fa)
+
+
 
 The Bcftools generated ```.vcf``` file don't have AF tag, so I can't filter SNPs based no allele frequency....
 
@@ -374,6 +385,9 @@ The first mpileup part generates genotype likelihoods at each genomic position w
 filter -i, i means include.
 
 See detailed Bcftools manual, [here](https://samtools.github.io/bcftools/howtos/consensus-sequence.html).
+
+
+
 
 **Note**:
 
