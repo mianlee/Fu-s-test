@@ -428,11 +428,17 @@ The option ```-ERC GVCF```, which outputs confidence that an invariant site (hom
 
 ## 4. mtDNA haplogroup prediction
 
+Online resources for mtDNA haplogroup prediction:
 
+[HaploGrep 2](http://HaploGrep.uibk.ac.at/).
 
+[Phylotree](http://www.phylotree.org/).
 
+[MITOMAP](https://www.mitomap.org/foswiki/bin/view/MITOMAP/WebHome).
 
+[MITOMASTER](https://www.mitomap.org/foswiki/bin/view/MITOMASTER/WebHome).
 
+[mtProfiler](http://mtprofiler.yonsei.ac.kr/index.php?cat=5).
 
 
 
