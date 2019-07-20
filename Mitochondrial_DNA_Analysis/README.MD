@@ -303,7 +303,7 @@ samtools faidx rCRS.fa
 
 
 
-**Genome Analysis Toolkit's (GATK's)**, [HaplotypeCaller](https://software.broadinstitute.org/gatk/documentation/tooldocs/current/org_broadinstitute_hellbender_tools_walkers_haplotypecaller_HaplotypeCaller.php).
+**Genome Analysis Toolkit's (GATK's)**, [HaplotypeCaller](https://software.broadinstitute.org/gatk/documentation/tooldocs/current/org_broadinstitute_hellbender_tools_walkers_haplotypecaller_HaplotypeCaller.php):
 
 
 Creating the fasta sequence dictionary file for your reference, using ```CreateSequenceDictionary.jar``` from ```Picard``` to create a ```.dict``` file from the ```rCRS.fa``` file.
@@ -351,7 +351,7 @@ cat rCRS.fa | bcftools consensus I0061.390k.mt.sorted.bam.filter.vcf > I0061.mt.
 
 
 
-**Samtools and Bcftools**
+**Samtools and Bcftools**:
 
 The Bcftools generated ```.vcf``` file don't have AF tag, so I can't filter SNPs based no allele frequency....
 
