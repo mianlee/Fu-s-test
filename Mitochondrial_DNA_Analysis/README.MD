@@ -195,7 +195,7 @@ samtools index I0061.390k.sorted.bam
 # sorted and indexed file need to be co-existed to be able to extract mtDNA alignments
 ```
 
-3. Extracting only mtDNA alignments ```.bam```
+3. Extracting only mtDNA alignments ```.bam```.
 
 ```
 samtools view -h I0061.390k.sorted.bam MT > I0061.390k.mt.bam
