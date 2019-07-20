@@ -353,6 +353,8 @@ cat rCRS.fa | bcftools consensus I0061.390k.mt.sorted.bam.filter.vcf > I0061.mt.
 
 **Samtools and Bcftools**
 
+The Bcftools generated ```.vcf``` file don't have AF tag, so I can't filter SNPs based no allele frequency....
+
 ```
 bwa index rCRS.fa
 
@@ -370,10 +372,7 @@ cat rCRS.fa | bcftools consensus I0061.filter.vcf.gz > I0061.mt.bcftools.fa
 
 
 
-The Bcftools generated ```.vcf``` file don't have AF tag, so I can't filter SNPs based no allele frequency....
-
-
-The first mpileup part generates genotype likelihoods at each genomic position with coverage. 
+The first mpileup part generates genotype likelihoods at each genomic position with coverage: 
 
 **-f**, the faidx-indexed reference file in the FASTA format The second call part makes the actual calls. 
 
