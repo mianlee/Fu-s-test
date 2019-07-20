@@ -382,7 +382,7 @@ The first mpileup part generates genotype likelihoods at each genomic position w
 
 **-O** option selects the output format. In this example we chosen compressed VCF (z), **-Oz**.
 
-filter -i, i means include.
+```bcftools filter -i```, i means include.
 
 See detailed Bcftools manual, [here](https://samtools.github.io/bcftools/howtos/consensus-sequence.html).
 
