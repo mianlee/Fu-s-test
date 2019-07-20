@@ -322,7 +322,7 @@ Generating ```vcf``` file.
 gatk --java-options "-Xmx4g" HaplotypeCaller  \
    -R rCRS.fa \
    -I I0061.390k.mt.sorted.bam  \
-   -O I0061.390k.mt.sorted.bam.vcf
+   -O I0061.390k.mt.sorted.bam.vcf.gz
 ```
 
 
@@ -331,14 +331,49 @@ Keep SNPs with a minimum coverage of 2 (DP) and a minimum variant frequency of 0
 ```
 gatk --java-options "-Xmx4g" SelectVariants \
  -R rCRS.fa  \
- -V I0061.390k.mt.sorted.bam.vcf	\
- -O I0061.390k.mt.sorted.bam.filter.vcf \
+ -V I0061.390k.mt.sorted.bam.vcf.gz \
+ -O I0061.390k.mt.sorted.bam.filter.vcf.gz \
  --selectExpressions "DP > 2 || AF > 70.0"
  
  
  # DP: read depth; AF: Allele Frequency.
 ```
 
+Getting a ```.fasta``` from filtered ```.vcf``` file.
+
+```
+cat rCRS.fa | bcftools consensus I0061.390k.mt.sorted.bam.filter.vcf > I0061.mt.gatk.fa
+```
+
+
+**Samtools and Bcftools**
+
+```
+bwa index rCRS.fa
+
+bcftools mpileup -f rCRS.fa I0061.390k.mt.sorted.bam | bcftools filter -i 'DP>1' | bcftools call -mv -Oz -o I0061.filter.vcf.gz
+
+bcftools index I0061.filter.vcf.gz
+
+cat rCRS.fa | bcftools consensus I0061.filter.vcf.gz > I0061.mt.bcftools.fa
+```
+
+The Bcftools generated ```.vcf``` file don't have AF tag, so I can't filter SNPs based no allele frequency....
+
+
+The first mpileup part generates genotype likelihoods at each genomic position with coverage. 
+
+**-f**, the faidx-indexed reference file in the FASTA format The second call part makes the actual calls. 
+
+**-m** switch tells the program to use the default calling method.
+
+**-v** option asks to output only variant sites.
+
+**-O** option selects the output format. In this example we chosen compressed VCF (z), **-Oz**.
+
+filter -i, i means include.
+
+See detailed Bcftools manual, [here](https://samtools.github.io/bcftools/howtos/consensus-sequence.html).
 
 **Note**:
 
@@ -376,6 +411,7 @@ The option ```-ERC GVCF```, which outputs confidence that an invariant site (hom
 ```--java-options "-Xmx4g"``` Specify the maximum size, in bytes, of the memory allocation pool. So, in simple words, you are setting Java heap memory to a maximum of 4G from the available memory, not more.
 
 [GATK command-line syntax](https://software.broadinstitute.org/gatk/documentation/article?id=11050). 
+
 
 
 ### Reference:
