@@ -454,7 +454,7 @@ I unzipped the ```.vcf.gz``` file and opened with Haplogrep2 directely.
 
 Lastly, the center window displays a graph showing the lineage path from the rCRS reference to the currently selected haplogroup. Details see the [Haplogrep manual](http://HaploGrep.uibk.ac.at/docs/UserManual-HaploGrep.pdf).
 
-The Haplogrep2 predict the most possible mtDNA haplogroup for individual I0061 is haplogroup C.
+The Haplogrep2 predict the most possible mtDNA haplogroup for individual I0061 is haplogroup **C**.
 
 
 **Using ```.fasta```**:
@@ -489,6 +489,9 @@ Since [Haak *et al*. (2015)](https://www.nature.com/articles/nature14317) used R
 2. You will get all SNPs comparing to RCRS reference genome and predicted mtDNA haplogroup.
 
 <img src="Images/Mitotool2.PNG" >
+
+Surprisingly, mitotool + RCRS reference give you higher resolution, the predicted mtDNA haplogroup is **C1f**, which is consistent with [Haak *et al*. (2015)](https://www.nature.com/articles/nature14317) prediction in his paper, I0061 is predicted as C1g (old C1f).
+
 
 **Online resources for mtDNA haplogroup prediction**:
 
