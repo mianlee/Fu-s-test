@@ -445,6 +445,7 @@ I unzipped the ```.vcf.gz``` file and opened with Haplogrep2 directely.
 1. On the [HaploGrep](http://haplogrep.uibk.ac.at/) home page, click on the prompt (right top) that says **Run**. Next, click on the Open button on the top left of the screen and choose ```.vcf``` files as input.
 
 
+<img src="images/Haplogrep1.PNG" >
 
 
 
