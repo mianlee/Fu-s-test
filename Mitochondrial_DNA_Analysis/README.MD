@@ -434,10 +434,17 @@ The option ```-ERC GVCF```, which outputs confidence that an invariant site (hom
 HaploGrep is an algorithm which automatizes the process of human mtDNA haplogroup classification. The program works by considering the mtDNA variants present in a given sample in relation to the rCRS complete mtDNA genome reference. HaploGrep scans the latest version of the human mtDNA phylogenetic tree listed in Phylotree (currently build 17) and estimates the most likely haplogroup assignment for the sample given the provided variants. [Maria A. Nieves Colon](https://github.com/mnievesc/ENAH_curso_aDNA_2019/blob/master/Ex2_MThaplogroups/Exercise2_Tutorial_MT_haplogroups.MD)
 
 
+Here, I am going to show how to predict mtDNA haplgroup using Haplogrep2 from ```.vcf``` and ```.fasta``` format.
+
+
+From last step, I generated two ```.vcf``` files from sample **I0061** using GATK and bcftools separately: [I0061.390k.mt.sorted.bam.filter.vcf.gz](Data/I0061.390k.mt.sorted.bam.filter.vcf.gz) and [I0061.filter.vcf.gz](Data/I0061.filter.vcf.gz).
+
+I unzipped the ```.vcf.gz``` file and opened with Haplogrep2 directely:
 
 
 
-Online resources for mtDNA haplogroup prediction:
+
+**Online resources for mtDNA haplogroup prediction**:
 
 [HaploGrep 2](http://HaploGrep.uibk.ac.at/), automatic mtDNA haplogroup classification using PhyloTree 17 (supporting rCRS & RSRS). However, HaploGrep works with rCRS only – in the new version it will accept RSRS and Yoruba based profiles – however converting them to the rCRS.
 
