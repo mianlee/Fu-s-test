@@ -515,6 +515,27 @@ Here is the haplogroup prediction: **mitotool + phylotree 17 rCRS**, and also gi
 
 [AmtDB](https://amtdb.org/), ancient mtDNA gneome database (mostly from Europe).
 
+## 5. Predict mtDNA haplogroup for all 69 ancient individuals in Haak *et al*. (2015)
+
+
+**Install ```Snakemake``` via ```Conda```**:
+
+This is the recommended way to install ```Snakemake```, because it also enables ```Snakemake``` to handle software dependencies of your workflow.
+
+First, you have to install the ```Miniconda``` Python3 distribution. See [here](https://docs.conda.io/en/latest/miniconda.html) for installation instructions. Make sure to …
+
+- Install the Python 3 version of Miniconda.
+- Answer yes to the question whether conda shall be put into your PATH.
+
+And then, I installed ```Snakemake``` on my Ubuntu 16.04 with:
+
+```
+conda install -c bioconda -c conda-forge snakemake
+```
+
+See other ways to install Snakemake, [here](https://snakemake.readthedocs.io/en/stable/getting_started/installation.html).
+
+
 ### Reference:
 
 1. Haak, Wolfgang, et al. "Massive migration from the steppe was a source for Indo-European languages in Europe." Nature 522.7555 (2015): 207.
