@@ -447,8 +447,10 @@ I unzipped the ```.vcf.gz``` file and opened with Haplogrep2 directely.
 
 <img src="Images/Haplogrep1.PNG" >
 
+2. After the file loads, in the top window you will see a list of all the polymorphisms present in the sample. This list is taken directly from the input file, in our case the coverage filtered VCF. You will also see that HaploGrep presents the most probably haplogroup assignment and the quality of the estimation.
 
 
+<img src="Images/Haplogrep2.PNG" >
 
 
 **Online resources for mtDNA haplogroup prediction**:
