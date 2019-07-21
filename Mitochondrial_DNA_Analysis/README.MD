@@ -436,7 +436,7 @@ HaploGrep is an algorithm which automatizes the process of human mtDNA haplogrou
 
 Here, I am going to show how to predict mtDNA haplgroup using Haplogrep2 from ```.vcf``` and ```.fasta``` format.
 
-Using ```.vcf```:
+**Using ```.vcf```**:
 
 From last step, I generated two ```.vcf``` files from sample **I0061** using GATK and bcftools separately: [I0061.390k.mt.sorted.bam.filter.vcf.gz](Data/I0061.390k.mt.sorted.bam.filter.vcf.gz) and [I0061.filter.vcf.gz](Data/I0061.filter.vcf.gz).
 
@@ -451,6 +451,13 @@ I unzipped the ```.vcf.gz``` file and opened with Haplogrep2 directely.
 
 
 <img src="Images/Haplogrep2.PNG" >
+
+Lastly, the center window displays a graph showing the lineage path from the rCRS reference to the currently selected haplogroup. Details see the [Haplogrep manual](http://HaploGrep.uibk.ac.at/docs/UserManual-HaploGrep.pdf).
+
+The Haplogrep2 predict the most possible mtDNA haplogroup for individual I0061 is haplogroup C.
+
+
+**Using ```.fasta```**:
 
 
 **Online resources for mtDNA haplogroup prediction**:
