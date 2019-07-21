@@ -492,7 +492,7 @@ Since [Haak *et al*. (2015)](https://www.nature.com/articles/nature14317) used R
 
 Surprisingly, **mitotool + RCRS reference** gives you higher resolution, the predicted mtDNA haplogroup is **C1f**, which is consistent with [Haak *et al*. (2015)](https://www.nature.com/articles/nature14317) prediction in his paper, I0061 is predicted as C1g (old C1f).
 
-Here is the haplogroup prediction: **mitotool + phylotree 17 rCRS**, and gives haplogroup **C1f**.
+Here is the haplogroup prediction: **mitotool + phylotree 17 rCRS**, and also gives haplogroup **C1f**, but with different missing SNPs.
 
 <img src="Images/Mitotool3.PNG" >
 
