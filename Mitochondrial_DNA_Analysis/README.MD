@@ -478,6 +478,13 @@ You can convert ```.fasta``` to ```.hsd``` format, and Haplogrep will take ```.h
 <img src="Images/mtDNAprofiler3.PNG" >
 
 
+**[Mitotool](http://www.mitotool.org/index.html)**
+
+Since [Haak *et al*. (2015)](https://www.nature.com/articles/nature14317) used RCRS reference genome to predict mtDNA haplogroup, so I used Mitotool to call haplogroup using RCRS as reference.
+
+
+
+
 **Online resources for mtDNA haplogroup prediction**:
 
 [HaploGrep 2](http://HaploGrep.uibk.ac.at/), automatic mtDNA haplogroup classification using PhyloTree 17 (supporting rCRS & RSRS). However, HaploGrep works with rCRS only – in the new version it will accept RSRS and Yoruba based profiles – however converting them to the rCRS.
