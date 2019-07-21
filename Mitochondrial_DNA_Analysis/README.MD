@@ -436,10 +436,16 @@ HaploGrep is an algorithm which automatizes the process of human mtDNA haplogrou
 
 Here, I am going to show how to predict mtDNA haplgroup using Haplogrep2 from ```.vcf``` and ```.fasta``` format.
 
+Using ```.vcf```:
 
 From last step, I generated two ```.vcf``` files from sample **I0061** using GATK and bcftools separately: [I0061.390k.mt.sorted.bam.filter.vcf.gz](Data/I0061.390k.mt.sorted.bam.filter.vcf.gz) and [I0061.filter.vcf.gz](Data/I0061.filter.vcf.gz).
 
-I unzipped the ```.vcf.gz``` file and opened with Haplogrep2 directely:
+I unzipped the ```.vcf.gz``` file and opened with Haplogrep2 directely.
+
+1. On the [HaploGrep](http://haplogrep.uibk.ac.at/) home page, click on the prompt (right top) that says **Run**. Next, click on the Open button on the top left of the screen and choose ```.vcf``` files as input.
+
+
+
 
 
 
