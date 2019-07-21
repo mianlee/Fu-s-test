@@ -480,10 +480,15 @@ You can convert ```.fasta``` to ```.hsd``` format, and Haplogrep will take ```.h
 
 **[Mitotool](http://www.mitotool.org/index.html)**
 
-Since [Haak *et al*. (2015)](https://www.nature.com/articles/nature14317) used RCRS reference genome to predict mtDNA haplogroup, so I used Mitotool to call haplogroup using RCRS as reference.
+Since [Haak *et al*. (2015)](https://www.nature.com/articles/nature14317) used RCRS reference genome to predict mtDNA haplogroup, so I used [Mitotool](http://www.mitotool.org/index.html) to call haplogroup using RCRS as reference.
 
+1. Go to mitotool and upload your ```.fasta``` file, choose "Phylotree 16 RCRS" as standard and submit.
 
+<img src="Images/Mitotool1.PNG" >
 
+2. You will get all SNPs comparing to RCRS reference genome and predicted mtDNA haplogroup.
+
+<img src="Images/Mitotool2.PNG" >
 
 **Online resources for mtDNA haplogroup prediction**:
 
