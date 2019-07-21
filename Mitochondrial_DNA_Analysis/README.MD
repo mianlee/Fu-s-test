@@ -429,7 +429,7 @@ The option ```-ERC GVCF```, which outputs confidence that an invariant site (hom
 ## 4. mtDNA haplogroup prediction
 
 
-[HaploGrep2](http://haplogrep.uibk.ac.at/)
+**[HaploGrep2](http://haplogrep.uibk.ac.at/)**
 
 HaploGrep is an algorithm which automatizes the process of human mtDNA haplogroup classification. The program works by considering the mtDNA variants present in a given sample in relation to the rCRS complete mtDNA genome reference. HaploGrep scans the latest version of the human mtDNA phylogenetic tree listed in Phylotree (currently build 17) and estimates the most likely haplogroup assignment for the sample given the provided variants. [Maria A. Nieves Colon](https://github.com/mnievesc/ENAH_curso_aDNA_2019/blob/master/Ex2_MThaplogroups/Exercise2_Tutorial_MT_haplogroups.MD)
 
@@ -458,6 +458,24 @@ The Haplogrep2 predict the most possible mtDNA haplogroup for individual I0061 i
 
 
 **Using ```.fasta```**:
+
+You can convert ```.fasta``` to ```.hsd``` format, and Haplogrep will take ```.hsd```.
+
+1. You can go mtDNAprofiler [mtDNA nomenclature tool](http://mtprofiler.yonsei.ac.kr/index.php?cat=2) and load your sequences in ```.fasta``` format. Or you also can copy your sequence to the white box area.
+
+<img src="Images/mtDNAprofiler.PNG" >
+
+2. You will get SNPs information comparing to rCRS devided into control and coding region. 
+
+<img src="Images/mtDNAprofiler1.PNG" >
+
+3. Click ```profile in a new window``` and download  mtSNP profiles in  "Tab-deliminated format ". You will get ```.hsd``` file.
+
+<img src="Images/mtDNAprofiler2.PNG" >
+
+4. Load the ```.hsd``` file to Haplogrep and you will get the same result like I showed above.
+
+<img src="Images/mtDNAprofiler3.PNG" >
 
 
 **Online resources for mtDNA haplogroup prediction**:
