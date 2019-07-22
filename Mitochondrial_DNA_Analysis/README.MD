@@ -527,10 +527,9 @@ I won't show how to use Snakemake here, but  the [documentation](https://snakema
 
 
 
+1. Download all ```*.390k.bam``` files from each individuals from European Nucleotide Archive accession number [PRJEB8448](https://www.ebi.ac.uk/ena/data/view/PRJEB8448).
 
-```
-export PATH=$PATH:~/Desktop/Software/gatk-4.1.2.0
-```
+2. 
 
 
 
@@ -538,6 +537,15 @@ export PATH=$PATH:~/Desktop/Software/gatk-4.1.2.0
 
 
 **Note**:
+
+**Export gatk Path**:
+
+```
+export PATH=$PATH:~/Desktop/Software/gatk-4.1.2.0
+```
+
+Otherwise, you can't call ```gatk``` in the terminal.
+
 
 **Install ```Snakemake``` via ```Conda```**:
 
