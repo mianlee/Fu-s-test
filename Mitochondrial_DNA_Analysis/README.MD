@@ -547,7 +547,7 @@ mkdir vcf            # all .vcf files
 mkdir fasta          # .fasta files
 ```
 
-Here is my ```Snakfile``` with pipeline:
+Here is my pipeline in the ```Snakfile```:
 
 
 ```
