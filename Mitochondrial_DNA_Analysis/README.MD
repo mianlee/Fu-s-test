@@ -529,10 +529,136 @@ I won't show how to use Snakemake here, but  the [documentation](https://snakema
 
 1. Download all ```*.390k.bam``` files from each individuals from European Nucleotide Archive accession number [PRJEB8448](https://www.ebi.ac.uk/ena/data/view/PRJEB8448).
 
-2. 
+2. Make folders.
+
+```
+mkdir reference      # reference folder, with rCRS.fa in it
+
+mkdir data           # all " *.390k.bam " files
+
+mkdir sort_index     # all sorted and indexed files go into this folder
+
+mkdir mt_seq         # extracted mtDNA sequnces go into this folder
+
+mkdir  mt_sort_index # sorted and indexed files for mtDNA sequnces 
+      
+mkdir vcf            # all .vcf files
+
+mkdir fasta          # .fasta files
+```
+
+Here is my ```Snakfile``` with pipeline:
 
 
+```
+individuals = [
+                "I0011",
+                "I0061",
+                "I0124"]
+rule all:
+        input:
+                "reference/rCRS.fa",
+                expand("sort_index/{ID}.390k.sorted.bam",ID=individuals),
+                expand("sort_index/{ID}.390k.sorted.bam.bai",ID=individuals),
+                expand("mt_seq/{ID}.mt.bam", ID=individuals),
+                expand("mt_sort_index/{ID}.mt.sorted.bam",ID=individuals),
+                expand("mt_sort_index/{ID}.mt.sorted.bam.bai",ID=individuals),
+                expand("vcf/{ID}.mt.vcf.gz",ID=individuals),
+                expand("vcf/{ID}.mt.filter.vcf.gz",ID=individuals),
+                expand("fasta/{ID}.mt.fa", ID=individuals)
 
+rule prepare_reference:
+    input:
+            "reference/rCRS.fa"
+    output:
+            fai = "reference/rCRS.fa.fai",
+            dict = "reference/rCRS.dict"
+    run:
+        # use samtools to index reference
+        shell(
+               "samtools faidx {input}")
+       # generate .dict file
+        shell(
+                "samtools dict -o {output.dict} {input}")
+
+rule sort_390K:
+    input:
+            "data/{ID}.390k.bam"
+    output:
+            "sort_index/{ID}.390k.sorted.bam"
+    shell:
+            "samtools sort {input} -o {output}"
+
+rule index_390k:
+    input:
+            "sort_index/{ID}.390k.sorted.bam"
+    output:
+            "sort_index/{ID}.390k.sorted.bam.bai"
+    shell:
+            "samtools index {input}"
+
+
+rule extract_mtDNA:
+    input:
+            "sort_index/{ID}.390k.sorted.bam"
+    output:
+            "mt_seq/{ID}.mt.bam"
+    shell:
+            "samtools view -h {input} MT > {output}"
+
+
+rule mt_sort:
+    input:
+            "mt_seq/{ID}.mt.bam"
+    output:
+            "mt_sort_index/{ID}.mt.sorted.bam"
+    shell:
+            "samtools sort {input} -o {output}"
+
+rule mt_index:
+    input:
+            "mt_sort_index/{ID}.mt.sorted.bam"
+    output:
+            "mt_sort_index/{ID}.mt.sorted.bam.bai"
+    shell:
+            "samtools index {input}"
+
+rule variant_call:
+    input:
+            "mt_sort_index/{ID}.mt.sorted.bam"
+    output:
+            "vcf/{ID}.mt.vcf.gz"
+    shell:
+            "gatk HaplotypeCaller -R reference/rCRS.fa -I {input} -O {output}"
+
+rule vcf_filter:
+    input:
+            "vcf/{ID}.mt.vcf.gz"
+    output:
+            "vcf/{ID}.mt.filter.vcf.gz"
+    shell:
+            """gatk SelectVariants -R reference/rCRS.fa -V {input} --selectExpressions "DP > 2 || AF > 70.0" -O {output}"""
+
+rule fasta:
+    input:
+            "vcf/{ID}.mt.filter.vcf.gz"
+    output:
+            "fasta/{ID}.mt.fa"
+    shell:
+            "cat reference/rCRS.fa | bcftools consensus {input} > {output}"
+
+```
+
+I only tested for those three individuals I0011, I0061, I0124 to see my scripts will work or not.
+
+3. Run the pipeline:
+
+Make sure you save those scripts as file named ```Snakefile``` in the same directory of folders, and then run
+
+```
+snakemake 
+```
+Snakemake tries to execute the workflow specified in a file called Snakefile in the same directory.
 
 
 
@@ -563,6 +689,7 @@ conda install -c bioconda -c conda-forge snakemake
 ```
 
 See other ways to install Snakemake, [here](https://snakemake.readthedocs.io/en/stable/getting_started/installation.html).
+
 
 
 
