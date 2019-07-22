@@ -535,6 +535,9 @@ conda install -c bioconda -c conda-forge snakemake
 
 See other ways to install Snakemake, [here](https://snakemake.readthedocs.io/en/stable/getting_started/installation.html).
 
+```
+export PATH=$PATH:~/Desktop/Software/gatk-4.1.2.0
+```
 
 ### Reference:
 
