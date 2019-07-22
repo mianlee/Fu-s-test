@@ -342,7 +342,7 @@ gatk --java-options "-Xmx4g" SelectVariants \
 Getting a ```.fasta``` from filtered ```.vcf``` file.
 
 ```
-cat rCRS.fa | bcftools consensus I0061.390k.mt.sorted.bam.filter.vcf > I0061.mt.gatk.fa
+cat rCRS.fa | bcftools consensus I0061.390k.mt.sorted.bam.filter.vcf.gz > I0061.mt.gatk.fa
 ```
 
 [I0061.390k.mt.sorted.bam.filter.vcf.gz](Data/I0061.390k.mt.sorted.bam.filter.vcf.gz)
