@@ -518,6 +518,27 @@ Here is the haplogroup prediction: **mitotool + phylotree 17 rCRS**, and also gi
 ## 5. Predict mtDNA haplogroup for all 69 ancient individuals in Haak *et al*. (2015)
 
 
+
+I showed how I call mtDNA haplogroup from 390k captue sequnce data. Now I am writing a pipeline to call mtDNA haplgroup for all 69 ancient individuals.
+
+I'll be writing the pipeline itself using [Snakemake](https://snakemake.readthedocs.io/en/stable/index.html), a workflow management system based on GNU Make, but written in Python and with added features that are specifically designed to aid in bioinformatic analyses. It is also a tool to create reproducible and scalable data analyses.
+
+I won't show how to use Snakemake here, but  the [documentation](https://snakemake.readthedocs.io/en/stable/) is great, and they have an excellent [tutorial]()https://snakemake.readthedocs.io/en/stable/tutorial/tutorial.html that I highly recommend working through. You also can watch the [live demo video](https://www.youtube.com/watch?v=hPrXcUUp70Y&feature=youtu.be). I have learned it by going over the tutorial and watching the demo video.
+
+
+
+
+```
+export PATH=$PATH:~/Desktop/Software/gatk-4.1.2.0
+```
+
+
+
+
+
+
+**Note**:
+
 **Install ```Snakemake``` via ```Conda```**:
 
 This is the recommended way to install ```Snakemake```, because it also enables ```Snakemake``` to handle software dependencies of your workflow.
@@ -535,9 +556,7 @@ conda install -c bioconda -c conda-forge snakemake
 
 See other ways to install Snakemake, [here](https://snakemake.readthedocs.io/en/stable/getting_started/installation.html).
 
-```
-export PATH=$PATH:~/Desktop/Software/gatk-4.1.2.0
-```
+
 
 ### Reference:
 
