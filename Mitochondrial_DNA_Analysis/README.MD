@@ -554,7 +554,7 @@ Here is my pipeline in the ```Snakfile```:
 individuals = [
                 "I0011",
                 "I0061",
-                "I0124"]
+                "I0124"]   # you can add all sample IDs
 rule all:
         input:
                 "reference/rCRS.fa",
