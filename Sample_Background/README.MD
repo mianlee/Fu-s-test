@@ -303,7 +303,24 @@ The Yamnaya culture , also known as  Pit Grave culture, was a late Copper Age to
     
       mtDNA: **T2a1b1**
       
-2. "Bell Beaker culture and Late Neolithic", 4340-4100 years old, in Germany. n = 6
+      
+2. "Bell Beaker culture" individuals, 4400-4200 years old, in Germany. n = 3
+
+   *Rothenschirmbach*
+  
+   - ROT3/I0060
+  
+     mtDNA: **K1a2c**
+    
+   - ROT4/I0111
+  
+     mtDNA: **H3**
+     
+   - ROT6/I0108
+  
+     mtDNA: **H5a3**
+      
+3. "Bell Beaker culture and Late Neolithic", 4340-4100 years old, in Germany. n = 6
 
    *Benzingerode-Heimburg*:
    
@@ -339,7 +356,7 @@ The Yamnaya culture , also known as  Pit Grave culture, was a late Copper Age to
       mtDNA: **H1**
       
       
- 3. Other Late Neolithic samples, 4500 - 4300 years old, in Germany. n = 2
+ 4. Other Late Neolithic samples, 4500 - 4300 years old, in Germany. n = 2
  
  
     *Karsdorf*
@@ -358,9 +375,72 @@ The Yamnaya culture , also known as  Pit Grave culture, was a late Copper Age to
 
 **Note**:
 
-**Bell Beaker and Corded Ware culture
+**Bell Beaker and Corded Ware culture**
 
 During the third millennium BC, two new archaeological pottery styles expanded across Europe and replaced many of the more localized styles that had preceded them1. The expansion of the ‘Corded Ware complex’ in north-central and northeastern Europe was associated with people who derived most of their ancestry from populations related to Early Bronze Age Yamnaya pastoralists from the Eurasian steppe. In western Europe there was the equally expansive ‘Bell Beaker complex’, defined by assemblages of grave goods that included stylized bell-shaped pots, copper daggers, arrowheads, stone wristguards and V-perforated buttons5. The oldest radiocarbon dates associated with Beaker pottery are from around 2750 BC in Atlantic Iberia, which has been interpreted as evidence that the Beaker complex originated in this region. However, the geographic origins of this complex are still debated and other scenarios—including an origin in the Lower Rhine area, or even multiple independent origins—are possible (Supplementary Information section 1). Regardless of geographic origin, by 2500 BC the Beaker complex had spread throughout western Europe and northwest Africa and had reached southern and Atlantic France, Italy and central Europe5, where it overlapped geographically with the Corded Ware complex. [Iñigo Olalde *et al*. (2018)](https://www.nature.com/articles/nature25738)
+
+
+## Early Bronze Age
+
+ 1. "Únětice culture" individuals, 4100-3879 years old, in Germany. 
+     
+     *Esperstedt*
+     
+     - ESP2/I0114
+     
+       mtDNA: **I3a**
+       
+     - ESP29/I0117
+     
+        mtDNA: **I3a**
+        
+     - ESP4/I0116
+     
+       mtDNA: **W3a1**
+        
+     - ESP3/I0115
+       
+        mtDNA: **U5a1**
+     
+     *Quedlinburg VIII*
+     
+     - QUEVIII6/I0164
+      
+        mtDNA: **U5b2a1**
+        
+     *Eulau*
+     
+     - EUL41A/I0803
+     
+        mtDNA: **H4a1a1**
+     
+     - EUL57B/I0804
+     
+        mtDNA: **H3**
+        
+       
+2. Bronze Age individuals, 4000-3000 years old, in Germany. n = 2
+
+   *Halberstadt-Sonntagsfeld*
+   
+   - HAL16/I0047
+     
+     mtDNA: **V**
+   
+   - HAL36C/I0099
+     
+     mtDNA: **H23**
+        
+        
+**Note**:
+
+**Únětice culture**
+
+The Únětice culture is an archaeological culture at the start of the Central European Bronze Age, dated roughly to about 2300–1600 BC. The eponymous site for this culture, the village of Únětice, is located in the central Czech Republic, northwest of Prague. Today, the Únětice culture is known from about 1,400 sites in the Czech Republic and Slovakia, 550 sites in Poland, and, in Germany, about 500 sites and loose finds locations.
+
+
+
+
 
 **Reference**:
 1. [Ancient History](https://www.ancient.eu/Neolithic/).
