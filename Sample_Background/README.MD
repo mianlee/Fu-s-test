@@ -15,7 +15,7 @@ The [Haak *et al*. (2015)](https://www.nature.com/articles/nature14317) follows 
 
 Two hunter-gather samples from western Russia.
 
-1. **"Karelia"** individual, 7500 years old, in Karelia, Western Russia.
+1. **"Karelia"** individual(UZ0074/I0061), 7500 years old, in Karelia, Western Russia.
 
     mtDNA: **C1g (old C1f)**.
 
@@ -29,11 +29,19 @@ The Early Neolithic in Europe in this study is represented by new samples report
 
 
 
-
-
-1. "Starčevo"  individual, 7700-7500 years old, in south Hungary.
+1. "Starčevo"  individual, 7700-7500 years old, in south Hungary. Early Neolithic Starčevo culture
 
     mtDNA: **N1a1a1**.
+
+2. "LBKT" individual, 7200-7000 years old in south Hungary. Transdanubian LBK in Hungary.
+
+    mtDNA :**N1a1a1a3**
+
+3. LBK individuals, 7500-7000 years old in Germany.
+
+   *Halberstdt-Sonntagsfeld*:
+    
+    
 
 
 **Note**:
