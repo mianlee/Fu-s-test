@@ -29,15 +29,15 @@ The Early Neolithic in Europe in this study is represented by new samples report
 
 
 
-1. "Starčevo"  individual, 7700-7500 years old, in south Hungary, BAM25a/I0174. Early Neolithic Starčevo culture.
+1. "Starčevo culture"  individual, 7700-7500 years old, in south Hungary, BAM25a/I0174. Early Neolithic Starčevo culture. n = 1
 
     mtDNA: **N1a1a1**.
 
-2. "LBKT" individual, 7200-7000 years old in south Hungary, SZEH4b/I0176. Transdanubian LBK in Hungary.
+2. "LBKT culture" individual, 7200-7000 years old in south Hungary, SZEH4b/I0176. Transdanubian LBK in Hungary.  n = 1
 
     mtDNA : **N1a1a1a3**
 
-3. LBK individuals, 7500-7000 years old in Germany.
+3. "LBK culture" individuals, 7500-7000 years old in Germany. n = 12
 
    *Halberstdt-Sonntagsfeld*:
     
@@ -95,7 +95,29 @@ The Early Neolithic in Europe in this study is represented by new samples report
      
       mtDNA: **T2b**
     
+4. "Cardium Pottery culture (epi-Cardial)" individuals, 7300-7000 years old in Bisaurri, North Spain. n = 5
 
+     *Els Trocs* :
+    
+    - Troc1/I0409:
+    
+      mtDNA: **J1c3**
+      
+    - Troc3/I0410:
+       
+      mtDNA: **Pre-T2c1d2**
+    
+    - Troc4/I0411:
+    
+      mtDNA: **K1a2a**
+    
+    - Troc5/I0412:
+    
+      mtDNA: **N1a1a1**
+    
+    - Troc7/I0413:
+    
+      mtDNA: **V**
 
 
 
@@ -118,6 +140,13 @@ It represents the advance of Early Neolithic farmers from the Starčevo-Körös 
 The Hungarians tend to use DVK, Dunántúl Vonaldiszes Kerámia, translated as "Transdanubian Linear Pottery (LBKT)", Transdanubia is a traditional region of western Hungary.
 
 
+**Cardium Pottery culture (8400 - 7500 years ago)**
+
+The first farmers entering Europe about 8,000 years ago coming from the Near East spread through the continent following two different routes: one to Central Europe via the Danube, and the other towards the Iberian peninsula following the Mediterranean coast. These latter farmers developed their own cultural tradition: the Cardium Pottery, so-called due to a characteristic incised decoration made with the edges of bivalves shells belonging to the genus *Cerastoderma* (formerly *Cardium*).
+
+Cardium pottery or Cardial ware is a Neolithic decorative style that gets its name from the imprinting of the clay with the shell of the cockle, an edible marine mollusk formerly known as *Cardium edulis* (now *Cerastoderma edule*). These forms of pottery are in turn used to define the Neolithic culture which produced and spread them, mostly commonly called the "Cardial culture".
+
+The alternative name impressed ware is given by some archaeologists to define this culture, because impressions can be with sharp objects other than cockle shell, such as a nail or comb. Impressed pottery is much more widespread than the Cardial. The sequence in prehistoric Europe has traditionally been supposed to start with widespread Cardial ware, and then to develop other methods of impression locally, termed "epi-Cardial".
 
 
 **Reference**:
