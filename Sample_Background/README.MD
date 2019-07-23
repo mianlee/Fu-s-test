@@ -35,23 +35,72 @@ The Early Neolithic in Europe in this study is represented by new samples report
 
 2. "LBKT" individual, 7200-7000 years old in south Hungary, SZEH4b/I0176. Transdanubian LBK in Hungary.
 
-    mtDNA :**N1a1a1a3**
+    mtDNA : **N1a1a1a3**
 
 3. LBK individuals, 7500-7000 years old in Germany.
 
    *Halberstdt-Sonntagsfeld*:
     
-    - HAL5/I0046:
+    - HAL5/I0046: 
+    
+      mtDNA: **T2c1d'e'f**
     
     - HAL25/I0048:
     
+      mtDNA: **K1a**
+    
     - HAL14/I0056:
+    
+      mtDNA: **T2b**
     
     - HAL34/I0057:
     
+      mtDNA: **N1a1a1**
+    
     - HAL4/I0100:
     
+      mtDNA: **N1a1a1a**
     
+    - HAL2/I0659:
+       
+      mtDNA: **N1a1a1a2**
+    
+    - HAL24/I0821: 
+    
+      mtDNA: **pre-X2d1**
+    
+    *Oberwiederstedt-Unterwiederstedt*:
+    
+    - UWS4/I0054
+    
+      mtDNA: **J1c17**
+      
+    *Karsdorf*:
+    
+    - KAR6/I0795:
+    
+      mtDNA: **H1**
+
+    *Stuttgart-Muhlhausen*
+    
+    - LBK1976/I0022:
+    
+      mtDNA: **T2e**
+    
+    - KBK1992/I0025:
+      
+      mtDNA: **T2b**
+    
+    - LBK2155/I0026:
+     
+      mtDNA: **T2b**
+    
+
+
+
+
+
+
 
 
 **Note**:
