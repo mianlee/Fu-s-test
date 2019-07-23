@@ -148,7 +148,70 @@ The alternative name impressed ware is given by some archaeologists to define th
 
 ## Middle Neolithic
 
+1. "*Baalberge*, *Salzmuende*, and *Bernburg* culture" individuals, 5800-5300 years old, in Germany. n = 4
 
+     *Esperstedt*
+     
+     - ESP30/I0807, *Baalberge* culture
+     
+       mtDNA: **H1e1a**
+     
+     - ESP24/I0172, *Bernburg* culture
+     
+       mtDNA: **T2b**
+       
+     *Quedlinburg*
+     
+     - QLB15/I0559, *Baalberge* culture
+       
+       mtDNA: **HV6'17**
+     
+     - QLB18/I0560, *Baalberge* culture
+       
+       mtDNA: **T2e1**
+     
+2. Middle Neaolithic individuals, 5900-5600 years old, in Spain
+
+  *La Mina*:
+  
+   - Mina3/I0405:
+   
+     mtDNA: **K1a1b1**
+   
+   - Mina5/I0406:
+   
+     mtDNA: **H1**
+   
+   - Mian6/I0407:
+   
+     mtDNA: **K1b1a1**
+   
+   - Mian18/I0408:
+   
+     mtDNA: **pre-U5b**
+     
+
+
+**Note**:
+
+
+**Esperstedt**
+
+Esperstedt is a village and a former municipality in the Saalekreis district, Saxony-Anhalt, Germany.
+
+**Baalberge Group**
+
+The Baalberge Group (German: *Baalberger Kultur*) was a late neolithic culture whose remains are found in central Germany. It is named after its first findspot: on the Schneiderberg at Baalberge, Salzlandkreis, Saxony-Anhalt. It appears to be the oldest grouping of the Funnel Beaker culture (or Trichterbecherkultur, TRB). In Germany it is the most common of the Funnel Beaker cultures. Because of issues with the archaeological use of the term culture it is now often referred to as the Baalberge Ceramic style (Baalberger Keramikstil). It is part of Funnelbeaker phase TRB-MES II and III in the Middle Elbe/Saale region.
+
+An early example of the Funnel Beaker culture, the Baalberge ceramic style dates between 3800 - 3400 BC and belongs to the central German funnel beaker phases TRB-MES II (3800-3500 BC) and TRB-MES III (3500-3350 BC). It developed out of phase TRB-MES I (4100-3800 BC), innovating under the influence of southeaster and western influences (Michelsberg culture and the late Lengyel culture).
+
+**Salzmünde Group**
+
+The Salzmünde Group or Salzmünde Culture (German: Salzmünder Gruppe / Salzmünder Kultur) is the name for a late group from the Funnel Beaker culture in central Saale-Elbe region of Germany, which existed between 3400 and 3000 BC during the Neolithic period.
+
+**Bernburg Culture**
+
+Walternienburg-Bernburger Kultur refers to a mid-neolithic culture which was focused on the area of modern Saxony-Anhalt, the Thuringian Basin and Franconia from 3200 to 2800 BC. It consisted of two regional groups, Walternienburg and Bernburg which interacted closely with each other. Both are named after burial sites in Saxony-Anhalt.
 
 
 
