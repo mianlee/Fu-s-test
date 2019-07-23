@@ -11,7 +11,7 @@ The term **Neolithic** or **New Stone Age** is most frequently used in connectio
 
 The [Haak *et al*. (2015)](https://www.nature.com/articles/nature14317) follows the **central European chronology**.
 
-### Hunter-gather samples
+## Hunter-gathers
 
 Two hunter-gather samples from western Russia.
 
@@ -23,7 +23,7 @@ Two hunter-gather samples from western Russia.
 
     mtDNA: **U5a1d**.
     
-### Early Neolithic 
+## Early Neolithic 
 
 The Early Neolithic in Europe in this study is represented by new samples reported from sites in **Hungary**, **Germany** and **Spain**.
 
@@ -121,10 +121,6 @@ The Early Neolithic in Europe in this study is represented by new samples report
 
 
 
-
-
-
-
 **Note**:
 
 **Starčevo–Kőrös–Criș culture (8200-6500 years ago)**
@@ -147,6 +143,13 @@ The first farmers entering Europe about 8,000 years ago coming from the Near Eas
 Cardium pottery or Cardial ware is a Neolithic decorative style that gets its name from the imprinting of the clay with the shell of the cockle, an edible marine mollusk formerly known as *Cardium edulis* (now *Cerastoderma edule*). These forms of pottery are in turn used to define the Neolithic culture which produced and spread them, mostly commonly called the "Cardial culture".
 
 The alternative name impressed ware is given by some archaeologists to define this culture, because impressions can be with sharp objects other than cockle shell, such as a nail or comb. Impressed pottery is much more widespread than the Cardial. The sequence in prehistoric Europe has traditionally been supposed to start with widespread Cardial ware, and then to develop other methods of impression locally, termed "epi-Cardial".
+
+
+
+## Middle Neolithic
+
+
+
 
 
 **Reference**:
