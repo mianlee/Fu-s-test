@@ -257,7 +257,7 @@ Walternienburg-Bernburger Kultur refers to a mid-neolithic culture which was foc
      
      mtDNA: **H2b**
    
-   *Lopatino II
+   *Lopatino II*
    
    - SVP57/I0443
    
