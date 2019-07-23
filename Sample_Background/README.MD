@@ -41,31 +41,31 @@ The Early Neolithic in Europe in this study is represented by new samples report
 
    *Halberstdt-Sonntagsfeld*:
     
-    - HAL5/I0046: 
+    - HAL5/I0046:
     
       mtDNA: **T2c1d'e'f**
     
-    - HAL25/I0048:
+    - HAL25/I0048
     
       mtDNA: **K1a**
     
-    - HAL14/I0056:
+    - HAL14/I0056
     
       mtDNA: **T2b**
     
-    - HAL34/I0057:
+    - HAL34/I0057
     
       mtDNA: **N1a1a1**
     
-    - HAL4/I0100:
+    - HAL4/I0100
     
       mtDNA: **N1a1a1a**
     
-    - HAL2/I0659:
+    - HAL2/I0659
        
       mtDNA: **N1a1a1a2**
     
-    - HAL24/I0821: 
+    - HAL24/I0821
     
       mtDNA: **pre-X2d1**
     
@@ -77,21 +77,21 @@ The Early Neolithic in Europe in this study is represented by new samples report
       
      *Karsdorf*:
     
-    - KAR6/I0795:
+    - KAR6/I0795
     
       mtDNA: **H1**
 
     *Stuttgart-Muhlhausen*
     
-    - LBK1976/I0022:
+    - LBK1976/I0022
     
       mtDNA: **T2e**
     
-    - KBK1992/I0025:
+    - KBK1992/I0025
       
       mtDNA: **T2b**
     
-    - LBK2155/I0026:
+    - LBK2155/I0026
      
       mtDNA: **T2b**
     
@@ -99,23 +99,23 @@ The Early Neolithic in Europe in this study is represented by new samples report
 
      *Els Trocs* :
     
-    - Troc1/I0409:
+    - Troc1/I0409
     
       mtDNA: **J1c3**
       
-    - Troc3/I0410:
+    - Troc3/I0410
        
       mtDNA: **Pre-T2c1d2**
     
-    - Troc4/I0411:
+    - Troc4/I0411
     
       mtDNA: **K1a2a**
     
-    - Troc5/I0412:
+    - Troc5/I0412
     
       mtDNA: **N1a1a1**
     
-    - Troc7/I0413:
+    - Troc7/I0413
     
       mtDNA: **V**
 
@@ -150,7 +150,7 @@ The alternative name impressed ware is given by some archaeologists to define th
 
 1. "*Baalberge*, *Salzmuende*, and *Bernburg* culture" individuals, 5800-5300 years old, in Germany. n = 4
 
-     *Esperstedt*
+     *Esperstedt*:
      
      - ESP30/I0807, *Baalberge* culture
      
@@ -160,7 +160,7 @@ The alternative name impressed ware is given by some archaeologists to define th
      
        mtDNA: **T2b**
        
-     *Quedlinburg*
+     *Quedlinburg*:
      
      - QLB15/I0559, *Baalberge* culture
        
@@ -174,19 +174,19 @@ The alternative name impressed ware is given by some archaeologists to define th
 
    *La Mina*:
   
-   - Mina3/I0405:
+   - Mina3/I0405
    
      mtDNA: **K1a1b1**
    
-   - Mina5/I0406:
+   - Mina5/I0406
    
      mtDNA: **H1**
    
-   - Mian6/I0407:
+   - Mian6/I0407
    
      mtDNA: **K1b1a1**
    
-   - Mian18/I0408:
+   - Mian18/I0408
    
      mtDNA: **pre-U5b**
      
@@ -214,6 +214,155 @@ The Salzmünde Group or Salzmünde Culture (German: Salzmünder Gruppe / Salzmü
 Walternienburg-Bernburger Kultur refers to a mid-neolithic culture which was focused on the area of modern Saxony-Anhalt, the Thuringian Basin and Franconia from 3200 to 2800 BC. It consisted of two regional groups, Walternienburg and Bernburg which interacted closely with each other. Both are named after burial sites in Saxony-Anhalt.
 
 
+## Late Copper/Early Bronze Age steppe chronology
+
+
+- "Yamnaya culture" individuals, 5300-4600 years old, in Russia. n = 9
+
+   *Ekaterinovka*
+   
+   - SVP3/I0231
+   
+     mtDNA: **U4a1**
+   
+   *Lopatino I*
+   
+   - SVP5/I0357
+     
+     mtDNA: **W6c**
+   
+   - SVP38/I0429
+     
+     mtDNA: **T2c1a2**
+   
+   - SVP52/I0439
+   
+     mtDNA: **U5a1a1**
+   
+   *Ishkinovka I*
+   
+   - SVP10/I0370
+     
+     mtDNA: **H13a1a1**
+   
+   *Luzhki I*
+   
+   - SVP50/I0438
+     
+     mtDNA: **U5a1a1**
+   
+   *Kurmanaevka III*
+   
+   - SVP54/I0441
+     
+     mtDNA: **H2b**
+   
+   *Lopatino II
+   
+   - SVP57/I0443
+   
+     mtDNA: **W3a1a**
+     
+   *Kutuluk*
+   
+   - SVP58/I0444
+   
+     mtDNA: **H6a1b**
+
+
+**Note**:
+
+**Kurgan**:
+
+A kurgan (Russian: курга́н) is a tumulus, a type of burial mound or barrow, heaped over a burial chamber, often of wood.The Russian noun, already attested in Old East Slavic, comes from an unidentified Turkic language, compare Modern Turkish kurğan, which means "fortress". Kurgans are mounds of earth and stones raised over a grave or graves.
+
+**Yamnaya culture**
+
+The Yamnaya culture , also known as  Pit Grave culture, was a late Copper Age to early Bronze Age archaeological culture of the region between the Southern Bug, Dniester, and Ural rivers (the Pontic steppe), dating to 3300–2600 BC. Generally considered by linguists as the homeland of the Proto-Indo-European language.
+
+
+##  Late Neolithic
+
+1. "Corded Ware culture" individuals, 4500-4300 years old, in Germany. n = 4
+
+    *Esperstedt*:
+   
+    - ESP11/I0104
+    
+      mtDNA: **U4b1a1a1**
+    
+    - ESP16/I0103
+    
+      mtDNA: **W6a**
+    
+    - ESP22/I0049
+      
+      mtDNA: **X2b4**
+    
+    - ESP26/I0106
+    
+      mtDNA: **T2a1b1**
+      
+2. "Bell Beaker culture and Late Neolithic", 4340-4100 years old, in Germany. n = 6
+
+   *Benzingerode-Heimburg*:
+   
+   - BZH6/I0059
+     
+     mtDNA: **H1/H1b'ad**
+   
+   
+   - BZH4/I0058
+     
+     mtDNA: **H1e**
+   
+   
+   - BZH12/I0171
+     
+     mtDNA: **U5a1a2a**
+   
+   
+   *Quedlinburg VII and XIIa*:
+   
+   - QUEXII6/I0112
+     
+     mtDNA: **H13a1a2**
+   
+   
+   - QUEXII4/I0113
+   
+     mtDNA: **J1c5**
+    
+    
+    - QLB28/I0806
+    
+      mtDNA: **H1**
+      
+      
+ 3. Other Late Neolithic samples, 4500 - 4300 years old, in Germany. n = 2
+ 
+ 
+    *Karsdorf*
+    
+    - KAR22/I0550
+    
+      mtDNA: **T1a1**
+    
+    *Alberstedt*
+    
+    - ALB3/I0118
+    
+      mtDNA: **HV6'17**
+    
+   
+
+**Note**:
+
+**Bell Beaker and Corded Ware culture
+
+During the third millennium BC, two new archaeological pottery styles expanded across Europe and replaced many of the more localized styles that had preceded them1. The expansion of the ‘Corded Ware complex’ in north-central and northeastern Europe was associated with people who derived most of their ancestry from populations related to Early Bronze Age Yamnaya pastoralists from the Eurasian steppe. In western Europe there was the equally expansive ‘Bell Beaker complex’, defined by assemblages of grave goods that included stylized bell-shaped pots, copper daggers, arrowheads, stone wristguards and V-perforated buttons5. The oldest radiocarbon dates associated with Beaker pottery are from around 2750 BC in Atlantic Iberia, which has been interpreted as evidence that the Beaker complex originated in this region. However, the geographic origins of this complex are still debated and other scenarios—including an origin in the Lower Rhine area, or even multiple independent origins—are possible (Supplementary Information section 1). Regardless of geographic origin, by 2500 BC the Beaker complex had spread throughout western Europe and northwest Africa and had reached southern and Atlantic France, Italy and central Europe5, where it overlapped geographically with the Corded Ware complex. [Iñigo Olalde *et al*. (2018)](https://www.nature.com/articles/nature25738)
 
 **Reference**:
-1. [Ancient History](https://www.ancient.eu/Neolithic/)
+1. [Ancient History](https://www.ancient.eu/Neolithic/).
+
+2. Olalde, Iñigo, et al. "The Beaker phenomenon and the genomic transformation of northwest Europe." Nature 555.7695 (2018): 190.
