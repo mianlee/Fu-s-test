@@ -172,7 +172,7 @@ The alternative name impressed ware is given by some archaeologists to define th
      
 2. Middle Neaolithic individuals, 5900-5600 years old, in Spain
 
-  *La Mina*:
+   *La Mina*:
   
    - Mina3/I0405:
    
