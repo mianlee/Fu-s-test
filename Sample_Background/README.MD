@@ -75,7 +75,7 @@ The Early Neolithic in Europe in this study is represented by new samples report
     
       mtDNA: **J1c17**
       
-    *Karsdorf*:
+     *Karsdorf*:
     
     - KAR6/I0795:
     
