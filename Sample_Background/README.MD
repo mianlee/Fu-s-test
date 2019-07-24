@@ -154,7 +154,7 @@ The alternative name impressed ware is given by some archaeologists to define th
      
      - ESP30/I0807, *Baalberge* culture
      
-       mtDNA: **H1e1a**
+       mtDNA: **H1e1a**, Y-haplogroup: **F***
      
      - ESP24/I0172, *Bernburg* culture
      
@@ -164,7 +164,7 @@ The alternative name impressed ware is given by some archaeologists to define th
      
      - QLB15/I0559, *Baalberge* culture
        
-       mtDNA: **HV6'17**
+       mtDNA: **HV6'17**, Y-haplogroup: **R*?**
      
      - QLB18/I0560, *Baalberge* culture
        
