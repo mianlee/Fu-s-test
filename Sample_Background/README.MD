@@ -14,7 +14,7 @@ The [Haak *et al*. (2015)](https://www.nature.com/articles/nature14317) follows 
 
 **Related Cultues in central Europe**:
 
-The first farmers of the ENE linear pottery culture (LBK, 5450–4775 BC), through the subsequent Rössen (4625–4250 BC), Schöningen (4100–3950 BC), Baalberge (3950–3400 BC) and Salzmünde (3400–3025 BC) cultures. These were followed by two of the first pan-European Late Neolithic (LNE) cultural complexes, the Corded Ware (CWC, 2800–2050 BC) and Bell Beaker (BBC, 2500–2050 BC) cultures, before the emergence of the Early Bronze Age with the Unetice culture (2200–1575 BC). [Paul Brotherton, *et al*. (2013)](https://www.nature.com/articles/ncomms2656#s1)
+The first farmers of the ENE **linear pottery culture** (LBK, 5450–4775 BC), through the subsequent **Rössen** (4625–4250 BC), **Schöningen** (4100–3950 BC), **Baalberge** (3950–3400 BC) and **Salzmünde** (3400–3025 BC) cultures. These were followed by two of the first pan-European Late Neolithic (LNE) cultural complexes, the **Corded War**e (CWC, 2800–2050 BC) and **Bell Beaker** (BBC, 2500–2050 BC) cultures, before the emergence of the Early Bronze Age with the **Unetice culture** (2200–1575 BC). [Paul Brotherton, *et al*. (2013)](https://www.nature.com/articles/ncomms2656#s1)
 
 
 
