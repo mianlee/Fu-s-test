@@ -17,11 +17,12 @@ Two hunter-gather samples from western Russia.
 
 1. **"Karelia"** individual, 7500 years old, in Karelia, Western Russia, UZ0074/I0061.
 
-    mtDNA: **C1g (old C1f)**.
+    mtDNA: **C1g (old C1f)**, Y-haplogroup: **R1a1**
 
 2. **"Samara"** individual, 7600 - 7500 years old, in Samara oblast(State), Russia, SVP44/I0124.
 
-    mtDNA: **U5a1d**.
+    mtDNA: **U5a1d**, Y-haplogroup: **R1b1**
+    
     
 ## Early Neolithic 
 
@@ -31,7 +32,7 @@ The Early Neolithic in Europe in this study is represented by new samples report
 
 1. "Starčevo culture"  individual, 7700-7500 years old, in south Hungary, BAM25a/I0174. Early Neolithic Starčevo culture. n = 1
 
-    mtDNA: **N1a1a1**.
+    mtDNA: **N1a1a1**, Y-haplogroup: **H2**
 
 2. "LBKT culture" individual, 7200-7000 years old in south Hungary, SZEH4b/I0176. Transdanubian LBK in Hungary.  n = 1
 
@@ -47,11 +48,11 @@ The Early Neolithic in Europe in this study is represented by new samples report
     
     - HAL25/I0048
     
-      mtDNA: **K1a**
+      mtDNA: **K1a**, Y-haplogroup: **G2a2a**
     
     - HAL14/I0056
     
-      mtDNA: **T2b**
+      mtDNA: **T2b**, Y-haplogroup: **G2a2a**
     
     - HAL34/I0057
     
@@ -63,11 +64,11 @@ The Early Neolithic in Europe in this study is represented by new samples report
     
     - HAL2/I0659
        
-      mtDNA: **N1a1a1a2**
+      mtDNA: **N1a1a1a2**, Y-haplogroup: **G2a2a1**
     
     - HAL24/I0821
     
-      mtDNA: **pre-X2d1**
+      mtDNA: **pre-X2d1**, Y-haplogroup: **G2a2a1**
     
     *Oberwiederstedt-Unterwiederstedt*:
     
@@ -79,7 +80,7 @@ The Early Neolithic in Europe in this study is represented by new samples report
     
     - KAR6/I0795
     
-      mtDNA: **H1**
+      mtDNA: **H1**, Y-haplogroup: **T1a**
 
     *Stuttgart-Muhlhausen*
     
@@ -105,15 +106,15 @@ The Early Neolithic in Europe in this study is represented by new samples report
       
     - Troc3/I0410
        
-      mtDNA: **Pre-T2c1d2**
+      mtDNA: **Pre-T2c1d2**, Y-haplogroup: **R1b1**
     
     - Troc4/I0411
     
-      mtDNA: **K1a2a**
+      mtDNA: **K1a2a** , Y-haplogroup: **F**
     
     - Troc5/I0412
     
-      mtDNA: **N1a1a1**
+      mtDNA: **N1a1a1**, Y-haplogroup: **I2a1b1**
     
     - Troc7/I0413
     
@@ -158,13 +159,13 @@ The alternative name impressed ware is given by some archaeologists to define th
      
      - ESP24/I0172, *Bernburg* culture
      
-       mtDNA: **T2b**
+       mtDNA: **T2b**, Y-haplogroup: **I2a1b1a**
        
      *Quedlinburg*:
      
      - QLB15/I0559, *Baalberge* culture
        
-       mtDNA: **HV6'17**, Y-haplogroup: **R*?**
+       mtDNA: **HV6'17**, Y-haplogroup: **R?**
      
      - QLB18/I0560, *Baalberge* culture
        
@@ -176,11 +177,11 @@ The alternative name impressed ware is given by some archaeologists to define th
   
    - Mina3/I0405
    
-     mtDNA: **K1a1b1**
+     mtDNA: **K1a1b1**, Y-haplogroup: **I2a1a1/H2**
    
    - Mina5/I0406
    
-     mtDNA: **H1**
+     mtDNA: **H1**, Y-haplogroup: **I2a2a1**
    
    - Mian6/I0407
    
@@ -289,7 +290,7 @@ The Yamnaya culture , also known as  Pit Grave culture, was a late Copper Age to
    
     - ESP11/I0104
     
-      mtDNA: **U4b1a1a1**
+      mtDNA: **U4b1a1a1**, Y-haplogroup: **R1b1a1**
     
     - ESP16/I0103
     
@@ -353,7 +354,7 @@ The Yamnaya culture , also known as  Pit Grave culture, was a late Copper Age to
     
     - QLB28/I0806
     
-      mtDNA: **H1**
+      mtDNA: **H1**, Y-haplogroup: **R1b1a2a1a2**
       
       
  4. Other Late Neolithic samples, 4500 - 4300 years old, in Germany. n = 2
@@ -388,7 +389,7 @@ During the third millennium BC, two new archaeological pottery styles expanded a
      
      - ESP2/I0114
      
-       mtDNA: **I3a**
+       mtDNA: **I3a**, Y-haplogroup: **I2a2**
        
      - ESP29/I0117
      
@@ -396,7 +397,7 @@ During the third millennium BC, two new archaeological pottery styles expanded a
         
      - ESP4/I0116
      
-       mtDNA: **W3a1**
+       mtDNA: **W3a1**, Y-haplogroup: **I2c2**
         
      - ESP3/I0115
        
@@ -416,7 +417,7 @@ During the third millennium BC, two new archaeological pottery styles expanded a
      
      - EUL57B/I0804
      
-        mtDNA: **H3**
+        mtDNA: **H3**, Y-haplogroup: **I2**
         
        
 2. Bronze Age individuals, 4000-3000 years old, in Germany. n = 2
@@ -429,7 +430,7 @@ During the third millennium BC, two new archaeological pottery styles expanded a
    
    - HAL36C/I0099
      
-     mtDNA: **H23**
+     mtDNA: **H23**, Y-haplogroup: **R1b1a1b1a2**
         
         
 **Note**:
