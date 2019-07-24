@@ -223,7 +223,7 @@ Walternienburg-Bernburger Kultur refers to a mid-neolithic culture which was foc
    
    - SVP3/I0231
    
-     mtDNA: **U4a1**
+     mtDNA: **U4a1**, Y-haplogroup: **R1b1a2a2**
    
    *Lopatino I*
    
@@ -233,23 +233,23 @@ Walternienburg-Bernburger Kultur refers to a mid-neolithic culture which was foc
    
    - SVP38/I0429
      
-     mtDNA: **T2c1a2**
+     mtDNA: **T2c1a2**, Y-haplogroup: **R1b1a2a2**
    
    - SVP52/I0439
    
-     mtDNA: **U5a1a1**
+     mtDNA: **U5a1a1**, Y-haplogroup: **R1b1a**
    
    *Ishkinovka I*
    
    - SVP10/I0370
      
-     mtDNA: **H13a1a1**
+     mtDNA: **H13a1a1**, Y-haplogroup: **R1b1a2a2**
    
    *Luzhki I*
    
    - SVP50/I0438
      
-     mtDNA: **U5a1a1**
+     mtDNA: **U5a1a1**, Y-haplogroup: **R1b1a2a2**
    
    *Kurmanaevka III*
    
@@ -261,13 +261,13 @@ Walternienburg-Bernburger Kultur refers to a mid-neolithic culture which was foc
    
    - SVP57/I0443
    
-     mtDNA: **W3a1a**
+     mtDNA: **W3a1a**, Y-haplogroup: **R1b1a2a**
      
    *Kutuluk*
    
    - SVP58/I0444
    
-     mtDNA: **H6a1b**
+     mtDNA: **H6a1b**, Y-haplogroup: **R1b1a2a2**
 
 
 **Note**:
