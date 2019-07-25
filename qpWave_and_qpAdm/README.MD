@@ -20,7 +20,7 @@ Both ***qpWave*** and ***qpAdm*** can be though of as more complex and powerful 
 3. Estimating admixture proportions (qpAdm)
 
 
-I have learned how to run ***qpWave*/*qpAdm*** and how to interpret results by reading:
+I have learned the math behind***qpWave*/*qpAdm*** , how to run ***qpWave*/*qpAdm*** and how to interpret results by reading:
 
 1. "Reconstructing Native American population history", [Supplementary Information Note S6](data/Reich_et_al_2012_Supplementary.pdf) by [Reich *et al* 2012](https://www.nature.com/articles/nature11258). This paper first introduced the theoretical background of what later became qpWave.
 
@@ -29,6 +29,8 @@ I have learned how to run ***qpWave*/*qpAdm*** and how to interpret results by r
 3. [CompPopGenWorkshop2019](https://github.com/stschiff/compPopGenWorkshop2019_docs/blob/master/contents/05_qpwave_qpadm/qpwave_qpadm.rst), which explain the math behind it and how to run ***qpWave*/*qpAdm*** with examples.
 
 4. [Admixr - Tutorial](https://bodkan.net/admixr/articles/tutorial.html#qpwave-and-qpadm), which show you how to run ***qpWave*/*qpAdm*** in R.
+
+5. Of course, if you want to use them, it’s crucial that you read the official documentation decribing the basic ideas of both methods, [available here](https://github.com/DReichLab/AdmixTools/blob/master/pdoc.pdf) and how to run them, [available here](https://github.com/DReichLab/AdmixTools/blob/master/README.QpWave).
 
 
 
