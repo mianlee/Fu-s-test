@@ -22,7 +22,7 @@ Both ***qpWave*** and ***qpAdm*** can be though of as more complex and powerful 
 
 I have learned how to run *qpWave*/*qpAdm* and how to interpret results by reading:
 
-1. “Reconstructing Native American population history” Supplementary Information Note S6 by [Reich *et al* 2012](https://www.nature.com/articles/nature11258). This paper first introduced the theoretical background of what later became qpWave.
+1. “Reconstructing Native American population history” [Supplementary Information Note S6](data/Reich_et_al_2012_Supplementary.pdf) by [Reich *et al* 2012](https://www.nature.com/articles/nature11258). This paper first introduced the theoretical background of what later became qpWave.
 
 
 
