@@ -20,6 +20,10 @@ Both ***qpWave*** and ***qpAdm*** can be though of as more complex and powerful 
 3. Estimating admixture proportions (qpAdm)
 
 
+I have learned how to run *qpWave*/*qpAdm* and how to interpret results by reading:
+
+1. “Reconstructing Native American population history” Supplementary Information Note S6 by [Reich *et al* 2012](https://www.nature.com/articles/nature11258). This paper first introduced the theoretical background of what later became qpWave.
+
 
 
 
@@ -49,3 +53,5 @@ Both ***qpWave*** and ***qpAdm*** can be though of as more complex and powerful 
 2. [compPopGenWorkshop2019](https://github.com/stschiff/compPopGenWorkshop2019_docs/blob/master/contents/05_qpwave_qpadm/qpwave_qpadm.rst).
 
 3. Haak, Wolfgang, et al. "Massive migration from the steppe was a source for Indo-European languages in Europe." Nature 522.7555 (2015): 207.
+
+4. Reich, David, et al. "Reconstructing native American population history." Nature 488.7411 (2012): 370.
