@@ -26,9 +26,9 @@ I have learned how to run ***qpWave*/*qpAdm*** and how to interpret results by r
 
 2. "Massive migration from the steppe was a source for Indo-European languages in Europe", [Supplementary Information 10](https://media.nature.com/original/nature-assets/nature/journal/v522/n7555/extref/nature14317-s1.pdf) by [Haak *et al*. (2015)](https://www.nature.com/articles/nature14317), which gives a more consise overview of the ***qpWave*** method than Note S6 of [Reich *et al* 2012](https://www.nature.com/articles/nature11258), and also introduces the ***qpAdm*** methodology for estimating admixture proportions.
 
-3. [compPopGenWorkshop2019](https://github.com/stschiff/compPopGenWorkshop2019_docs/blob/master/contents/05_qpwave_qpadm/qpwave_qpadm.rst), which explain the math behind it and how to run ***qpWave*/*qpAdm*** with examples.
+3. [CompPopGenWorkshop2019](https://github.com/stschiff/compPopGenWorkshop2019_docs/blob/master/contents/05_qpwave_qpadm/qpwave_qpadm.rst), which explain the math behind it and how to run ***qpWave*/*qpAdm*** with examples.
 
-4. [admixr - Tutorial](https://bodkan.net/admixr/articles/tutorial.html#qpwave-and-qpadm), which show you how to run ***qpWave*/*qpAdm*** in R.
+4. [Admixr - Tutorial](https://bodkan.net/admixr/articles/tutorial.html#qpwave-and-qpadm), which show you how to run ***qpWave*/*qpAdm*** in R.
 
 
 
