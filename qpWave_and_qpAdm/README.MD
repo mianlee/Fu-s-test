@@ -37,14 +37,13 @@ I have learned the math behind***qpWave*/*qpAdm*** , how to run ***qpWave*/*qpAd
 ### Application using genotype data from Haak *et al*. (2015)
 
 
-Let ***T***, which stands for tested population, be a target population,
+Let ***T***, which stands for tested population, be a target population, and ***S***= {S1, S2,.....,Sn} a set of source populations. In the easiest case to consider, in which ***T*** is an admixture of populations of ***S***.
 
+Thus, if ***T*** is admixted, as above, pick a set of outgroup populations ***O***, and 
 
+1. Check, setting left populations L = ***S***, and  right populations ***O*** that the matrix ***X*** has full rank n-1.
 
-
-
-
-
+2. Check, again setting L ={***T***, ***S***} that there is no strong evidence that the rank of ***T***.
 
 
 
