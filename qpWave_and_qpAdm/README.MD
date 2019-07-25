@@ -24,7 +24,7 @@ I have learned how to run ***qpWave*/*qpAdm*** and how to interpret results by r
 
 1. "Reconstructing Native American population history", [Supplementary Information Note S6](data/Reich_et_al_2012_Supplementary.pdf) by [Reich *et al* 2012](https://www.nature.com/articles/nature11258). This paper first introduced the theoretical background of what later became qpWave.
 
-2. "Massive migration from the steppe was a source for Indo-European languages in Europe", [Supplementary Information 10]() by [Haak *et al*. (2015)](https://www.nature.com/articles/nature14317), which gives a more consise overview of the ***qpWave*** method than Note S6 of [Reich *et al* 2012](https://www.nature.com/articles/nature11258), and also introduces the ***qpAdm*** methodology for estimating admixture proportions.
+2. "Massive migration from the steppe was a source for Indo-European languages in Europe", [Supplementary Information 10](https://media.nature.com/original/nature-assets/nature/journal/v522/n7555/extref/nature14317-s1.pdf) by [Haak *et al*. (2015)](https://www.nature.com/articles/nature14317), which gives a more consise overview of the ***qpWave*** method than Note S6 of [Reich *et al* 2012](https://www.nature.com/articles/nature11258), and also introduces the ***qpAdm*** methodology for estimating admixture proportions.
 
 
 
