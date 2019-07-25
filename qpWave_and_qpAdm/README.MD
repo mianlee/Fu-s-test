@@ -4,7 +4,7 @@
 
 Both ***qpWave*** and ***qpAdm*** can be though of as more complex and powerful extensions of the basic ideas behind a simple ***f4*** statistic. Building upon the ***f4*** theory and generalizing it, ***qpWave*** makes it possible to find the lowest number of “streams of ancestry” between two groups of populations that is consistent with the data. Extending the concept of ***f4*** statistics even further, ***qpAdm*** allows to find the proportions of ancestry from a set of ancestral populations that contributed ancestry to our population of interest.
 
-***QpWave and its derivative qpAdm*** **are tools for summarizing information from multiple F-statistics to make such sophisticated inferences possible to a substantial degree. In this section, we focus on the following specific questions:**
+***QpWave*** **and its derivative** ***qpAdm*** **are tools for summarizing information from multiple F-statistics to make such sophisticated inferences possible to a substantial degree. In this section, we focus on the following specific questions:**
 
 1. Detecting the minimum number of independent gene pools to explain a set of target populations (qpWave)
 
