@@ -50,37 +50,37 @@ Thus, if ***T*** is admixted, as above, pick a set of outgroup populations ***O*
 
 In the following analyses, we will follow the idea described above of first testing a pair of source populations (left list ***U***) to ensure that they have rank=1 with respect to the outgroups, which shows that they are descended from two indenpendent streams of ancestry. We will then add a third population ***Test***, making U = {***U***, ***Test***}, showing that it does not increase the rank, and can thus be modelled as a mixture of the initial pair.
 
-**15 World Outgroups:
+**15 World Outgroups**:
 
-Ami:
+**Ami**: the Amis are an Austronesian ethnic group native to Taiwan.
 
-Biaka:
+**Biaka**: a nomadic Mbenga pygmy people of central Africa.
 
-Bougainville
+**Bougainville**: Bougainville Island is the main island of the Autonomous Region of Bougainville of Papua New Guinea.
 
-Chukchi:
+**Chukchi**: the Chukchi, or Chukchee, are an indigenous people inhabiting the Chukchi Peninsula and the shores of the Chukchi Sea and the Bering Sea region of the Arctic Ocean within the Russian Federation. They speak the Chukchi language.
 
-Eskimo:
+**Eskimo**: Eskimo or Eskimos are the indigenous peoples who have traditionally inhabited the northern circumpolar region from eastern Siberia (Russia) to Alaska (of the United States), Canada, and Greenland
 
-Han
+**Han**: the Han Chinese are an East Asian ethnic group and nation native to China.
 
-Ju_hoan_North
+**Ju_hoan_North**: Juʼhoan, also known as Southern or Southeastern !Kung (Southeastern Ju), is the southern variety of the !Kung dialect continuum, spoken in northeastern Namibia and the Northwest District of Botswana. 
 
-Karitiana:
+**Karitiana**: the Karitiana are an indigenous people of Brazil, whose reservation is located in the western Amazon.
 
-Kharia:
+**Kharia**: the Kharia are an Austroasiatic ethnic group from central India. This tribal ethnic group in India. They originally spoke the Kharia language, which belong to Austroasiatic languages.
 
-Mbuti:
+**Mbuti**: Mbuti or Bambuti are one of several indigenous pygmy groups in the Congo region of Africa.
 
-Onge:
+**Onge**: the Onge are one of the Andamanese indigenous peoples of the Andaman Islands.
 
-Papuan
+**Papuan**: the indigenous peoples of New Guinea, commonly called Papuans, are Melanesians. 
 
-She:
+**She**: the She people are a Chinese ethnic group.
 
-Ulchi:
+**Ulchi**: the Ulch are an indigenous people of the Russian Far East who speak a Tungusic language,
 
-Yoruba:
+**Yoruba**: one of the three largest ethnic groups of Nigeria, concentrated in the southwestern part of that country
 
 
 
