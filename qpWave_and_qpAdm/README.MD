@@ -83,10 +83,11 @@ In the following analyses, we will follow the idea described above of first test
 **Yoruba**: one of the three largest ethnic groups of Nigeria, concentrated in the southwestern part of that country
 
 
+**"left" and "right" populations**
 
+Both "left" and "right" population lists are a simple text file, including one population name per line. In the EIGENSTRAT format input genotype data, population name matches entries in the third column of the ```.ind``` file. "Right" population list includes outgroup populations that are distantly but (potentially) differentially related to "left" populations. "Left" population list includes populations of your interest. For ```qpWave```, the order of left populations does not have specific meaning.
 
-
-
+1. Westn and Eastern European hunter-gathers not a clade with respect to world outgoups
 
 
 
