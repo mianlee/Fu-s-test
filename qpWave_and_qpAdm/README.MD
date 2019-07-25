@@ -37,6 +37,8 @@ I have learned the math behind***qpWave*/*qpAdm*** , how to run ***qpWave*/*qpAd
 ### Application using genotype data from Haak *et al*. (2015)
 
 
+**Basic idea**:
+
 Let ***T***, which stands for tested population, be a target population, and ***S***= {S1, S2,.....,Sn} a set of source populations. In the easiest case to consider, in which ***T*** is an admixture of populations of ***S***.
 
 Thus, if ***T*** is admixted, as above, pick a set of outgroup populations ***O***, and 
@@ -44,6 +46,41 @@ Thus, if ***T*** is admixted, as above, pick a set of outgroup populations ***O*
 1. Check, setting left populations L = ***S***, and  right populations ***O*** that the matrix ***X*** has full rank n-1.
 
 2. Check, again setting L ={***T***, ***S***} that there is no strong evidence that the rank of ***T***.
+
+
+In the following analyses, we will follow the idea described above of first testing a pair of source populations (left list ***U***) to ensure that they have rank=1 with respect to the outgroups, which shows that they are descended from two indenpendent streams of ancestry. We will then add a third population ***Test***, making U = {***U***, ***Test***}, showing that it does not increase the rank, and can thus be modelled as a mixture of the initial pair.
+
+**15 World Outgroups:
+
+Ami:
+
+Biaka:
+
+Bougainville
+
+Chukchi:
+
+Eskimo:
+
+Han
+
+Ju_hoan_North
+
+Karitiana:
+
+Kharia:
+
+Mbuti:
+
+Onge:
+
+Papuan
+
+She:
+
+Ulchi:
+
+Yoruba:
 
 
 
