@@ -18,7 +18,7 @@ Both ***qpWave*** and ***qpAdm*** can be though of as more complex and powerful 
 
 3. Estimating admixture proportions (qpAdm)
 
-## Useful resources
+### Useful resources
 
 I have learned the math behind***qpWave*/*qpAdm*** , how to run ***qpWave*/*qpAdm*** and how to interpret results by reading:
 
@@ -34,7 +34,10 @@ I have learned the math behind***qpWave*/*qpAdm*** , how to run ***qpWave*/*qpAd
 
 
 
+### Application using genotype data from Haak *et al*. (2015)
 
+
+Let ***T***, which stands for tested population, be a target population,
 
 
 
