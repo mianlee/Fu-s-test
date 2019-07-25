@@ -1,10 +1,10 @@
-##  *qpWave* and *qpAdm*: Admixture modelling
+#  *qpWave* and *qpAdm*: Admixture modelling
 
-### Objectives
+## Objectives
 
 I am trying to repeat " Number of streams of migration into ancient Europe" in Supplementary Information 10, [Haak *et al*. (2015)](https://www.nature.com/articles/nature14317) using [*```qpWave```*](https://github.com/DReichLab/AdmixTools/blob/master/README.QpWave) in [AdmixTools](https://github.com/DReichLab/AdmixTools).
 
-### Backgroup
+## Backgroup
 
 ***f3*** and ***D/f4*** statistics are very useful tools to test simple phylogenetic hypotheses, such as whether certain population is sharing more genetic drift with one population than with other populations (outgroup-***f3***), whether the relationship of four test populations fits into a tree. However, and individual ***f3*** and ***D/f4*** - statistics cannot provide specifics of this "non-treeness": such as **1)** what is the magnitude and direction of gene flow, **2)** how many gene flows are required to model the relationship between the populations used, and **3)** whether the populations used are sufficient to model their relationships (or an unsampled lineage is required).
 
@@ -18,7 +18,7 @@ Both ***qpWave*** and ***qpAdm*** can be though of as more complex and powerful 
 
 3. Estimating admixture proportions (qpAdm)
 
-### Useful resources
+## Useful resources
 
 I have learned the math behind***qpWave*/*qpAdm*** , how to run ***qpWave*/*qpAdm*** and how to interpret results by reading:
 
@@ -34,10 +34,10 @@ I have learned the math behind***qpWave*/*qpAdm*** , how to run ***qpWave*/*qpAd
 
 
 
-### Application using genotype data from Haak *et al*. (2015)
+## Application using genotype data from Haak *et al*. (2015)
 
 
-**Basic idea**:
+### Basic idea:
 
 Let ***T***, which stands for tested population, be a target population, and ***S***= {S1, S2,.....,Sn} a set of source populations. In the easiest case to consider, in which ***T*** is an admixture of populations of ***S***.
 
@@ -50,7 +50,7 @@ Thus, if ***T*** is admixted, as above, pick a set of outgroup populations ***O*
 
 In the following analyses, we will follow the idea described above of first testing a pair of source populations (left list ***U***) to ensure that they have rank=1 with respect to the outgroups, which shows that they are descended from two indenpendent streams of ancestry. We will then add a third population ***Test***, making U = {***U***, ***Test***}, showing that it does not increase the rank, and can thus be modelled as a mixture of the initial pair.
 
-**15 World Outgroups**:
+### 15 World Outgroups:
 
 **Ami**: the Amis are an Austronesian ethnic group native to Taiwan.
 
@@ -83,9 +83,12 @@ In the following analyses, we will follow the idea described above of first test
 **Yoruba**: one of the three largest ethnic groups of Nigeria, concentrated in the southwestern part of that country
 
 
-**"left" and "right" populations**
+### "left" and "right" populations
 
 Both "left" and "right" population lists are a simple text file, including one population name per line. In the EIGENSTRAT format input genotype data, population name matches entries in the third column of the ```.ind``` file. "Right" population list includes outgroup populations that are distantly but (potentially) differentially related to "left" populations. "Left" population list includes populations of your interest. For ```qpWave```, the order of left populations does not have specific meaning.
+
+
+### Tesing the following hypotheses
 
 1. Westn and Eastern European hunter-gathers not a clade with respect to world outgoups
 
