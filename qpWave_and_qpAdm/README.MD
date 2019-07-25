@@ -1,11 +1,10 @@
 ##  *qpWave* and *qpAdm*: Admixture modelling
 
-
-**Objectives**:
+### Objectives
 
 I am trying to repeat " Number of streams of migration into ancient Europe" in Supplementary Information 10, [Haak *et al*. (2015)](https://www.nature.com/articles/nature14317) using [*```qpWave```*](https://github.com/DReichLab/AdmixTools/blob/master/README.QpWave) in [AdmixTools](https://github.com/DReichLab/AdmixTools).
 
-**Backgroup**:
+### Backgroup
 
 ***f3*** and ***D/f4*** statistics are very useful tools to test simple phylogenetic hypotheses, such as whether certain population is sharing more genetic drift with one population than with other populations (outgroup-***f3***), whether the relationship of four test populations fits into a tree. However, and individual ***f3*** and ***D/f4*** - statistics cannot provide specifics of this "non-treeness": such as **1)** what is the magnitude and direction of gene flow, **2)** how many gene flows are required to model the relationship between the populations used, and **3)** whether the populations used are sufficient to model their relationships (or an unsampled lineage is required).
 
@@ -19,6 +18,7 @@ Both ***qpWave*** and ***qpAdm*** can be though of as more complex and powerful 
 
 3. Estimating admixture proportions (qpAdm)
 
+## Useful resources
 
 I have learned the math behind***qpWave*/*qpAdm*** , how to run ***qpWave*/*qpAdm*** and how to interpret results by reading:
 
