@@ -105,7 +105,7 @@ echo ${refs} | sed s/" "/"\n"/g > left1.pops
 echo ${ogs} | sed s/" "/"\n"/g > right.pops
 ```
 
-We will use ```qpWave``` program in the ADMIXTOOLS package. Parameter file for ```qpWave``` has the structure, similar to parameter files for other programs included in the package. I named and saved the par file to ```par.1```:
+We will use ```qpWave``` program in the ADMIXTOOLS package. Parameter file for ```qpWave``` has the structure, similar to parameter files for other programs included in the package. I named and saved the par file to ```par.1``` :
 
 ```
 genotypename: Haak.geno
