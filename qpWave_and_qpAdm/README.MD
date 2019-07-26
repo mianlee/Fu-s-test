@@ -142,7 +142,7 @@ f4rank: 1  dof:   0  chisq:    0.000   tail:          1
 
 ```
 
-We first test the pair (Loschbour, Karelia_HG). Modle with rank = 0is rejected (P = 3.20249971e-43 < 0.05), thus the WHG and EHG are descended from at least two ancestral populations.
+We first test the pair (Loschbour, Karelia_HG). Modle with rank = 0 is rejected (P = 3.20249971e-43 < 0.05), thus the WHG and EHG are descended from at least two ancestral populations.
 
 
 
