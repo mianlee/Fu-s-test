@@ -68,11 +68,11 @@ In the following analyses, we will follow the idea described above of first test
 
 **Karitiana**: the Karitiana are an indigenous people of Brazil, whose reservation is located in the western Amazon.
 
-**Kharia**: the Kharia are an Austroasiatic ethnic group from central India. This tribal ethnic group in India. They originally spoke the Kharia language, which belong to Austroasiatic languages.
+**Kharia**: the Kharia are an Austroasiatic ethnic group from central India. This tribal ethnic group in India. They originally spoke the Kharia language, which belong to Austroasiatic languages. **No this population in the public dataset.**
 
 **Mbuti**: Mbuti or Bambuti are one of several indigenous pygmy groups in the Congo region of Africa.
 
-**Onge**: the Onge are one of the Andamanese indigenous peoples of the Andaman Islands.
+**Onge**: the Onge are one of the Andamanese indigenous peoples of the Andaman Islands. **No this population in the public dataset**
 
 **Papuan**: the indigenous peoples of New Guinea, commonly called Papuans, are Melanesians. 
 
@@ -81,6 +81,8 @@ In the following analyses, we will follow the idea described above of first test
 **Ulchi**: the Ulch are an indigenous people of the Russian Far East who speak a Tungusic language,
 
 **Yoruba**: one of the three largest ethnic groups of Nigeria, concentrated in the southwestern part of that country
+
+**P.s.** Punjabi: the Punjabis (Punjabi: پنجابی, ਪੰਜਾਬੀ) or Punjabi people are an Indo-Aryan ethnolinguistic group associated with the Punjab region in South Asia, specifically in the northern part of the Indian subcontinent, presently divided between Punjab, India and Punjab, Pakistan. **Here, I use Punjabi to subsitiute Indian population.** 
 
 
 ### "left" and "right" populations
@@ -91,6 +93,48 @@ Both "left" and "right" population lists are a simple text file, including one p
 ### Tesing the following hypotheses
 
 #### 1. Westn and Eastern European hunter-gathers not a clade with respect to world outgoups
+
+
+Generating one "left" and one "right" population list files using the following code:
+
+```
+refs="Loschbour Karelia_HG"
+ogs="Ami Biaka Bougainville Chukchi Eskimo Han Ju_hoan_North Karitiana Mbuti Papuan Punjabi She Ulchi Yoruba"
+
+echo ${refs} | sed s/" "/"\n"/g > left1.pops
+echo ${ogs} | sed s/" "/"\n"/g > right.pops
+```
+
+We will use ```qpWave``` program in the ADMIXTOOLS package. Parameter file for ```qpWave``` has the structure, similar to parameter files for other programs included in the package. I named and saved the par file to ```par.1```:
+
+```
+genotypename: Haak.geno
+snpname: Haak.snp
+indivname: Haak.ind
+popleft: left1.pops
+popright: right.pops
+details: YES
+maxrank: 7
+```
+Running the ```qpWave``` programs:
+
+```
+qpWave -p par.1 > qpWave.1.log
+```
+
+Results:
+
+```
+                                                      P
+f4rank: 0  dof:  13  chisq:   236.987  tail:     3.20249971e-43
+ 
+f4rank: 1  dof:   0  chisq:    0.000   tail:          1 
+
+```
+
+We first test the pair (Loschbour, Karelia_HG). Modle with rank = 0is rejected (P = 3.20249971e-43 < 0.05), thus the WHG and EHG are descended from at least two ancestral populations.
+
+
 
 
 
