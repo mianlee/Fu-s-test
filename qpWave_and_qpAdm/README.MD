@@ -12,11 +12,11 @@ Both **qpWave** and **qpAdm** can be though of as more complex and powerful exte
 
 **QpWave** **and its derivative** **qpAdm** **are tools for summarizing information from multiple F-statistics to make such sophisticated inferences possible to a substantial degree. In this section, we focus on the following specific questions:**
 
-1. Detecting the minimum number of independent gene pools to explain a set of target populations (qpWave)
+1. Detecting the minimum number of independent gene pools to explain a set of target populations (qpWave).
 
-2. Testing sufficienty of an admixture model within the resolution of data (qpAdm)
+2. Testing sufficienty of an admixture model within the resolution of data (qpAdm).
 
-3. Estimating admixture proportions (qpAdm)
+3. Estimating admixture proportions (qpAdm).
 
 ## Useful resources
 
@@ -32,7 +32,17 @@ I have learned the math behind **qpWave/qpAdm**, how to run **qpWave/qpAdm** and
 
 5. Of course, if you want to use them, it’s crucial that you read the official documentation decribing the basic ideas of both methods, [available here](https://github.com/DReichLab/AdmixTools/blob/master/pdoc.pdf) and how to run them, [available here](https://github.com/DReichLab/AdmixTools/blob/master/README.QpWave).
 
+## Install ADMIXTOOLS package 
 
+You can download and install the Admixtools package by following the manual, [here](https://github.com/DReichLab/AdmixTools/blob/master/README).
+
+or 
+
+You can install the Admixtools package through ```conda```:
+
+```
+conda install admixtools
+```
 
 ## Application using genotype data from Haak *et al*. (2015)
 
