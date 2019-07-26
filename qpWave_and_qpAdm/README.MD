@@ -38,7 +38,7 @@ You can download and install the Admixtools package by following the manual, [he
 
 or 
 
-You can install the Admixtools package through ```conda```:
+You can install the Admixtools package through ```conda``` :
 
 ```
 conda install admixtools
