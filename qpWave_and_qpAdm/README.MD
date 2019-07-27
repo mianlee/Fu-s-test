@@ -252,7 +252,7 @@ How to read your genotyping dataset, for example I have ```Haak.geno```, ```Haak
 
 ```eigenstrat``` function use to specify the path and prefix of a trio of EIGENSTRAT snp/ind/geno files, format ```eigenstrat("/Path/To/Files/prefix)"```.
 
-**As you can see, by comparing the results (using terminal and using R), they are exaxtly the same.**
+*As you can see, by comparing the results (using terminal and using R), they are exaxtly the same. So I conduct the following analyses in R*
 
 #### 2. Scandinavia hunter-gatherers not a third ancestral population independent of WHG and EHG
 
@@ -289,21 +289,21 @@ Result:
 ```
 result_Motala
 
-rank  df    chisq     tail       dfdiff chisqdiff taildiff
+rank  df   chisq     tail        dfdiff  chisqdiff  taildiff
   
-0     26    251.    9.64e-39      0       0       1.00e+ 0
-1     12   10.6     5.64e- 1     14      241.     2.39e-43
-2     0      0      1.00e+ 0     12      10.6     5.64e- 1
+0     26    251.     9.64e-39      0      0       1.00e+ 0
+1     12    10.6     5.64e- 1      14      241.     2.39e-43
+2     0     0        1.00e+ 0      12      10.6     5.64e- 1
 ```
 
 ```
 result_SwedenSkoglund_MHG
 
-rank   df   chisq     tail      dfdiff    chisqdiff   taildiff
+rank   df    chisq     tail        dfdiff   chisqdiff   taildiff
   
-0    26      110.    2.52e-12       0        0        1.00e+ 0
-1    12      13.8    3.12e- 1       14       96.3     2.43e-14
-2     0       0      1.00e+ 0       12       13.8     3.12e- 1
+0      26     110.     2.52e-12       0        0        1.00e+ 0
+1      12     13.8     3.12e- 1       14       96.3     2.43e-14
+2      0      0        1.00e+ 0       12       13.8     3.12e- 1
 
 ```
 
@@ -312,9 +312,9 @@ result_SwedenSkoglund_NHG
 
 rank    df   chisq     tail         dfdiff chisqdiff taildiff
  
-0      26    255.     1.49e-39        0       0       1.00e+ 0
-1      12    7.10     8.51e- 1        14      248.    6.38e-45
-2      0      0       1.00e+ 0        12      7.10    8.51e- 1
+0       26    255.     1.49e-39        0       0       1.00e+ 0
+1       12    7.10     8.51e- 1        14      248.    6.38e-45
+2       0     0        1.00e+ 0        12      7.10    8.51e- 1
  
 ```
 
