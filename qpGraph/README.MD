@@ -86,6 +86,7 @@ lambdascale: 1
 
 ```lsqmode```: YES otherwise unstable for large graphs. hires: YES controls output when more decimals are desired.
 
+
 **2. Preparing the graph topology file**
 
 
@@ -124,7 +125,7 @@ If you don't know the format of the graph topology file, you can refer to the ma
 
 **or** 
 
-refer to this example from [eurogenes.blogspot](http://eurogenes.blogspot.com/2017/06/qpgraph-open-thread.html):
+You can refer to this example from [eurogenes.blogspot](http://eurogenes.blogspot.com/2017/06/qpgraph-open-thread.html):
 
 
 ![](images/qpGraph_Kalash.png)
@@ -150,24 +151,39 @@ admix   Proto-Kalash ASI ANI 20 80
 edge  Kalash Proto-Kalash Kalash
 ```
 
+**3. Running the program**
+
+To run ```qpGraph```, I specified the parameter file: par.basicmodel.han](data/par.basicmodel.han), the graph topology file: [BasicModel.han](data/BasicModel.han) and three output files that are ```.ggg``` , ```.dot``` and ```.out```:
+
+```
+qpGraph -p par.basicmodel.han -g BasicModel.han -o basic_model.han.ggg -d basic_model.han.dot > basic_model.han.out
+```
+
+Running the ```qpGraph``` with this dataset takes about 2 minutes or so.
 
 
+**4. Reading the output files**
 
-```graphviz``` installation:
+
+We can now visualize the graph in the ```.dot``` file using the program ```graphviz``` with the following command and then look at the resulting ```.png``` file. 
+
+```
+dot -Tpng basic_model.han.dot -o basic_model.han.png
+```
+![](images/basic_model.han.png)
+
+
+**Note**:
+
+1. Dashed arrows represent admixture edges while solid arrows drift edges reported in units of \text{FST}\times 1,000. On the very top, the worst f4-statistic is again reported.
+
+2. ```graphviz``` installation:
 
 ```
 conda install -c anaconda graphviz python-graphviz
 ```
 
 
-```
-dot -Tpng basic_model.han.dot -o basic_model.han.png
-```
-
-
-```
-qpGraph -p par.basicmodel.han -g BasicModel.han -o basic_model.han.ggg -d basic_model.han.dot > basic_model.han.out
-```
 
 
 
@@ -176,7 +192,6 @@ qpGraph -p par.basicmodel.han -g BasicModel.han -o basic_model.han.ggg -d basic_
 
 
 
-https://github.com/stschiff/compPopGenWorkshop2019_docs/blob/master/contents/07_qpgraph/qpGraph.rst
 
 
 
