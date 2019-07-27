@@ -1,6 +1,6 @@
 ## qpGraph: estimating admixture groups
 
-Here, I am trying to repeat analyses, "Phylogeneticrelationships of ancient Eurasians" in Supplementary Information 8 in [Haak *et al*. (2015)](https://www.nature.com/articles/nature14317) using [```qpGraph```](https://github.com/DReichLab/AdmixTools/blob/master/README.QPGRAPH) in [AdmixTools](https://github.com/DReichLab/AdmixTools). In this section, the authors modeled the phylogenetic relationships of Eurasian hunter-gathers.
+Here, I am trying to repeat the analysis, "Phylogeneticrelationships of ancient Eurasians" in Supplementary Information 8 in [Haak *et al*. (2015)](https://www.nature.com/articles/nature14317) using [```qpGraph```](https://github.com/DReichLab/AdmixTools/blob/master/README.QPGRAPH) in [AdmixTools](https://github.com/DReichLab/AdmixTools). In this section, the authors modeled the phylogenetic relationships of Eurasian hunter-gathers.
 
 ###  qpGraph overview:
 
