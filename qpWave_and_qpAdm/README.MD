@@ -254,9 +254,36 @@ How to read your genotyping dataset, for example I have ```Haak.geno```, ```Haak
 
 **As you can see, by comparing the results (using terminal and using R), they are exaxtly the same.**
 
+####2. Scandinavia hunter-gatherers not a third ancestral population independent of WHG and EHG
+
+Scandinavia hunter-gatherers: Motala_HG, SwedenSkoglund_MHG, SwedenSkoglund_NHG
+
+R codes:
+
+```
+result_Motala <- qpWave(
+  left = c("Motala_HG","Loschbour", "Karelia_HG"),
+  right = c("Ami", "Biaka", "Bougainville", "Chukchi", "Eskimo", "Han", 
+            "Ju_hoan_North","Karitiana", "Mbuti", "Papuan", "Punjabi", "She", "Ulchi", "Yoruba"),
+  data = Haak
+)
 
 
+result_SwedenSkoglund_MHG <- qpWave(
+  left = c("SwedenSkoglund_MHG","Loschbour", "Karelia_HG"),
+  right = c("Ami", "Biaka", "Bougainville", "Chukchi", "Eskimo", "Han", 
+            "Ju_hoan_North","Karitiana", "Mbuti", "Papuan", "Punjabi", "She", "Ulchi", "Yoruba"),
+  data = Haak
+)
 
+
+result_SwedenSkoglund_NHG <- qpWave(
+  left = c("SwedenSkoglund_NHG","Loschbour", "Karelia_HG"),
+  right = c("Ami", "Biaka", "Bougainville", "Chukchi", "Eskimo", "Han", 
+            "Ju_hoan_North","Karitiana", "Mbuti", "Papuan", "Punjabi", "She", "Ulchi", "Yoruba"),
+  data = Haak
+)
+```
 
 **Reference**:
 
