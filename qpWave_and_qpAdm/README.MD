@@ -222,11 +222,14 @@ To run qpWave, you must provide a list of left and right populations:
 Full R code:
 
 ```
+# Load package 'admixr' and 'tidyverse'
 library(admixr)
 library(tidyverse)
 
+# Locate your geno/ind/snp files
 Haak <- eigenstrat("/Users/LeeMian/Desktop/Fu/qpWave/Haak")
 
+# Run qpWave
 result <- qpWave(
   left = c("Loschbour", "Karelia_HG"),
   right = c("Ami", "Biaka", "Bougainville", "Chukchi", "Eskimo", "Han", 
@@ -234,8 +237,9 @@ result <- qpWave(
   data = Haak
 )
 
-
+# View the result
 result
+
 
 # A tibble: 2 x 7
     rank    df    chisq     tail      dfdiff  chisqdiff  taildiff
@@ -246,15 +250,7 @@ result
 
 ```
 
-How to read your genotyping dataset, for example I have: 
-
-```
-Haak.geno
-
-Haak.ind
-
-Haak.snp
-```
+How to read your genotyping dataset, for example I have ```Haak.geno```, ```Haak.ind```,```Haak.snp```:
 
 ```eigenstrat``` function use to specify the path and prefix of a trio of EIGENSTRAT snp/ind/geno files, format ```eigenstrat("/Path/To/Files/prefix)"```.
 
