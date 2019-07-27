@@ -55,7 +55,7 @@ Haak.snp
 
 Begin with by fitting the basic model to the new data.
 
-**1. Preparing the parameter file
+**1. Preparing the parameter file**
 
 In order to run ```qpGraph```, I prepared a parameter file save as "[par.basicmodel.han](data/par.basicmodel.han)". The authors used the Onge population as Eastern-non-African, but the Onge population is not included in the public dataset, so I used Han chinese population instead.
 
@@ -86,7 +86,7 @@ lambdascale: 1
 
 ```lsqmode```: YES otherwise unstable for large graphs. hires: YES controls output when more decimals are desired.
 
-**2. Preparing the graph topology file
+**2. Preparing the graph topology file**
 
 
 I prepared the scaffold graph based on Figure S8.1 in Supplementary Information 8, [Haak *et al*. (2015)](https://www.nature.com/articles/nature14317), which based on the basic model in [Iosif Lazaridis *et al*. (2014)](https://www.nature.com/articles/nature13673). The following can be saved in a file named as "[BasicModel.han](data/BasicModel.han)".
