@@ -291,7 +291,7 @@ result_Motala
 
 rank  df   chisq     tail        dfdiff  chisqdiff  taildiff
   
-0     26    251.     9.64e-39      0      0       1.00e+ 0
+0     26    251.     9.64e-39      0       0        1.00e+ 0
 1     12    10.6     5.64e- 1      14      241.     2.39e-43
 2     0     0        1.00e+ 0      12      10.6     5.64e- 1
 ```
