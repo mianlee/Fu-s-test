@@ -149,7 +149,7 @@ We first test the pair (Loschbour, Karelia_HG). Modle with rank = 0 is rejected 
 
 I will do the same ```qpWave``` analysis above in **R** program. It is much easier in term of you don't have to make the popleft, popright and parameter file everytime.
 
-Here, I am using the ```admixr``` package. This R package makes it possible to perform all stages of ADMIXTOOLS analyses entirely from R. See ```admixr``` maunal and tutorial, [here](https://bodkan.net/admixr/articles/tutorial.html). [Martin Petr *et al*. (2019)}(https://academic.oup.com/bioinformatics/advance-article/doi/10.1093/bioinformatics/btz030/5298728)
+Here, I am using the ```admixr``` package. This R package makes it possible to perform all stages of ADMIXTOOLS analyses entirely from R. See ```admixr``` maunal and tutorial, [here](https://bodkan.net/admixr/articles/tutorial.html). [Martin Petr *et al*. (2019)](https://academic.oup.com/bioinformatics/advance-article/doi/10.1093/bioinformatics/btz030/5298728)
 
 
 
