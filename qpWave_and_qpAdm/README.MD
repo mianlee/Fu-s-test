@@ -246,10 +246,7 @@ result
 
 ```
 
-How to read your genotyping dataset
-
-
-I have: 
+How to read your genotyping dataset, for example I have: 
 
 ```
 Haak.geno
