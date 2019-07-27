@@ -1,0 +1,153 @@
+parameter file: par.basicmodel.han
+### THE INPUT PARAMETERS
+##PARAMETER NAME: VALUE
+genotypename: Haak.geno
+snpname: Haak.snp
+indivname: Haak.ind
+outpop: NULL
+useallsnps: YES
+blgsize: 0.05
+forcezmode: YES
+lsqmode: YES
+diag: .0001
+bigiter: 6
+hires: YES
+lambdascale: 1
+## qpGraph version: 6450
+outpop:  NULL
+seed: 1773499886
+simple lsqmode
+Mbuti
+Han
+MA1
+Karitiana
+Loschbour
+LBK_EN
+packed geno read OK
+end of inpack
+
+graph: BasicModel.han
+
+
+numedge: 16  numancestor: 1
+  0 Mbuti
+  1 Han
+  2 MA1
+  3 Karitiana
+  4 Loschbour
+  5 LBK_EN
+root label: :Mbuti
+outpop: NULL
+population:   0                Mbuti   10
+population:   1                  Han   33
+population:   2                  MA1    1
+population:   3            Karitiana   12
+population:   4            Loschbour    1
+population:   5               LBK_EN   12
+before setwt numsnps: 354212  outpop: NULL
+setwt numsnps: 295208
+number of blocks for moving block jackknife: 710
+snps: 295208  indivs: 69
+lambdascale:     1.000
+fst:
+        M    H    M    K    L    L 
+  M     0  234  586  325  296  256
+  H   234    0  571  179  215  180
+  M   586  571    0  661  627  590
+  K   325  179  661    0  312  280
+  L   296  215  627  312    0  193
+  L   256  180  590  280  193    0
+
+f2:
+        M    H    M    K    L    L 
+  M     0   82  208  114  105   90
+  H    82    0  162   46   61   52
+  M   208  162    0  177  172  168
+  K   114   46  177    0   88   81
+  L   105   61  172   88    0   52
+  L    90   52  168   81   52    0
+
+ff3:
+        M    H    M    K    L    L 
+  M     0    0    0    0    0    0
+  H     0   82   64   75   63   60
+  M     0   64  208   73   70   65
+  K     0   75   73  114   66   62
+  L     0   63   70   66  105   71
+  L     0   60   65   62   71   90
+
+ff3sig*10:
+        M    H    M    K    L    L 
+  M     0    0    0    0    0    0
+  H     0    6    7    6    7    6
+  M     0    7    8    8    9    7
+  K     0    6    8    7    7    6
+  L     0    7    9    7   13    7
+  L     0    6    7    6    7    6
+
+starting analysis
+number of initial random trials: 250
+initmixwts:           :Karitiana Proto_Karitiana Z Q     0.636     0.364 
+initmixwts:    :LBK_EN Proto_LBK_EN Y Basal_Eurasian     0.708     0.292 
+
+
+initial score: 10972.026
+init  vg:
+    0.636     0.708 
+gslsetup called
+gslans:   31 10897.094103
+    0.639     0.688 
+final vg:
+    0.639     0.688 
+
+ final score:    10897.094  dof: -3 nominal p-val     1.000000
+ff3fit:
+        M    H    M    K    L    L 
+  M     0    0    0    0    0    0
+  H     0   82   63   75   63   60
+  M     0   63  208   73   70   65
+  K     0   75   73  114   66   62
+  L     0   63   70   66  105   71
+  L     0   60   65   62   71   90
+
+ff3diff:
+        M    H    M    K    L    L 
+  M     0    0    0    0    0    0
+  H     0    0   -1    0    1    0
+  M     0   -1    0    0    0    0
+  K     0    0    0    0    0    0
+  L     0    1    0    0    0    0
+  L     0    0    0    0    0    0
+
+mix:           :Karitiana Proto_Karitiana Z Q     0.639     0.361 
+mix:    :LBK_EN Proto_LBK_EN Y Basal_Eurasian     0.688     0.312 
+
+        a         b        C1        C2        C3        C4        C5        C6        C7        C8        C9       C10       C11       C12       C13       C14 
+   0.0268    0.0268    0.0019    0.0099    0.0184    0.0005    0.0138    0.0066    0.0193    0.0095    0.1183    0.0044    0.0339    0.0251    0.0094    0.0200 
+
+
+                      fst:       fitted        estim         diff     std. err   Z score 
+      Mbu        Han  f2:     0.082311     0.082311     0.000000     0.000618     0.000 
+      Mbu        MA1  f2:     0.207639     0.207681     0.000042     0.000791     0.053 
+      Mbu        Kar  f2:     0.114376     0.114388     0.000012     0.000719     0.017 
+      Mbu        Los  f2:     0.104641     0.104649     0.000009     0.001293     0.007 
+      Mbu        LBK  f2:     0.090439     0.090447     0.000007     0.000598     0.012 
+      Han        MA1  f2:     0.163143     0.161774    -0.001370     0.000946    -1.448 
+      Han        Kar  f2:     0.046345     0.046353     0.000008     0.000512     0.015 
+      Han        Los  f2:     0.060145     0.061394     0.001249     0.001252     0.998 
+      Han        LBK  f2:     0.052115     0.052238     0.000123     0.000455     0.270 
+      MA1        Kar  f2:     0.176466     0.176722     0.000256     0.001211     0.211 
+      MA1        Los  f2:     0.172272     0.172286     0.000014     0.001693     0.008 
+      MA1        LBK  f2:     0.168365     0.168502     0.000137     0.000932     0.147 
+      Kar        Los  f2:     0.087439     0.087605     0.000166     0.001444     0.115 
+      Kar        LBK  f2:     0.080899     0.080674    -0.000224     0.000639    -0.351 
+      Los        LBK  f2:     0.052286     0.052328     0.000042     0.001227     0.034 
+
+
+outliers:
+                                                      Fit          Obs         Diff   Std. error         Z 
+
+
+worst f-stat:       Han        LBK        MA1        Los       0.006540     0.007897     0.001357     0.000528     2.571 
+
+## end of qpGraph time:    79.949 seconds memory:   241.689 Mbytes

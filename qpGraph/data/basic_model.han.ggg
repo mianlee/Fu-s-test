@@ -1,0 +1,43 @@
+vertex         Root         0
+vertex        Mbuti         0
+vertex  non_African         0
+vertex Basal_Eurasian         0
+vertex            X         0
+vertex Eastern_non_African         0
+vertex            W         0
+vertex Proto_LBK_EN         0
+vertex          Han         0
+vertex       LBK_EN         0
+vertex            Z         0
+vertex Ancient_North_Eurasian         0
+vertex Western_Eurasian         0
+vertex          MA1         0
+vertex    Loschbour         0
+vertex            Q         0
+vertex Proto_Karitiana         0
+vertex            Y         0
+vertex    Karitiana         0
+label        Mbuti                Mbuti    10
+label          Han                  Han    33
+label       LBK_EN               LBK_EN    12
+label          MA1                  MA1     1
+label    Loschbour            Loschbour     1
+label    Karitiana            Karitiana    12
+ledge            a         Root        Mbuti     0.026762
+redge            b         Root  non_African     0.026762
+ledge           C1  non_African Basal_Eurasian     0.001948
+redge           C2  non_African            X     0.009879
+ledge           C3            X Eastern_non_African     0.018426
+redge           C6            X            W     0.006600
+ledge           C4 Eastern_non_African          Han     0.000482
+redge           C5 Eastern_non_African            Z     0.013810
+ledge           C7            W Ancient_North_Eurasian     0.019331
+redge           C8            W Western_Eurasian     0.009511
+ledge          C14 Proto_LBK_EN       LBK_EN     0.019969
+ledge           C9 Ancient_North_Eurasian          MA1     0.118304
+redge          C10 Ancient_North_Eurasian            Q     0.004422
+ledge          C12 Western_Eurasian    Loschbour     0.025126
+redge          C13 Western_Eurasian            Y     0.009443
+ledge          C11 Proto_Karitiana    Karitiana     0.033861
+admix Proto_LBK_EN           Y Basal_Eurasian      0.687667     0.312333
+admix Proto_Karitiana           Z          Q      0.638632     0.361368

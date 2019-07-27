@@ -1,0 +1,33 @@
+digraph G { 
+size = "7.5,10" ;
+labelloc = "t" ; 
+label = "BasicModel.han ::      Han        LBK        MA1        Los       0.006540     0.007897     0.001357     0.000528     2.571 
+" ; 
+
+       Mbuti  [ label = "Mbuti" ] ; 
+         Han  [ label = "Han" ] ; 
+      LBK_EN  [ label = "LBK_EN" ] ; 
+         MA1  [ label = "MA1" ] ; 
+   Loschbour  [ label = "Loschbour" ] ; 
+   Karitiana  [ label = "Karitiana" ] ; 
+Root -> Mbuti [  label = "27" ] ; 
+Root -> non_African [  label = "27" ] ; 
+non_African -> Basal_Eurasian [  label = "2" ] ; 
+non_African -> X [  label = "10" ] ; 
+X -> Eastern_non_African [  label = "18" ] ; 
+X -> W [  label = "7" ] ; 
+Eastern_non_African -> Han [  label = "0" ] ; 
+Eastern_non_African -> Z [  label = "14" ] ; 
+W -> Ancient_North_Eurasian [  label = "19" ] ; 
+W -> Western_Eurasian [  label = "10" ] ; 
+Proto_LBK_EN -> LBK_EN [  label = "20" ] ; 
+Ancient_North_Eurasian -> MA1 [  label = "118" ] ; 
+Ancient_North_Eurasian -> Q [  label = "4" ] ; 
+Western_Eurasian -> Loschbour [  label = "25" ] ; 
+Western_Eurasian -> Y [  label = "9" ] ; 
+Proto_Karitiana -> Karitiana [  label = "34" ] ; 
+Y -> Proto_LBK_EN [ style=dotted,  label = "69%" ] ; 
+Basal_Eurasian -> Proto_LBK_EN [ style=dotted,  label = "31%" ] ; 
+Z -> Proto_Karitiana [ style=dotted,  label = "64%" ] ; 
+Q -> Proto_Karitiana [ style=dotted,  label = "36%" ] ; 
+} 

@@ -1,0 +1,12 @@
+genotypename: Haak.geno
+snpname: Haak.snp
+indivname: Haak.ind
+outpop:  NULL
+useallsnps: YES
+blgsize: 0.05
+forcezmode: YES
+lsqmode: YES
+diag:  .0001
+bigiter: 6
+hires: YES
+lambdascale: 1
