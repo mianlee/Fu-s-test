@@ -142,6 +142,8 @@ f4rank: 1  dof:   0  chisq:    0.000   tail:          1
 
 ```
 
+Conlusion:
+
 We first test the pair (Loschbour, Karelia_HG). Modle with rank = 0 is rejected (P = 3.20249971e-43 < 0.05), thus the WHG and EHG are descended from at least two ancestral populations.
 
 
@@ -317,6 +319,8 @@ rank    df   chisq     tail         dfdiff chisqdiff taildiff
 2       0     0        1.00e+ 0        12      7.10    8.51e- 1
  
 ```
+
+Conclusion:
 
 As you can see from those results above, for all three Scandinavia hunter-gatherers (Motala_HG, SwedenSkoglund_MHG, SwedenSkoglund_NHG), rank = 1 can't be rejected, means that two ancestral populations suffice for Scandinavian hunter-gatherers.
 
