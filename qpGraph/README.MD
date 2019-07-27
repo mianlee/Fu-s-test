@@ -175,7 +175,7 @@ dot -Tpng basic_model.han.dot -o basic_model.han.png
 
 **Note**:
 
-1. Dashed arrows represent admixture edges while solid arrows drift edges reported in units of \text{FST}\times 1,000. On the very top, the worst f4-statistic is again reported.
+1. Dashed arrows represent admixture edges while solid arrows drift edges reported in units of FST times 1,000. On the very top, the worst f4-statistic is again reported.
 
 2. ```graphviz``` installation:
 
