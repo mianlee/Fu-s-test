@@ -91,8 +91,64 @@ lambdascale: 1
 
 I prepared the scaffold graph based on Figure S8.1 in Supplementary Information 8, [Haak *et al*. (2015)](https://www.nature.com/articles/nature14317), which based on the basic model in [Iosif Lazaridis *et al*. (2014)](https://www.nature.com/articles/nature13673). The following can be saved in a file named as: [BasicModel.han](data/BasicModel.han).
 
+```
+root  Root
+label Mbuti Mbuti
+label Han Han
+label MA1 MA1
+label Karitiana Karitiana
+label Loschbour Loschbour
+label LBK_EN LBK_EN
+
+edge  a Root Mbuti
+edge  b Root non_African
+edge  C1 non_African Basal_Eurasian
+edge  C2 non_African X
+edge  C3 X Eastern_non_African
+edge  C4 Eastern_non_African Han
+edge  C5 Eastern_non_African Z
+edge  C6 X W
+edge  C7 W Ancient_North_Eurasian
+edge  C8 W Western_Eurasian
+edge  C9 Ancient_North_Eurasian MA1
+edge  C10 Ancient_North_Eurasian Q
+admix Proto_Karitiana Z Q 61 39
+edge  C11 Proto_Karitiana Karitiana
+edge  C12 Western_Eurasian Loschbour
+edge  C13 Western_Eurasian Y
+admix Proto_LBK_EN Y Basal_Eurasian 77 23
+edge  C14 Proto_LBK_EN LBK_EN
+```
+
+If you don't know the format of the graph topology file, you can refer to the manual, [here](https://github.com/DReichLab/AdmixTools/blob/master/examples.qpGraph/gr1triv)
+
+or 
+
+refer to this example from [eurogenes.blogspot](http://eurogenes.blogspot.com/2017/06/qpgraph-open-thread.html)
 
 
+![](images/qpGraph_Kalash.png)
+
+```
+root     Root
+label    Yoruba Yoruba
+label    Onge   Onge      
+label    Basque_French   Basque_French    
+label    Georgian   Georgian   
+label    Kalash   Kalash
+edge  OoA  Root OoA  
+edge  Yoruba  Root Yoruba
+edge  AWE OoA AWE
+edge  ASA OoA ASA
+edge  Onge ASA Onge
+edge  Basque_French AWE Basque_French
+edge  AWE2 AWE AWE2
+edge  Georgian AWE2 Georgian
+edge  ANI AWE2 ANI
+edge  ASI ASA ASI
+admix   Proto-Kalash ASI ANI 20 80
+edge  Kalash Proto-Kalash Kalash
+```
 
 
 
@@ -116,7 +172,7 @@ qpGraph -p par.basicmodel.han -g BasicModel.han -o basic_model.han.ggg -d basic_
 
 
 
-http://eurogenes.blogspot.com/2017/06/qpgraph-open-thread.html
+
 
 
 
