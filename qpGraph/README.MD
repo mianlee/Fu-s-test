@@ -1,6 +1,6 @@
 ## qpGraph: estimating admixture groups
 
-Here, I am trying to repeat the analysis, "Phylogeneticrelationships of ancient Eurasians" in Supplementary Information 8 in [Haak *et al*. (2015)](https://www.nature.com/articles/nature14317) using [```qpGraph```](https://github.com/DReichLab/AdmixTools/blob/master/README.QPGRAPH) in [AdmixTools](https://github.com/DReichLab/AdmixTools). In this section, the authors modeled the phylogenetic relationships of Eurasian hunter-gathers.
+Here, I am trying to repeat the analysis, "Phylogeneticrelationships of ancient Eurasians" in Supplementary Information 8, [Haak *et al*. (2015)](https://www.nature.com/articles/nature14317) using [```qpGraph```](https://github.com/DReichLab/AdmixTools/blob/master/README.QPGRAPH) in [AdmixTools](https://github.com/DReichLab/AdmixTools). In this section, the authors modeled the phylogenetic relationships of Eurasian hunter-gathers.
 
 ###  qpGraph overview:
 
@@ -18,7 +18,9 @@ As reported in the Method section of [Lipson and Reich 2017](https://academic.ou
 “Our usual strategy for building a model in ADMIXTUREGRAPH is to start with a small, well-understood subgraph and then add populations (either unadmixed or admixed) one at a time in their best-fitting positions. This involves trying different branch points for the new population and comparing the results. If a population is unadmixed, then if it is placed in the wrong position, the fit of the model will be poorer, and the inferred split point will move as far as it can in the correct direction, constrained only by the specified topology. Thus, searching over possible branching orders allows us to find a (locally) optimal topology. If no placement provides a good fit (in the sense that the residual errors are large), then we infer the presence of an admixture event, in which case we test for the best-fitting split points of the two ancestry components. After a new population is added, the topology relating the existing populations can change, so we examine the full model fit and any inferred zero-length internal branches for possible local optimizations.”
 
 
+### Data
 
+Fully public genotype dataset (354,212 SNPs) described in [Haak *et al*. (2015)](https://www.nature.com/articles/nature14317), [avaiable here](https://reich.hms.harvard.edu/datasets)
 
 
 
@@ -53,3 +55,5 @@ https://github.com/stschiff/compPopGenWorkshop2019_docs/blob/master/contents/07_
 
 **Reference**:
 1. Patterson, Nick, et al. "Ancient admixture in human history." Genetics 192.3 (2012): 1065-1093.
+
+2. Haak, Wolfgang, et al. "Massive migration from the steppe was a source for Indo-European languages in Europe." Nature 522.7555 (2015): 207.
