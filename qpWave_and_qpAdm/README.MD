@@ -252,7 +252,7 @@ How to read your genotyping dataset, for example I have ```Haak.geno```, ```Haak
 
 ```eigenstrat``` function use to specify the path and prefix of a trio of EIGENSTRAT snp/ind/geno files, format ```eigenstrat("/Path/To/Files/prefix)"```.
 
-*As you can see, by comparing the results (using terminal and using R), they are exaxtly the same. So I conduct the following analyses in R*
+*As you can see, by comparing the results (using terminal and using R), they are exaxtly the same. So I conduct the following analyses in R.*
 
 #### 2. Scandinavia hunter-gatherers not a third ancestral population independent of WHG and EHG
 
