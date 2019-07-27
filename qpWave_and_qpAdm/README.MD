@@ -153,15 +153,15 @@ Here, I am using the ```admixr``` package. This R package makes it possible to p
 
 
 
-1. Installation:
+**1. Installation**:
 
 ```
 R version 3.6.1
 Mac OS
-
+xCode 10.3
 ```
 
-Note that in order to use the ```admixr``` package, you need a working installation of ADMIXTOOLS! 
+Note that in order to use the ```admixr``` package, you need a working installation of ADMIXTOOLS! Download ADMIXTOOLS from [here](https://github.com/DReichLab/AdmixTools/). The install process is a little different from the manaul, because I had some problem to compile and install Admixtools and here is my solution for **Mac users**:
 
 ```
 brew install gsl
@@ -170,13 +170,26 @@ brew install Brewsci/science/openblas
 xcode-select --install
 ```
 
-
-
-Again, the easiest wat to install the Admixtools package is to use ```conda``` :
+```
+export LDFLAGS="-L/usr/local/opt/openblas/lib"
+export CPPFLAGS="-I/usr/local/opt/openblas/include"
+```
 
 ```
-conda install admixtools
+cd src
+make install
 ```
+
+```
+echo "PATH=$PATH" > .Renviron
+```
+
+And I also installed Amixtools using ```conda```:
+
+```
+conda install -c bioconda admixtools 
+```
+
 To install admixr from GitHub you need to install the package devtools first. To do this, you can simply run (in R):
 
 ```
@@ -190,15 +203,31 @@ Furthermore, if you want to follow the examples in this vignette, you will need 
 install.packages("tidyverse")
 ```
 
-When everything is ready, you can run the following code to load both packages:
+When everything is ready, you can run the following code to load both packages in R:
 
 ```
 library(admixr)
 library(tidyverse)
 ```
 
+**2. Runing qpWave**:
+
+To run qpWave, you must provide a list of left and right populations:
+
+left = c("Loschbour", "Karelia_HG")
+
+right = c("Ami", "Biaka", "Bougainville", "Chukchi", "Eskimo", "Han", "Ju_hoan_North","Karitiana", "Mbuti", "Papuan", "Punjabi", "She", "Ulchi", "Yoruba")
 
 
+```
+result <- qpWave(
+  left = c("Loschbour", "Karelia_HG"),
+  right = c("Ami", "Biaka", "Bougainville", "Chukchi", "Eskimo", "Han", 
+  "Ju_hoan_North","Karitiana", "Mbuti", "Papuan", "Punjabi", "She", "Ulchi", "Yoruba"),
+  data = Haak
+)
+
+```
 
 
 
