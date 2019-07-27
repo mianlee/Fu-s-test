@@ -153,14 +153,64 @@ Here, I am using the ```admixr``` package. This R package makes it possible to p
 
 
 
+1. Installation:
+
+```
+R version 3.6.1
+Mac OS
+
+```
+
+Note that in order to use the ```admixr``` package, you need a working installation of ADMIXTOOLS! 
+
+```
+brew install gsl
+brew install Brewsci/science/openblas
+
+xcode-select --install
+```
+
+
+
+Again, the easiest wat to install the Admixtools package is to use ```conda``` :
+
+```
+conda install admixtools
+```
+To install admixr from GitHub you need to install the package devtools first. To do this, you can simply run (in R):
+
+```
+install.packages("devtools")
+devtools::install_github("bodkan/admixr")
+```
+
+Furthermore, if you want to follow the examples in this vignette, you will need the tidyverse collection of packages for data manipulation manipulation and plotting, which you can install with:
+
+```
+install.packages("tidyverse")
+```
+
+When everything is ready, you can run the following code to load both packages:
+
+```
+library(admixr)
+library(tidyverse)
+```
+
+
+
+
+
+
+
 
 **Reference**:
 
-1. [admixr - Tutorial](https://bodkan.net/admixr/articles/tutorial.html#qpwave-and-qpadm).
+1. [Admixr - Tutorial](https://bodkan.net/admixr/articles/tutorial.html#qpwave-and-qpadm).
 
 2. Petr, Martin, Benjamin Vernot, and Janet Kelso. "admixr–R package for reproducible analyses using ADMIXTOOLS (advance online)." Bioinformatics (2019).
 
-3. [compPopGenWorkshop2019](https://github.com/stschiff/compPopGenWorkshop2019_docs/blob/master/contents/05_qpwave_qpadm/qpwave_qpadm.rst).
+3. [CompPopGenWorkshop2019](https://github.com/stschiff/compPopGenWorkshop2019_docs/blob/master/contents/05_qpwave_qpadm/qpwave_qpadm.rst).
 
 4. Haak, Wolfgang, et al. "Massive migration from the steppe was a source for Indo-European languages in Europe." Nature 522.7555 (2015): 207.
 
