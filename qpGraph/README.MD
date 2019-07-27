@@ -120,11 +120,11 @@ admix Proto_LBK_EN Y Basal_Eurasian 77 23
 edge  C14 Proto_LBK_EN LBK_EN
 ```
 
-If you don't know the format of the graph topology file, you can refer to the manual, [here](https://github.com/DReichLab/AdmixTools/blob/master/examples.qpGraph/gr1triv)
+If you don't know the format of the graph topology file, you can refer to the manual, [here](https://github.com/DReichLab/AdmixTools/blob/master/examples.qpGraph/gr1triv).
 
-or 
+**or** 
 
-refer to this example from [eurogenes.blogspot](http://eurogenes.blogspot.com/2017/06/qpgraph-open-thread.html)
+refer to this example from [eurogenes.blogspot](http://eurogenes.blogspot.com/2017/06/qpgraph-open-thread.html):
 
 
 ![](images/qpGraph_Kalash.png)
