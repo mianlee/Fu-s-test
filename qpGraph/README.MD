@@ -1,6 +1,6 @@
 ## qpGraph: estimating admixture groups
 
-```qpGraph``` part of the [AdmixTools](https://github.com/DReichLab/AdmixTools) pacakge. ```qpGraph```relies on an user-defined topology of the admixture graph and calculates the best-fitting admixture proportions and branch lengths based on the observed f-statistics. [Patterson *et al*. (2012)](https://www.genetics.org/content/192/3/1065.short), [CompPopGenWorkshop2019](https://github.com/stschiff/compPopGenWorkshop2019_docs/blob/master/contents/07_qpgraph/qpGraph.rst).
+The ```qpGraph``` program is part of the [AdmixTools](https://github.com/DReichLab/AdmixTools) pacakge. The ```qpGraph```relies on an user-defined topology of the admixture graph and calculates the best-fitting admixture proportions and branch lengths based on the observed f-statistics. [Patterson *et al*. (2012)](https://www.genetics.org/content/192/3/1065.short), [CompPopGenWorkshop2019](https://github.com/stschiff/compPopGenWorkshop2019_docs/blob/master/contents/07_qpgraph/qpGraph.rst).
 
 
 
