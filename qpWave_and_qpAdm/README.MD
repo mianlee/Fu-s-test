@@ -246,8 +246,6 @@ result
     
      0      13     237.   3.20e-43      0        0       1.00e+ 0
      1      0       0     1.00e+ 0      13      237.     3.20e-43
-> 
-
 ```
 
 How to read your genotyping dataset, for example I have ```Haak.geno```, ```Haak.ind```,```Haak.snp```:
