@@ -318,6 +318,9 @@ rank    df   chisq     tail         dfdiff chisqdiff taildiff
  
 ```
 
+As you can see from those results above, for all three Scandinavia hunter-gatherers (Motala_HG, SwedenSkoglund_MHG, SwedenSkoglund_NHG), rank = 1 can't be rejected, means that two ancestral populations suffice for Scandinavian hunter-gatherers.
+
+
 
 
 **Reference**:
