@@ -246,7 +246,10 @@ result
 
 ```
 
-```eigenstrat``` function use to specify the path and prefix of a trio of EIGENSTRAT snp/ind/geno files, format ```eigenstrat("/Path/To/Files/prefix)"
+How to read your genotyping dataset
+
+
+I have: 
 
 ```
 Haak.geno
@@ -255,6 +258,12 @@ Haak.ind
 
 Haak.snp
 ```
+
+```eigenstrat``` function use to specify the path and prefix of a trio of EIGENSTRAT snp/ind/geno files, format ```eigenstrat("/Path/To/Files/prefix)"```.
+
+**As you can see, by comparing the results (using terminal and using R), they are exaxtly the same.
+
+
 
 
 
