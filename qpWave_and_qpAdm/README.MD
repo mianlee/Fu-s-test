@@ -214,22 +214,47 @@ library(tidyverse)
 
 To run qpWave, you must provide a list of left and right populations:
 
-left = c("Loschbour", "Karelia_HG")
+```left = c("Loschbour", "Karelia_HG")```
 
-right = c("Ami", "Biaka", "Bougainville", "Chukchi", "Eskimo", "Han", "Ju_hoan_North","Karitiana", "Mbuti", "Papuan", "Punjabi", "She", "Ulchi", "Yoruba")
+```right = c("Ami", "Biaka", "Bougainville", "Chukchi", "Eskimo", "Han", "Ju_hoan_North","Karitiana", "Mbuti", "Papuan", "Punjabi", "She", "Ulchi", "Yoruba")```
 
+
+Full R code:
 
 ```
+library(admixr)
+library(tidyverse)
+
+Haak <- eigenstrat("/Users/LeeMian/Desktop/Fu/qpWave/Haak")
+
 result <- qpWave(
   left = c("Loschbour", "Karelia_HG"),
   right = c("Ami", "Biaka", "Bougainville", "Chukchi", "Eskimo", "Han", 
-  "Ju_hoan_North","Karitiana", "Mbuti", "Papuan", "Punjabi", "She", "Ulchi", "Yoruba"),
+            "Ju_hoan_North","Karitiana", "Mbuti", "Papuan", "Punjabi", "She", "Ulchi", "Yoruba"),
   data = Haak
 )
 
+
+result
+
+# A tibble: 2 x 7
+    rank    df    chisq     tail      dfdiff  chisqdiff  taildiff
+    
+     0      13     237.   3.20e-43      0        0       1.00e+ 0
+     1      0       0     1.00e+ 0      13      237.     3.20e-43
+> 
+
 ```
 
+```eigenstrat``` function use to specify the path and prefix of a trio of EIGENSTRAT snp/ind/geno files, format ```eigenstrat("/Path/To/Files/prefix)"
 
+```
+Haak.geno
+
+Haak.ind
+
+Haak.snp
+```
 
 
 
