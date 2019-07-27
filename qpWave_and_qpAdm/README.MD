@@ -145,8 +145,11 @@ f4rank: 1  dof:   0  chisq:    0.000   tail:          1
 We first test the pair (Loschbour, Karelia_HG). Modle with rank = 0 is rejected (P = 3.20249971e-43 < 0.05), thus the WHG and EHG are descended from at least two ancestral populations.
 
 
+**Note**:
 
+I will do the same ```qpWave``` analysis above in **R** program. It is much easier in term of you don't have to make the popleft, popright and parameter file everytime.
 
+Here, I am using the ```admixr``` package. This R package makes it possible to perform all stages of ADMIXTOOLS analyses entirely from R. See ```admixr``` maunal and tutorial, [here](https://bodkan.net/admixr/articles/tutorial.html). [Martin Petr *et al*. (2019)}(https://academic.oup.com/bioinformatics/advance-article/doi/10.1093/bioinformatics/btz030/5298728)
 
 
 
@@ -155,8 +158,12 @@ We first test the pair (Loschbour, Karelia_HG). Modle with rank = 0 is rejected 
 
 1. [admixr - Tutorial](https://bodkan.net/admixr/articles/tutorial.html#qpwave-and-qpadm).
 
-2. [compPopGenWorkshop2019](https://github.com/stschiff/compPopGenWorkshop2019_docs/blob/master/contents/05_qpwave_qpadm/qpwave_qpadm.rst).
+2. Petr, Martin, Benjamin Vernot, and Janet Kelso. "admixr–R package for reproducible analyses using ADMIXTOOLS (advance online)." Bioinformatics (2019).
 
-3. Haak, Wolfgang, et al. "Massive migration from the steppe was a source for Indo-European languages in Europe." Nature 522.7555 (2015): 207.
+3. [compPopGenWorkshop2019](https://github.com/stschiff/compPopGenWorkshop2019_docs/blob/master/contents/05_qpwave_qpadm/qpwave_qpadm.rst).
 
-4. Reich, David, et al. "Reconstructing native American population history." Nature 488.7411 (2012): 370.
+4. Haak, Wolfgang, et al. "Massive migration from the steppe was a source for Indo-European languages in Europe." Nature 522.7555 (2015): 207.
+
+5. Reich, David, et al. "Reconstructing native American population history." Nature 488.7411 (2012): 370.
+
+
