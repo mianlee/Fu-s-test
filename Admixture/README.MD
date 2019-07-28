@@ -8,6 +8,7 @@ The dataset contains **2,071** individuals, each represented by **354,212 autoso
 
 The authors excluded individuals I0114 and I0411 that appear to be related to individuals I0117 and I0410 respectively, as in their experience, unsupervised ADMIXTURE clustering analysis often infers spurious clusters when pairs of relatives are included in the analysis dataset. 
 
+### Data preparation
 
 I downloaded the Haak *et al*. 2015 dataset from [here](https://reich.hms.harvard.edu/datasets), and then unzipped the file in the terminal:
 
@@ -278,38 +279,53 @@ Marker lists written to plink.prune.in and plink.prune.out .
 
 You are getting two files [plink.prune.in](data/plink.prune.in) and [plink.prune.out](data/plink.prune.out). To make a new, pruned file, then use the following command to extract SNPs that meet the LD standard.
 
+
 ```
-plink --bfile admixture --extract plink.prune.in --make-bed --out admixture_prune
+plink --bfile Haak.admixture --extract plink.prune.in --make-bed --out Haak.admxi.final
 
 
 # Log file
 PLINK v1.90b4 64-bit (20 Mar 2017)             www.cog-genomics.org/plink/1.9/
 (C) 2005-2017 Shaun Purcell, Christopher Chang   GNU General Public License v3
-Logging to admixture_prune.log.
+Logging to Haak.admxi.final.log.
 Options in effect:
-  --bfile admixture
+  --bfile Haak.admixture
   --extract plink.prune.in
   --make-bed
-  --out admixture_prune
+  --out Haak.admxi.final
 
 8703 MB RAM detected; reserving 4351 MB for main workspace.
 354212 variants loaded from .bim file.
-2064 people (1304 males, 760 females) loaded from .fam.
-2064 phenotype values loaded from .fam.
---extract: 225332 variants remaining.
+2013 people (1272 males, 741 females) loaded from .fam.
+2013 phenotype values loaded from .fam.
+--extract: 222469 variants remaining.
 Using 1 thread (no multithreaded calculations invoked).
-Before main variant filters, 2064 founders and 0 nonfounders present.
+Before main variant filters, 2013 founders and 0 nonfounders present.
 Calculating allele frequencies... done.
-Total genotyping rate is 0.973276.
-225332 variants and 2064 people pass filters and QC.
-Among remaining phenotypes, 0 are cases and 2064 are controls.
---make-bed to admixture_prune.bed + admixture_prune.bim + admixture_prune.fam
-... done.
+Total genotyping rate is 0.979254.
+222469 variants and 2013 people pass filters and QC.
+Among remaining phenotypes, 0 are cases and 2013 are controls.
+--make-bed to Haak.admxi.final.bed + Haak.admxi.final.bim +
+Haak.admxi.final.fam ... done.
 
 ```
 
-Thus, resulting in a pruned set of 225,332 SNPs used for admxiture analysis. 
+Thus, resulting in a pruned set of 222,469 SNPs used for admxiture analysis. 
 
 
+### Running admxiture analysis
 
+Now we have the genotype dataset (222,469 SNPs), which including 92 ancient + 1921 modern individuals from 193 population categories.
+
+```
+Haak.admxi.final.bed 
+Haak.admxi.final.bim 
+Haak.admxi.final.fam
+```
+
+```
+for K in 1 2 3 4 5 6 7 8;
+do ./admixture --cv All.bed $K -j4 | tee log${K}.out
+done
+```
 
