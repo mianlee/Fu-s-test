@@ -109,7 +109,7 @@ If you check the ```data.fam``` file, I noticed that the family/population group
 
   ```
 
-
+[Haak.fam](data/Haak.fam)
 
 
 
