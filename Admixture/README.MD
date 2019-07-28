@@ -30,7 +30,7 @@ Haak.ind
 Haak.snp
 ```
 
-The program called [```Admixture```](http://software.genetics.ucla.edu/admixture/) needs ```.bed``` file format to run, and we also need to filter out some individuals/populations, like Chimp, Neanderthal genome, using [```Plink```](http://www.cog-genomics.org/plink2/), which also needs the ```.bed``` file format. So we need to convert the orginal ```PACKEDANCESTRYMAP``` format to ```PACKEDPED``` using ```convertf``` program in [EIGENSOFT v7.2.1](https://github.com/DReichLab/EIG) package. The ```PACKEDPED``` format using by **EIGENSOFT** pacakge is the same/similar to **Plink** ```.bed``` format.
+The program called [**```Admixture```**](http://software.genetics.ucla.edu/admixture/) needs ```.bed``` file format to run, and we also need to filter out some individuals/populations, like Chimp, Neanderthal genome, using [**```Plink```**](http://www.cog-genomics.org/plink2/), which also needs the ```.bed``` file format. So we need to convert the orginal ```PACKEDANCESTRYMAP``` format to ```PACKEDPED``` using ```convertf``` program in [EIGENSOFT v7.2.1](https://github.com/DReichLab/EIG) package. The ```PACKEDPED``` format using by **EIGENSOFT** pacakge is the same/similar to **Plink** ```.bed``` format.
 
 
 
