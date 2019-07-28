@@ -324,8 +324,14 @@ Haak.admxi.final.fam
 ```
 
 ```
-for K in 1 2 3 4 5 6 7 8;
-do ./admixture --cv All.bed $K -j4 | tee log${K}.out
+for K in {2..20}
+do 
+./admixture --cv Haak.admxi.final $K -j4 | tee log${K}.out
 done
+
+or
+
+for k in {2..20}; do ./admixture --cv Haak.admxi.final $K -j4 | tee log${K}.out; done
+
 ```
 
