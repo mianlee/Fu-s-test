@@ -74,7 +74,40 @@ Haak.bim
 Haak.fam
 ```
 
+If you check the ```data.fam``` file, I noticed that the family/population group information (the first column, showing only numbers) were lost during the format conversion. I found the population group information in the ```data.ind``` file, and updated the ```data.fam```file in excel manually. I also uploaded the modified ```data.fam``` file in the folder.
+  
+  ```
+  # The original data.fam file.
+  
+  head Haak.fam
+  
+  1 SA1004 0 0 2 1
+  2 SA063 0 0 2 1
+  3 SA010 0 0 2 1
+  4 SA064 0 0 1 1
+  5 SA073 0 0 2 1
+  6 SA1025 0 0 2 1
+  7 SA078 0 0 2 1
+  8 SA083 0 0 2 1
+  9 Yuk_009 0 0 1 1
+  10 Yuk_025 0 0 2 1
 
+  # The updated data.fam file.
+  
+  head Haak.fam
+  
+  Khomani	SA1004	0	0	2	1
+  Khomani	SA063	0	0	2	1
+  Khomani	SA010	0	0	2	1
+  Khomani	SA064	0	0	1	1
+  Khomani	SA073	0	0	2	1
+  Khomani	SA1025	0	0	2	1
+  Khomani	SA078	0	0	2	1
+  Khomani	SA083	0	0	2	1
+  Yukagir	Yuk_009	0	0	1	1
+  Yukagir	Yuk_025	0	0	2	1
+
+  ```
 
 
 
