@@ -30,7 +30,54 @@ Haak.ind
 Haak.snp
 ```
 
-The program called [**Admixture**](http://software.genetics.ucla.edu/admixture/) needs ```.bed``` file format to run, and we also need to filter out some individuals/populations, like Chimp, Neanderthal genome, using [**Plink**](http://www.cog-genomics.org/plink2/), which also needs the ```.bed``` file format. So I have to convert the orginal ```PACKEDANCESTRYMAP``` format to ```PACKEDPED``` using ```convertf``` program in [EIGENSOFT v7.2.1](https://github.com/DReichLab/EIG) package. The ```PACKEDPED``` format using by **EIGENSOFT** pacakge is the same/similar to **Plink** ```.bed``` format.
+The program called [**Admixture**](http://software.genetics.ucla.edu/admixture/) needs ```.bed``` file format to run, and we also need to filter out some individuals/populations, like Chimp, Neanderthal genome, using [**Plink**](http://www.cog-genomics.org/plink2/), which also needs the ```.bed``` file format. So I have to convert the orginal ```PACKEDANCESTRYMAP``` format to ```PACKEDPED``` using ```convertf``` program in [EIGENSOFT v6.1.4](https://www.hsph.harvard.edu/alkes-price/software/) package. The ```PACKEDPED``` format using by **EIGENSOFT** pacakge is the same/similar to **Plink** ```.bed``` format.
+
+See the ```PACKEDANCESTRYMAP``` and ```PACKEDPED``` format used by **EIGENSOFT** , [available here](https://github.com/DReichLab/EIG/tree/master/CONVERTF) and See the ```.bed``` format used by **Plink** , [available here](http://zzz.bwh.harvard.edu/plink/data.shtml#long).
+
+
+Making parameter file for  ```convertf```:
+```
+
+# Convert the PACKEDANCESTRYMAP format to PACKEDPED.
+# Use nano text editor in the terminal to make the par file named: " par.PACKEDANCESTRYMAP.PACKEDPED ".
+
+nano par.PACKEDANCESTRYMAP.PACKEDPED
+
+# And type the following in the text editor and save it.
+
+genotypename: Haak.geno
+snpname: Haak.snp
+indivname: Haak.ind
+outputformat: PACKEDPED
+genotypeoutname: Haak.bed
+snpoutname: Haak.bim
+indivoutname: Haak.fam
+```
+
+Run ```convertf```:
+
+```
+/Path/To/EIG-6.1.4/bin/convertf -p par.PACKEDANCESTRYMAP.PACKEDPED 
+
+
+packed geno read OK
+numvalidind:   2071  maxmiss: 2071001
+packedped output
+##end of convertf run.
+````
+
+Now you have:
+
+```
+Haak.bed
+Haak.bim
+Haak.fam
+```
+
+
+
+
+
 
 
 
