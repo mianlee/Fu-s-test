@@ -1,7 +1,0 @@
-Unetice_EBA_relative_of_I0117 I0114
-Spain_EN_relative_of_I0410	I0411
-Altai	Altai
-Ancient_Denisova	Denisova_light
-Denisovan	Denisova
-Ancient_Neandertal	Vindija_light
-Chimp Chimp
