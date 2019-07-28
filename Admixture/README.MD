@@ -2,11 +2,37 @@
 
 The authors carried out admixture analysis using ADMIXTURE1 (v. 1.23), including 2,437 individuals (2,345 modern humans and 92 ancient ones).
 
-The dataset that I will work with is the [Fully public genotype dataset (354,212 SNPs)](https://reich.hms.harvard.edu/datasets) provided by [Haak et al. Nature 2015](https://www.nature.com/articles/nature14317)
+The dataset that I will work with is the [Fully public genotype dataset (354,212 SNPs)](https://reich.hms.harvard.edu/datasets) provided by [Haak *et al*. Nature (2015)](https://www.nature.com/articles/nature14317)
 
 The dataset contains **2,071** individuals, each represented by **354,212 autosomal** single nucleotide polymorphisms (SNPs).The full dataset of 2,437 individuals includes samples that cannot be posted in public.
 
 The authors excluded individuals I0114 and I0411 that appear to be related to individuals I0117 and I0410 respectively, as in their experience, unsupervised ADMIXTURE clustering analysis often infers spurious clusters when pairs of relatives are included in the analysis dataset. 
+
+
+I downloaded the Haak *et al*. 2015 dataset from [here](https://reich.hms.harvard.edu/datasets), and then unzipped the file in the terminal:
+
+```
+tar -xvzf Haak2015PublicData.tar.gz
+
+# The followings will show on your screen.
+data.geno
+data.ind
+data.pops
+data.snp
+README
+```
+
+Then I changed the prefix of those files from 'data' to 'Haak'.
+
+```
+Haak.geno
+Haak.ind
+Haak.snp
+```
+
+The program called [```Admixture```](http://software.genetics.ucla.edu/admixture/) needs ```.bed``` file format to run, and we also need to filter out some individuals/populations, like Chimp, Neanderthal genome, using [```Plink```](http://www.cog-genomics.org/plink2/), which also needs the ```.bed``` file format. So we need to convert the orginal ```PACKEDANCESTRYMAP``` format to ```PACKEDPED``` using ```convertf``` program in [EIGENSOFT v7.2.1](https://github.com/DReichLab/EIG) package. The ```PACKEDPED``` format using by **EIGENSOFT** pacakge is the same/similar to **Plink** ```.bed``` format.
+
+
 
 I also excluded Denisovan and Neandertal individuals, see [Exclude_list.txt](Exclude_list.txt).
 
