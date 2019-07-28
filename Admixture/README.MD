@@ -22,7 +22,7 @@ data.snp
 README
 ```
 
-Then I changed the prefix of those files from 'data' to 'Haak'.
+Then, I changed the prefix of those files from 'data' to 'Haak'.
 
 ```
 Haak.geno
