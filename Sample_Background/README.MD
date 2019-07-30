@@ -1,5 +1,5 @@
 
-### Neolithic Period
+## Neolithic Period
 
 The term **Neolithic Period** refers to the last stage of the Stone Age, which covers three different periods: Palaeolithic, Mesolithic, and **Neolithic**.
 
@@ -15,6 +15,19 @@ The [Haak *et al*. (2015)](https://www.nature.com/articles/nature14317) follows 
 **Related Cultues in central Europe**:
 
 The first farmers of the ENE **linear pottery culture** (LBK, 5450–4775 BC), through the subsequent **Rössen** (4625–4250 BC), **Schöningen** (4100–3950 BC), **Baalberge** (3950–3400 BC) and **Salzmünde** (3400–3025 BC) cultures. These were followed by two of the first pan-European Late Neolithic (LNE) cultural complexes, the **Corded War**e (CWC, 2800–2050 BC) and **Bell Beaker** (BBC, 2500–2050 BC) cultures, before the emergence of the Early Bronze Age with the **Unetice culture** (2200–1575 BC). [Paul Brotherton, *et al*. (2013)](https://www.nature.com/articles/ncomms2656#s1)
+
+
+## General asssigning ancient individuals/populations
+
+Here, I breifly summerized all individuals used in [Haak *et al*. (2015)](https://www.nature.com/articles/nature14317) paper. The names represents sometimes the location the human remain discovered, sometimes the chronological age, sometimes culture name. It just depends upon how you group people. I also summerized each ancient individual in details.
+
+Eastern European Hurter-gathers (EHG): Karelia (n=1), Samara (n=1).
+
+Western European Hurter-gathers (WHG): Loschbour (n=1).  [Iosif Lazaridis *et al*. (2014)](https://www.nature.com/articles/nature13673)
+
+Scandinavian Hurther-gathers (SHG): Motala (n=7).  [Iosif Lazaridis *et al*. (2014)](https://www.nature.com/articles/nature13673)
+
+
 
 
 
@@ -457,3 +470,5 @@ The Únětice culture is an archaeological culture at the start of the Central E
 2. Olalde, Iñigo, et al. "The Beaker phenomenon and the genomic transformation of northwest Europe." Nature 555.7695 (2018): 190.
 
 3. Brotherton, Paul, et al. "Neolithic mitochondrial haplogroup H genomes and the genetic origins of Europeans." Nature communications 4 (2013): 1764.
+
+4. Lazaridis, Iosif, et al. "Ancient human genomes suggest three ancestral populations for present-day Europeans." Nature 513.7518 (2014): 409.
