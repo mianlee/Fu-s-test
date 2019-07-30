@@ -21,11 +21,11 @@ The first farmers of the ENE **linear pottery culture** (LBK, 5450–4775 BC), t
 
 Here, I breifly summerized all individuals used in [Haak *et al*. (2015)](https://www.nature.com/articles/nature14317) paper. The names represents sometimes the location the human remain discovered, sometimes the chronological age, sometimes culture name. It just depends upon how you group people. I also summerized each ancient individual in details.
 
-Eastern European Hurter-gathers (EHG): Karelia (n=1), Samara (n=1).
+**Eastern European Hurter-gathers (EHG)**: Karelia (n=1), Samara (n=1).
 
-Western European Hurter-gathers (WHG): Loschbour (n=1).  [Iosif Lazaridis *et al*. (2014)](https://www.nature.com/articles/nature13673)
+**Western European Hurter-gathers (WHG)**: Loschbour (n=1).  [Iosif Lazaridis *et al*. (2014)](https://www.nature.com/articles/nature13673)
 
-Scandinavian Hurther-gathers (SHG): Motala (n=7).  [Iosif Lazaridis *et al*. (2014)](https://www.nature.com/articles/nature13673)
+**Scandinavian Hurther-gathers (SHG)**: Motala (n=7).  [Iosif Lazaridis *et al*. (2014)](https://www.nature.com/articles/nature13673)
 
 
 
