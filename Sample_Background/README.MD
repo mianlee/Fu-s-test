@@ -23,7 +23,7 @@ Here, I breifly summerized all individuals used in [Haak *et al*. (2015)](https:
 
 **Eastern European Hurter-gathers (EHG)**: Karelia (n=1), Samara (n=1).
 
-**Western European Hurter-gathers (WHG)**: Loschbour (n=1).  [Iosif Lazaridis *et al*. (2014)](https://www.nature.com/articles/nature13673)
+**Western European Hurter-gathers (WHG)**: Loschbour (n=1) [Iosif Lazaridis *et al*. (2014)](https://www.nature.com/articles/nature13673), LaBrana1 (n=1) [Iñigo Olalde *et al*.(2014)](https://www.nature.com/articles/nature12960), HungaryGamba_HG or KO1 (n=1) [Cristina Gamba *et al*. (2014)](https://www.nature.com/articles/ncomms6257#t1).
 
 **Scandinavian Hurther-gathers (SHG)**: Motala (n=7).  [Iosif Lazaridis *et al*. (2014)](https://www.nature.com/articles/nature13673)
 
@@ -472,3 +472,7 @@ The Únětice culture is an archaeological culture at the start of the Central E
 3. Brotherton, Paul, et al. "Neolithic mitochondrial haplogroup H genomes and the genetic origins of Europeans." Nature communications 4 (2013): 1764.
 
 4. Lazaridis, Iosif, et al. "Ancient human genomes suggest three ancestral populations for present-day Europeans." Nature 513.7518 (2014): 409.
+
+5. Gamba, Cristina, et al. "Genome flux and stasis in a five millennium transect of European prehistory." Nature communications 5 (2014): 5257.
+
+6. Olalde, Inigo, et al. "Derived immune and ancestral pigmentation alleles in a 7,000-year-old Mesolithic European." Nature 507.7491 (2014): 225.
