@@ -27,7 +27,7 @@ Here, I breifly summerized all individuals used in [Haak *et al*. (2015)](https:
 
 **Scandinavian Hurther-gathers (SHG)**: Motala (n=7).  [Iosif Lazaridis *et al*. (2014)](https://www.nature.com/articles/nature13673)
 
-
+**Early Neolithic**: Starcevo (n=1), LBK (n=12), LBKT (n=1), Spain_EN (n=4).
 
 
 
