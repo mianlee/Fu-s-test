@@ -379,40 +379,40 @@ I tried three ways to plot the Admixture results and I was trying to get a simil
 
 Here, I will show you those three ways. I will improve the first two in the future.
 
-**1. Plot the admixture using ```gglot2()``` in R
+**1. Plot the admixture using ```gglot2()``` in R**
 
 Here, I only use ```Haak.admxi.final.2.Q``` file to show an example.
 
 ```
-#extract population and individual name information in terminal
+#extract population and individual name information from .fam file in the terminal.
 awk '{print$1 "\t" $2}' Haak.admxi.final.fam > pop.names
 ```
-Here are the codes in R
+Here are the R codes:
 
 ```
 library(ggplot2)
 library(reshape2)
-# Read population and individual name information in R
+# Read population and individual name information in R.
 pop.name <- read.table("pop.names")
 
-# Name each column in R
+# Name each column in R.
 names(pop.name) <- c("population","individual")
 
-# Read .Q file
+# Read .Q file.
 Q2 <- read.table("Haak.admxi.final.2.Q")
 
-# Add population/individual name information to .Q file, like combining those columns
+# Add population/individual name information to .Q file, like combining those columns.
 final.Q2 <- cbind(pop.name, Q2)
 
 # Melt (reshape data from wide format to long format).                
 m.final.Q2 <- melt(final.Q2, id.vars=c("individual","population"), 
             variable.name="Ancestry", value.name="Fraction")
 
-#plot with indivual order that I provided
+#plot with indivual order that I provided.
 m.final.Q2$individual <- factor(m.final.Q2$individual, levels = final.Q2$individual)
 
 
-# Simple stacked bar plot:
+# Simple stacked bar plot.
 ggplot(m.final.Q2, aes(x=individual, y=Fraction, fill=Ancestry)) +
   geom_bar(stat="identity", position="stack",width = 1) +
   theme_bw(10) +
@@ -430,6 +430,34 @@ ggplot(m.final.Q2, aes(x=individual, y=Fraction, fill=Ancestry)) +
 
 ![](images/ggplot2_admixture.png)
 
+I tried to add ```facet_grid(. ~ population, drop=TRUE, space="free", scales="free")``` line to the ggplot2 to add population name label. However, it failed to plot the graph. I didn't figure out why, might due to big data set. See [here](https://stackoverflow.com/questions/31570248/how-do-you-create-a-stacked-barplot-with-x-labels-and-borders-grouped-by-a-facto) for the referece ( worked codes). 
+
+
+**2. Plot the admixture using ```popcorn``` package in R**
+
+Then I tried the R package called ```popcorn```, due to its poor manual, I didn't figure out how to label poplations.
+
+```
+#install popcorn
+install.packages("remotes")
+remotes::install_github("andrewparkermorgan/mouser")
+remotes::install_github("andrewparkermorgan/popcorn")
+```
+
+```
+library(popcorn)
+library(ggplot2)
+
+pops <- read_fam("Haak.admxi.final.fam")
+Q <- read_Q_matrix("Haak.admxi.final.2.Q")
+so <- sort_by_cluster(Q)
+QQ <- tidy(Q, pops)
+
+plot_admixture(QQ, sort.order = so)
+```
+This plot sorted individuals by certain ancestry proposion, in this example is non-Afrian ancestry from high to low.
+
+![](popcorn.admixture.png)
 
 
 
