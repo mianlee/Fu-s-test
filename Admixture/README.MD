@@ -335,3 +335,45 @@ for k in {2..20}; do ./admixture --cv Haak.admxi.final $K -j4 | tee log${K}.out;
 
 ```
 
+### Plot the Admixture results
+
+```
+Haak.admxi.final.2.Q
+Haak.admxi.final.3.Q
+Haak.admxi.final.4.Q
+Haak.admxi.final.5.Q
+.
+.
+.
+Haak.admxi.final.19.Q
+Haak.admxi.final.20.Q
+
+```
+
+```
+Haak.admxi.final.2.P
+Haak.admxi.final.3.P
+Haak.admxi.final.4.P
+Haak.admxi.final.5.P
+.
+.
+.
+Haak.admxi.final.19.P
+Haak.admxi.final.20.p
+```
+```
+log2.out
+log2.out
+```
+
+I tried three ways to plot the Admixture results and I was trying to get a similar look as Haak *et al* (2015) admxiture plot. The first two kind of failed becasue I didn't figure out how to label populations. For third way, I used [Pophelper 2.2.9](https://github.com/royfrancis/pophelper) package in R and after studing the manual, following the tutorial and trying to play with it with my own data, I was able to make a similar admixture graph similar to Haak *et al*. 's. Here is [Haak *et al*. ' admixture plot}(data/admixture.haak.pdf).
+
+Here, I will show you those three ways. I will improve the first two in the future.
+
+**1. Plot the admixture using ```gglot2()``` in R
+
+
+
+
+
+
