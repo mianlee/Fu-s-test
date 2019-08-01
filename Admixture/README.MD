@@ -527,7 +527,8 @@ plotQ(qlist = alists[1:10], imgoutput = "join", imgtype = "pdf",
 ```
 You can play with those settings to fit your data.
 
-![](images/pophelper.png)
+
+<img src="images/pophelper.png" width=800, hight=1050>
 
 Here is the pdf version with high resolution, [available here](data/pophelper.pdf).
 
