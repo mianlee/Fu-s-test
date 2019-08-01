@@ -525,10 +525,10 @@ plotQ(qlist = alists[1:10], imgoutput = "join", imgtype = "pdf",
       )
 
 ```
-You can play with those settings to fit your data.
+You can play with those settings to fit your data. Click the graph to see zoom-in version:
 
 
 <img src="images/pophelper.png" width=3000, hight=1200>
 
-Here is the pdf version with high resolution, [available here](data/pophelper.pdf).
+Here is the pdf version with high resolution, [available here](data/pophelper.pdf). You can download and look at it.
 
