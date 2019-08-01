@@ -461,6 +461,15 @@ During the third millennium BC, two new archaeological pottery styles expanded a
 The Únětice culture is an archaeological culture at the start of the Central European Bronze Age, dated roughly to about 2300–1600 BC. The eponymous site for this culture, the village of Únětice, is located in the central Czech Republic, northwest of Prague. Today, the Únětice culture is known from about 1,400 sites in the Czech Republic and Slovakia, 550 sites in Poland, and, in Germany, about 500 sites and loose finds locations.
 
 
+## Some other ancient individuals:
+
+[Pontus Skoglund *et al*. (2012)](https://www.ncbi.nlm.nih.gov/pubmed/22539720), Origins and genetic legacy of Neolithic farmers and hunter-gatherers in Europe.
+
+~5000-year-old remains of three hunter-gatherers and one farmer excavated in Scandinavia (Sweden): 
+
+**Ajv52**, **Ajv70**, and **Ire8** from a hunter-gatherer context (“Neolithic hunter-gatherers” associated with the Pitted Ware Culture (PWC)).
+
+**Gök4** from a farming context (“Neolithic farmer” associated with the Funnel Beaker Culture or Trichterbecher kultur (TRB)).
 
 
 
@@ -476,3 +485,5 @@ The Únětice culture is an archaeological culture at the start of the Central E
 5. Gamba, Cristina, et al. "Genome flux and stasis in a five millennium transect of European prehistory." Nature communications 5 (2014): 5257.
 
 6. Olalde, Inigo, et al. "Derived immune and ancestral pigmentation alleles in a 7,000-year-old Mesolithic European." Nature 507.7491 (2014): 225.
+
+7. Skoglund, Pontus, et al. "Origins and genetic legacy of Neolithic farmers and hunter-gatherers in Europe." Science 336.6080 (2012): 466-469.
