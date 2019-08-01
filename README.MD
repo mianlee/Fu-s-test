@@ -1,3 +1,30 @@
+### Content
+
+### [Protocols for DNA extraction and library preparation](https://github.com/mianlee/Fu-s-test/tree/master/Samples_LabWorks)
+
+   - [Ancient DNA damage pattern](https://github.com/mianlee/Fu-s-test/tree/master/Ancient_DNA_Damage)
+   
+   - [Ancient DNA Assessment](https://github.com/mianlee/Fu-s-test/tree/master/Ancient_DNA_Assessment), like dectecting damge pattern and contaminations.
+
+Here, I did some basic researches on: 
+   
+   1. Current extraction protocols for ancient DNA, why/how to use UDG treatment (full and partial).
+   
+   2. DNA sequencing library preparations and how they related to ancient DNA damage pattern.
+   
+   3. Ancient DNA damage pattern.
+   
+And figured out how to use ```mapDamage2```, ```Mapping-Iterative-Assembler(MIA)``` and ```schmutzi``` to detect ancient DNA damage pattern and contamination. How to use ```PMDtools``` to separate endogenous ancient DNA from modern day contamination.
+   
+2. [Mitochondrial genome analysis](https://github.com/mianlee/Fu-s-test/tree/master/Mitochondrial_DNA_Analysis)
+
+3. [Description of ancient samples and archaeological context](https://github.com/mianlee/Fu-s-test/tree/master/Sample_Background)
+
+
+
+
+
+
 My name is Mian Li, a PhD student at Binghamton University. This challage (at least to me) is given by Dr. Fu Qiaomei during my post-doc interview.
 
 I am trying to repeat all analyses in the Nature paper named: **"Massive migration from the steppe was a source for Indo-European languages in Europe"**.
