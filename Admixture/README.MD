@@ -337,6 +337,8 @@ for k in {2..20}; do ./admixture --cv Haak.admxi.final $K -j4 | tee log${K}.out;
 
 ### Plot the Admixture results
 
+After finishing running admixture analysis K=2 to K=20, you will get ```*.Q```, ```*.P``` and ```log*.out``` files for each K value. ```*.Q``` file will be used to plot the admixture graph, it contains ancestry proportion information.
+
 ```
 Haak.admxi.final.2.Q
 Haak.admxi.final.3.Q
@@ -363,7 +365,14 @@ Haak.admxi.final.20.p
 ```
 ```
 log2.out
-log2.out
+log3.out
+log4.out
+log5.out
+log6.out.
+.
+.
+log19.out
+log20.out
 ```
 
 I tried three ways to plot the Admixture results and I was trying to get a similar look as Haak *et al* (2015) admxiture plot. The first two kind of failed becasue I didn't figure out how to label populations. For third way, I used [Pophelper 2.2.9](https://github.com/royfrancis/pophelper) package in R and after studing the manual, following the tutorial and trying to play with it with my own data, I was able to make a similar admixture graph similar to Haak *et al*. 's. Here is [Haak *et al*. ' admixture plot}(data/admixture.haak.pdf).
@@ -372,6 +381,54 @@ Here, I will show you those three ways. I will improve the first two in the futu
 
 **1. Plot the admixture using ```gglot2()``` in R
 
+Here, I only use ```Haak.admxi.final.2.Q``` file to show an example.
+
+```
+#extract population and individual name information in terminal
+awk '{print$1 "\t" $2}' Haak.admxi.final.fam > pop.names
+```
+Here are the codes in R
+
+```
+library(ggplot2)
+library(reshape2)
+# Read population and individual name information in R
+pop.name <- read.table("pop.names")
+
+# Name each column in R
+names(pop.name) <- c("population","individual")
+
+# Read .Q file
+Q2 <- read.table("Haak.admxi.final.2.Q")
+
+# Add population/individual name information to .Q file, like combining those columns
+final.Q2 <- cbind(pop.name, Q2)
+
+# Melt (reshape data from wide format to long format).                
+m.final.Q2 <- melt(final.Q2, id.vars=c("individual","population"), 
+            variable.name="Ancestry", value.name="Fraction")
+
+#plot with indivual order that I provided
+m.final.Q2$individual <- factor(m.final.Q2$individual, levels = final.Q2$individual)
+
+
+# Simple stacked bar plot:
+ggplot(m.final.Q2, aes(x=individual, y=Fraction, fill=Ancestry)) +
+  geom_bar(stat="identity", position="stack",width = 1) +
+  theme_bw(10) +
+  theme(panel.grid=element_blank(),
+        axis.title.x=element_blank(),
+        axis.title.y=element_blank(),
+        axis.text.x=element_blank(),
+        axis.text.y=element_blank(),
+        axis.ticks.x=element_blank(),
+        axis.ticks.y=element_blank(),
+        panel.border = element_blank(),
+        strip.background=element_blank()
+        )
+```
+
+![](images/ggplot2_admixture.png)
 
 
 
