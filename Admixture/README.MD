@@ -315,6 +315,8 @@ Thus, resulting in a pruned set of 222,469 SNPs used for admxiture analysis.
 
 ### Running admxiture analysis
 
+The ```ADMIXTURE``` program version is 1.3.0. For downloading, installation and runing the Admixture program, see [the homepage](http://software.genetics.ucla.edu/admixture/download.html). 
+
 Now we have the genotype dataset (222,469 SNPs), which including 92 ancient + 1921 modern individuals from 193 population categories.
 
 ```
@@ -432,6 +434,9 @@ ggplot(m.final.Q2, aes(x=individual, y=Fraction, fill=Ancestry)) +
 
 I tried to add ```facet_grid(. ~ population, drop=TRUE, space="free", scales="free")``` line to the ggplot2 to add population name label. However, it failed to plot the graph. I didn't figure out why, might due to big data set. See [here](https://stackoverflow.com/questions/31570248/how-do-you-create-a-stacked-barplot-with-x-labels-and-borders-grouped-by-a-facto) for the referece ( worked codes). 
 
+[Haak.admxi.final.2.Q](data/Haak.admxi.final.2.Q)
+
+[Haak.admxi.final.fam](data/Haak.admxi.final.fam)
 
 **2. Plot the admixture using ```popcorn``` package in R**
 
@@ -460,5 +465,69 @@ This plot sorted individuals by certain ancestry proposion, in this example is n
 ![](images/popcorn.admixture.png)
 
 
+**3. Plot the admixture using ```Pophelper 2.2.9``` package in R**
 
+
+The source code ```Pophelper 2.2.9``` is available from [GitHub](https://github.com/royfrancis/pophelper). The detailed manual is [available here](http://royfrancis.github.io/pophelper/#1_introduction).
+
+An online interactive version of pophelper is available at [pophelper.com](http://www.pophelper.com/). However, the author said that the web app is quite outdated and limited in terms of functionality and flexibility. The web app must not be used for major work or large datasets. I tried this online version with my own dataset, I think you can use it to do a quick view of your plot.
+
+The following is going to show you how to plot the admixture results in R using ```Pophelper 2.2.9```.
+
+[popnames](data/popnames)
+
+```
+#install the pophelper package.
+install.packages(c("devtools","ggplot2","gridExtra","gtable","tidyr"),dependencies=T)
+devtools::install_github('royfrancis/pophelper')
+
+#load the pophelper package.
+library(pophelper)
+
+#assign all .Q files to a variable named afiles ( admixture files).
+afiles <- c("Haak.admxi.final.2.Q", "Haak.admxi.final.3.Q", "Haak.admxi.final.4.Q", "Haak.admxi.final.5.Q",
+            "Haak.admxi.final.6.Q", "Haak.admxi.final.7.Q", "Haak.admxi.final.8.Q", "Haak.admxi.final.9.Q",
+            "Haak.admxi.final.10.Q")
+#make a list using built-in readQ function
+alists <- readQ(files=afiles,filetype="basic")
+
+#plot the data
+
+# custom strip panel label showing k only
+fn1 <- function(x) attr(x,"k")
+spnames <- paste0("K=", sapply(alists,fn1))
+
+# color theme 19 color
+shiny <- c("#FF9326","#1D72F5","#FDF060","#FFA6B2","#396D35",
+           "#DF0101","#77CE61","#A945FF","#0089B2","#BFF217",
+           "#60D5FD","#CC1577","#F2B950","#7FB21D","#EC496F",
+           "#326397","#B26314","#A4A4A4","#610B5E")
+
+
+# group information
+pop.name <- read.table("popnames",stringsAsFactors=FALSE, header =T)
+
+#plot the graph and save as .pdf file.
+plotQ(qlist = alists[1:10], imgoutput = "join", imgtype = "pdf",
+      sppos ="left",splab = spnames[1:10],splabsize = 2, splabangle = 180, splabcol = "black", #set Strip panel
+      clustercol = shiny,     #set colour of clusters
+      grplab = pop.name, grplabsize = 0.52, grplabangle = 90, grplabjust = 0.5, grplabpos = 0.9,    #add population information
+      grplabcol = "black",
+      pointalpha = 0,
+      linealpha = 0,
+      divtype = 1,
+      divsize = 0.08,
+      panelspacer = 0.03,
+      panelratio = c(3,1),
+      pointsize = 0,
+      linesize = 0,
+      width = 120
+      )
+
+```
+You can play with those settings to fit your data.
+
+![](images/pophelper.png)
+
+Here is the pdf version with high resolution, [available here](data/pophelper.pdf).
 
