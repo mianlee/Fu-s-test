@@ -457,7 +457,7 @@ plot_admixture(QQ, sort.order = so)
 ```
 This plot sorted individuals by certain ancestry proposion, in this example is non-Afrian ancestry from high to low.
 
-![](popcorn.admixture.png)
+![](images/popcorn.admixture.png)
 
 
 
