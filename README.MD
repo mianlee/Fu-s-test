@@ -2,7 +2,7 @@
 
 ### [Protocols for DNA extraction and library preparation](https://github.com/mianlee/Fu-s-test/tree/master/Samples_LabWorks)
 
-   - [Ancient DNA damage pattern](https://github.com/mianlee/Fu-s-test/tree/master/Ancient_DNA_Damage)
+   - [Ancient DNA damage pattern](https://github.com/mianlee/Fu-s-test/tree/master/Ancient_DNA_Damage).
    
    - [Ancient DNA Assessment](https://github.com/mianlee/Fu-s-test/tree/master/Ancient_DNA_Assessment), like dectecting damge pattern and contaminations.
 
