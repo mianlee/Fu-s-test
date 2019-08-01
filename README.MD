@@ -14,7 +14,7 @@ Here, I did some basic researches on:
    
    3. Ancient DNA damage pattern.
    
-And figured out how to use ```mapDamage2```, ```Mapping-Iterative-Assembler(MIA)``` and ```schmutzi``` to detect ancient DNA damage pattern and contamination. How to use ```PMDtools``` to separate endogenous ancient DNA from modern day contamination.
+And I figured out how to use ```mapDamage2```, ```Mapping-Iterative-Assembler(MIA)``` and ```schmutzi``` to detect ancient DNA damage pattern and contamination. How to use ```PMDtools``` to separate endogenous ancient DNA from modern day contamination.
    
 ### 2. [Mitochondrial genome analysis](https://github.com/mianlee/Fu-s-test/tree/master/Mitochondrial_DNA_Analysis)
 
