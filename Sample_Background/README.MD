@@ -470,7 +470,21 @@ The Únětice culture is an archaeological culture at the start of the Central E
 **Ajv52**, **Ajv70**, and **Ire8** from a hunter-gatherer context (“Neolithic hunter-gatherers” associated with the Pitted Ware Culture (PWC)).
 
 **Gök4** from a farming context (“Neolithic farmer” associated with the Funnel Beaker Culture or Trichterbecher kultur (TRB)).
+ 
+[Andreas Keller *et al*. (2012)](https://www.nature.com/articles/ncomms1701), New insights into the Tyrolean Iceman's origin and phenotype as inferred by whole-genome sequencing.
+ 
+**Tyrolean Iceman**, a 5,300-year-old Copper age individual in the Italian part of the Ötztal Alps.
 
+[Iñigo Olalde *et al*. (2014)](https://www.nature.com/articles/nature12960), Derived immune and ancestral pigmentation alleles in a 7,000-year-old Mesolithic European.
+
+
+**La Braña1 individual**, an approximately 7,000-year-old Mesolithic skeleton discovered at the La Braña-Arintero site in León, Spain.
+ Hunter-gathere, pre-agricultura.
+
+
+[Maanasa Raghavan *et al*.(2013)](https://www.nature.com/articles/nature12736), Upper Palaeolithic Siberian genome reveals dual ancestry of Native Americans.
+
+**MA-1 individual**, an approximately 24,000-year-old individual (MA-1), from Mal’ta in south-central Siberia.
 
 
 **Reference**:
@@ -487,3 +501,8 @@ The Únětice culture is an archaeological culture at the start of the Central E
 6. Olalde, Inigo, et al. "Derived immune and ancestral pigmentation alleles in a 7,000-year-old Mesolithic European." Nature 507.7491 (2014): 225.
 
 7. Skoglund, Pontus, et al. "Origins and genetic legacy of Neolithic farmers and hunter-gatherers in Europe." Science 336.6080 (2012): 466-469.
+
+8. Keller, Andreas, et al. "New insights into the Tyrolean Iceman's origin and phenotype as inferred by whole-genome sequencing." Nature communications 3 (2012): 698.
+
+9. Raghavan, Maanasa, et al. "Upper Palaeolithic Siberian genome reveals dual ancestry of Native Americans." Nature 505.7481 (2014): 87. 
+
