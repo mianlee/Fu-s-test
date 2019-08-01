@@ -45,7 +45,7 @@ How did I format the data, run the analysis and R code/solution for plotting the
 ### 11. Relevance of ancient DNA to the problem of Indo-European language dispersals
 
 
-# About myself and this github repository
+## About myself and this github repository
 
 My name is Mian Li, a PhD student at Binghamton University. This challage (at least to me) is given by Dr. Fu Qiaomei during my post-doc interview.
 
