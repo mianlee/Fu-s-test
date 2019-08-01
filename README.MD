@@ -1,6 +1,6 @@
 ### Content
 
-### [Protocols for DNA extraction and library preparation](https://github.com/mianlee/Fu-s-test/tree/master/Samples_LabWorks)
+### 1. [Protocols for DNA extraction and library preparation](https://github.com/mianlee/Fu-s-test/tree/master/Samples_LabWorks)
 
    - [Ancient DNA damage pattern](https://github.com/mianlee/Fu-s-test/tree/master/Ancient_DNA_Damage).
    
@@ -16,12 +16,32 @@ Here, I did some basic researches on:
    
 And figured out how to use ```mapDamage2```, ```Mapping-Iterative-Assembler(MIA)``` and ```schmutzi``` to detect ancient DNA damage pattern and contamination. How to use ```PMDtools``` to separate endogenous ancient DNA from modern day contamination.
    
-2. [Mitochondrial genome analysis](https://github.com/mianlee/Fu-s-test/tree/master/Mitochondrial_DNA_Analysis)
+### 2. [Mitochondrial genome analysis](https://github.com/mianlee/Fu-s-test/tree/master/Mitochondrial_DNA_Analysis)
 
-3. [Description of ancient samples and archaeological context](https://github.com/mianlee/Fu-s-test/tree/master/Sample_Background)
+Assignning mtDNA haplogroup from NGS data and how to use ```snakemake``` to automate the analysis.
+
+### 3. [Description of ancient samples and archaeological context](https://github.com/mianlee/Fu-s-test/tree/master/Sample_Background)
+
+Summary all ancient samples used in the paper.
+
+### 4. [Sex determination](https://github.com/mianlee/Fu-s-test/tree/master/Sex_determination) and [Y chromosome analysis](https://github.com/mianlee/Fu-s-test/tree/master/Y%20haplogroup%20prediction)
+
+### 5. [Principal Component Analysis](https://github.com/mianlee/Fu-s-test/tree/master/PCA_analysis)
+
+How to conducte PCA analysis, how do we plot the results nicely.
+
+### 6. [ADMIXTURE analysis](https://github.com/mianlee/Fu-s-test/tree/master/Admixture) 
+
+### 7. [Population relationships and admixture using f-statistics](https://github.com/mianlee/Fu-s-test/tree/master/Outgroup_F3_Statistics)
+
+### 8. [Phylogenetic relationships of ancient Eurasians](https://github.com/mianlee/Fu-s-test/tree/master/qpGraph)
 
 
+### 9. Inference of admixture proportions without detailed phylogenetic modeling
 
+### 10. [Number of streams of migration into ancient Europe](https://github.com/mianlee/Fu-s-test/tree/master/qpWave_and_qpAdm)
+
+### 11. Relevance of ancient DNA to the problem of Indo-European language dispersals
 
 
 
