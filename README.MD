@@ -1,4 +1,4 @@
-### Content
+## Content
 
 ### 1. [Protocols for DNA extraction and library preparation](https://github.com/mianlee/Fu-s-test/tree/master/Samples_LabWorks)
 
@@ -28,14 +28,15 @@ Summary all ancient samples used in the paper.
 
 ### 5. [Principal Component Analysis](https://github.com/mianlee/Fu-s-test/tree/master/PCA_analysis)
 
-How to conducte PCA analysis, how do we plot the results nicely.
+How did I conduct PCA analysis, how did I plot the results nicely and my R codes/solution for that.
 
-### 6. [ADMIXTURE analysis](https://github.com/mianlee/Fu-s-test/tree/master/Admixture) 
+### 6. [ADMIXTURE analysis](https://github.com/mianlee/Fu-s-test/tree/master/Admixture)
+
+How did I format the data, run the analysis and R code/solution for plotting the results nicely.
 
 ### 7. [Population relationships and admixture using f-statistics](https://github.com/mianlee/Fu-s-test/tree/master/Outgroup_F3_Statistics)
 
 ### 8. [Phylogenetic relationships of ancient Eurasians](https://github.com/mianlee/Fu-s-test/tree/master/qpGraph)
-
 
 ### 9. Inference of admixture proportions without detailed phylogenetic modeling
 
@@ -44,6 +45,7 @@ How to conducte PCA analysis, how do we plot the results nicely.
 ### 11. Relevance of ancient DNA to the problem of Indo-European language dispersals
 
 
+# About myself and this github repository
 
 My name is Mian Li, a PhD student at Binghamton University. This challage (at least to me) is given by Dr. Fu Qiaomei during my post-doc interview.
 
