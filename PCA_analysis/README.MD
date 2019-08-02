@@ -788,6 +788,7 @@ ggplot(Ancient, aes(x = PC1,y = PC2)) +     # read ancient data
  ```
  ![](Images/AncientColor.png)
 
+**Figure 1**
 
 ```
 # Loading ggplot2 package
@@ -820,6 +821,7 @@ ggplot(WE, aes(x = PC1,y = PC2)) +
 
 ![](Images/WestEuroasiansColor.png)
 
+**Figure 2**
 
 **R codes**: I put all my R codes here in .R file, [SmartPCA.R](SmartPCA.R). 
 
@@ -841,7 +843,7 @@ The names of different color: [Color Palette Cheatsheet](colorPaletteCheatsheet.
 
 In FIgure S5.2, the authors show a PCA over all 354,212 SNPs, with ancient individuals projected onto the variation of the modern ones (West Euroasians).
 
-**Format the data, and extract ancient individuals/west Euroasians 
+**Format the data, and extract ancient individuals/west Euroasians** 
 
 I have the following files in my folder:
 
@@ -972,7 +974,14 @@ macOS Mojave v10.14.4
 ```
 ### Interpretation of the Admxiture Plot/Result
 
-Here, we are looking at the last final figure, which is corresponding to Figure 2a in [Haak *et al*. (2015)](https://www.nature.com/articles/nature14317). I should rotate my final figure, so it will replicates the positioning of present-day Europeans between the Near East and European hunter-gatherers. 
+
+**Eastern European Hunter-gather**
+
+Two ancient individuals from Karelia (Northwestern Russia) and Samara (Steppe Near Urals, Russia) form a cluster.
+
+**Eearly and Middle Neolithic Farmers**
+
+Here, we are looking at the Figure 1 and Figure 2, which is corresponding to Figure 2a in [Haak *et al*. (2015)](https://www.nature.com/articles/nature14317). I should rotate my final figure, so it will replicates the positioning of present-day Europeans between the Near East and European hunter-gatherers. 
 
 The first dimension separates West Eurasian populations from East to West (Near Eastern populations and European populations), and the second dimension separates West Eurasian populations from South to North.
 
