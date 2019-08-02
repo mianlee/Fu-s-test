@@ -27,9 +27,19 @@ Here, I breifly summerized all individuals used in [Haak *et al*. (2015)](https:
 
 **Scandinavian Hurther-gathers (SHG)**: Motala (n=7).  [Iosif Lazaridis *et al*. (2014)](https://www.nature.com/articles/nature13673)
 
-**Early Neolithic**: Starcevo (n=1), LBK (n=12), LBKT (n=1), Spain_EN (n=4).
+**Early Neolithic(EN)**: Starcevo (n=1), LBK (n=12), LBKT (n=1), Spain_EN (Els Trocs) (n=4).
 
+**Middle Neolithic(MN)**: Esperstedt (n=1), Baalberge (n=3),  Spain_MN (La Mina) (n=4).
 
+**Late Copper/Early Bronze Age steppe chronology**:  Yamnaya (n=9).
+
+**Late Neolithic(LN)**: Corded Ware (n=4), Bell Beaker(n=6), Benzingerode-Heimburg (n=3), Karsdorf (n=1), Alberstedt (n=1).
+
+**Early Bronze Age(EBA)**: Unetice (n=8).
+
+**Late Bronze Age(LBA)**: Halberstadt (n=1).
+
+**Iron Age(IA)**: Hungary (n=1).
 
 
 ## Hunter-gathers
@@ -399,7 +409,7 @@ The Yamnaya culture , also known as  Pit Grave culture, was a late Copper Age to
 
 **Bell Beaker and Corded Ware culture**
 
-During the third millennium BC, two new archaeological pottery styles expanded across Europe and replaced many of the more localized styles that had preceded them1. The expansion of the ‘Corded Ware complex’ in north-central and northeastern Europe was associated with people who derived most of their ancestry from populations related to Early Bronze Age Yamnaya pastoralists from the Eurasian steppe. In western Europe there was the equally expansive ‘Bell Beaker complex’, defined by assemblages of grave goods that included stylized bell-shaped pots, copper daggers, arrowheads, stone wristguards and V-perforated buttons5. The oldest radiocarbon dates associated with Beaker pottery are from around 2750 BC in Atlantic Iberia, which has been interpreted as evidence that the Beaker complex originated in this region. However, the geographic origins of this complex are still debated and other scenarios—including an origin in the Lower Rhine area, or even multiple independent origins—are possible (Supplementary Information section 1). Regardless of geographic origin, by 2500 BC the Beaker complex had spread throughout western Europe and northwest Africa and had reached southern and Atlantic France, Italy and central Europe5, where it overlapped geographically with the Corded Ware complex. [Iñigo Olalde *et al*. (2018)](https://www.nature.com/articles/nature25738)
+During the third millennium BC, two new archaeological pottery styles expanded across Europe and replaced many of the more localized styles that had preceded them1. The expansion of the ‘Corded Ware complex’ in north-central and northeastern Europe was associated with people who derived most of their ancestry from populations related to Early Bronze Age Yamnaya pastoralists from the Eurasian steppe. In western Europe there was the equally expansive ‘Bell Beaker complex’, defined by assemblages of grave goods that included stylized bell-shaped pots, copper daggers, arrowheads, stone wristguards and V-perforated buttons. The oldest radiocarbon dates associated with Beaker pottery are from around 2750 BC in Atlantic Iberia, which has been interpreted as evidence that the Beaker complex originated in this region. However, the geographic origins of this complex are still debated and other scenarios—including an origin in the Lower Rhine area, or even multiple independent origins—are possible (Supplementary Information section 1). Regardless of geographic origin, by 2500 BC the Beaker complex had spread throughout western Europe and northwest Africa and had reached southern and Atlantic France, Italy and central Europe5, where it overlapped geographically with the Corded Ware complex. [Iñigo Olalde *et al*. (2018)](https://www.nature.com/articles/nature25738)
 
 
 ## Early Bronze Age
