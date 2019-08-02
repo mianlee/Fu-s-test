@@ -980,7 +980,7 @@ Early Neolithic and Middle Neolithic farmers ( from Germany, Hungary and Spain) 
 
 Early Neolithic farmers and Middle Neolithic farmers are also kind of form their own cluster, with Early Neolithic farmer on the left side close to Jewish populations, maybe they have more basal European ancestry. Instead, Middle Neolithic farmers more close to Western European hunter-gatherers(WHG), suggesting admxited with WHG (increase with WHG ancestry) in the Middle Neolithic. 
 
-Based on sample size, and temporal, spacial difference, I don't agree with the authors said tht WHG replaceed by early European farmers, and then resurgence of WHG later on. I think it is more like a early farmer interacted/intermarried with Hunter-gathers and then increace of WHG ancertry overtime. Again, this may vary from regions to regions...
+Based on sample size, and temporal, spacial difference, I don't agree with the authors said tht WHG replaceed by early European farmers, and then resurgence of WHG later on. I think it is more like a early farmer interacted/intermarried with Hunter-gathers and then with increase of WHG ancertry over time. Again, this may vary from regions to regions...
 
 Farming expansions across the Mediterranean to Spain and via the Danubian route to Hungary and Germany descended from a common stock makes sence to me.
 
