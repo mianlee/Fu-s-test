@@ -970,6 +970,21 @@ RStudio Desktop 1.2.1335
 ggplot2 3.0.0
 macOS Mojave v10.14.4
 ```
+### Interpretation of the Admxiture Plot/Result
+
+Here, we are looking at the last final figure, which is corresponding to Figure 2a in [Haak *et al*. (2015)](https://www.nature.com/articles/nature14317). I should rotate my final figure, so it will replicates the positioning of present-day Europeans between the Near East and European hunter-gatherers. 
+
+The first dimension separates West Eurasian populations from East to West (Near Eastern populations and European populations), and the second dimension separates West Eurasian populations from South to North.
+
+Early Neolithic and Middle Neolithic farmers ( from Germany, Hungary and Spain) are clustered together and with Sardinians (an ethnic group from which Sardinia, a western Mediterranean island and autonomous region of Italy), and also genetically close to Southern European populations ( Basque: in northern Spain; Spanish, French_South, Canary_Islanders: a Spanish archipelago), indicating those Eealy and Middle Neolithic from Germany, Hungary and Spain descended from a common genetic source. 
+
+Early Neolithic farmers and Middle Neolithic farmers are also kind of form their own cluster, with Early Neolithic farmer on the left side close to Jewish populations, maybe they have more basal European ancestry. Instead, Middle Neolithic farmers more close to Western European hunter-gatherers(WHG), suggesting admxited with WHG (increase with WHG ancestry) in the Middle Neolithic. 
+
+Based on sample size, and temporal, spacial difference, I don't agree with the authors said tht WHG replaceed by early European farmers, and then resurgence of WHG later on. I think it is more like a early farmer interacted/intermarried with Hunter-gathers and then increace of WHG ancertry overtime. Again, this may vary from regions to regions...
+
+Farming expansions across the Mediterranean to Spain and via the Danubian route to Hungary and Germany descended from a common stock makes sence to me.
+
+
 
 **Reference**: 
 
