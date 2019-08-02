@@ -27,7 +27,7 @@ Here, I breifly summerized all individuals used in [Haak *et al*. (2015)](https:
 
 **Scandinavian Hurther-gathers (SHG)**: Motala (n=7).  [Iosif Lazaridis *et al*. (2014)](https://www.nature.com/articles/nature13673)
 
-**Early Neolithic(EN)**: Starcevo (n=1), LBK (n=12), LBKT (n=1), Spain_EN (Els Trocs) (n=4).
+**Early Neolithic(EN)**: Starcevo (n=1), LBK (n=12), LBKT (n=1), Spain_EN (Els Trocs) (n=4), HungaryGamba_EN
 
 **Middle Neolithic(MN)**: Esperstedt (n=1), Baalberge (n=3),  Spain_MN (La Mina) (n=4).
 
@@ -39,7 +39,9 @@ Here, I breifly summerized all individuals used in [Haak *et al*. (2015)](https:
 
 **Late Bronze Age(LBA)**: Halberstadt (n=1).
 
-**Iron Age(IA)**: Hungary (n=1).
+**Iron Age(IA)**: HungaryGamba_IA (n=1) [Cristina Gamba *et al*. (2014)](https://www.nature.com/articles/ncomms6257#t1).
+
+
 
 
 ## Hunter-gathers
