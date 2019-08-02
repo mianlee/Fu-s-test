@@ -749,6 +749,8 @@ ggplot(evecData, aes(x = PC1,y = PC2)) +
 ```
 ![](Images/FinalPCA_plot.png)
 
+**Figure 1**: PCA analysis on 777 present-day West Eurasians and 92 ancient individuals at 66,225 transversion SNPs, with all individuals color-coded.
+
 
 **5. Only color-coded ancient individuals and Only color-coded modern West Euroaisans**
 
@@ -788,7 +790,7 @@ ggplot(Ancient, aes(x = PC1,y = PC2)) +     # read ancient data
  ```
  ![](Images/AncientColor.png)
 
-**Figure 1**
+**Figure 2**: PCA analysis on 777 present-day West Eurasians and 92 ancient individuals at 66,225 transversion SNPs, with ancient individuals color-coded.
 
 ```
 # Loading ggplot2 package
@@ -821,7 +823,7 @@ ggplot(WE, aes(x = PC1,y = PC2)) +
 
 ![](Images/WestEuroasiansColor.png)
 
-**Figure 2**
+**Figure 3**: PCA analysis on 777 present-day West Eurasians and 92 ancient individuals at 66,225 transversion SNPs, with present-day West Eurasians color-coded.
 
 **R codes**: I put all my R codes here in .R file, [SmartPCA.R](SmartPCA.R). 
 
@@ -839,9 +841,9 @@ The names of different color: [Color Palette Cheatsheet](colorPaletteCheatsheet.
 
 
 
-### PCA over all 354.212 SNPs 
+### PCA over all 354,212 SNPs 
 
-In FIgure S5.2, the authors show a PCA over all 354,212 SNPs, with ancient individuals projected onto the variation of the modern ones (West Euroasians).
+In Figure S5.2, the authors show a PCA over all 354,212 SNPs, with ancient individuals projected onto the variation of the modern ones (West Euroasians).
 
 **Format the data, and extract ancient individuals/west Euroasians** 
 
@@ -920,7 +922,7 @@ numthreads: 1
 ```
 **Plot in R**
 
-Again, I separated ancient individuals from modern West Eroaisans in [WE_AN_ind.evec](WE_AN_ind.evec), named [Ancient_allSNPs_PCA.txt](Ancient_allSNPs_PCA.txt) and [Modern_allSNPs_PCA.txt](Modern_allSNPs_PCA.txt) respectively.
+Again, I separated ancient individuals from modern West Euraisans in [WE_AN_ind.evec](WE_AN_ind.evec), named [Ancient_allSNPs_PCA.txt](Ancient_allSNPs_PCA.txt) and [Modern_allSNPs_PCA.txt](Modern_allSNPs_PCA.txt) respectively.
 
 ```
 # All 354,212 SNPs PCA 
@@ -952,7 +954,7 @@ ggplot(Ancient, aes(x = PC1,y = PC2)) +
 
 ![](Images/WE_ANcolor_allSNPs.png)
 
-**Figure 3**
+**Figure 4**: PCA analysis on 777 present-day West Eurasians and 92 ancient individuals at 354,212 SNPs, with ancient individuals color-coded.
 
 
 **R codes**: I put all my R codes here in .R file, [SmartPCA.R](SmartPCA.R). 
@@ -976,6 +978,12 @@ macOS Mojave v10.14.4
 ```
 ### Interpretation of the Admxiture Plot/Result
 
+When I compared PCA analysis on 66,225 transversion SNPs (Figure1,2,3) with PCA analysis over all 354,212 SNPs(Figure4), I found out that  PCA analysis on 66,225 transversion SNPs works better on clustering populations that are under the same culture context that using all 354,212 SNPs. This is ture by checking Haak *et al*. (2015) 's paper.
+
+So, here we are looking at the Figure 2 and Figure 3, which is corresponding to Figure 2a in [Haak *et al*. (2015)](https://www.nature.com/articles/nature14317). I should rotate my final figure, so it will replicates the positioning of present-day Europeans between the Near East and European hunter-gatherers. 
+
+The first dimension separates West Eurasian populations from East to West (Near Eastern populations and European populations), and the second dimension separates West Eurasian populations from South to North.
+
 
 **Eastern European Hunter-gather**
 
@@ -983,9 +991,6 @@ Two ancient individuals from Karelia (Northwestern Russia) and Samara (Steppe Ne
 
 **Eearly and Middle Neolithic Farmers**
 
-Here, we are looking at the Figure 1 and Figure 2, which is corresponding to Figure 2a in [Haak *et al*. (2015)](https://www.nature.com/articles/nature14317). I should rotate my final figure, so it will replicates the positioning of present-day Europeans between the Near East and European hunter-gatherers. 
-
-The first dimension separates West Eurasian populations from East to West (Near Eastern populations and European populations), and the second dimension separates West Eurasian populations from South to North.
 
 Early Neolithic and Middle Neolithic farmers ( from Germany, Hungary and Spain) are clustered together and with Sardinians (an ethnic group from which Sardinia, a western Mediterranean island and autonomous region of Italy), and also genetically close to Southern European populations ( Basque: in northern Spain; Spanish, French_South, Canary_Islanders: a Spanish archipelago), indicating those Eealy and Middle Neolithic from Germany, Hungary and Spain descended from a common genetic source. 
 
