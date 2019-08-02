@@ -30,6 +30,8 @@ Summary all ancient samples used in the paper.
 
 How did I conduct PCA analysis, how did I plot the results nicely and my R codes/solution for that.
 
+I am working on trying to explain the PCA plot.
+
 ### 6. [ADMIXTURE analysis](https://github.com/mianlee/Fu-s-test/tree/master/Admixture)
 
 How did I format the data, run the analysis and R code/solution for plotting the results nicely.
