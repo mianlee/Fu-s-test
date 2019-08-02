@@ -489,7 +489,7 @@ The Únětice culture is an archaeological culture at the start of the Central E
 
 
 **La Braña1 individual**, an approximately 7,000-year-old Mesolithic skeleton discovered at the La Braña-Arintero site in León, Spain.
- Hunter-gathere, pre-agricultura.
+ Hunter-gatherers, pre-agricultural.
 
 
 **[Maanasa Raghavan *et al*.(2013)](https://www.nature.com/articles/nature12736), Upper Palaeolithic Siberian genome reveals dual ancestry of Native Americans.**
