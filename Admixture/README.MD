@@ -555,7 +555,7 @@ This analysis further suggests that the ENA affinity of Hunter-Gatherers is rela
 **K=8**, this reveals a South Asian component maximized in the Mala (South India). This is separated from the earlier south Eurasian component, and MA1 derives approximately one third of its ancestry to this new component, rather than from the Papuan maximized Oceanian component that also results from this split. 
 
 
-**From K=2 to K=8, the ancestry of the Early and Middle Neolithic European populations haven't change much, belonging to "East non-African ancestry", meanwhile hunter-gatherers show some ancestry from eastern non-Africans(k=3 to K=8). From k=4 to K=8, the hunter-gatherers and late Neolithic/Bronze age populations show East non-Afrian acestry that represents by Native Americans. K=8, all the late Neolithic and Bronze age group fron central Europe and the Yamnay have some ancestry component that found at high frequencies in South Asian populations, this ancestry component is also found in present-day Near Eastern and European populations.
+**From K=2 to K=8, the ancestry of the Early and Middle Neolithic European populations haven't change much, belonging to "East non-African ancestry", meanwhile hunter-gatherers show some ancestry from eastern non-Africans(k=3 to K=8). From k=4 to K=8, the hunter-gatherers and late Neolithic/Bronze age populations show East non-Afrian acestry that represents by Native Americans. When K=8, all the late Neolithic and Bronze age group from central Europe and the Yamnaya have some ancestry component that found at high frequencies in South Asian populations, this ancestry component is also found in present-day Near Eastern and European populations.**
 
 
 
