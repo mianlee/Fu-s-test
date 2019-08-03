@@ -565,4 +565,19 @@ This analysis further suggests that the ENA affinity of Hunter-Gatherers is rela
 
 Most West Eurasian populations appear to be made up of the Loschbour and BedouinB-related component but populations from Northeastern Europe continue to possess partial ancestry from the Northeast Siberian-related component that is maximized in the Itelmen. [Lazaridis *et al.* (2014)](https://www.nature.com/articles/nature13673)
 
+**K=10**, this reveals a component maximized in the East African Hadza.
+
+**K=11**, an Onge-maximized component appears.
+
+**K=12**, A Chipewyan maximized component appears and is spread roughly around the Bering Strait.Interestingly, the Native American-like ancestry in MA1 largely resolves to this component. 
+
+**K=13**, shows the appearance of a Mbuti-maximized African Pygmy-related component.
+
+**K=14**, A component maximized in the Chukchi appears.
+
+**K=15**, it shows the appearance of a component, maximized in the Eastern Africa.
+
+**From K=9 to K=16, the ancestry in those ancient European individual haven't changed so much. A component ties late Neolithic and Broze age groups to South Asia.**
+
+**K=16**, 
 
