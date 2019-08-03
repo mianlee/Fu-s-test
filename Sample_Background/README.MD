@@ -25,11 +25,11 @@ Here, I breifly summerized all individuals used in [Haak *et al*. (2015)](https:
 
 **Western European Hurter-gathers (WHG)**: Loschbour (n=1) [Iosif Lazaridis *et al*. (2014)](https://www.nature.com/articles/nature13673), LaBrana1 (n=1) [Iñigo Olalde *et al*.(2014)](https://www.nature.com/articles/nature12960), HungaryGamba_HG or KO1 (n=1) [Cristina Gamba *et al*. (2014)](https://www.nature.com/articles/ncomms6257#t1).
 
-**Scandinavian Hurther-gathers (SHG)**: Motala (n=7).  [Iosif Lazaridis *et al*. (2014)](https://www.nature.com/articles/nature13673)
+**Scandinavian Hurther-gathers (SHG)**: Motala (n=7) [Iosif Lazaridis *et al*. (2014)](https://www.nature.com/articles/nature13673)，SwedenSkoglund_MHG (n=1) [Pontus Skoglund *et al*. (2014)](https://science.sciencemag.org/content/344/6185/747), SwedenSkoglun_NHG (n=3) [Pontus Skoglund *et al*. (2014)](https://science.sciencemag.org/content/344/6185/747).
 
 **Early Neolithic(EN)**: Starcevo (n=1), LBK (n=12), LBKT (n=1), Spain_EN (Els Trocs) (n=4), HungaryGamba_EN
 
-**Middle Neolithic(MN)**: Esperstedt (n=1), Baalberge (n=3),  Spain_MN (La Mina) (n=4).
+**Middle Neolithic(MN)**: Esperstedt (n=1), Baalberge (n=3),  Spain_MN (La Mina) (n=4), SwedenSkoglund_MN [Pontus Skoglund *et al*. (2014)](https://science.sciencemag.org/content/344/6185/747).
 
 **Late Copper/Early Bronze Age steppe chronology**:  Yamnaya (n=9).
 
@@ -482,6 +482,16 @@ The Únětice culture is an archaeological culture at the start of the Central E
 **Ajv52**, **Ajv70**, and **Ire8** from a hunter-gatherer context (“Neolithic hunter-gatherers” associated with the Pitted Ware Culture (PWC)).
 
 **Gök4** from a farming context (“Neolithic farmer” associated with the Funnel Beaker Culture or Trichterbecher kultur (TRB)).
+
+**[Pontus Skoglund *et al*. (2014)](https://science.sciencemag.org/content/344/6185/747),Genomic diversity and admixture differs for Stone-Age Scandinavian foragers and farmers**
+
+samples are from Sweden.
+
+**StoraForvar11**: Mesolithic hunter-gatherer. SwedenSkoglund_MHG,  7500 to 7250 years old.
+
+**Ajvide52**, **Ajvide58**, **Ajvide70**: Neolithic huntergatherers from the Pitted Ware Culture context. SwedenSkoglund_NHG, 4900 to 4600 years old.
+
+**Gokhem2**: Middle Neolithic farmers from the Funnel Beaker culture context (TRB). SwedenSkoglund_MN,  5050 to 4750 years old.
  
 **[Andreas Keller *et al*. (2012)](https://www.nature.com/articles/ncomms1701), New insights into the Tyrolean Iceman's origin and phenotype as inferred by whole-genome sequencing.**
  
@@ -517,4 +527,6 @@ The Únětice culture is an archaeological culture at the start of the Central E
 8. Keller, Andreas, et al. "New insights into the Tyrolean Iceman's origin and phenotype as inferred by whole-genome sequencing." Nature communications 3 (2012): 698.
 
 9. Raghavan, Maanasa, et al. "Upper Palaeolithic Siberian genome reveals dual ancestry of Native Americans." Nature 505.7481 (2014): 87. 
+
+10. Skoglund, Pontus, et al. "Genomic diversity and admixture differs for Stone-Age Scandinavian foragers and farmers." Science 344.6185 (2014): 747-750.
 
