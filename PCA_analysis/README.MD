@@ -978,29 +978,36 @@ macOS Mojave v10.14.4
 ```
 ### Interpretation of the Admxiture Plot/Result
 
-When I compared PCA analysis on 66,225 transversion SNPs (Figure1,2,3) with PCA analysis over all 354,212 SNPs(Figure4), I found out that  PCA analysis on 66,225 transversion SNPs works better on clustering populations that are under the same culture context that using all 354,212 SNPs. This is ture by checking Haak *et al*. (2015) 's paper.
+When I compared PCA analysis on 66,225 transversion SNPs (Figure 1, 2, 3) with PCA analysis over all 354,212 SNPs (Figure 4), I found out that  PCA analysis on 66,225 transversion SNPs works better on clustering populations that are under the same culture context that using all 354,212 SNPs. This is ture by checking Haak *et al*. (2015) 's paper.
 
 So, here we are looking at the Figure 2 and Figure 3, which is corresponding to Figure 2a in [Haak *et al*. (2015)](https://www.nature.com/articles/nature14317). I should rotate my final figure, so it will replicates the positioning of present-day Europeans between the Near East and European hunter-gatherers. 
 
 The first dimension separates West Eurasian populations from East to West (Near Eastern populations and European populations), and the second dimension separates West Eurasian populations from South to North.
 
 
-**Eastern European Hunter-gather**
+**Eastern European Hunter-gathers(EHG)**
 
-Two ancient individuals from Karelia (Northwestern Russia) and Samara (Steppe Near Urals, Russia) form a cluster.
+Two ancient individuals from Karelia (Northwestern Russia) and Samara (Steppe Near Urals, Russia) formed a cluster.
+
+**Western European Hunter-gathers(WHG)**
+
+Loschbour (n=1), LaBrana1 (n=1) and HungaryGamba_HG (n=1) formed a cluster at the top-left corner.
+
+**Scandinavian Hurther-gathers(SHG)**
+
+7 individual from Motala, SwedenSkoglund_MHG (n=1) and SwedenSkoglun_NHG (n=3) form a cluster, representing Scandinavian hunter-gatherers. SHG are intermediate between EHG and WHG.
 
 **Eearly and Middle Neolithic Farmers**
-
 
 Early Neolithic and Middle Neolithic farmers ( from Germany, Hungary and Spain) are clustered together and with Sardinians (an ethnic group from which Sardinia, a western Mediterranean island and autonomous region of Italy), and also genetically close to Southern European populations ( Basque: in northern Spain; Spanish, French_South, Canary_Islanders: a Spanish archipelago), indicating those Eealy and Middle Neolithic from Germany, Hungary and Spain descended from a common genetic source. 
 
 Early Neolithic farmers and Middle Neolithic farmers are also kind of form their own cluster, with Early Neolithic farmer on the left side close to Jewish populations, maybe they have more basal European ancestry. Instead, Middle Neolithic farmers more close to Western European hunter-gatherers(WHG), suggesting admxited with WHG (increase with WHG ancestry) in the Middle Neolithic. 
 
-Based on sample size, and temporal, spacial difference, I don't agree with the authors said tht WHG replaceed by early European farmers, and then resurgence of WHG later on. I think it is more like a early farmer interacted/intermarried with Hunter-gathers and then with increase of WHG ancertry over time. Again, this may vary from regions to regions...
+Based on sample size, and temporal, spacial difference, I don't agree with the authors said tht WHG replaceed by early European farmers, and then resurgence of WHG later on. I think it is more like a early farmer interacted/intermarried with hunter-gatherers and then with increase of WHG ancertry over time. Again, this may vary from regions to regions...
 
 Farming expansions across the Mediterranean to Spain and via the Danubian route to Hungary and Germany descended from a common stock makes sence to me.
 
-
+**You can see European hunter-gatherers are differentiated from each other (WHG,EHG and SHG). However, early and middle Neolithic farmers are kind of homogeneous.**
 
 **Reference**: 
 
