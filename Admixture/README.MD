@@ -579,5 +579,5 @@ Most West Eurasian populations appear to be made up of the Loschbour and Bedouin
 
 **From K=9 to K=16, the ancestry in those ancient European individual haven't changed so much. A component ties late Neolithic and Broze age groups to South Asia.**
 
-**K=16**, 
+**K=16**, a component appeared to be highly represented in groups from South Aisa, the Near East and the Caucasus. The existence of this component may correspond to the evidence for dilution of EHG ancestry in the Yamnaya population.
 
