@@ -987,7 +987,7 @@ The first dimension separates West Eurasian populations from East to West (Near 
 
 **Eastern European Hunter-gathers(EHG)**
 
-Two ancient individuals from Karelia (Northwestern Russia) and Samara (Steppe Near Urals, Russia) formed a cluster.
+Two ancient individuals from Karelia (Northwestern Russia) and Samara (Steppe Near Urals, Russia) formed a cluster. Those two Hunter-gatherers from Russia have genetic affinity to the 24,000-year-old Siberian (MA1)
 
 **Western European Hunter-gathers(WHG)**
 
