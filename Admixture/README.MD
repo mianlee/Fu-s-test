@@ -317,7 +317,7 @@ Thus, resulting in a pruned set of 222,469 SNPs used for admxiture analysis.
 
 The ```ADMIXTURE``` program version is 1.3.0. For downloading, installation and runing the Admixture program, see [the homepage](http://software.genetics.ucla.edu/admixture/download.html). 
 
-Now we have the genotype dataset (222,469 SNPs), which including 92 ancient + 1921 modern individuals from 193 population categories.
+Now we have the genotype dataset (222,469 SNPs), which including 92 ancient + 1921 modern individuals from 193 population categories(33 ancient + 163 modern).
 
 ```
 Haak.admxi.final.bed 
@@ -531,4 +531,33 @@ You can play with those settings to fit your data. Click the graph to see zoom-i
 <img src="images/pophelper.png" width=3000, hight=1200>
 
 Here is the pdf version with high resolution, [available here](data/pophelper.pdf). You can download and look at it.
+
+## Admixture Result Interpretation
+
+**K=2**, it separates African from non-African populations. But, some Afrian populations have non-African ancestry, and some Near Eastern populations have minor African ancestory. Recent gene exchange?
+
+**K=3**,  West and East non-African ancestry(ENA) components separate from each other. 
+
+Early and Middle Neolithic farmers don't have East non-African ancestry. It is kind of make sence if their origin can be traced back from Near East.
+
+The hunter gatherers are have greater or lesser extents of an eastern non-African (ENA) component, and Late Neolithic, Bronze age farmer also have this eastern non-African component. I think it is becuase of admxiture with local hunter-gatherers and Yamana culture related population from the steppe.
+
+**K=4**, this breaks the ENA component down into one maximized in Native American populations like the Karitiana and one characterizing the East Asian populations and maximized in the Ami from Taiwan or Chinese populations. 
+
+This analysis further suggests that the ENA affinity of Hunter-Gatherers is related to the Karitiana.
+
+**K=5**,  this breaks the African component into an African hunter-gatherer ancestry maximized in Bushmen such as the Ju_hoan_North and an African farmer component maximized in the Yoruba. 
+
+**K=6**, this reveals a south Eurasian component maximized in Papuans, which is also represented in South Asians. MA1 shows some affinity to this component, in contrast to more recent European hunter gatherers who continue to mainly show ties to Native Americans. Yamnaya also has some of this ancestry.
+
+**K=7**, this reveals a Northeast Siberian component, which is maximized in the Itelmen. The Itelmens are an ethnic group native to the Kamchatka Peninsula in Russia. 
+
+**K=8**, this reveals a South Asian component maximized in the Mala (South India). This is separated from the earlier south Eurasian component, and MA1 derives approximately one third of its ancestry to this new component, rather than from the Papuan maximized Oceanian component that also results from this split. 
+
+
+**From K=2 to K=8, the ancestry of the Early and Middle Neolithic European populations haven't change much, belonging to "East non-African ancestry", meanwhile hunter-gatherers show some ancestry from eastern non-Africans(k=3 to K=8). From k=4 to K=8, the hunter-gatherers and late Neolithic/Bronze age populations show East non-Afrian acestry that represents by Native Americans. K=8, all the late Neolithic and Bronze age group fron central Europe and the Yamnay have some ancestry component that found at high frequencies in South Asian populations, this ancestry component is also found in present-day Near Eastern and European populations.
+
+
+
+
 
