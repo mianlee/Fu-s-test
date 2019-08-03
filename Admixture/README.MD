@@ -534,6 +534,8 @@ Here is the pdf version with high resolution, [available here](data/pophelper.pd
 
 ## Admixture Result Interpretation
 
+My understanding combined with [Haak *et al*. (2015)](https://www.nature.com/articles/nature14317) and [Lazaridis *et al.* (2014)](https://www.nature.com/articles/nature13673) 's interpretation.
+
 **K=2**, it separates African from non-African populations. But, some Afrian populations have non-African ancestry, and some Near Eastern populations have minor African ancestory. Recent gene exchange?
 
 **K=3**,  West and East non-African ancestry(ENA) components separate from each other. 
@@ -559,5 +561,5 @@ This analysis further suggests that the ENA affinity of Hunter-Gatherers is rela
 
 
 
-
+**K=9**, this reveals a split within West Eurasia, with one component maximized in European hunter-gatherers and one maximized in BedouinB. European hunter-gatherers ancestry appears. Early Neolithic and Middle Neolithic famers now appear to be mixture of a European hunter-gatherers and Near Eastern ancestral populations, with an increase in the hunter-gatherer ancestry during the Middle Neolithic famers and Late Neolithic/Bronze age populations.This consistent with the hypothesis that Early European Farmers represented a mixture of West European Hunter-gatherers and Near Eastern farmers. The Near Eastern component is prevalent in most of Southern Europe, consistent with the hypothesis that Europeans have inherited some Near Eastern ancestry via early farmers. However, Northwestern Europeans show decreasing of this ancestry.
 
