@@ -999,7 +999,7 @@ Loschbour (n=1), LaBrana1 (n=1) and HungaryGamba_HG (n=1) formed a cluster at th
 
 **Eearly and Middle Neolithic Farmers**
 
-Early Neolithic and Middle Neolithic farmers ( from Germany, Hungary and Spain) are clustered together and with Sardinians (an ethnic group from which Sardinia, a western Mediterranean island and autonomous region of Italy), and also genetically close to Southern European populations ( Basque: in northern Spain; Spanish, French_South, Canary_Islanders: a Spanish archipelago), indicating those Eealy and Middle Neolithic from Germany, Hungary and Spain descended from a common genetic source. 
+Early Neolithic and Middle Neolithic farmers ( from Sweden, Germany, Hungary and Spain) are clustered together and with Sardinians (an ethnic group from which Sardinia, a western Mediterranean island and autonomous region of Italy), and also genetically close to Southern European populations ( Basque: in northern Spain; Spanish, French_South, Canary_Islanders: a Spanish archipelago), indicating those Eealy and Middle Neolithic from Germany, Hungary and Spain descended from a common genetic source. 
 
 Early Neolithic farmers and Middle Neolithic farmers are also kind of form their own cluster, with Early Neolithic farmer on the left side close to Jewish populations, maybe they have more basal European ancestry. Instead, Middle Neolithic farmers more close to Western European hunter-gatherers(WHG), suggesting admxited with WHG (increase with WHG ancestry) in the Middle Neolithic. 
 
