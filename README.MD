@@ -2,9 +2,9 @@
 
 ### 1. [Protocols for DNA extraction and library preparation](https://github.com/mianlee/Fu-s-test/tree/master/Samples_LabWorks)
 
-   - [Ancient DNA damage pattern](https://github.com/mianlee/Fu-s-test/tree/master/Ancient_DNA_Damage).
+   **1. [Ancient DNA damage pattern](https://github.com/mianlee/Fu-s-test/tree/master/Ancient_DNA_Damage).**
    
-   - [Ancient DNA Assessment](https://github.com/mianlee/Fu-s-test/tree/master/Ancient_DNA_Assessment), like dectecting damge pattern and contaminations.
+   **2. [Ancient DNA Assessment](https://github.com/mianlee/Fu-s-test/tree/master/Ancient_DNA_Assessment).**
 
 Here, I did some basic researches on: 
    
@@ -50,7 +50,7 @@ Assignning mtDNA haplogroup from NGS data and how to use ```snakemake``` to auto
 
 ### 7. Population relationships and admixture using f-statistics
 
-1. [Introduction of Outgroup-f3 statistics](https://github.com/mianlee/Fu-s-test/tree/master/Outgroup_F3_Statistics)
+**1. [Introduction of Outgroup-f3 statistics](https://github.com/mianlee/Fu-s-test/tree/master/Outgroup_F3_Statistics)**
 
 - Basic about Outgroup-f3 statistics 
 
@@ -60,7 +60,7 @@ Assignning mtDNA haplogroup from NGS data and how to use ```snakemake``` to auto
 
 - How to plot Outgroup-f3 test results in R
 
-2. [Repeat Outgroup-f3 test in Haak *et al*. (2015)](https://github.com/mianlee/Fu-s-test/tree/master/Outgroup_f3_Test)
+**2. [Repeat Outgroup-f3 test in Haak *et al*. (2015)](https://github.com/mianlee/Fu-s-test/tree/master/Outgroup_f3_Test)**
 
 
 
