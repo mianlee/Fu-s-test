@@ -69,3 +69,10 @@ Haak_2013.snp
 Haak_2013.ind
 ```
 
+## Running Outgroup_f3_Test
+
+For the first test, I am going to show how I did it using both [ADMIXTOOLS](https://github.com/DReichLab/AdmixTools) package and an R package [**```admixr```**](https://github.com/bodkan/admixr).
+
+
+
+
