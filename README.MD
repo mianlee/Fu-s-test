@@ -1,6 +1,6 @@
 ## Content
 
-### 1. [Protocols for DNA extraction and library preparation](https://github.com/mianlee/Fu-s-test/tree/master/Samples_LabWorks)
+### 1. [Protocols for DNA extraction and library preparation](https://github.com/mianlee/Fu-s-test/tree/master/Samples_LabWorks) Done!
 
    - [Ancient DNA damage pattern](https://github.com/mianlee/Fu-s-test/tree/master/Ancient_DNA_Damage).
    
@@ -20,13 +20,15 @@ And I figured out how to use ```mapDamage2```, ```Mapping-Iterative-Assembler(MI
 
 Assignning mtDNA haplogroup from NGS data and how to use ```snakemake``` to automate the analysis.
 
-### 3. [Description of ancient samples and archaeological context](https://github.com/mianlee/Fu-s-test/tree/master/Sample_Background)
+### 3. [Description of ancient samples and archaeological context](https://github.com/mianlee/Fu-s-test/tree/master/Sample_Background) Done!
 
-Summary all ancient samples used in the paper.
+- Summary all ancient samples used in this paper.
+
+- With some backgroud information
 
 ### 4. [Sex determination](https://github.com/mianlee/Fu-s-test/tree/master/Sex_determination) and [Y chromosome analysis](https://github.com/mianlee/Fu-s-test/tree/master/Y%20haplogroup%20prediction)
 
-### 5. [Principal Component Analysis](https://github.com/mianlee/Fu-s-test/tree/master/PCA_analysis)
+### 5. [Principal Component Analysis](https://github.com/mianlee/Fu-s-test/tree/master/PCA_analysis)  Done!
 
 - How did I format the data.
 
@@ -36,7 +38,7 @@ Summary all ancient samples used in the paper.
 
 - Description and Explaination for the PCA plot.
 
-### 6. [ADMIXTURE analysis](https://github.com/mianlee/Fu-s-test/tree/master/Admixture)
+### 6. [ADMIXTURE analysis](https://github.com/mianlee/Fu-s-test/tree/master/Admixture)   Done!
 
 - How did I format the data. 
 
@@ -47,6 +49,8 @@ Summary all ancient samples used in the paper.
 - Description and Explaination for the admixture plot.
 
 ### 7. [Population relationships and admixture using f-statistics](https://github.com/mianlee/Fu-s-test/tree/master/Outgroup_F3_Statistics)
+
+I am working on this and try to finalized it.
 
 ### 8. [Phylogenetic relationships of ancient Eurasians](https://github.com/mianlee/Fu-s-test/tree/master/qpGraph)
 
