@@ -84,7 +84,7 @@ For the first test, I am going to show how I did it using both [ADMIXTOOLS](http
 
 ### Western European hunter-gatherers
 
-Figure S7.3 in [Haak *et al*. (2015)](https://www.nature.com/articles/nature14317).
+**Figure S7.3** in [Haak *et al*. (2015)](https://www.nature.com/articles/nature14317).
 
 Three Western European hunter-gatherers:
 
@@ -102,4 +102,9 @@ Loschbour (n=1) [Iosif Lazaridis *et al*. (2014)](https://www.nature.com/article
 
 1. Haak, Wolfgang, et al. "Massive migration from the steppe was a source for Indo-European languages in Europe." Nature 522.7555 (2015): 207.
 
+2. Lazaridis, Iosif, et al. "Ancient human genomes suggest three ancestral populations for present-day Europeans." Nature 513.7518 (2014): 409.
+
+3. Gamba, Cristina, et al. "Genome flux and stasis in a five millennium transect of European prehistory." Nature communications 5 (2014): 5257.
+
+4. Olalde, Inigo, et al. "Derived immune and ancestral pigmentation alleles in a 7,000-year-old Mesolithic European." Nature 507.7491 (2014): 225.
 
