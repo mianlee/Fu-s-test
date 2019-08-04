@@ -74,7 +74,7 @@ Haak_2013.ind
 awk '{print$3}' Haak_2013.ind | sort | uniq > pop.list.txt
 ```
 
-Here is the population list file: [pop.list.txt](data/pop.list.txt)
+Here is the population list file: [pop.list.txt](data/pop.list.txt).
 
 
 ## Running Outgroup_f3_Test
