@@ -600,6 +600,51 @@ Because this is my first run and computational power of my computer, I didn't ru
 
 According to this run, K=11 gives you the lowest CV value, suggesting K=11 is the best fit model. When I check my admixture plot K=1, the resolution for new ancient samples is kind of the same to K=16 in Haak's plot. So, K=11 is also enough to see the pattern and tell what happen in Europe during Neolithic to Bronze age.
 
+### How to further refine the admxiture plot
+
+The plot I made has a problem. The color is not correspond to certain ancestry across all K. Because I saw Haak et al. (2015) 's admixture plot, each color is represent a certain ancestry across all K. I am trying to find a way to sovle this problem. I think I can manually modify the order of ancestry in the ```.Q``` file and the order of color.
+
+So I tried it out for K=2, K=3 and K=4, and it worked well. It will take some time to figure out the order ancestry and color. I will try the rest in the future.
+
+Original ```.Q``` files: [Haak.admxi.final.2.Q](data/Haak.admxi.final.2.Q), [Haak.admxi.final.3.Q](data/Haak.admxi.final.3.Q),[Haak.admxi.final.3.Q](data/Haak.admxi.final.3.Q).
+
+New ```.Q``` files with ancestry oder matches the color: [2.Q](data/2.Q), [3.Q](data/3.Q), [3.Q](data/3.Q).
+
+```
+
+library(pophelper)
+
+afiles <- c("2.Q", "3.Q", "4.Q")
+
+alists <- readQ(files=afiles,filetype="basic")
+
+fn1 <- function(x) attr(x,"k")
+spnames <- paste0("K=", sapply(alists,fn1))
+
+shiny <- c("#FF9326","#00A0FA", "#FDF060", "pink")
+
+pop.name <- read.table("popnames",stringsAsFactors=FALSE, header =T)
+
+
+plotQ(qlist = alists[1:3], imgoutput = "join", imgtype = "png",
+      dpi = 400,
+      sppos ="left",splab = spnames[1:3],splabsize = 2, splabangle = 180, splabcol = "black", #set Strip panel
+      clustercol = shiny,     #set colour of clusters
+      grplab = pop.name, grplabsize = 0.52, grplabangle = 90, grplabjust = 0.5, grplabpos = 0.9,    #add population information
+      grplabcol = "black",
+      pointalpha = 0,
+      linealpha = 0,
+      divtype = 1,
+      divsize = 0.08,
+      panelspacer = 0.03,
+      panelratio = c(3,1),
+      pointsize = 0,
+      linesize = 0,
+      width = 120
+)
+
+```
+![](images/colorconsistancy.png)
 
 ### Admixture Result Interpretation
 
