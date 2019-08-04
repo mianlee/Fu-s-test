@@ -32,7 +32,7 @@ Summary all ancient samples used in the paper.
 
 - How did I conduct PCA analysis.
 
-- How did I plot the results nicely and my R codes/solution for that.
+- How did I plot the results nicely and my R codes/solutions for that.
 
 - Description and Explaination for the PCA plot.
 
@@ -42,9 +42,9 @@ Summary all ancient samples used in the paper.
 
 - How did I run the admixture analysis. 
 
-- R code/solutions for plotting the results nicely.
+- R codes/solutions for plotting the results nicely.
 
-- Description and Explaination for the PCA plot.
+- Description and Explaination for the admixture plot.
 
 ### 7. [Population relationships and admixture using f-statistics](https://github.com/mianlee/Fu-s-test/tree/master/Outgroup_F3_Statistics)
 
