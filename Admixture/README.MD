@@ -596,12 +596,14 @@ ggplot(data=CV, aes(x=K, y=value, group=1)) +
 
 ![](images/CVplot.png)
 
+Because this is my first run and computational power of my computer, I didn't run replicates. So the CV error my not be accurate. 
 
+According to this run, K=11 gives you the lowest CV value, suggesting K=11 is the best fit model. When I check my admixture plot K=1, the resolution for new ancient samples is kind of the same to K=16 in Haak's plot. So, K=11 is also enough to see the pattern and tell what happen in Europe during Neolithic to Bronze age.
 
 
 ### Admixture Result Interpretation
 
-Here I combined my understanding with [Haak *et al*. (2015)](https://www.nature.com/articles/nature14317) and [Lazaridis *et al.* (2014)](https://www.nature.com/articles/nature13673) 's interpretation.
+Here I combined my understanding with [Haak *et al*. (2015)](https://www.nature.com/articles/nature14317) and [Lazaridis *et al.* (2014)](https://www.nature.com/articles/nature13673) 's interpretation. The interpretation base on Haak's admixture plot.
 
 **K=2**, it separates African from non-African populations. But, some Afrian populations have non-African ancestry, and some Near Eastern populations have minor African ancestory. Recent gene exchange?
 
