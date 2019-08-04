@@ -28,13 +28,23 @@ Summary all ancient samples used in the paper.
 
 ### 5. [Principal Component Analysis](https://github.com/mianlee/Fu-s-test/tree/master/PCA_analysis)
 
-How did I conduct PCA analysis, how did I plot the results nicely and my R codes/solution for that.
+- How did I format the data.
 
-I am working on trying to explain the PCA plot.
+- How did I conduct PCA analysis.
+
+- How did I plot the results nicely and my R codes/solution for that.
+
+- Description and Explaination for the PCA plot.
 
 ### 6. [ADMIXTURE analysis](https://github.com/mianlee/Fu-s-test/tree/master/Admixture)
 
-How did I format the data, run the analysis and R code/solution for plotting the results nicely.
+- How did I format the data. 
+
+- How did I run the admixture analysis. 
+
+- R code/solutions for plotting the results nicely.
+
+- Description and Explaination for the PCA plot.
 
 ### 7. [Population relationships and admixture using f-statistics](https://github.com/mianlee/Fu-s-test/tree/master/Outgroup_F3_Statistics)
 
