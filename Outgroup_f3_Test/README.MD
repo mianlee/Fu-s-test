@@ -56,7 +56,7 @@ awk -F ":" '{print $1 "\t" $2}' Haak_2013.ind | awk '{print $1":"$2 "\t" $3 "\t"
 mv fixed.ind Haak_2013.ind
 ```
 
-When you are converting ```.bed``` format to ```packedancestrymap```format, you need to change control to population/group information in the third column of ```.ind``` file. 
+When you are converting ```.bed``` format to ```packedancestrymap```format, you need to change 'Control' to 'population/group information' in the third column of ```.ind``` file. 
 
-See the difference between the old [```Haak_2013.ind```](data/Old_Haak_2013.ind) and the new [```Haak_2013.ind```](data/Haak_2013.ind)
+See the difference between the old [```Haak_2013.ind```](data/Old_Haak_2013.ind) and the new [```Haak_2013.ind```](data/Haak_2013.ind).
 
