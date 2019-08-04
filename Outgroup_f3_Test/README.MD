@@ -59,7 +59,7 @@ mv fixed.ind Haak_2013.ind
 
 When you are converting ```.bed``` format to ```packedancestrymap```format, you need to change **'Control'** to **'Population/group information'** in the third column of ```.ind``` file. 
 
-See the difference between the old [```Haak_2013.ind```](data/Old_Haak_2013.ind) and the new [```Haak_2013.ind```](data/Haak_2013.ind).
+See the difference between the **old** [```Haak_2013.ind```](data/Old_Haak_2013.ind) and the **new** [```Haak_2013.ind```](data/Haak_2013.ind).
 
 5. Now you have three files to work with:
 
