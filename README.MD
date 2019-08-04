@@ -1,6 +1,6 @@
 ## Content
 
-### 1. [Protocols for DNA extraction and library preparation](https://github.com/mianlee/Fu-s-test/tree/master/Samples_LabWorks) Done!
+### 1. [Protocols for DNA extraction and library preparation](https://github.com/mianlee/Fu-s-test/tree/master/Samples_LabWorks)
 
    - [Ancient DNA damage pattern](https://github.com/mianlee/Fu-s-test/tree/master/Ancient_DNA_Damage).
    
@@ -20,7 +20,7 @@ And I figured out how to use ```mapDamage2```, ```Mapping-Iterative-Assembler(MI
 
 Assignning mtDNA haplogroup from NGS data and how to use ```snakemake``` to automate the analysis.
 
-### 3. [Description of ancient samples and archaeological context](https://github.com/mianlee/Fu-s-test/tree/master/Sample_Background) Done!
+### 3. [Description of ancient samples and archaeological context](https://github.com/mianlee/Fu-s-test/tree/master/Sample_Background)
 
 - Summary all ancient samples used in this paper.
 
@@ -28,7 +28,7 @@ Assignning mtDNA haplogroup from NGS data and how to use ```snakemake``` to auto
 
 ### 4. [Sex determination](https://github.com/mianlee/Fu-s-test/tree/master/Sex_determination) and [Y chromosome analysis](https://github.com/mianlee/Fu-s-test/tree/master/Y%20haplogroup%20prediction)
 
-### 5. [Principal Component Analysis](https://github.com/mianlee/Fu-s-test/tree/master/PCA_analysis)  Done!
+### 5. [Principal Component Analysis](https://github.com/mianlee/Fu-s-test/tree/master/PCA_analysis)  
 
 - How did I format the data.
 
@@ -38,7 +38,7 @@ Assignning mtDNA haplogroup from NGS data and how to use ```snakemake``` to auto
 
 - Description and Explaination for the PCA plot.
 
-### 6. [ADMIXTURE analysis](https://github.com/mianlee/Fu-s-test/tree/master/Admixture)   Done!
+### 6. [ADMIXTURE analysis](https://github.com/mianlee/Fu-s-test/tree/master/Admixture)  
 
 - How did I format the data. 
 
