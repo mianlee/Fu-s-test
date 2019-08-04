@@ -48,7 +48,18 @@ Assignning mtDNA haplogroup from NGS data and how to use ```snakemake``` to auto
 
 - Description and Explaination for the admixture plot.
 
-### 7. [Population relationships and admixture using f-statistics](https://github.com/mianlee/Fu-s-test/tree/master/Outgroup_F3_Statistics)
+### 7. [Population relationships and admixture using f-statistics]
+
+1. [Introduction of Outgroup-f3 stastistics](https://github.com/mianlee/Fu-s-test/tree/master/Outgroup_F3_Statistics)
+
+- Basic about Outgroup-f3 stastistics 
+
+- How to set-up and interpret Outgroup-f3 stastistics 
+
+- How to run Outgroup-f3 test
+
+- How to plot Outgroup-f3 test results in R
+
 
 I am working on this and try to finalized it.
 
