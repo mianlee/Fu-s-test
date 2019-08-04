@@ -1009,6 +1009,18 @@ Farming expansions across the Mediterranean to Spain and via the Danubian route 
 
 **You can see European hunter-gatherers are differentiated from each other (WHG,EHG and SHG). However, early and middle Neolithic farmers are kind of homogeneous.**
 
+
+**Late Copper/Early Bronze Age steppe chronology**
+
+On the PCA plot, the Yamnaya steppe herders should cluster with Eastern hunter-gatherers (Karelia/Samara) theoretically, because of they are geographically close to Samara (EHG) population. However, the Yamnaya steppe herders lies between Eastern hunter-gatherers and the present-day Near East/Caucasus, suggesting they may receive some ancestry from Near East/Caucasus.
+
+
+**The Late Neolithic and Bronze Age**
+
+All ancient individuals are from Germany and Hungary. Genetically, they are distinct from the Early and Middle Neolithic farmers, and lies between Yamnaya steppe herders and Early/Middle Neolithic farmers.
+
+
+
 **Reference**: 
 
 1. Stephan Schiffels, [compPopGenWorkshop2019](https://github.com/stschiff/compPopGenWorkshop2019_docs): [PCA](https://github.com/stschiff/compPopGenWorkshop2019_docs/tree/master/contents/03_pca).
