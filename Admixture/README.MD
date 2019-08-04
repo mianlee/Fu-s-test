@@ -487,29 +487,31 @@ library(pophelper)
 #assign all .Q files to a variable named afiles ( admixture files).
 afiles <- c("Haak.admxi.final.2.Q", "Haak.admxi.final.3.Q", "Haak.admxi.final.4.Q", "Haak.admxi.final.5.Q",
             "Haak.admxi.final.6.Q", "Haak.admxi.final.7.Q", "Haak.admxi.final.8.Q", "Haak.admxi.final.9.Q",
-            "Haak.admxi.final.10.Q")
+            "Haak.admxi.final.10.Q","Haak.admxi.final.11.Q","Haak.admxi.final.12.Q","Haak.admxi.final.13.Q",
+            "Haak.admxi.final.14.Q","Haak.admxi.final.15.Q","Haak.admxi.final.16.Q","Haak.admxi.final.17.Q",
+            "Haak.admxi.final.18.Q","Haak.admxi.final.19.Q","Haak.admxi.final.20.Q")
+            
 #make a list using built-in readQ function
 alists <- readQ(files=afiles,filetype="basic")
 
 #plot the data
-
 # custom strip panel label showing k only
 fn1 <- function(x) attr(x,"k")
 spnames <- paste0("K=", sapply(alists,fn1))
 
-# color theme 19 color
+# color theme 20 color
 shiny <- c("#FF9326","#1D72F5","#FDF060","#FFA6B2","#396D35",
            "#DF0101","#77CE61","#A945FF","#0089B2","#BFF217",
            "#60D5FD","#CC1577","#F2B950","#7FB21D","#EC496F",
-           "#326397","#B26314","#A4A4A4","#610B5E")
+           "#326397","#B26314","#A4A4A4","#610B5E","#396D35")
 
 
 # group information
 pop.name <- read.table("popnames",stringsAsFactors=FALSE, header =T)
 
 #plot the graph and save as .pdf file.
-plotQ(qlist = alists[1:10], imgoutput = "join", imgtype = "pdf",
-      sppos ="left",splab = spnames[1:10],splabsize = 2, splabangle = 180, splabcol = "black", #set Strip panel
+plotQ(qlist = alists[1:19], imgoutput = "join", imgtype = "pdf",
+      sppos ="left",splab = spnames[1:19],splabsize = 2, splabangle = 180, splabcol = "black", #set Strip panel
       clustercol = shiny,     #set colour of clusters
       grplab = pop.name, grplabsize = 0.52, grplabangle = 90, grplabjust = 0.5, grplabpos = 0.9,    #add population information
       grplabcol = "black",
