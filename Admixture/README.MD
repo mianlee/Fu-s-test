@@ -562,11 +562,17 @@ CV error (K=8): 0.36827
 CV error (K=9): 0.36682
 
 ```
-```-h``` Suppress the prefixing of file names on output
+```-h``` Suppress the prefixing of file names on output.
 
-I made a file called CV.txt based on CV value and K Value above, [CV.txt](data/CV.txt) , and plot CV value using ggplot2:
+I made a file called CV.txt based on CV value and K Value above ```[CV.txt](data/CV.txt)``` , and plot CV value using ggplot2:
 
 ```
+#Plot the CV 
+library(ggplot2)  #load ggplot2 package.
+CV <- read.table("CV.txt", header = T) #read in data file.
+CV$K <- as.factor(CV$K) #facor the K column (numbers to levels).
+
+
 ggplot(data=CV, aes(x=K, y=value, group=1)) +
   geom_line() +
   geom_point() +
