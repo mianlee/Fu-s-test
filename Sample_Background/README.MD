@@ -27,9 +27,9 @@ Here, I breifly summerized all individuals used in [Haak *et al*. (2015)](https:
 
 **Scandinavian Hurther-gathers (SHG)**: Motala (n=7) [Iosif Lazaridis *et al*. (2014)](https://www.nature.com/articles/nature13673)，SwedenSkoglund_MHG (n=1) [Pontus Skoglund *et al*. (2014)](https://science.sciencemag.org/content/344/6185/747), SwedenSkoglun_NHG (n=3) [Pontus Skoglund *et al*. (2014)](https://science.sciencemag.org/content/344/6185/747).
 
-**Early Neolithic(EN)**: Starcevo (n=1), LBK (n=12), LBKT (n=1), Spain_EN (Els Trocs) (n=4), HungaryGamba_EN
+**Early Neolithic(EN)**: Starcevo (n=1), LBK (n=12), LBKT (n=1), Spain_EN (Els Trocs) (n=5), HungaryGamba_EN (n=8) [Cristina Gamba *et al*. (2014)](https://www.nature.com/articles/ncomms6257#t1).
 
-**Middle Neolithic(MN)**: Esperstedt (n=1), Baalberge (n=3),  Spain_MN (La Mina) (n=4), SwedenSkoglund_MN [Pontus Skoglund *et al*. (2014)](https://science.sciencemag.org/content/344/6185/747).
+**Middle Neolithic(MN)**: Esperstedt (n=1), Baalberge (n=3),  Spain_MN (La Mina) (n=4), SwedenSkoglund_MN (n=1) [Pontus Skoglund *et al*. (2014)](https://science.sciencemag.org/content/344/6185/747), Tyrolean Iceman (n=1) [Andreas Keller *et al*. (2012)](https://www.nature.com/articles/ncomms1701), *HugaryGamba_CA (n=1)* [Cristina Gamba *et al*. (2014)](https://www.nature.com/articles/ncomms6257#t1).
 
 **Late Copper/Early Bronze Age steppe chronology**:  Yamnaya (n=9).
 
@@ -37,7 +37,7 @@ Here, I breifly summerized all individuals used in [Haak *et al*. (2015)](https:
 
 **Early Bronze Age(EBA)**: Unetice (n=8).
 
-**Late Bronze Age(LBA)**: Halberstadt (n=1).
+**Late Bronze Age(LBA)**: Halberstadt (n=1), HugaryGamba_BA (n=2) [Cristina Gamba *et al*. (2014)](https://www.nature.com/articles/ncomms6257#t1).
 
 **Iron Age(IA)**: HungaryGamba_IA (n=1) [Cristina Gamba *et al*. (2014)](https://www.nature.com/articles/ncomms6257#t1).
 
