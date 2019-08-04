@@ -532,7 +532,66 @@ You can play with those settings to fit your data. Click the graph to see zoom-i
 
 Here is the pdf version with high resolution, [available here](data/pophelper.pdf). You can download and look at it.
 
-## Admixture Result Interpretation
+### PLot cross-validation error to choose the correct value for K
+
+Use ADMIXTURE’s cross-validation procedure. A good value of K will exhibit a low cross-validation error compared to other K values. 
+
+In the terminal, check the CV value in the ```log*.out``` file for each K run:
+
+```
+grep -h CV log*.out 
+
+CV error (K=10): 0.36679
+CV error (K=11): 0.36630
+CV error (K=12): 0.36660
+CV error (K=13): 0.36681
+CV error (K=14): 0.36665
+CV error (K=15): 0.36864
+CV error (K=16): 0.36783
+CV error (K=17): 0.36802
+CV error (K=18): 0.36709
+CV error (K=19): 0.36923
+CV error (K=2): 0.39511
+CV error (K=20): 0.36974
+CV error (K=3): 0.37738
+CV error (K=4): 0.37314
+CV error (K=5): 0.37135
+CV error (K=6): 0.36993
+CV error (K=7): 0.36927
+CV error (K=8): 0.36827
+CV error (K=9): 0.36682
+
+```
+```-h``` Suppress the prefixing of file names on output
+
+I made a file called CV.txt based on CV value and K Value above, [CV.txt](data/CV.txt) , and plot CV value using ggplot2:
+
+```
+ggplot(data=CV, aes(x=K, y=value, group=1)) +
+  geom_line() +
+  geom_point() +
+  xlab("K value") +
+  ylab("Cross-Validation Error") +
+  theme(panel.grid.major = element_blank(), 
+        panel.grid.minor = element_blank(),
+        panel.background = element_blank(), 
+        axis.line = element_line(colour = "black"),
+        axis.text.x = element_text(size = 10),
+        axis.text.y = element_text(size = 10),
+        axis.title.x = element_text(size = 14, margin = margin(t = 15, r = 0, b = 0, l = 0)),
+        axis.title.y = element_text(size = 14, margin = margin(t = 0, r = 15, b = 0, l = 0)),
+        axis.ticks.length=unit(.20, "cm")
+         )
+
+
+```
+
+![](images/CVplot.png)
+
+
+
+
+### Admixture Result Interpretation
 
 Here I combined my understanding with [Haak *et al*. (2015)](https://www.nature.com/articles/nature14317) and [Lazaridis *et al.* (2014)](https://www.nature.com/articles/nature13673) 's interpretation.
 
