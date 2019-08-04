@@ -102,7 +102,7 @@ nano par.f3.Loschbour
 
 genotypename: Haak_2013.geno
 snpname: Haak_2013.snp
-indivname: Haak_2013.geno
+indivname: Haak_2013.ind
 popfilename: Loschbour.txt
 ```
 
@@ -113,7 +113,7 @@ nano par.f3.LaBrana
 
 genotypename: Haak_2013.geno
 snpname: Haak_2013.snp
-indivname: Haak_2013.geno
+indivname: Haak_2013.ind
 popfilename: LaBrana.txt
 ```
 
@@ -124,7 +124,7 @@ nano par.f3.HungaryGamba_HG
 
 genotypename: Haak_2013.geno
 snpname: Haak_2013.snp
-indivname: Haak_2013.geno
+indivname: Haak_2013.ind
 popfilename: HungaryGamba_HG.txt
 ```
 
@@ -143,11 +143,11 @@ awk '{print "HungaryGamba_HG" "\t" $1 "\t" "Yoruba"}' pop.list.txt > HungaryGamb
 Running ```qp3Pop```:
 
 ```
-qp3Pop -p par.f3.Loschbour
+qp3Pop -p par.f3.Loschbour > Loschbour.f3.results
 
-qp3Pop -p par.f3.LaBrana
+qp3Pop -p par.f3.LaBrana > LaBrana.f3.results
 
-qp3Pop -p par.f3.HungaryGamba_HG
+qp3Pop -p par.f3.HungaryGamba_HG > HungaryGamba_HG.f3.results
 ```
 
 ### Reference:
