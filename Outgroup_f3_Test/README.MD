@@ -82,9 +82,13 @@ Here is the population list file: [pop.list.txt](data/pop.list.txt). 193 populat
 For the first test, I am going to show how I did it using both [ADMIXTOOLS](https://github.com/DReichLab/AdmixTools) package and an R package [**```admixr```**](https://github.com/bodkan/admixr).
 
 
-### Western European hunter-gatherer
+### Western European hunter-gatherers
 
 Figure S7.3 in [Haak *et al*. (2015)](https://www.nature.com/articles/nature14317).
+
+Three Western European hunter-gatherers:
+
+Loschbour (n=1) [Iosif Lazaridis *et al*. (2014)](https://www.nature.com/articles/nature13673), LaBrana1 (n=1) [Iñigo Olalde *et al*.(2014)](https://www.nature.com/articles/nature12960), HungaryGamba_HG or KO1 (n=1) [Cristina Gamba *et al*. (2014)](https://www.nature.com/articles/ncomms6257#t1).
 
 
 
