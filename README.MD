@@ -2,9 +2,9 @@
 
 ### 1. [Protocols for DNA extraction and library preparation](https://github.com/mianlee/Fu-s-test/tree/master/Samples_LabWorks)
 
-       **1. [Ancient DNA damage pattern](https://github.com/mianlee/Fu-s-test/tree/master/Ancient_DNA_Damage).**
+   **1. [Ancient DNA damage pattern](https://github.com/mianlee/Fu-s-test/tree/master/Ancient_DNA_Damage).**
    
-       **2. [Ancient DNA Assessment](https://github.com/mianlee/Fu-s-test/tree/master/Ancient_DNA_Assessment).**
+   **2. [Ancient DNA Assessment](https://github.com/mianlee/Fu-s-test/tree/master/Ancient_DNA_Assessment).**
 
 Here, I did some basic researches on: 
    
