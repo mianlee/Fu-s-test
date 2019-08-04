@@ -532,7 +532,7 @@ You can play with those settings to fit your data. Click the graph to see zoom-i
 
 <img src="images/pophelper.png" width=3000, hight=1200>
 
-Here is the pdf version with high resolution, [available here](data/pophelper.pdf). You can download and look at it.
+Here is the pdf version with high resolution, [available here](data/admixture.haak.pdf). You can download and look at it.
 
 ### PLot cross-validation error to choose the correct value for K
 
