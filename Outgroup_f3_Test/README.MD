@@ -10,7 +10,7 @@ Haak.admxi.final.bim
 Haak.admxi.final.fam
 ```
 
-2. Converting ```.bed``` format to ```packedancestrymap``` using ```convertf``` program in [ADMIXTOOLS](https://github.com/DReichLab/AdmixTools) package.
+2. Converting ```.bed``` format to ```packedancestrymap``` format using ```convertf``` program in [ADMIXTOOLS](https://github.com/DReichLab/AdmixTools) package.
 
 ```
 # Using nano in the terminal creat a par file named par.packedped.PACKEDANCESTRYMAP. 
@@ -50,6 +50,13 @@ packedancestrymap output
 
 4. Fixing the ```*.ind``` file:
 
+```
+awk -F ":" '{print $1 "\t" $2}' Haak_2013.ind | awk '{print $1":"$2 "\t" $3 "\t" $1}' > fixed.ind
 
+mv fixed.ind Haak_2013.ind
+```
 
+When you are converting ```.bed``` format to ```packedancestrymap```format, you need to change control to population/group information in the third column of ```.ind``` file. 
+
+See the difference between the old [```Haak_2013.ind```](data/Old_Haak_2013.ind) and the new [```Haak_2013.ind```](data/Haak_2013.ind)
 
