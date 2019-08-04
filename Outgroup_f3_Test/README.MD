@@ -49,7 +49,7 @@ packedancestrymap output
 ##end of convertf run
 ```
 
-4. Fixing the ```*.ind``` file:
+4. Fixing the ```*.ind``` file.
 
 ```
 awk -F ":" '{print $1 "\t" $2}' Haak_2013.ind | awk '{print $1":"$2 "\t" $3 "\t" $1}' > fixed.ind
@@ -61,18 +61,41 @@ When you are converting ```.bed``` format to ```packedancestrymap```format, you 
 
 See the difference between the **old** [```Haak_2013.ind```](data/Old_Haak_2013.ind) and the **new** [```Haak_2013.ind```](data/Haak_2013.ind).
 
-5. Now you have three files to work with:
+5. Now you have three files to work with.
 
 ```
 Haak_2013.geno
 Haak_2013.snp
 Haak_2013.ind
 ```
+6. Making a population list file.
+
+```
+awk '{print$3}' Haak_2013.ind | sort | uniq > pop.list.txt
+```
+
+Here is the population list file: [pop.list.txt](data/pop.list.txt)
+
 
 ## Running Outgroup_f3_Test
 
 For the first test, I am going to show how I did it using both [ADMIXTOOLS](https://github.com/DReichLab/AdmixTools) package and an R package [**```admixr```**](https://github.com/bodkan/admixr).
 
 
+### Western European hunter-gatherer
+
+Figure S7.3 in [Haak *et al*. (2015)](https://www.nature.com/articles/nature14317).
+
+
+
+
+
+
+
+
+
+### Reference:
+
+1. Haak, Wolfgang, et al. "Massive migration from the steppe was a source for Indo-European languages in Europe." Nature 522.7555 (2015): 207.
 
 
