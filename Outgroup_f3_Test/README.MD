@@ -133,7 +133,7 @@ awk '{print "Loschbour" "\t" $1 "\t" "Yoruba"}' pop.list.txt > Loschbour.txt
 ```
 
 ```
-awk '{print "LaBrana" "\t" $1 "\t" "Yoruba"}' pop.list.txt > LaBrana.txt
+awk '{print "LaBrana1" "\t" $1 "\t" "Yoruba"}' pop.list.txt > LaBrana.txt
 ```
 
 ```
