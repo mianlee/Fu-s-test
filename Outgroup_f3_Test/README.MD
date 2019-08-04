@@ -9,6 +9,7 @@ Haak.admxi.final.bed
 Haak.admxi.final.bim
 Haak.admxi.final.fam
 ```
+If you want to see how I did this, please refer to the [Admxiture section](https://github.com/mianlee/Fu-s-test/tree/master/Admixture).
 
 2. Converting ```.bed``` format to ```packedancestrymap``` format using ```convertf``` program in [ADMIXTOOLS](https://github.com/DReichLab/AdmixTools) package.
 
