@@ -81,20 +81,52 @@ Here is the population list file: [pop.list.txt](data/pop.list.txt). 193 populat
 
 For the first test, I am going to show how I did it using both [ADMIXTOOLS](https://github.com/DReichLab/AdmixTools) package and an R package [**```admixr```**](https://github.com/bodkan/admixr).
 
+**f3(Yoruba; X, Y)**
 
 ### Western European hunter-gatherers
 
 **Figure S7.3** in [Haak *et al*. (2015)](https://www.nature.com/articles/nature14317).
 
-Three Western European hunter-gatherers:
+Three Western European hunter-gatherers (WHG):
 
 **Loschbour** (n=1) [Iosif Lazaridis *et al*. (2014)](https://www.nature.com/articles/nature13673), **LaBrana1** (n=1) [Iñigo Olalde *et al*.(2014)](https://www.nature.com/articles/nature12960), **HungaryGamba_HG** or KO1 (n=1) [Cristina Gamba *et al*. (2014)](https://www.nature.com/articles/ncomms6257#t1).
 
 
+1. ADMIXTOOLS package
+
+In oder to run ```qp3Pop```, you neeed three parameter files ```.par``` and three ```popfilename``` files for each WHG.
+
+```
+nano par.f3.Loschbour
 
 
+genotypename: Haak_2013.geno
+snpname: Haak_2013.snp
+indivname: Haak_2013.geno
+popfilename: Loschbour.txt
+```
 
 
+```
+nano par.f3.LaBrana
+
+
+genotypename: Haak_2013.geno
+snpname: Haak_2013.snp
+indivname: Haak_2013.geno
+popfilename: LaBrana.txt
+```
+
+
+```
+nano par.f3.HungaryGamba_HG
+
+
+genotypename: Haak_2013.geno
+snpname: Haak_2013.snp
+indivname: Haak_2013.geno
+popfilename: HungaryGamba_HG.txt
+```
 
 
 
