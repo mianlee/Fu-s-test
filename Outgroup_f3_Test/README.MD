@@ -149,6 +149,10 @@ qp3Pop -p par.f3.LaBrana > LaBrana.f3.results
 
 qp3Pop -p par.f3.HungaryGamba_HG > HungaryGamba_HG.f3.results
 ```
+Then you will have three files:
+
+[Loschbour.f3.results](data/Loschbour.f3.results), [LaBrana.f3.results](data/LaBrana.f3.results) and [HungaryGamba_HG.f3.results](data/HungaryGamba_HG.f3.results).
+
 
 ### Reference:
 
