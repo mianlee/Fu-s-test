@@ -128,7 +128,27 @@ indivname: Haak_2013.geno
 popfilename: HungaryGamba_HG.txt
 ```
 
+```
+awk '{print "Loschbour" "\t" $1 "\t" "Yoruba"}' pop.list.txt > Loschbour.txt
+```
 
+```
+awk '{print "LaBrana" "\t" $1 "\t" "Yoruba"}' pop.list.txt > LaBrana.txt
+```
+
+```
+awk '{print "HungaryGamba_HG" "\t" $1 "\t" "Yoruba"}' pop.list.txt > HungaryGamba_HG.txt
+```
+
+Running ```qp3Pop```:
+
+```
+qp3Pop -p par.f3.Loschbour
+
+qp3Pop -p par.f3.LaBrana
+
+qp3Pop -p par.f3.HungaryGamba_HG
+```
 
 ### Reference:
 
