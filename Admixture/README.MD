@@ -530,7 +530,7 @@ plotQ(qlist = alists[1:19], imgoutput = "join", imgtype = "pdf",
 You can play with those settings to fit your data. Click the graph to see zoom-in version:
 
 
-<img src="images/pophelper.png" width=3000, hight=1200>
+<img src="images/admixture.haak.png" width=3000, hight=1200>
 
 Here is the pdf version with high resolution, [available here](data/admixture.haak.pdf). You can download and look at it.
 
