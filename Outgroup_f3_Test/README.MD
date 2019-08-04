@@ -5,9 +5,9 @@ The dataset I used here is the same dataset used to do the [Admxiture Analysis](
 1. Because I used ```Plink``` to filter out some individuals, so I will start with the ```Plink``` file format after filteration:
 
 ```
-Haak.admxi.final.bed
-Haak.admxi.final.bim
-Haak.admxi.final.fam
+Haak.admxi.bed
+Haak.admxi.bim
+Haak.admxi.fam
 ```
 If you want to see how I did this, please refer to the [Admxiture section](https://github.com/mianlee/Fu-s-test/tree/master/Admixture).
 
@@ -20,9 +20,9 @@ nano par.packedped.PACKEDANCESTRYMAP
 
 #Type the follwing:
 
-genotypename: Haak.admxi.final.bed
-snpname: Haak.admxi.final.bim
-indivname: Haak.admxi.final.fam
+genotypename: Haak.admxi.bed
+snpname: Haak.admxi.bim
+indivname: Haak.admxi.fam
 outputformat: PACKEDANCESTRYMAP
 genotypeoutname: Haak_2013.geno
 snpoutname: Haak_2013.snp
@@ -36,9 +36,9 @@ convertf -p par.packedped.PACKEDANCESTRYMAP
 
 # log.out
 parameter file: par.packedped.PACKEDANCESTRYMAP
-genotypename: Haak.admxi.final.bed
-snpname: Haak.admxi.final.bim
-indivname: Haak.admxi.final.fam
+genotypename: Haak.admxi.bed
+snpname: Haak.admxi.bim
+indivname: Haak.admxi.fam
 outputformat: PACKEDANCESTRYMAP
 genotypeoutname: Haak_2013.geno
 snpoutname: Haak_2013.snp
