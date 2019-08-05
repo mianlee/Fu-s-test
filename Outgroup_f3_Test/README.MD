@@ -354,10 +354,11 @@ When you are comparing the outgroup-f3 test results from ```ADMIXTOOLS``` and ``
 
 **And, they are also sharing more genetic drift to other hunter-gatherers in Sweden, Karelia and Samara, which you can see from the admxiture plot the 'hunter-gatherers ancestry' as a whole.**
 
+
+
 ## Eearly Neolithic Europeans
 
 Early Neolithic(EN): **Starcevo** (n=1), **LBK** (n=12), **LBKT** (n=1), **Spain_EN** (Els Trocs) (n=5).
-
 
 
 **Running the outgroup-f3 tests**:
@@ -494,6 +495,17 @@ The **maximizing outgroup-f3 value** is also between Early Neolithic farmer and 
 
 
 Overall, Early Neolithic farmer share more genetic drift with other Early Neolithic populations, or the Middle Neolithic populatiions that succeed them.
+
+## Middle Neolithic Europeans
+
+Middle Neolithic(MN): **Esperstedt** (n=1), **Spain_MN** (La Mina) (n=4), **SwedenSkoglund_MN** (n=1), **HugaryGamba_CA** (n=1).
+
+
+**Running the outgroup-f3 tests**:
+```
+MN.results <- f3(A = c("Esperstedt_MN","HungaryGamba_CA","Spain_MN","SwedenSkoglund_MN"), B = pops, C = "Yoruba", data = f3data)
+```
+
 
 
 ### Reference:
