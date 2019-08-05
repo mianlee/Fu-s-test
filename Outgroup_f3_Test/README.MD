@@ -346,7 +346,15 @@ ggplot(Loschbour_30, aes(y = f3, x = factor(Loschbour_30$B, levels = Loschbour_3
 ![](images/admixR_Loschbour_plot.png)
 
 
-When you are comparing the outgroup-f3 test results from ```ADMIXTOOLS``` and ```AdmixR```, the results are exactly the same. This makes sence because ```AdmixR``` is just R package that using ```ADMIXTOOLS``` as a core. However, ```AdmixR``` is more convenient (you don't have to make ```.par``` files and poplist files) and easy to work with. The graph plot were all conducted in ```R``` using ```ggplot2``` package. 
+When you are comparing the outgroup-f3 test results from ```ADMIXTOOLS``` and ```AdmixR```, the results are exactly the same. This makes sence because the ```AdmixR``` is just R package that using ```ADMIXTOOLS``` as a core. However, ```AdmixR``` is more convenient (you don't have to make ```.par``` files and poplist files) and easy to work with. The graph plot were all conducted in ```R``` using ```ggplot2``` package. 
+
+### 3. Results interpretation
+
+Based on outgroup-f3 test, three Western European hunter-gatherers (WHG)( **Loschbour, **LaBrana1** and **HungaryGamba_HG** ) are sharing more genetic drift with each other than other populations/groups, which is consistent with PCA analysis(they form a WHG cluster).
+
+And, they are also sharing more genetic drift to other hunter-gatherers in Sweden, Karelia and Samara, which you can see from the admxiture plot the 'hunter-gatherers ancestry' as a whole.
+
+
 
 ### Reference:
 
