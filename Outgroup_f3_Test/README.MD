@@ -356,6 +356,8 @@ When you are comparing the outgroup-f3 test results from ```ADMIXTOOLS``` and ``
 
 ## Eearly Neolithic Europeans
 
+**Early Neolithic(EN)**: Starcevo (n=1), LBK (n=12), LBKT (n=1), Spain_EN (Els Trocs) (n=5).
+
 ```
 # Load the admixr package.
 library(admixr)
@@ -363,6 +365,24 @@ library(admixr)
 # The same dataset (f3data) and population list (pops).
 EN.results <- f3(A = c("LBK_EN","LBKT_EN","Starcevo_EN","Spain_EN"), B = pops, C = "Yoruba", data = f3data)
 ```
+
+### Results interpretation
+
+The **maximizing outgroup-f3 value** is between Early Neolithic farmer and the Middle Neolithic populations that succeed them:
+
+**LBK_EN** vs **Esperstedt MN**
+
+**Starcevo_EN** vs **LBKT_EN**
+
+**Spain_EN** vs **Spain_MN**
+
+The **maximizing outgroup-f3 value** is also between Early Neolithic farmer and the culture that before them:
+
+**LBKT_EN** vs **Starcevo_EN** 
+
+
+Overall, Early Neolithic farmer share more genetic drift with other Early Neolithic populations, or the Middle Neolithic populatiions that succeed them.
+
 
 ### Reference:
 
