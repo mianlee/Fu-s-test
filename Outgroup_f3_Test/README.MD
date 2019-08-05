@@ -595,7 +595,7 @@ SwedenSkoglund_MN <- MN.results[A == "SwedenSkoglund_MN", ]
 Odered_SwedenSkoglund_MN <- SwedenSkoglund_MN[order(SwedenSkoglund_MN$f3),]
 SwedenSkoglund_MN_30 <- Odered_SwedenSkoglund_MN[164:193,]
 
-ggplot(SwedenSkoglund_MN , aes(y = f3, x = factor(SwedenSkoglund_MN$B, levels = SwedenSkoglund_MN$B))) +
+ggplot(SwedenSkoglund_MN_30, aes(y = f3, x = factor(SwedenSkoglund_MN_30$B, levels = SwedenSkoglund_MN_30$B))) +
   geom_errorbar(aes(ymin = f3-3*stderr, ymax = f3+3*stderr), width = 0.0, size = 0.5, color = "grey") +
   geom_point(size = 2) +
   ylim(0.11, 0.225)+
