@@ -823,6 +823,46 @@ ggplot(Samara_HG_30 , aes(y = f3, x = factor(Samara_HG_30$B, levels = Samara_HG_
   geom_text(aes(y = f3-3*stderr,label=B), hjust =1.1)
   ````
 
+## Late Copper/Early Bronze Age steppe chronology: Yamnaya (n=9).
+
+
+Late Copper/Early Bronze Age steppe chronology: **Yamnaya** (n=9).
+
+
+```
+Yamnaya.results <- f3(A = c("Yamnaya"), B = pops, C = "Yoruba", data = f3data)
+
+attach(Yamnaya.results)
+```
+
+
+```
+# Yamnaya
+
+Yamnaya <- Yamnaya.results[A == "Yamnaya", ]
+Odered_Yamnaya<- Yamnaya[order(Yamnaya_HG$f3),]
+Yamnaya_30 <- Odered_Yamnaya[164:193,]
+
+ggplot(Yamnaya_30 , aes(y = f3, x = factor(Yamnaya_30$B, levels = Yamnaya_30$B))) +
+  geom_errorbar(aes(ymin = f3-3*stderr, ymax = f3+3*stderr), width = 0.0, size = 0.5, color = "grey") +
+  geom_point(size = 2) +
+  ylim(0.11, 0.225)+
+  coord_flip() +
+  theme_bw() +
+  theme(panel.grid.major = element_blank(),
+        panel.grid.minor = element_blank(),
+        panel.border = element_blank(),
+        axis.line.x = element_line(colour = "black"),
+        axis.title = element_blank(),
+        axis.text.y = element_blank(),
+        axis.text.x = element_text(size =12, margin = margin (t = 9) ),
+        axis.ticks.y = element_blank(),
+        axis.ticks.length = unit(0.2, "cm")) +
+  geom_text(aes(y = f3-3*stderr,label=B), hjust =1.1)
+```
+
+
+
 
 
 
