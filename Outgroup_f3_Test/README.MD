@@ -613,6 +613,24 @@ ggplot(SwedenSkoglund_MN_30, aes(y = f3, x = factor(SwedenSkoglund_MN_30$B, leve
   geom_text(aes(y = f3-3*stderr,label=B), hjust =1.1)
 ```
 
+![](Esperstedt_MN_f3_plot.png)
+
+**Figure 9**: Outgroup-f3(Yoruba; Esperstedt_MN, Y).
+
+![](HungaryGamba_f3_plot.png)
+
+**Figure 10**: Outgroup-f3(Yoruba; HungaryGamba_CA, Y).
+
+![](Spain_MN_f3_plot.png)
+
+**Figure 11**: Outgroup-f3(Yoruba; Spain_MN, Y).
+
+![](SwedenSkoglund_MN_f3_plot.png)
+
+**Figure 12**: Outgroup-f3(Yoruba; SwedenSkoglund_MN, Y).
+
+
+
 ### Results interpretation
 
 ## Late Neolithic / Bronze Age Europeans
