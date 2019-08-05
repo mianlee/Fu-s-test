@@ -167,7 +167,7 @@ grep "result:" HungaryGamba_HG.f3.results | awk '{print$2 "\t" $3 "\t" $4 "\t" $
 
 **Plot the f3 results in R:**
 
-There is no need to plot all comparision, so I only plot the first 30 after sorting from highest f3 value to the lowest.
+There is no need to plot all comparision, so I only plotted the first 30 after sorting from highest f3 value to the lowest.
 
 
 ```
