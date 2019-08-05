@@ -393,6 +393,7 @@ ggplot(LBK_EN_30, aes(y = f3, x = factor(LBK_EN_30$B, levels = LBK_EN_30$B))) +
         axis.ticks.length = unit(0.2, "cm")) +
   geom_text(aes(y = f3-3*stderr,label=B), hjust =1.1)
 ```
+![](images/LBK_EN_f3_plot.png)
 
 **LBKT_EN**
 
@@ -420,6 +421,9 @@ ggplot(LBKT_EN_30, aes(y = f3, x = factor(LBKT_EN_30$B, levels = LBKT_EN_30$B)))
 
 ```
 
+![](images/LBKT_EN_f3_plot.png)
+
+
 **Starcevo_EN**
 ```
 Starcevo_EN <- EN.results[A == "Starcevo_EN", ]
@@ -445,6 +449,7 @@ ggplot(Starcevo_EN_30, aes(y = f3, x = factor(Starcevo_EN_30$B, levels = Starcev
 
 ```
 
+![](images/Starcevo_EN_f3_plot.png)
 
 **Spain_EN**
 
@@ -471,7 +476,7 @@ ggplot(Spain_EN_30 , aes(y = f3, x = factor(Spain_EN_30 $B, levels = Spain_EN_30
   geom_text(aes(y = f3-3*stderr,label=B), hjust =1.1)
 
 ```
-
+![](images/Spain_EN_f3_plot.png)
 
 ### Results interpretation
 
