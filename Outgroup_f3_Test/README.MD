@@ -203,7 +203,7 @@ ggplot(Loschbour_30, aes(y = F3, x = factor(Loschbour_30$PopB, levels = Loschbou
 ```
 ![](images/Loschbour_f3_plot.png)
 
-**Figure 1** Outgroup-f3(Yoruba; Loschbour, Y).
+**Figure 1**: Outgroup-f3(Yoruba; Loschbour, Y).
 
 ```
 library(ggplot2)
@@ -237,7 +237,7 @@ ggplot(LaBrana_30, aes(y = F3, x = factor(LaBrana_30$PopB, levels = LaBrana_30$P
 ```
 ![](images/LaBrana_f3_plot.png)
 
-**Figure 2** Outgroup-f3(Yoruba; LaBrana1, Y).
+**Figure 2**: Outgroup-f3(Yoruba; LaBrana1, Y).
 
 ```
 library(ggplot2)
@@ -271,7 +271,7 @@ ggplot(HungaryGamba_HG_30, aes(y = F3, x = factor(HungaryGamba_HG_30$PopB, level
 ```
 ![](images/HungaryGamba_HG_f3_plot.png)
 
-**Figure 3** Outgroup-f3(Yoruba; HungaryGamba_HG, Y).
+**Figure 3**: Outgroup-f3(Yoruba; HungaryGamba_HG, Y).
 
 
 ### Reference:
