@@ -165,6 +165,106 @@ grep "result:" HungaryGamba_HG.f3.results | awk '{print$2 "\t" $3 "\t" $4 "\t" $
 
 [Loschbour.f3](data/Loschbour.f3), [LaBrana.f3](data/LaBrana.f3) and [HungaryGamba_HG.f3](data/HungaryGamba_HG.f3).
 
+Plot the f3 results in R: 
+
+There is no need to plot all comparision, so I only plot the first 30 after sorting from highest f3 value to the lowest.
+
+
+
+```
+library(ggplot2)
+
+Loschbourf3data <- read.table("Loschbour.f3", col.names=c("PopA", "PopB", "Outgroup", "F3", "StdErr", "Z", "SNPs"))
+
+attach(Loschbourf3data)
+
+Loschbour <- Loschbourf3data[PopA == "Loschbour", ]   # Loschbour vs other populations
+
+Odered_Loschbour <- Loschbour[order(Loschbour$F3),]  # $F3 means by f3 values
+
+Loschbour_30 <- Odered_Loschbour[162:191,]
+
+ggplot(Loschbour_30, aes(y = F3, x = factor(Loschbour_30$PopB, levels = Loschbour_30$PopB))) +
+  geom_errorbar(aes(ymin = F3-3*StdErr, ymax = F3+3*StdErr), width = 0.0, size = 0.5, color = "grey") +
+  geom_point(size = 2) +
+  ylim(0.11, 0.225)+
+  coord_flip() +
+  theme_bw() +
+  theme(panel.grid.major = element_blank(),
+        panel.grid.minor = element_blank(),
+        panel.border = element_blank(),
+        axis.line.x = element_line(colour = "black"),
+        axis.title = element_blank(),
+        axis.text.y = element_blank(),
+        axis.text.x = element_text(size =12, margin = margin (t = 9) ),
+        axis.ticks.y = element_blank(),
+        axis.ticks.length = unit(0.2, "cm")) +
+  geom_text(aes(y = F3-3*StdErr,label=PopB), hjust =1.1)
+```
+
+```
+library(ggplot2)
+
+LaBranaf3data <- read.table("LaBrana.f3", col.names=c("PopA", "PopB", "Outgroup", "F3", "StdErr", "Z", "SNPs"))
+
+attach(LaBranaf3data)
+
+LaBrana <- LaBranaf3data[PopA == "LaBrana1", ]   # Loschbour vs other populations
+
+Odered_LaBrana <- LaBrana[order(LaBrana$F3),]  # $F3 means by f3 values
+
+LaBrana_30 <- Odered_LaBrana[162:191,]
+
+ggplot(LaBrana_30, aes(y = F3, x = factor(LaBrana_30$PopB, levels = LaBrana_30$PopB))) +
+  geom_errorbar(aes(ymin = F3-3*StdErr, ymax = F3+3*StdErr), width = 0.0, size = 0.5, color = "grey") +
+  geom_point(size = 2) +
+  ylim(0.11, 0.225)+
+  coord_flip() +
+  theme_bw() +
+  theme(panel.grid.major = element_blank(),
+        panel.grid.minor = element_blank(),
+        panel.border = element_blank(),
+        axis.line.x = element_line(colour = "black"),
+        axis.title = element_blank(),
+        axis.text.y = element_blank(),
+        axis.text.x = element_text(size =12, margin = margin (t = 9) ),
+        axis.ticks.y = element_blank(),
+        axis.ticks.length = unit(0.2, "cm")) +
+  geom_text(aes(y = F3-3*StdErr,label=PopB), hjust =1.1)
+```
+
+```
+library(ggplot2)
+
+HungaryGamba_HG_f3data <- read.table("HungaryGamba_HG.f3", col.names=c("PopA", "PopB", "Outgroup", "F3", "StdErr", "Z", "SNPs"))
+
+attach(HungaryGamba_HG_f3data)
+
+HungaryGamba_HG <- HungaryGamba_HG_f3data[PopA == "HungaryGamba_HG", ]   # Loschbour vs other populations
+
+Odered_HungaryGamba_HG <- HungaryGamba_HG[order(HungaryGamba_HG$F3),]  # $F3 means by f3 values
+
+HungaryGamba_HG_30 <- Odered_HungaryGamba_HG[162:191,]
+
+ggplot(HungaryGamba_HG_30, aes(y = F3, x = factor(HungaryGamba_HG_30$PopB, levels = HungaryGamba_HG_30$PopB))) +
+  geom_errorbar(aes(ymin = F3-3*StdErr, ymax = F3+3*StdErr), width = 0.0, size = 0.5, color = "grey") +
+  geom_point(size = 2) +
+  ylim(0.11, 0.225)+
+  coord_flip() +
+  theme_bw() +
+  theme(panel.grid.major = element_blank(),
+        panel.grid.minor = element_blank(),
+        panel.border = element_blank(),
+        axis.line.x = element_line(colour = "black"),
+        axis.title = element_blank(),
+        axis.text.y = element_blank(),
+        axis.text.x = element_text(size =12, margin = margin (t = 9) ),
+        axis.ticks.y = element_blank(),
+        axis.ticks.length = unit(0.2, "cm")) +
+  geom_text(aes(y = F3-3*StdErr,label=PopB), hjust =1.1)
+```
+
+
 ### Reference:
 
 1. Haak, Wolfgang, et al. "Massive migration from the steppe was a source for Indo-European languages in Europe." Nature 522.7555 (2015): 207.
