@@ -637,6 +637,195 @@ ggplot(SwedenSkoglund_MN_30, aes(y = f3, x = factor(SwedenSkoglund_MN_30$B, leve
 
 Late Neolithic / Bronze Age:  **Corded Ware**(n=4), **Bell Beaker**(n=6), **Unetice**(n=8), **Halberstadt**(n=1).
 
+
+```
+LN.results <- f3(A = c("Corded_Ware_LN","Bell_Beaker_LN","Unetice_EBA","Halberstadt_LBA"), B = pops, C = "Yoruba", data = f3data)
+
+attach(MN.results)
+```
+
+```
+# Corded_Ware_LN
+Corded_Ware_LN <- LN.results[A == "Corded_Ware_LN", ]
+Odered_Corded_Ware_LN <- Corded_Ware_LN[order(Corded_Ware_LN$f3),]
+Corded_Ware_LN_30 <- Odered_Corded_Ware_LN[164:193,]
+
+ggplot(Corded_Ware_LN_30 , aes(y = f3, x = factor(Corded_Ware_LN_30$B, levels = Corded_Ware_LN_30$B))) +
+  geom_errorbar(aes(ymin = f3-3*stderr, ymax = f3+3*stderr), width = 0.0, size = 0.5, color = "grey") +
+  geom_point(size = 2) +
+  ylim(0.11, 0.225)+
+  coord_flip() +
+  theme_bw() +
+  theme(panel.grid.major = element_blank(),
+        panel.grid.minor = element_blank(),
+        panel.border = element_blank(),
+        axis.line.x = element_line(colour = "black"),
+        axis.title = element_blank(),
+        axis.text.y = element_blank(),
+        axis.text.x = element_text(size =12, margin = margin (t = 9) ),
+        axis.ticks.y = element_blank(),
+        axis.ticks.length = unit(0.2, "cm")) +
+  geom_text(aes(y = f3-3*stderr,label=B), hjust =1.1)
+
+
+# Bell_Beaker_LN
+Bell_Beaker_LN <- LN.results[A == "Bell_Beaker_LN", ]
+Odered_Bell_Beaker_LN <- Bell_Beaker_LN[order(Bell_Beaker_LN$f3),]
+Bell_Beaker_LN_30 <- Odered_Bell_Beaker_LN[164:193,]
+
+ggplot(Bell_Beaker_LN_30 , aes(y = f3, x = factor(Bell_Beaker_LN_30$B, levels = Bell_Beaker_LN_30$B))) +
+  geom_errorbar(aes(ymin = f3-3*stderr, ymax = f3+3*stderr), width = 0.0, size = 0.5, color = "grey") +
+  geom_point(size = 2) +
+  ylim(0.11, 0.225)+
+  coord_flip() +
+  theme_bw() +
+  theme(panel.grid.major = element_blank(),
+        panel.grid.minor = element_blank(),
+        panel.border = element_blank(),
+        axis.line.x = element_line(colour = "black"),
+        axis.title = element_blank(),
+        axis.text.y = element_blank(),
+        axis.text.x = element_text(size =12, margin = margin (t = 9) ),
+        axis.ticks.y = element_blank(),
+        axis.ticks.length = unit(0.2, "cm")) +
+  geom_text(aes(y = f3-3*stderr,label=B), hjust =1.1)
+
+
+# Unetice_EBA
+Unetice_EBA <- LN.results[A == "Unetice_EBA", ]
+Odered_Unetice_EBA <- Unetice_EBA[order(Unetice_EBA$f3),]
+Unetice_EBA_30 <- Odered_Unetice_EBA[164:193,]
+
+ggplot(Unetice_EBA_30 , aes(y = f3, x = factor(Unetice_EBA_30$B, levels = Unetice_EBA_30$B))) +
+  geom_errorbar(aes(ymin = f3-3*stderr, ymax = f3+3*stderr), width = 0.0, size = 0.5, color = "grey") +
+  geom_point(size = 2) +
+  ylim(0.11, 0.225)+
+  coord_flip() +
+  theme_bw() +
+  theme(panel.grid.major = element_blank(),
+        panel.grid.minor = element_blank(),
+        panel.border = element_blank(),
+        axis.line.x = element_line(colour = "black"),
+        axis.title = element_blank(),
+        axis.text.y = element_blank(),
+        axis.text.x = element_text(size =12, margin = margin (t = 9) ),
+        axis.ticks.y = element_blank(),
+        axis.ticks.length = unit(0.2, "cm")) +
+  geom_text(aes(y = f3-3*stderr,label=B), hjust =1.1)
+
+
+
+# Halberstadt_LBA
+Halberstadt_LBA <- LN.results[A == "Halberstadt_LBA", ]
+Odered_Halberstadt_LBA <- Halberstadt_LBA[order(Halberstadt_LBA$f3),]
+Halberstadt_LBA_30 <- Odered_Halberstadt_LBA[164:193,]
+
+ggplot(Halberstadt_LBA_30 , aes(y = f3, x = factor(Halberstadt_LBA_30$B, levels = Halberstadt_LBA_30$B))) +
+  geom_errorbar(aes(ymin = f3-3*stderr, ymax = f3+3*stderr), width = 0.0, size = 0.5, color = "grey") +
+  geom_point(size = 2) +
+  ylim(0.11, 0.225)+
+  coord_flip() +
+  theme_bw() +
+  theme(panel.grid.major = element_blank(),
+        panel.grid.minor = element_blank(),
+        panel.border = element_blank(),
+        axis.line.x = element_line(colour = "black"),
+        axis.title = element_blank(),
+        axis.text.y = element_blank(),
+        axis.text.x = element_text(size =12, margin = margin (t = 9) ),
+        axis.ticks.y = element_blank(),
+        axis.ticks.length = unit(0.2, "cm")) +
+  geom_text(aes(y = f3-3*stderr,label=B), hjust =1.1)
+
+```
+
+
+## Ancient North Eurasians and Eastern European hunter-gatherers
+
+
+Ancient North Eurasians and Eastern European hunter-gatherers: **MA1** (n=1), **Karelia** (n=1) and **Samara_HG** (n=1).
+
+
+```
+AncientHG.results <- f3(A = c("MA1","Karelia_HG","Samara_HG"), B = pops, C = "Yoruba", data = f3data)
+
+attach(AncientHG.results)
+```
+
+
+```
+# MA1
+MA1 <- AncientHG.results[A == "MA1", ]
+Odered_MA1 <- MA1[order(MA1$f3),]
+MA1_30 <- Odered_MA1[164:193,]
+
+ggplot(MA1_30 , aes(y = f3, x = factor(MA1_30$B, levels = MA1_30$B))) +
+  geom_errorbar(aes(ymin = f3-3*stderr, ymax = f3+3*stderr), width = 0.0, size = 0.5, color = "grey") +
+  geom_point(size = 2) +
+  ylim(0.11, 0.225)+
+  coord_flip() +
+  theme_bw() +
+  theme(panel.grid.major = element_blank(),
+        panel.grid.minor = element_blank(),
+        panel.border = element_blank(),
+        axis.line.x = element_line(colour = "black"),
+        axis.title = element_blank(),
+        axis.text.y = element_blank(),
+        axis.text.x = element_text(size =12, margin = margin (t = 9) ),
+        axis.ticks.y = element_blank(),
+        axis.ticks.length = unit(0.2, "cm")) +
+  geom_text(aes(y = f3-3*stderr,label=B), hjust =1.1)
+  
+  
+# Karelia_HG
+Karelia_HG <- AncientHG.results[A == "Karelia_HG", ]
+Odered_Karelia_HG <- Karelia_HG[order(Karelia_HG$f3),]
+Karelia_HG_30 <- Odered_Karelia_HG[164:193,]
+
+ggplot(Karelia_HG_30 , aes(y = f3, x = factor(Karelia_HG_30$B, levels = Karelia_HG_30$B))) +
+  geom_errorbar(aes(ymin = f3-3*stderr, ymax = f3+3*stderr), width = 0.0, size = 0.5, color = "grey") +
+  geom_point(size = 2) +
+  ylim(0.11, 0.225)+
+  coord_flip() +
+  theme_bw() +
+  theme(panel.grid.major = element_blank(),
+        panel.grid.minor = element_blank(),
+        panel.border = element_blank(),
+        axis.line.x = element_line(colour = "black"),
+        axis.title = element_blank(),
+        axis.text.y = element_blank(),
+        axis.text.x = element_text(size =12, margin = margin (t = 9) ),
+        axis.ticks.y = element_blank(),
+        axis.ticks.length = unit(0.2, "cm")) +
+  geom_text(aes(y = f3-3*stderr,label=B), hjust =1.1)
+  
+  
+# Samara_HG
+Samara_HG <- AncientHG.results[A == "Samara_HG", ]
+Odered_Samara_HG <- Samara_HG[order(Samara_HG$f3),]
+Samara_HG_30 <- Odered_Samara_HG[164:193,]
+
+ggplot(Samara_HG_30 , aes(y = f3, x = factor(Samara_HG_30$B, levels = Samara_HG_30$B))) +
+  geom_errorbar(aes(ymin = f3-3*stderr, ymax = f3+3*stderr), width = 0.0, size = 0.5, color = "grey") +
+  geom_point(size = 2) +
+  ylim(0.11, 0.225)+
+  coord_flip() +
+  theme_bw() +
+  theme(panel.grid.major = element_blank(),
+        panel.grid.minor = element_blank(),
+        panel.border = element_blank(),
+        axis.line.x = element_line(colour = "black"),
+        axis.title = element_blank(),
+        axis.text.y = element_blank(),
+        axis.text.x = element_text(size =12, margin = margin (t = 9) ),
+        axis.ticks.y = element_blank(),
+        axis.ticks.length = unit(0.2, "cm")) +
+  geom_text(aes(y = f3-3*stderr,label=B), hjust =1.1)
+  ````
+
+
+
+
 ### Note：
 
 **[Writing data from R to Excel files (xls|xlsx)](http://www.sthda.com/english/wiki/exporting-data-from-r)** 
