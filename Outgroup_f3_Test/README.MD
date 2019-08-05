@@ -272,6 +272,53 @@ ggplot(HungaryGamba_HG_30, aes(y = F3, x = factor(HungaryGamba_HG_30$PopB, level
 
 **Figure 3**: Outgroup-f3(Yoruba; HungaryGamba_HG, Y).
 
+### 2. R package ```admixr``` 
+
+```
+library(admixr)
+library(tidyverse)
+
+f3data <- eigenstrat("/Users/LeeMian/Desktop/Fu/f3_test/Haak_2013")
+
+pops <- c("AA","Abkhasian","Adygei","Albanian","Alberstedt_LN",
+          "Aleut","Algerian","Altaian","Ami","Armenian","Ashkenazi_Jew",
+          "Atayal","Australian","Baalberge_MN","Balkar","Balochi","BantuKenya",
+          "BantuSA","Basque","BedouinA","BedouinB","Belarusian","Bell_Beaker_LN",
+          "Bengali","BenzigerodeHeimburg_LN","Bergamo","Biaka","Bolivian",
+          "Bougainville","Brahui","Bulgarian","Burusho","Cambodian",
+          "Canary_Islanders","Chechen","Chukchi","Chuvash",
+          "Cochin_Jew","Corded_Ware_LN","Croatian", "Cypriot","Czech","Dai",
+          "Datog","Daur","Dolgan","Druze","Egyptian","English","Esan","Eskimo",
+          "Esperstedt_MN","Estonian","Ethiopian_Jew","Even","Finnish","French",
+          "French_South","Gambian","Georgian","Georgian_Jew","Greek","GujaratiA",
+          "GujaratiB","GujaratiC","GujaratiD","Hadza","Halberstadt_LBA","Han",
+          "Han_NChina","Hazara","Hezhen","Hungarian","HungaryGamba_BA",
+          "HungaryGamba_CA","HungaryGamba_EN","HungaryGamba_HG","HungaryGamba_IA",
+          "Icelandic","Iceman","Iranian","Iranian_Jew","Iraqi_Jew","Italian_South",
+          "Itelmen","Japanese","Jordanian","Ju_hoan_North","Kalash","Karelia_HG",
+          "Karitiana","Karsdorf_LN","Khomani","Kikuyu","Kinh","Korean","Koryak",
+          "Kostenki14","Kumyk","Kusunda","Kyrgyz","LBKT_EN","LBK_EN","LaBrana1",
+          "Lahu","Lebanese","Lezgin","Libyan_Jew","Lithuanian","Loschbour","Luhya",
+          "Luo","MA1","Makrani","Maltese","Mandenka","Mansi","Masai","Mayan","Mbuti",
+          "Mende","Miao","Mixe","Mixtec","Mongola","Mordovian","Moroccan_Jew","Motala_HG",
+          "Mozabite","Naxi","Nganasan","Nogai","North_Ossetian","Norwegian","Orcadian","Oroqen",
+          "Palestinian","Papuan","Pathan","Piapoco","Pima","Punjabi","Quechua","Russian",
+          "Saami_WGA","Saharawi","Samara_HG","Sardinian","Saudi","Scottish","Selkup","She",
+          "Sicilian","Sindhi","Somali","Spain_EN","Spain_MN","Spanish","Spanish_North",
+          "Starcevo_EN","Stuttgart","Surui","SwedenSkoglund_MHG","SwedenSkoglund_MN",
+          "SwedenSkoglund_NHG","Syrian","Tajik_Pomiri","Thai","Tlingit","Tu","Tubalar",
+          "Tujia","Tunisian","Tunisian_Jew","Turkish","Turkish_Jew","Turkmen","Tuscan",
+          "Ukrainian","Ulchi","Unetice_EBA","Ust_Ishim","Uygur","Uzbek","Xibo","Yakut",
+          "Yamnaya","Yemen","Yemenite_Jew","Yi","Yoruba","Yukagir","Zapotec")
+
+Loschbour.results <- f3(A = "Loschbour", B = pops, C = "Yoruba", data = f3data)
+
+LaBrana.results <- f3(A = "LaBrana1", B = pops, C = "Yoruba", data = f3data)
+
+HungaryGamba_HG.results <- f3(A = "HungaryGamba_HG", B = pops, C = "Yoruba", data = f3data)
+
+```
+
 
 ### Reference:
 
