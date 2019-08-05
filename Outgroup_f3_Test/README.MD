@@ -619,34 +619,33 @@ ggplot(SwedenSkoglund_MN , aes(y = f3, x = factor(SwedenSkoglund_MN$B, levels = 
 
 Late Neolithic / Bronze Age:  **Corded Ware**(n=4), **Bell Beaker**(n=6), **Unetice**(n=8), **Halberstadt**(n=1).
 
-### Note
+### Note：
 
-[Writing data from R to Excel files (xls|xlsx)](http://www.sthda.com/english/wiki/exporting-data-from-r) 
+**[Writing data from R to Excel files (xls|xlsx)](http://www.sthda.com/english/wiki/exporting-data-from-r)** 
 
 - Installing xlsx package: install.packages(“xlsx”)
 
 In oder to install ```xlsx``` package in ```Ubuntu 16.04```, you need to install ```rJava``` package first.
 
-Installing the rJava package on Ubuntu is not quite as simple as most other R packages. Some quick notes on how to do it.
 
-Install the Java Runtime Environment (JRE).
+1. Install the Java Runtime Environment (JRE).
 
 ```sudo apt-get install -y default-jre```
-Install the Java Development Kit (JDK).
+
+2. Install the Java Development Kit (JDK).
 
 ```sudo apt-get install -y default-jdk```
 
-Update where R expects to find various Java files.
+3. Update where R expects to find various Java files.
 
 ```sudo R CMD javareconf```
 
-Install the package in R
+4. Install the package in R
 
 ```install.packages("rJava")```
 
 
 ```install.packages("xlsx")```
-
 
 
 - Using xlsx package: write.xlsx()
@@ -661,6 +660,17 @@ write.xlsx(mtcars, file = "myworkbook.xlsx",
            sheetName="MTCARS", append=TRUE)
 ```
 
+**[Writing data from R to a txt|csv file: R base functions](http://www.sthda.com/english/wiki/exporting-data-from-r)**
+
+- R base functions for writing data: write.table(), write.csv(), write.csv2()
+
+- Writing data to a file
+
+```
+# Write data to csv files:  
+# decimal point = "." and value separators = comma (",")
+write.csv(mtcars, file = "mtcars.csv")
+```
 
 ### Reference:
 
