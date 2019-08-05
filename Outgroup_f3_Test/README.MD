@@ -617,7 +617,7 @@ ggplot(SwedenSkoglund_MN , aes(y = f3, x = factor(SwedenSkoglund_MN$B, levels = 
 
 ## Late Neolithic / Bronze Age Europeans
 
-Late Neolithic / Bronze Age:  **Corded Ware** (n=4), **Bell Beaker**(n=6), **Unetice** (n=8), **Halberstadt** (n=1).
+Late Neolithic / Bronze Age:  **Corded Ware**(n=4), **Bell Beaker**(n=6), **Unetice**(n=8), **Halberstadt**(n=1).
 
 
 
