@@ -153,6 +153,17 @@ Then you will have three files:
 
 [Loschbour.f3.results](data/Loschbour.f3.results), [LaBrana.f3.results](data/LaBrana.f3.results) and [HungaryGamba_HG.f3.results](data/HungaryGamba_HG.f3.results).
 
+When you check the ```*.f3.results``` files, as you see, we don’t want comment/log rows in the beginning and columns 1. You can use ```awk``` in the terminal to keep only columns 2, 3, 4, 5, 6, 7, 8:
+
+```
+grep "result:" Loschbour.f3.results | awk '{print$2 "\t" $3 "\t" $4 "\t" $5"\t" $6 "\t" $7 "\t" $8}' > Loschbour.f3
+
+grep "result:" LaBrana.f3.results | awk '{print$2 "\t" $3 "\t" $4 "\t" $5"\t" $6 "\t" $7 "\t" $8}' > LaBrana.f3
+
+grep "result:" HungaryGamba_HG.f3.results | awk '{print$2 "\t" $3 "\t" $4 "\t" $5"\t" $6 "\t" $7 "\t" $8}' > HungaryGamba_HG.f3
+```
+
+[Loschbour.f3](data/Loschbour.f3),[LaBrana.f3](data/LaBrana.f3) and [HungaryGamba_HG.f3](data/HungaryGamba_HG.f3).
 
 ### Reference:
 
