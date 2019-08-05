@@ -633,9 +633,15 @@ ggplot(SwedenSkoglund_MN_30, aes(y = f3, x = factor(SwedenSkoglund_MN_30$B, leve
 
 ### Results interpretation
 
+
+Similar as Early Neolithic farmers, Middle Neolithic Europeans share more genetic drift either with other MN populations, or the Eealy Neolithi farmers that precede them.
+
+
+
 ## Late Neolithic / Bronze Age Europeans
 
 Late Neolithic / Bronze Age:  **Corded Ware**(n=4), **Bell Beaker**(n=6), **Unetice**(n=8), **Halberstadt**(n=1).
+
 
 
 ```
@@ -758,7 +764,9 @@ ggplot(Halberstadt_LBA_30 , aes(y = f3, x = factor(Halberstadt_LBA_30$B, levels 
 
 
 
+### Results interpretation
 
+Most LN/BA populations share most genetic drift with hunter-gatherers, and then other LN/BA populations, Yamnaya. It kind of make sense, but why on the PCA plot, they cluster with most present-day Europeans.
 
 
 
