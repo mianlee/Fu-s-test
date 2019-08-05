@@ -396,6 +396,8 @@ ggplot(LBK_EN_30, aes(y = f3, x = factor(LBK_EN_30$B, levels = LBK_EN_30$B))) +
 ```
 ![](images/LBK_EN_f3_plot.png)
 
+**Figure 4**: Outgroup-f3(Yoruba; LBK_EN, Y).
+
 **LBKT_EN**
 
 ```
@@ -424,6 +426,7 @@ ggplot(LBKT_EN_30, aes(y = f3, x = factor(LBKT_EN_30$B, levels = LBKT_EN_30$B)))
 
 ![](images/LBKT_EN_f3_plot.png)
 
+**Figure 5**: Outgroup-f3(Yoruba; LBKT_EN, Y).
 
 **Starcevo_EN**
 ```
@@ -452,6 +455,8 @@ ggplot(Starcevo_EN_30, aes(y = f3, x = factor(Starcevo_EN_30$B, levels = Starcev
 
 ![](images/Starcevo_EN_f3_plot.png)
 
+**Figure 6**: Outgroup-f3(Yoruba; Starcevo_EN, Y).
+
 **Spain_EN**
 
 ```
@@ -478,6 +483,8 @@ ggplot(Spain_EN_30 , aes(y = f3, x = factor(Spain_EN_30 $B, levels = Spain_EN_30
 
 ```
 ![](images/Spain_EN_f3_plot.png)
+
+**Figure 7**: Outgroup-f3(Yoruba; Spain_EN, Y).
 
 ### Results interpretation
 
