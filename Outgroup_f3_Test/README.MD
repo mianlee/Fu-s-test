@@ -356,8 +356,11 @@ When you are comparing the outgroup-f3 test results from ```ADMIXTOOLS``` and ``
 
 ## Eearly Neolithic Europeans
 
-**Early Neolithic(EN)**: Starcevo (n=1), LBK (n=12), LBKT (n=1), Spain_EN (Els Trocs) (n=5).
+Early Neolithic(EN): **Starcevo** (n=1), **LBK** (n=12), **LBKT** (n=1), **Spain_EN** (Els Trocs) (n=5).
 
+
+
+**Running the outgroup-f3 tests**:
 ```
 # Load the admixr package.
 library(admixr)
@@ -365,6 +368,110 @@ library(admixr)
 # The same dataset (f3data) and population list (pops).
 EN.results <- f3(A = c("LBK_EN","LBKT_EN","Starcevo_EN","Spain_EN"), B = pops, C = "Yoruba", data = f3data)
 ```
+**LBK_EN**
+
+```
+attach(EN.results)
+LBK_EN <- EN.results[A == "LBK_EN", ]
+Odered_LBK_EN <- LBK_EN[order(LBK_EN$f3),]
+LBK_EN_30 <- Odered_LBK_EN[164:193,]
+
+ggplot(LBK_EN_30, aes(y = f3, x = factor(LBK_EN_30$B, levels = LBK_EN_30$B))) +
+  geom_errorbar(aes(ymin = f3-3*stderr, ymax = f3+3*stderr), width = 0.0, size = 0.5, color = "grey") +
+  geom_point(size = 2) +
+  ylim(0.11, 0.225)+
+  coord_flip() +
+  theme_bw() +
+  theme(panel.grid.major = element_blank(),
+        panel.grid.minor = element_blank(),
+        panel.border = element_blank(),
+        axis.line.x = element_line(colour = "black"),
+        axis.title = element_blank(),
+        axis.text.y = element_blank(),
+        axis.text.x = element_text(size =12, margin = margin (t = 9) ),
+        axis.ticks.y = element_blank(),
+        axis.ticks.length = unit(0.2, "cm")) +
+  geom_text(aes(y = f3-3*stderr,label=B), hjust =1.1)
+```
+
+**LBKT_EN**
+
+```
+LBKT_EN <- EN.results[A == "LBKT_EN", ]
+Odered_LBKT_EN <- LBKT_EN[order(LBKT_EN$f3),]
+LBKT_EN_30 <- Odered_LBKT_EN[164:193,]
+
+ggplot(LBKT_EN_30, aes(y = f3, x = factor(LBKT_EN_30$B, levels = LBKT_EN_30$B))) +
+  geom_errorbar(aes(ymin = f3-3*stderr, ymax = f3+3*stderr), width = 0.0, size = 0.5, color = "grey") +
+  geom_point(size = 2) +
+  ylim(0.11, 0.225)+
+  coord_flip() +
+  theme_bw() +
+  theme(panel.grid.major = element_blank(),
+        panel.grid.minor = element_blank(),
+        panel.border = element_blank(),
+        axis.line.x = element_line(colour = "black"),
+        axis.title = element_blank(),
+        axis.text.y = element_blank(),
+        axis.text.x = element_text(size =12, margin = margin (t = 9) ),
+        axis.ticks.y = element_blank(),
+        axis.ticks.length = unit(0.2, "cm")) +
+  geom_text(aes(y = f3-3*stderr,label=B), hjust =1.1)
+
+```
+
+**Starcevo_EN**
+```
+Starcevo_EN <- EN.results[A == "Starcevo_EN", ]
+Odered_Starcevo_EN <- Starcevo_EN[order(Starcevo_EN$f3),]
+Starcevo_EN_30 <- Odered_Starcevo_EN[164:193,]
+
+ggplot(Starcevo_EN_30, aes(y = f3, x = factor(Starcevo_EN_30$B, levels = Starcevo_EN_30$B))) +
+  geom_errorbar(aes(ymin = f3-3*stderr, ymax = f3+3*stderr), width = 0.0, size = 0.5, color = "grey") +
+  geom_point(size = 2) +
+  ylim(0.11, 0.225)+
+  coord_flip() +
+  theme_bw() +
+  theme(panel.grid.major = element_blank(),
+        panel.grid.minor = element_blank(),
+        panel.border = element_blank(),
+        axis.line.x = element_line(colour = "black"),
+        axis.title = element_blank(),
+        axis.text.y = element_blank(),
+        axis.text.x = element_text(size =12, margin = margin (t = 9) ),
+        axis.ticks.y = element_blank(),
+        axis.ticks.length = unit(0.2, "cm")) +
+  geom_text(aes(y = f3-3*stderr,label=B), hjust =1.1)
+
+```
+
+
+**Spain_EN**
+
+```
+Spain_EN <- EN.results[A == "Spain_EN", ]
+Odered_Spain_EN <- Spain_EN[order(Spain_EN$f3),]
+Spain_EN_30 <- Odered_Spain_EN[164:193,]
+
+ggplot(Spain_EN_30 , aes(y = f3, x = factor(Spain_EN_30 $B, levels = Spain_EN_30$B))) +
+  geom_errorbar(aes(ymin = f3-3*stderr, ymax = f3+3*stderr), width = 0.0, size = 0.5, color = "grey") +
+  geom_point(size = 2) +
+  ylim(0.11, 0.225)+
+  coord_flip() +
+  theme_bw() +
+  theme(panel.grid.major = element_blank(),
+        panel.grid.minor = element_blank(),
+        panel.border = element_blank(),
+        axis.line.x = element_line(colour = "black"),
+        axis.title = element_blank(),
+        axis.text.y = element_blank(),
+        axis.text.x = element_text(size =12, margin = margin (t = 9) ),
+        axis.ticks.y = element_blank(),
+        axis.ticks.length = unit(0.2, "cm")) +
+  geom_text(aes(y = f3-3*stderr,label=B), hjust =1.1)
+
+```
+
 
 ### Results interpretation
 
