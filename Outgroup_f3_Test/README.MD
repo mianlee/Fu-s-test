@@ -350,7 +350,7 @@ When you are comparing the outgroup-f3 test results from ```ADMIXTOOLS``` and ``
 
 ### 3. Results interpretation
 
-Based on outgroup-f3 test, three Western European hunter-gatherers (WHG)( **Loschbour, **LaBrana1** and **HungaryGamba_HG** ) are sharing more genetic drift with each other than other populations/groups, which is consistent with PCA analysis(they form a WHG cluster).
+Based on outgroup-f3 test, three Western European hunter-gatherers (WHG)( **Loschbour**, **LaBrana1** and **HungaryGamba_HG** ) are sharing more genetic drift with each other than other populations/groups, which is consistent with PCA analysis(they form a WHG cluster).
 
 And, they are also sharing more genetic drift to other hunter-gatherers in Sweden, Karelia and Samara, which you can see from the admxiture plot the 'hunter-gatherers ancestry' as a whole.
 
