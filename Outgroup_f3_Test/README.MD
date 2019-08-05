@@ -345,6 +345,9 @@ ggplot(Loschbour_30, aes(y = f3, x = factor(Loschbour_30$B, levels = Loschbour_3
 ```
 ![](images/admixR_Loschbour_plot.png)
 
+
+When you are comparing the outgroup-f3 test results from ```ADMIXTOOLS``` and ```AdmixR```, the results are exactly the same. This makes sence because ```AdmixR``` is just R package that using ```ADMIXTOOLS``` as a core. However, ```AdmixR``` is more convenient (you don't have to make ```.par``` files and poplist files) and easy to work with. The graph plot were all conducted in ```R``` using ```ggplot2``` package. 
+
 ### Reference:
 
 1. Haak, Wolfgang, et al. "Massive migration from the steppe was a source for Indo-European languages in Europe." Nature 522.7555 (2015): 207.
