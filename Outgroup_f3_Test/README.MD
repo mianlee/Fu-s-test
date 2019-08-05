@@ -163,7 +163,7 @@ grep "result:" LaBrana.f3.results | awk '{print$2 "\t" $3 "\t" $4 "\t" $5"\t" $6
 grep "result:" HungaryGamba_HG.f3.results | awk '{print$2 "\t" $3 "\t" $4 "\t" $5"\t" $6 "\t" $7 "\t" $8}' > HungaryGamba_HG.f3
 ```
 
-[Loschbour.f3](data/Loschbour.f3),[LaBrana.f3](data/LaBrana.f3) and [HungaryGamba_HG.f3](data/HungaryGamba_HG.f3).
+[Loschbour.f3](data/Loschbour.f3), [LaBrana.f3](data/LaBrana.f3) and [HungaryGamba_HG.f3](data/HungaryGamba_HG.f3).
 
 ### Reference:
 
