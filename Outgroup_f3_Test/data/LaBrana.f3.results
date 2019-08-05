@@ -12,197 +12,197 @@ nplist: 193
 number of blocks for block jackknife: 710
 snps: 354212
                       Source 1             Source 2               Target           f_3       std. err           Z    SNPs
-  no data              LaBrana                   AA               Yoruba      0.000000      -1.000000      -0.000      -1
-  no data              LaBrana            Abkhasian               Yoruba      0.000000      -1.000000      -0.000      -1
-  no data              LaBrana               Adygei               Yoruba      0.000000      -1.000000      -0.000      -1
-  no data              LaBrana             Albanian               Yoruba      0.000000      -1.000000      -0.000      -1
-  no data              LaBrana        Alberstedt_LN               Yoruba      0.000000      -1.000000      -0.000      -1
-  no data              LaBrana                Aleut               Yoruba      0.000000      -1.000000      -0.000      -1
-  no data              LaBrana             Algerian               Yoruba      0.000000      -1.000000      -0.000      -1
-  no data              LaBrana              Altaian               Yoruba      0.000000      -1.000000      -0.000      -1
-  no data              LaBrana                  Ami               Yoruba      0.000000      -1.000000      -0.000      -1
-  no data              LaBrana             Armenian               Yoruba      0.000000      -1.000000      -0.000      -1
-  no data              LaBrana        Ashkenazi_Jew               Yoruba      0.000000      -1.000000      -0.000      -1
-  no data              LaBrana               Atayal               Yoruba      0.000000      -1.000000      -0.000      -1
-  no data              LaBrana           Australian               Yoruba      0.000000      -1.000000      -0.000      -1
-  no data              LaBrana         Baalberge_MN               Yoruba      0.000000      -1.000000      -0.000      -1
-  no data              LaBrana               Balkar               Yoruba      0.000000      -1.000000      -0.000      -1
-  no data              LaBrana              Balochi               Yoruba      0.000000      -1.000000      -0.000      -1
-  no data              LaBrana           BantuKenya               Yoruba      0.000000      -1.000000      -0.000      -1
-  no data              LaBrana              BantuSA               Yoruba      0.000000      -1.000000      -0.000      -1
-  no data              LaBrana               Basque               Yoruba      0.000000      -1.000000      -0.000      -1
-  no data              LaBrana             BedouinA               Yoruba      0.000000      -1.000000      -0.000      -1
-  no data              LaBrana             BedouinB               Yoruba      0.000000      -1.000000      -0.000      -1
-  no data              LaBrana           Belarusian               Yoruba      0.000000      -1.000000      -0.000      -1
-  no data              LaBrana       Bell_Beaker_LN               Yoruba      0.000000      -1.000000      -0.000      -1
-  no data              LaBrana              Bengali               Yoruba      0.000000      -1.000000      -0.000      -1
-  no data              LaBrana BenzigerodeHeimburg_LN               Yoruba      0.000000      -1.000000      -0.000      -1
-  no data              LaBrana              Bergamo               Yoruba      0.000000      -1.000000      -0.000      -1
-  no data              LaBrana                Biaka               Yoruba      0.000000      -1.000000      -0.000      -1
-  no data              LaBrana             Bolivian               Yoruba      0.000000      -1.000000      -0.000      -1
-  no data              LaBrana         Bougainville               Yoruba      0.000000      -1.000000      -0.000      -1
-  no data              LaBrana               Brahui               Yoruba      0.000000      -1.000000      -0.000      -1
-  no data              LaBrana            Bulgarian               Yoruba      0.000000      -1.000000      -0.000      -1
-  no data              LaBrana              Burusho               Yoruba      0.000000      -1.000000      -0.000      -1
-  no data              LaBrana            Cambodian               Yoruba      0.000000      -1.000000      -0.000      -1
-  no data              LaBrana     Canary_Islanders               Yoruba      0.000000      -1.000000      -0.000      -1
-  no data              LaBrana              Chechen               Yoruba      0.000000      -1.000000      -0.000      -1
-  no data              LaBrana              Chukchi               Yoruba      0.000000      -1.000000      -0.000      -1
-  no data              LaBrana              Chuvash               Yoruba      0.000000      -1.000000      -0.000      -1
-  no data              LaBrana           Cochin_Jew               Yoruba      0.000000      -1.000000      -0.000      -1
-  no data              LaBrana       Corded_Ware_LN               Yoruba      0.000000      -1.000000      -0.000      -1
-  no data              LaBrana             Croatian               Yoruba      0.000000      -1.000000      -0.000      -1
-  no data              LaBrana              Cypriot               Yoruba      0.000000      -1.000000      -0.000      -1
-  no data              LaBrana                Czech               Yoruba      0.000000      -1.000000      -0.000      -1
-  no data              LaBrana                  Dai               Yoruba      0.000000      -1.000000      -0.000      -1
-  no data              LaBrana                Datog               Yoruba      0.000000      -1.000000      -0.000      -1
-  no data              LaBrana                 Daur               Yoruba      0.000000      -1.000000      -0.000      -1
-  no data              LaBrana               Dolgan               Yoruba      0.000000      -1.000000      -0.000      -1
-  no data              LaBrana                Druze               Yoruba      0.000000      -1.000000      -0.000      -1
-  no data              LaBrana             Egyptian               Yoruba      0.000000      -1.000000      -0.000      -1
-  no data              LaBrana              English               Yoruba      0.000000      -1.000000      -0.000      -1
-  no data              LaBrana                 Esan               Yoruba      0.000000      -1.000000      -0.000      -1
-  no data              LaBrana               Eskimo               Yoruba      0.000000      -1.000000      -0.000      -1
-  no data              LaBrana        Esperstedt_MN               Yoruba      0.000000      -1.000000      -0.000      -1
-  no data              LaBrana             Estonian               Yoruba      0.000000      -1.000000      -0.000      -1
-  no data              LaBrana        Ethiopian_Jew               Yoruba      0.000000      -1.000000      -0.000      -1
-  no data              LaBrana                 Even               Yoruba      0.000000      -1.000000      -0.000      -1
-  no data              LaBrana              Finnish               Yoruba      0.000000      -1.000000      -0.000      -1
-  no data              LaBrana               French               Yoruba      0.000000      -1.000000      -0.000      -1
-  no data              LaBrana         French_South               Yoruba      0.000000      -1.000000      -0.000      -1
-  no data              LaBrana              Gambian               Yoruba      0.000000      -1.000000      -0.000      -1
-  no data              LaBrana             Georgian               Yoruba      0.000000      -1.000000      -0.000      -1
-  no data              LaBrana         Georgian_Jew               Yoruba      0.000000      -1.000000      -0.000      -1
-  no data              LaBrana                Greek               Yoruba      0.000000      -1.000000      -0.000      -1
-  no data              LaBrana            GujaratiA               Yoruba      0.000000      -1.000000      -0.000      -1
-  no data              LaBrana            GujaratiB               Yoruba      0.000000      -1.000000      -0.000      -1
-  no data              LaBrana            GujaratiC               Yoruba      0.000000      -1.000000      -0.000      -1
-  no data              LaBrana            GujaratiD               Yoruba      0.000000      -1.000000      -0.000      -1
-  no data              LaBrana                Hadza               Yoruba      0.000000      -1.000000      -0.000      -1
-  no data              LaBrana      Halberstadt_LBA               Yoruba      0.000000      -1.000000      -0.000      -1
-  no data              LaBrana                  Han               Yoruba      0.000000      -1.000000      -0.000      -1
-  no data              LaBrana           Han_NChina               Yoruba      0.000000      -1.000000      -0.000      -1
-  no data              LaBrana               Hazara               Yoruba      0.000000      -1.000000      -0.000      -1
-  no data              LaBrana               Hezhen               Yoruba      0.000000      -1.000000      -0.000      -1
-  no data              LaBrana            Hungarian               Yoruba      0.000000      -1.000000      -0.000      -1
-  no data              LaBrana      HungaryGamba_BA               Yoruba      0.000000      -1.000000      -0.000      -1
-  no data              LaBrana      HungaryGamba_CA               Yoruba      0.000000      -1.000000      -0.000      -1
-  no data              LaBrana      HungaryGamba_EN               Yoruba      0.000000      -1.000000      -0.000      -1
-  no data              LaBrana      HungaryGamba_HG               Yoruba      0.000000      -1.000000      -0.000      -1
-  no data              LaBrana      HungaryGamba_IA               Yoruba      0.000000      -1.000000      -0.000      -1
-  no data              LaBrana            Icelandic               Yoruba      0.000000      -1.000000      -0.000      -1
-  no data              LaBrana               Iceman               Yoruba      0.000000      -1.000000      -0.000      -1
-  no data              LaBrana              Iranian               Yoruba      0.000000      -1.000000      -0.000      -1
-  no data              LaBrana          Iranian_Jew               Yoruba      0.000000      -1.000000      -0.000      -1
-  no data              LaBrana            Iraqi_Jew               Yoruba      0.000000      -1.000000      -0.000      -1
-  no data              LaBrana        Italian_South               Yoruba      0.000000      -1.000000      -0.000      -1
-  no data              LaBrana              Itelmen               Yoruba      0.000000      -1.000000      -0.000      -1
-  no data              LaBrana             Japanese               Yoruba      0.000000      -1.000000      -0.000      -1
-  no data              LaBrana            Jordanian               Yoruba      0.000000      -1.000000      -0.000      -1
-  no data              LaBrana        Ju_hoan_North               Yoruba      0.000000      -1.000000      -0.000      -1
-  no data              LaBrana               Kalash               Yoruba      0.000000      -1.000000      -0.000      -1
-  no data              LaBrana           Karelia_HG               Yoruba      0.000000      -1.000000      -0.000      -1
-  no data              LaBrana            Karitiana               Yoruba      0.000000      -1.000000      -0.000      -1
-  no data              LaBrana          Karsdorf_LN               Yoruba      0.000000      -1.000000      -0.000      -1
-  no data              LaBrana              Khomani               Yoruba      0.000000      -1.000000      -0.000      -1
-  no data              LaBrana               Kikuyu               Yoruba      0.000000      -1.000000      -0.000      -1
-  no data              LaBrana                 Kinh               Yoruba      0.000000      -1.000000      -0.000      -1
-  no data              LaBrana               Korean               Yoruba      0.000000      -1.000000      -0.000      -1
-  no data              LaBrana               Koryak               Yoruba      0.000000      -1.000000      -0.000      -1
-  no data              LaBrana           Kostenki14               Yoruba      0.000000      -1.000000      -0.000      -1
-  no data              LaBrana                Kumyk               Yoruba      0.000000      -1.000000      -0.000      -1
-  no data              LaBrana              Kusunda               Yoruba      0.000000      -1.000000      -0.000      -1
-  no data              LaBrana               Kyrgyz               Yoruba      0.000000      -1.000000      -0.000      -1
-  no data              LaBrana              LBKT_EN               Yoruba      0.000000      -1.000000      -0.000      -1
-  no data              LaBrana               LBK_EN               Yoruba      0.000000      -1.000000      -0.000      -1
-  no data              LaBrana             LaBrana1               Yoruba      0.000000      -1.000000      -0.000      -1
-  no data              LaBrana                 Lahu               Yoruba      0.000000      -1.000000      -0.000      -1
-  no data              LaBrana             Lebanese               Yoruba      0.000000      -1.000000      -0.000      -1
-  no data              LaBrana               Lezgin               Yoruba      0.000000      -1.000000      -0.000      -1
-  no data              LaBrana           Libyan_Jew               Yoruba      0.000000      -1.000000      -0.000      -1
-  no data              LaBrana           Lithuanian               Yoruba      0.000000      -1.000000      -0.000      -1
-  no data              LaBrana            Loschbour               Yoruba      0.000000      -1.000000      -0.000      -1
-  no data              LaBrana                Luhya               Yoruba      0.000000      -1.000000      -0.000      -1
-  no data              LaBrana                  Luo               Yoruba      0.000000      -1.000000      -0.000      -1
-  no data              LaBrana                  MA1               Yoruba      0.000000      -1.000000      -0.000      -1
-  no data              LaBrana              Makrani               Yoruba      0.000000      -1.000000      -0.000      -1
-  no data              LaBrana              Maltese               Yoruba      0.000000      -1.000000      -0.000      -1
-  no data              LaBrana             Mandenka               Yoruba      0.000000      -1.000000      -0.000      -1
-  no data              LaBrana                Mansi               Yoruba      0.000000      -1.000000      -0.000      -1
-  no data              LaBrana                Masai               Yoruba      0.000000      -1.000000      -0.000      -1
-  no data              LaBrana                Mayan               Yoruba      0.000000      -1.000000      -0.000      -1
-  no data              LaBrana                Mbuti               Yoruba      0.000000      -1.000000      -0.000      -1
-  no data              LaBrana                Mende               Yoruba      0.000000      -1.000000      -0.000      -1
-  no data              LaBrana                 Miao               Yoruba      0.000000      -1.000000      -0.000      -1
-  no data              LaBrana                 Mixe               Yoruba      0.000000      -1.000000      -0.000      -1
-  no data              LaBrana               Mixtec               Yoruba      0.000000      -1.000000      -0.000      -1
-  no data              LaBrana              Mongola               Yoruba      0.000000      -1.000000      -0.000      -1
-  no data              LaBrana            Mordovian               Yoruba      0.000000      -1.000000      -0.000      -1
-  no data              LaBrana         Moroccan_Jew               Yoruba      0.000000      -1.000000      -0.000      -1
-  no data              LaBrana            Motala_HG               Yoruba      0.000000      -1.000000      -0.000      -1
-  no data              LaBrana             Mozabite               Yoruba      0.000000      -1.000000      -0.000      -1
-  no data              LaBrana                 Naxi               Yoruba      0.000000      -1.000000      -0.000      -1
-  no data              LaBrana             Nganasan               Yoruba      0.000000      -1.000000      -0.000      -1
-  no data              LaBrana                Nogai               Yoruba      0.000000      -1.000000      -0.000      -1
-  no data              LaBrana       North_Ossetian               Yoruba      0.000000      -1.000000      -0.000      -1
-  no data              LaBrana            Norwegian               Yoruba      0.000000      -1.000000      -0.000      -1
-  no data              LaBrana             Orcadian               Yoruba      0.000000      -1.000000      -0.000      -1
-  no data              LaBrana               Oroqen               Yoruba      0.000000      -1.000000      -0.000      -1
-  no data              LaBrana          Palestinian               Yoruba      0.000000      -1.000000      -0.000      -1
-  no data              LaBrana               Papuan               Yoruba      0.000000      -1.000000      -0.000      -1
-  no data              LaBrana               Pathan               Yoruba      0.000000      -1.000000      -0.000      -1
-  no data              LaBrana              Piapoco               Yoruba      0.000000      -1.000000      -0.000      -1
-  no data              LaBrana                 Pima               Yoruba      0.000000      -1.000000      -0.000      -1
-  no data              LaBrana              Punjabi               Yoruba      0.000000      -1.000000      -0.000      -1
-  no data              LaBrana              Quechua               Yoruba      0.000000      -1.000000      -0.000      -1
-  no data              LaBrana              Russian               Yoruba      0.000000      -1.000000      -0.000      -1
-  no data              LaBrana            Saami_WGA               Yoruba      0.000000      -1.000000      -0.000      -1
-  no data              LaBrana             Saharawi               Yoruba      0.000000      -1.000000      -0.000      -1
-  no data              LaBrana            Samara_HG               Yoruba      0.000000      -1.000000      -0.000      -1
-  no data              LaBrana            Sardinian               Yoruba      0.000000      -1.000000      -0.000      -1
-  no data              LaBrana                Saudi               Yoruba      0.000000      -1.000000      -0.000      -1
-  no data              LaBrana             Scottish               Yoruba      0.000000      -1.000000      -0.000      -1
-  no data              LaBrana               Selkup               Yoruba      0.000000      -1.000000      -0.000      -1
-  no data              LaBrana                  She               Yoruba      0.000000      -1.000000      -0.000      -1
-  no data              LaBrana             Sicilian               Yoruba      0.000000      -1.000000      -0.000      -1
-  no data              LaBrana               Sindhi               Yoruba      0.000000      -1.000000      -0.000      -1
-  no data              LaBrana               Somali               Yoruba      0.000000      -1.000000      -0.000      -1
-  no data              LaBrana             Spain_EN               Yoruba      0.000000      -1.000000      -0.000      -1
-  no data              LaBrana             Spain_MN               Yoruba      0.000000      -1.000000      -0.000      -1
-  no data              LaBrana              Spanish               Yoruba      0.000000      -1.000000      -0.000      -1
-  no data              LaBrana        Spanish_North               Yoruba      0.000000      -1.000000      -0.000      -1
-  no data              LaBrana          Starcevo_EN               Yoruba      0.000000      -1.000000      -0.000      -1
-  no data              LaBrana            Stuttgart               Yoruba      0.000000      -1.000000      -0.000      -1
-  no data              LaBrana                Surui               Yoruba      0.000000      -1.000000      -0.000      -1
-  no data              LaBrana   SwedenSkoglund_MHG               Yoruba      0.000000      -1.000000      -0.000      -1
-  no data              LaBrana    SwedenSkoglund_MN               Yoruba      0.000000      -1.000000      -0.000      -1
-  no data              LaBrana   SwedenSkoglund_NHG               Yoruba      0.000000      -1.000000      -0.000      -1
-  no data              LaBrana               Syrian               Yoruba      0.000000      -1.000000      -0.000      -1
-  no data              LaBrana         Tajik_Pomiri               Yoruba      0.000000      -1.000000      -0.000      -1
-  no data              LaBrana                 Thai               Yoruba      0.000000      -1.000000      -0.000      -1
-  no data              LaBrana              Tlingit               Yoruba      0.000000      -1.000000      -0.000      -1
-  no data              LaBrana                   Tu               Yoruba      0.000000      -1.000000      -0.000      -1
-  no data              LaBrana              Tubalar               Yoruba      0.000000      -1.000000      -0.000      -1
-  no data              LaBrana                Tujia               Yoruba      0.000000      -1.000000      -0.000      -1
-  no data              LaBrana             Tunisian               Yoruba      0.000000      -1.000000      -0.000      -1
-  no data              LaBrana         Tunisian_Jew               Yoruba      0.000000      -1.000000      -0.000      -1
-  no data              LaBrana              Turkish               Yoruba      0.000000      -1.000000      -0.000      -1
-  no data              LaBrana          Turkish_Jew               Yoruba      0.000000      -1.000000      -0.000      -1
-  no data              LaBrana              Turkmen               Yoruba      0.000000      -1.000000      -0.000      -1
-  no data              LaBrana               Tuscan               Yoruba      0.000000      -1.000000      -0.000      -1
-  no data              LaBrana            Ukrainian               Yoruba      0.000000      -1.000000      -0.000      -1
-  no data              LaBrana                Ulchi               Yoruba      0.000000      -1.000000      -0.000      -1
-  no data              LaBrana          Unetice_EBA               Yoruba      0.000000      -1.000000      -0.000      -1
-  no data              LaBrana            Ust_Ishim               Yoruba      0.000000      -1.000000      -0.000      -1
-  no data              LaBrana                Uygur               Yoruba      0.000000      -1.000000      -0.000      -1
-  no data              LaBrana                Uzbek               Yoruba      0.000000      -1.000000      -0.000      -1
-  no data              LaBrana                 Xibo               Yoruba      0.000000      -1.000000      -0.000      -1
-  no data              LaBrana                Yakut               Yoruba      0.000000      -1.000000      -0.000      -1
-  no data              LaBrana              Yamnaya               Yoruba      0.000000      -1.000000      -0.000      -1
-  no data              LaBrana                Yemen               Yoruba      0.000000      -1.000000      -0.000      -1
-  no data              LaBrana         Yemenite_Jew               Yoruba      0.000000      -1.000000      -0.000      -1
-  no data              LaBrana                   Yi               Yoruba      0.000000      -1.000000      -0.000      -1
-  no data              LaBrana               Yoruba               Yoruba      0.000000      -1.000000      -0.000      -1
-  no data              LaBrana              Yukagir               Yoruba      0.000000      -1.000000      -0.000      -1
-  no data              LaBrana              Zapotec               Yoruba      0.000000      -1.000000      -0.000      -1
-##end of qp3Pop:     1217.319 seconds cpu        0.000 Mbytes in use
+ result:              LaBrana1                   AA               Yoruba      0.027508       0.000687      40.023  302019
+ result:              LaBrana1            Abkhasian               Yoruba      0.143109       0.001420     100.749  303352
+ result:              LaBrana1               Adygei               Yoruba      0.145267       0.001387     104.746  303995
+ result:              LaBrana1             Albanian               Yoruba      0.150721       0.001524      98.895  302767
+ result:              LaBrana1        Alberstedt_LN               Yoruba      0.159081       0.002166      73.436  296669
+ result:              LaBrana1                Aleut               Yoruba      0.150501       0.001457     103.310  302808
+ result:              LaBrana1             Algerian               Yoruba      0.114237       0.001333      85.725  302216
+ result:              LaBrana1              Altaian               Yoruba      0.135833       0.001467      92.578  302687
+ result:              LaBrana1                  Ami               Yoruba      0.127695       0.001620      78.837  301747
+ result:              LaBrana1             Armenian               Yoruba      0.142447       0.001444      98.621  303492
+ result:              LaBrana1        Ashkenazi_Jew               Yoruba      0.146069       0.001484      98.461  302897
+ result:              LaBrana1               Atayal               Yoruba      0.128184       0.001669      76.799  301450
+ result:              LaBrana1           Australian               Yoruba      0.122086       0.001782      68.500  300466
+ result:              LaBrana1         Baalberge_MN               Yoruba      0.159431       0.002281      69.904  159901
+ result:              LaBrana1               Balkar               Yoruba      0.144919       0.001440     100.670  303506
+ result:              LaBrana1              Balochi               Yoruba      0.137579       0.001369     100.520  304022
+ result:              LaBrana1           BantuKenya               Yoruba      0.009104       0.000596      15.268  300196
+ result:              LaBrana1              BantuSA               Yoruba      0.005072       0.000549       9.243  305420
+ result:              LaBrana1               Basque               Yoruba      0.159139       0.001453     109.497  304248
+ result:              LaBrana1             BedouinA               Yoruba      0.127770       0.001299      98.325  304498
+ result:              LaBrana1             BedouinB               Yoruba      0.131741       0.001434      91.840  303514
+ result:              LaBrana1           Belarusian               Yoruba      0.158861       0.001469     108.141  303505
+ result:              LaBrana1       Bell_Beaker_LN               Yoruba      0.159489       0.001711      93.202  296738
+ result:              LaBrana1              Bengali               Yoruba      0.133822       0.001381      96.928  302611
+ result:              LaBrana1 BenzigerodeHeimburg_LN               Yoruba      0.161630       0.001955      82.683  261370
+ result:              LaBrana1              Bergamo               Yoruba      0.153433       0.001443     106.298  303673
+ result:              LaBrana1                Biaka               Yoruba      0.005185       0.000568       9.122  304625
+ result:              LaBrana1             Bolivian               Yoruba      0.136566       0.001611      84.780  301879
+ result:              LaBrana1         Bougainville               Yoruba      0.123248       0.001604      76.826  301546
+ result:              LaBrana1               Brahui               Yoruba      0.136384       0.001336     102.080  304067
+ result:              LaBrana1            Bulgarian               Yoruba      0.152448       0.001464     104.116  303539
+ result:              LaBrana1              Burusho               Yoruba      0.138043       0.001344     102.741  304128
+ result:              LaBrana1            Cambodian               Yoruba      0.127563       0.001534      83.157  302114
+ result:              LaBrana1     Canary_Islanders               Yoruba      0.148715       0.001725      86.211  300947
+ result:              LaBrana1              Chechen               Yoruba      0.146078       0.001446     101.018  303389
+ result:              LaBrana1              Chukchi               Yoruba      0.134626       0.001576      85.408  302410
+ result:              LaBrana1              Chuvash               Yoruba      0.152417       0.001443     105.626  303471
+ result:              LaBrana1           Cochin_Jew               Yoruba      0.135597       0.001431      94.774  302267
+ result:              LaBrana1       Corded_Ware_LN               Yoruba      0.158535       0.001756      90.267  299568
+ result:              LaBrana1             Croatian               Yoruba      0.155856       0.001475     105.687  303541
+ result:              LaBrana1              Cypriot               Yoruba      0.142617       0.001470      97.022  303021
+ result:              LaBrana1                Czech               Yoruba      0.158543       0.001485     106.787  303552
+ result:              LaBrana1                  Dai               Yoruba      0.127998       0.001570      81.553  301989
+ result:              LaBrana1                Datog               Yoruba      0.053961       0.001069      50.487  300936
+ result:              LaBrana1                 Daur               Yoruba      0.129754       0.001540      84.231  302201
+ result:              LaBrana1               Dolgan               Yoruba      0.134169       0.001651      81.260  301428
+ result:              LaBrana1                Druze               Yoruba      0.139535       0.001348     103.511  304534
+ result:              LaBrana1             Egyptian               Yoruba      0.121265       0.001235      98.167  304239
+ result:              LaBrana1              English               Yoruba      0.157786       0.001503     104.990  303487
+ result:              LaBrana1                 Esan               Yoruba     -0.000343       0.000460      -0.745  299480
+ result:              LaBrana1               Eskimo               Yoruba      0.134122       0.001575      85.178  302341
+ result:              LaBrana1        Esperstedt_MN               Yoruba      0.160858       0.002224      72.313  233495
+ result:              LaBrana1             Estonian               Yoruba      0.160957       0.001488     108.197  303485
+ result:              LaBrana1        Ethiopian_Jew               Yoruba      0.081719       0.001106      73.863  302535
+ result:              LaBrana1                 Even               Yoruba      0.140353       0.001448      96.925  303039
+ result:              LaBrana1              Finnish               Yoruba      0.160257       0.001492     107.435  303009
+ result:              LaBrana1               French               Yoruba      0.156834       0.001406     111.581  304367
+ result:              LaBrana1         French_South               Yoruba      0.158322       0.001540     102.775  302959
+ result:              LaBrana1              Gambian               Yoruba      0.005071       0.000582       8.720  299552
+ result:              LaBrana1             Georgian               Yoruba      0.143279       0.001444      99.239  303367
+ result:              LaBrana1         Georgian_Jew               Yoruba      0.142534       0.001498      95.163  302708
+ result:              LaBrana1                Greek               Yoruba      0.150302       0.001411     106.535  304184
+ result:              LaBrana1            GujaratiA               Yoruba      0.139387       0.001464      95.198  302301
+ result:              LaBrana1            GujaratiB               Yoruba      0.137612       0.001500      91.725  302225
+ result:              LaBrana1            GujaratiC               Yoruba      0.136793       0.001409      97.051  302145
+ result:              LaBrana1            GujaratiD               Yoruba      0.134173       0.001462      91.757  302043
+ result:              LaBrana1                Hadza               Yoruba      0.033184       0.001066      31.116  302063
+ result:              LaBrana1      Halberstadt_LBA               Yoruba      0.159100       0.002281      69.758  287493
+ result:              LaBrana1                  Han               Yoruba      0.128382       0.001520      84.475  302799
+ result:              LaBrana1           Han_NChina               Yoruba      0.128688       0.001546      83.216  302213
+ result:              LaBrana1               Hazara               Yoruba      0.137084       0.001381      99.289  303739
+ result:              LaBrana1               Hezhen               Yoruba      0.129526       0.001570      82.486  302003
+ result:              LaBrana1            Hungarian               Yoruba      0.156754       0.001440     108.840  304213
+ result:              LaBrana1      HungaryGamba_BA               Yoruba      0.160796       0.001932      83.223  299878
+ result:              LaBrana1      HungaryGamba_CA               Yoruba      0.156757       0.002266      69.174  184981
+ result:              LaBrana1      HungaryGamba_EN               Yoruba      0.151888       0.001707      88.998  301055
+ result:              LaBrana1      HungaryGamba_HG               Yoruba      0.194950       0.002578      75.620  206727
+ result:              LaBrana1      HungaryGamba_IA               Yoruba      0.152570       0.002280      66.908  203772
+ result:              LaBrana1            Icelandic               Yoruba      0.159133       0.001451     109.654  303647
+ result:              LaBrana1               Iceman               Yoruba      0.153580       0.002129      72.135  297522
+ result:              LaBrana1              Iranian               Yoruba      0.139958       0.001402      99.859  303142
+ result:              LaBrana1          Iranian_Jew               Yoruba      0.141562       0.001467      96.529  303009
+ result:              LaBrana1            Iraqi_Jew               Yoruba      0.139582       0.001472      94.853  302586
+ result:              LaBrana1        Italian_South               Yoruba      0.145025       0.001954      74.215  298633
+ result:              LaBrana1              Itelmen               Yoruba      0.134787       0.001665      80.974  301449
+ result:              LaBrana1             Japanese               Yoruba      0.128211       0.001512      84.773  302736
+ result:              LaBrana1            Jordanian               Yoruba      0.132695       0.001356      97.887  303261
+ result:              LaBrana1        Ju_hoan_North               Yoruba      0.014509       0.000969      14.971  316220
+ result:              LaBrana1               Kalash               Yoruba      0.139990       0.001410      99.270  303316
+ result:              LaBrana1           Karelia_HG               Yoruba      0.168401       0.002210      76.194  290192
+ result:              LaBrana1            Karitiana               Yoruba      0.135986       0.001767      76.951  301150
+ result:              LaBrana1          Karsdorf_LN               Yoruba      0.154114       0.003580      43.054   51775
+ result:              LaBrana1              Khomani               Yoruba      0.026494       0.000798      33.187  316834
+ result:              LaBrana1               Kikuyu               Yoruba      0.030007       0.000850      35.313  300646
+ result:              LaBrana1                 Kinh               Yoruba      0.128299       0.001592      80.595  302044
+ result:              LaBrana1               Korean               Yoruba      0.128909       0.001574      81.923  301683
+ result:              LaBrana1               Koryak               Yoruba      0.133993       0.001591      84.243  301801
+ result:              LaBrana1           Kostenki14               Yoruba      0.150260       0.002310      65.052  281846
+ result:              LaBrana1                Kumyk               Yoruba      0.144410       0.001446      99.900  303281
+ result:              LaBrana1              Kusunda               Yoruba      0.129735       0.001500      86.514  302400
+ result:              LaBrana1               Kyrgyz               Yoruba      0.137002       0.001457      94.012  302989
+ result:              LaBrana1              LBKT_EN               Yoruba      0.152558       0.004761      32.040   26512
+ result:              LaBrana1               LBK_EN               Yoruba      0.152149       0.001612      94.410  301488
+  no data             LaBrana1             LaBrana1               Yoruba      0.000000      -1.000000      -0.000      -1
+ result:              LaBrana1                 Lahu               Yoruba      0.127259       0.001599      79.585  301752
+ result:              LaBrana1             Lebanese               Yoruba      0.135145       0.001417      95.385  303016
+ result:              LaBrana1               Lezgin               Yoruba      0.144981       0.001462      99.186  303410
+ result:              LaBrana1           Libyan_Jew               Yoruba      0.137946       0.001404      98.274  303090
+ result:              LaBrana1           Lithuanian               Yoruba      0.162556       0.001512     107.481  303445
+ result:              LaBrana1            Loschbour               Yoruba      0.213427       0.002406      88.724  297054
+ result:              LaBrana1                Luhya               Yoruba      0.009716       0.000523      18.574  300876
+ result:              LaBrana1                  Luo               Yoruba      0.009335       0.000530      17.616  300849
+ result:              LaBrana1                  MA1               Yoruba      0.149855       0.002324      64.471  215061
+ result:              LaBrana1              Makrani               Yoruba      0.133596       0.001332     100.327  304130
+ result:              LaBrana1              Maltese               Yoruba      0.144080       0.001464      98.420  303049
+ result:              LaBrana1             Mandenka               Yoruba      0.005091       0.000392      12.983  300739
+ result:              LaBrana1                Mansi               Yoruba      0.146176       0.001495      97.797  302792
+ result:              LaBrana1                Masai               Yoruba      0.043706       0.000749      58.368  303789
+ result:              LaBrana1                Mayan               Yoruba      0.133916       0.001573      85.117  302560
+ result:              LaBrana1                Mbuti               Yoruba      0.008178       0.000760      10.755  303473
+ result:              LaBrana1                Mende               Yoruba      0.001059       0.000467       2.268  299853
+ result:              LaBrana1                 Miao               Yoruba      0.129070       0.001565      82.469  302009
+ result:              LaBrana1                 Mixe               Yoruba      0.136758       0.001710      79.962  301572
+ result:              LaBrana1               Mixtec               Yoruba      0.134637       0.001654      81.394  301802
+ result:              LaBrana1              Mongola               Yoruba      0.129678       0.001561      83.061  301901
+ result:              LaBrana1            Mordovian               Yoruba      0.158037       0.001459     108.304  303511
+ result:              LaBrana1         Moroccan_Jew               Yoruba      0.140646       0.001455      96.644  302596
+ result:              LaBrana1            Motala_HG               Yoruba      0.184901       0.001821     101.547  295577
+ result:              LaBrana1             Mozabite               Yoruba      0.114309       0.001186      96.419  303687
+ result:              LaBrana1                 Naxi               Yoruba      0.128194       0.001543      83.106  302041
+ result:              LaBrana1             Nganasan               Yoruba      0.133231       0.001628      81.816  301941
+ result:              LaBrana1                Nogai               Yoruba      0.143601       0.001396     102.837  303613
+ result:              LaBrana1       North_Ossetian               Yoruba      0.144414       0.001443     100.096  303449
+ result:              LaBrana1            Norwegian               Yoruba      0.159348       0.001491     106.857  303603
+ result:              LaBrana1             Orcadian               Yoruba      0.158855       0.001483     107.129  303714
+ result:              LaBrana1               Oroqen               Yoruba      0.131268       0.001528      85.900  302214
+ result:              LaBrana1          Palestinian               Yoruba      0.132035       0.001309     100.883  304740
+ result:              LaBrana1               Papuan               Yoruba      0.121634       0.001638      74.280  301238
+ result:              LaBrana1               Pathan               Yoruba      0.139858       0.001336     104.683  304012
+ result:              LaBrana1              Piapoco               Yoruba      0.135455       0.001765      76.757  300954
+ result:              LaBrana1                 Pima               Yoruba      0.135825       0.001675      81.083  301678
+ result:              LaBrana1              Punjabi               Yoruba      0.135200       0.001390      97.258  302808
+ result:              LaBrana1              Quechua               Yoruba      0.137382       0.001644      83.582  301542
+ result:              LaBrana1              Russian               Yoruba      0.158791       0.001445     109.908  304254
+ result:              LaBrana1            Saami_WGA               Yoruba      0.158926       0.002069      76.819  297431
+ result:              LaBrana1             Saharawi               Yoruba      0.109407       0.001344      81.416  301876
+ result:              LaBrana1            Samara_HG               Yoruba      0.168584       0.002470      68.260  176608
+ result:              LaBrana1            Sardinian               Yoruba      0.153455       0.001448     105.972  304119
+ result:              LaBrana1                Saudi               Yoruba      0.134201       0.001444      92.957  302889
+ result:              LaBrana1             Scottish               Yoruba      0.159130       0.001585     100.379  302174
+ result:              LaBrana1               Selkup               Yoruba      0.141458       0.001486      95.168  302927
+ result:              LaBrana1                  She               Yoruba      0.127506       0.001550      82.288  301977
+ result:              LaBrana1             Sicilian               Yoruba      0.146658       0.001434     102.248  303508
+ result:              LaBrana1               Sindhi               Yoruba      0.137399       0.001349     101.883  303974
+ result:              LaBrana1               Somali               Yoruba      0.066894       0.000887      75.382  303842
+ result:              LaBrana1             Spain_EN               Yoruba      0.155482       0.001787      87.027  296519
+ result:              LaBrana1             Spain_MN               Yoruba      0.163594       0.001751      93.418  293384
+ result:              LaBrana1              Spanish               Yoruba      0.153978       0.001391     110.707  304844
+ result:              LaBrana1        Spanish_North               Yoruba      0.157925       0.001563     101.015  302432
+ result:              LaBrana1          Starcevo_EN               Yoruba      0.152481       0.002969      51.361   87637
+ result:              LaBrana1            Stuttgart               Yoruba      0.148771       0.002002      74.299  295350
+ result:              LaBrana1                Surui               Yoruba      0.135164       0.001769      76.399  300872
+ result:              LaBrana1   SwedenSkoglund_MHG               Yoruba      0.175085       0.004643      37.712   27255
+ result:              LaBrana1    SwedenSkoglund_MN               Yoruba      0.160080       0.002347      68.216  210006
+ result:              LaBrana1   SwedenSkoglund_NHG               Yoruba      0.179239       0.002240      80.012  275900
+ result:              LaBrana1               Syrian               Yoruba      0.133796       0.001410      94.902  302972
+ result:              LaBrana1         Tajik_Pomiri               Yoruba      0.144603       0.001401     103.219  303221
+ result:              LaBrana1                 Thai               Yoruba      0.128873       0.001516      84.993  302314
+ result:              LaBrana1              Tlingit               Yoruba      0.146775       0.001576      93.155  301993
+ result:              LaBrana1                   Tu               Yoruba      0.128253       0.001494      85.834  302446
+ result:              LaBrana1              Tubalar               Yoruba      0.140403       0.001420      98.865  303683
+ result:              LaBrana1                Tujia               Yoruba      0.128233       0.001555      82.458  302144
+ result:              LaBrana1             Tunisian               Yoruba      0.116435       0.001226      94.936  302843
+ result:              LaBrana1         Tunisian_Jew               Yoruba      0.139116       0.001427      97.488  302674
+ result:              LaBrana1              Turkish               Yoruba      0.143239       0.001348     106.266  304953
+ result:              LaBrana1          Turkish_Jew               Yoruba      0.142269       0.001464      97.163  303122
+ result:              LaBrana1              Turkmen               Yoruba      0.140292       0.001398     100.347  303044
+ result:              LaBrana1               Tuscan               Yoruba      0.150644       0.001467     102.693  303151
+ result:              LaBrana1            Ukrainian               Yoruba      0.159296       0.001499     106.283  303571
+ result:              LaBrana1                Ulchi               Yoruba      0.129913       0.001534      84.705  302946
+ result:              LaBrana1          Unetice_EBA               Yoruba      0.158977       0.001608      98.857  297914
+ result:              LaBrana1            Ust_Ishim               Yoruba      0.123934       0.002042      60.686  299202
+ result:              LaBrana1                Uygur               Yoruba      0.137003       0.001377      99.478  303356
+ result:              LaBrana1                Uzbek               Yoruba      0.139493       0.001372     101.699  303705
+ result:              LaBrana1                 Xibo               Yoruba      0.129132       0.001550      83.326  302006
+ result:              LaBrana1                Yakut               Yoruba      0.133534       0.001489      89.653  303182
+ result:              LaBrana1              Yamnaya               Yoruba      0.155912       0.001625      95.924  300617
+ result:              LaBrana1                Yemen               Yoruba      0.119319       0.001328      89.879  302724
+ result:              LaBrana1         Yemenite_Jew               Yoruba      0.133356       0.001446      92.224  302705
+ result:              LaBrana1                   Yi               Yoruba      0.128105       0.001548      82.778  302147
+  no data             LaBrana1               Yoruba               Yoruba      0.000000      -1.000000      -0.000      -1
+ result:              LaBrana1              Yukagir               Yoruba      0.137541       0.001492      92.191  303526
+ result:              LaBrana1              Zapotec               Yoruba      0.135390       0.001619      83.633  302066
+##end of qp3Pop:     1085.406 seconds cpu        0.000 Mbytes in use
