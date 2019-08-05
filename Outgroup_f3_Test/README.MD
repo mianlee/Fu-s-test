@@ -275,11 +275,14 @@ ggplot(HungaryGamba_HG_30, aes(y = F3, x = factor(HungaryGamba_HG_30$PopB, level
 ### 2. R package ```admixr``` 
 
 ```
+# Load the admixr package
 library(admixr)
 library(tidyverse)
 
+# Read in genotyping dataset: Haak_2013.geno, Haak_2013.snps, Haak_2013.ind.
 f3data <- eigenstrat("/Users/LeeMian/Desktop/Fu/f3_test/Haak_2013")
 
+# Assign population B
 pops <- c("AA","Abkhasian","Adygei","Albanian","Alberstedt_LN",
           "Aleut","Algerian","Altaian","Ami","Armenian","Ashkenazi_Jew",
           "Atayal","Australian","Baalberge_MN","Balkar","Balochi","BantuKenya",
@@ -310,15 +313,37 @@ pops <- c("AA","Abkhasian","Adygei","Albanian","Alberstedt_LN",
           "Tujia","Tunisian","Tunisian_Jew","Turkish","Turkish_Jew","Turkmen","Tuscan",
           "Ukrainian","Ulchi","Unetice_EBA","Ust_Ishim","Uygur","Uzbek","Xibo","Yakut",
           "Yamnaya","Yemen","Yemenite_Jew","Yi","Yoruba","Yukagir","Zapotec")
-
+          
+# Run the outgroup-f3 test.
 Loschbour.results <- f3(A = "Loschbour", B = pops, C = "Yoruba", data = f3data)
-
 LaBrana.results <- f3(A = "LaBrana1", B = pops, C = "Yoruba", data = f3data)
-
 HungaryGamba_HG.results <- f3(A = "HungaryGamba_HG", B = pops, C = "Yoruba", data = f3data)
 
-```
+# PLot Loschbour.results in R
 
+attach(Loschbour.results)
+Odered_Loschbour <- Loschbour.results[order(Loschbour.results$f3),]
+Loschbour_30 <- Odered_Loschbour[164:193,]
+
+ggplot(Loschbour_30, aes(y = f3, x = factor(Loschbour_30$B, levels = Loschbour_30$B))) +
+  geom_errorbar(aes(ymin = f3-3*stderr, ymax = f3+3*stderr), width = 0.0, size = 0.5, color = "grey") +
+  geom_point(size = 2) +
+  ylim(0.11, 0.225)+
+  coord_flip() +
+  theme_bw() +
+  theme(panel.grid.major = element_blank(),
+        panel.grid.minor = element_blank(),
+        panel.border = element_blank(),
+        axis.line.x = element_line(colour = "black"),
+        axis.title = element_blank(),
+        axis.text.y = element_blank(),
+        axis.text.x = element_text(size =12, margin = margin (t = 9) ),
+        axis.ticks.y = element_blank(),
+        axis.ticks.length = unit(0.2, "cm")) +
+  geom_text(aes(y = f3-3*stderr,label=B), hjust =1.1)
+
+```
+![](images/admixR_Loschbour_plot.png)
 
 ### Reference:
 
