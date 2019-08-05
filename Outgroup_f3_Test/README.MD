@@ -345,6 +345,8 @@ ggplot(Loschbour_30, aes(y = f3, x = factor(Loschbour_30$B, levels = Loschbour_3
 ```
 ![](images/admixR_Loschbour_plot.png)
 
+**Figure 4**: Outgroup-f3(Yoruba; Loschbour, Y) using ```admixR```.
+
 
 When you are comparing the outgroup-f3 test results from ```ADMIXTOOLS``` and ```AdmixR```, the results are exactly the same. This makes sence because the ```AdmixR``` is just R package that using ```ADMIXTOOLS``` as a core. However, ```AdmixR``` is more convenient (you don't have to make ```.par``` files and poplist files) and easy to work with. The graph plot were all conducted in ```R``` using ```ggplot2``` package. 
 
@@ -396,7 +398,7 @@ ggplot(LBK_EN_30, aes(y = f3, x = factor(LBK_EN_30$B, levels = LBK_EN_30$B))) +
 ```
 ![](images/LBK_EN_f3_plot.png)
 
-**Figure 4**: Outgroup-f3(Yoruba; LBK_EN, Y).
+**Figure 5**: Outgroup-f3(Yoruba; LBK_EN, Y).
 
 **LBKT_EN**
 
@@ -426,7 +428,7 @@ ggplot(LBKT_EN_30, aes(y = f3, x = factor(LBKT_EN_30$B, levels = LBKT_EN_30$B)))
 
 ![](images/LBKT_EN_f3_plot.png)
 
-**Figure 5**: Outgroup-f3(Yoruba; LBKT_EN, Y).
+**Figure 6**: Outgroup-f3(Yoruba; LBKT_EN, Y).
 
 **Starcevo_EN**
 ```
@@ -455,7 +457,7 @@ ggplot(Starcevo_EN_30, aes(y = f3, x = factor(Starcevo_EN_30$B, levels = Starcev
 
 ![](images/Starcevo_EN_f3_plot.png)
 
-**Figure 6**: Outgroup-f3(Yoruba; Starcevo_EN, Y).
+**Figure 7**: Outgroup-f3(Yoruba; Starcevo_EN, Y).
 
 **Spain_EN**
 
@@ -484,7 +486,8 @@ ggplot(Spain_EN_30 , aes(y = f3, x = factor(Spain_EN_30 $B, levels = Spain_EN_30
 ```
 ![](images/Spain_EN_f3_plot.png)
 
-**Figure 7**: Outgroup-f3(Yoruba; Spain_EN, Y).
+**Figure 8**: Outgroup-f3(Yoruba; Spain_EN, Y).
+
 
 ### Results interpretation
 
@@ -500,8 +503,9 @@ The **maximizing outgroup-f3 value** is also between Early Neolithic farmer and 
 
 **LBKT_EN** vs **Starcevo_EN** 
 
-
 Overall, Early Neolithic farmer share more genetic drift with other Early Neolithic populations, or the Middle Neolithic populatiions that succeed them.
+
+
 
 ## Middle Neolithic Europeans
 
