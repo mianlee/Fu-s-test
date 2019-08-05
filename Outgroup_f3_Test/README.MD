@@ -740,6 +740,29 @@ ggplot(Halberstadt_LBA_30 , aes(y = f3, x = factor(Halberstadt_LBA_30$B, levels 
 ```
 
 
+![](images/Corded_Ware_LN_f3_plot.png)
+
+**Figure 13**: Outgroup-f3(Yoruba; Corded_Ware_LN, Y).
+
+![](images/Bell_Beaker_LN_f3_plot.png)
+
+**Figure 14**: Outgroup-f3(Yoruba; Bell_Beaker_LN, Y).
+
+![](images/Unetice_EBA_f3_plot.png)
+
+**Figure 15**: Outgroup-f3(Yoruba; Unetice_EBA, Y).
+
+![](images/Halberstadt_LBA_f3_plot.png)
+
+**Figure 16**: Outgroup-f3(Yoruba; Halberstadt_LBA, Y).
+
+
+
+
+
+
+
+
 ## Ancient North Eurasians and Eastern European hunter-gatherers
 
 
