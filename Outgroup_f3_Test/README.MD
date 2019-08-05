@@ -590,8 +590,6 @@ ggplot(Spain_MN_30 , aes(y = f3, x = factor(Spain_MN_30$B, levels = Spain_MN_30$
   geom_text(aes(y = f3-3*stderr,label=B), hjust =1.1)
 
 
-
-
 # SwedenSkoglund_MN
 SwedenSkoglund_MN <- MN.results[A == "SwedenSkoglund_MN", ]
 Odered_SwedenSkoglund_MN <- SwedenSkoglund_MN[order(SwedenSkoglund_MN$f3),]
