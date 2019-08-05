@@ -83,7 +83,7 @@ For the first test, I am going to show how I did it using both [ADMIXTOOLS](http
 
 **f3(Yoruba; X, Y)**
 
-### Western European hunter-gatherers
+## Western European hunter-gatherers
 
 **Figure S7.3** in [Haak *et al*. (2015)](https://www.nature.com/articles/nature14317).
 
@@ -92,9 +92,9 @@ Three Western European hunter-gatherers (WHG):
 **Loschbour** (n=1) [Iosif Lazaridis *et al*. (2014)](https://www.nature.com/articles/nature13673), **LaBrana1** (n=1) [Iñigo Olalde *et al*.(2014)](https://www.nature.com/articles/nature12960), **HungaryGamba_HG** or KO1 (n=1) [Cristina Gamba *et al*. (2014)](https://www.nature.com/articles/ncomms6257#t1).
 
 
-**1. ADMIXTOOLS Package**
+### 1. ADMIXTOOLS Package
 
-In oder to run ```qp3Pop```, you neeed three parameter files ```.par``` and three ```popfilename``` files for each WHG.
+**In oder to run ```qp3Pop```, you neeed three parameter files ```.par``` and three ```popfilename``` files for each WHG.**
 
 ```
 nano par.f3.Loschbour
@@ -140,7 +140,7 @@ awk '{print "LaBrana1" "\t" $1 "\t" "Yoruba"}' pop.list.txt > LaBrana.txt
 awk '{print "HungaryGamba_HG" "\t" $1 "\t" "Yoruba"}' pop.list.txt > HungaryGamba_HG.txt
 ```
 
-Running ```qp3Pop```:
+**Running ```qp3Pop```:**
 
 ```
 qp3Pop -p par.f3.Loschbour > Loschbour.f3.results
@@ -149,7 +149,7 @@ qp3Pop -p par.f3.LaBrana > LaBrana.f3.results
 
 qp3Pop -p par.f3.HungaryGamba_HG > HungaryGamba_HG.f3.results
 ```
-Then you will have three files:
+**Then you will have three files:**
 
 [Loschbour.f3.results](data/Loschbour.f3.results), [LaBrana.f3.results](data/LaBrana.f3.results) and [HungaryGamba_HG.f3.results](data/HungaryGamba_HG.f3.results).
 
@@ -165,10 +165,9 @@ grep "result:" HungaryGamba_HG.f3.results | awk '{print$2 "\t" $3 "\t" $4 "\t" $
 
 [Loschbour.f3](data/Loschbour.f3), [LaBrana.f3](data/LaBrana.f3) and [HungaryGamba_HG.f3](data/HungaryGamba_HG.f3).
 
-Plot the f3 results in R: 
+**Plot the f3 results in R:**
 
 There is no need to plot all comparision, so I only plot the first 30 after sorting from highest f3 value to the lowest.
-
 
 
 ```
