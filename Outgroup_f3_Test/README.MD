@@ -669,7 +669,7 @@ write.xlsx(mtcars, file = "myworkbook.xlsx",
 ```
 # Write data to csv files:  
 # decimal point = "." and value separators = comma (",")
-write.csv(mtcars, file = "mtcars.csv")
+write.csv(MN.results, file = "MN.results.csv)
 ```
 
 ### Reference:
