@@ -630,14 +630,24 @@ In oder to install ```xlsx``` package in ```Ubuntu 16.04```, you need to install
 Installing the rJava package on Ubuntu is not quite as simple as most other R packages. Some quick notes on how to do it.
 
 Install the Java Runtime Environment (JRE).
+
 ```sudo apt-get install -y default-jre```
 Install the Java Development Kit (JDK).
+
 ```sudo apt-get install -y default-jdk```
+
 Update where R expects to find various Java files.
+
 ```sudo R CMD javareconf```
-Install the package.
-```> install.packages("rJava")```
-install.packages("xlsx")
+
+Install the package in R
+
+```install.packages("rJava")```
+
+
+```install.packages("xlsx")```
+
+
 
 - Using xlsx package: write.xlsx()
 
