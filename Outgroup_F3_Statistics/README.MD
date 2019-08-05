@@ -120,7 +120,7 @@ ADMIXTOOLS version 5.1  9/18/18 (for Linux and Mac)
 [f3.result](f3.result)
 
 
-As you see, we don’t want columns 1 and comment rows. You can use ```awk``` to filter out only columns 2, 3, 4, 5, 6, 7, 8:
+As you see, we don’t want columns 1 and comment rows. You can use ```awk``` to keep only columns 2, 3, 4, 5, 6, 7, 8:
 
 ```
 grep "result:" f3.result | awk '{print$2 "\t" $3 "\t" $4 "\t" $5"\t" $6 "\t" $7 "\t" $8}' > f3.ancient.results
