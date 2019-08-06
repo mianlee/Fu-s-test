@@ -13,7 +13,7 @@ snpname: Haak_full.snp
 indivname: Haak_full.ind
 popfilename: f4_pop_WHG
 ```
-Making ``popfilename``` file:
+Making ```popfilename``` file:
 
 ```
  awk '{print "Loschbour" "\t" "HungaryGamba_HG" "\t" $1 "\t" "Chimp"}' pop.list.txt > f4_pop_WHG
