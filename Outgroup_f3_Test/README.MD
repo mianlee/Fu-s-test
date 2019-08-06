@@ -866,8 +866,13 @@ ggplot(Samara_HG_30 , aes(y = f3, x = factor(Samara_HG_30$B, levels = Samara_HG_
 
 **Figure 19**: Outgroup-f3(Yoruba; Samara, Y).
 
+### Results interpretation
 
-  
+The 24,000-year-old MA1 individual shares more genetic drift with two eastern European hunter-gatherers: Karelia_HG and Sanara_HG. It also close to Karitiana population in South America. 
+
+It makes sense because this ancient Siberian demonstrates genomic signatures that are basal to present-day western Eurasians and close to modern Native Americans, [Maanasa Raghavan *et al.* (2014)](https://www.nature.com/articles/nature12736/).
+
+Karelia_HG and Sanara_HG shared the most genetic drift with each other, and share more genetic drift with other hunter-gatherers and Yamnaya.
 
 ## Late Copper/Early Bronze Age steppe chronology: Yamnaya (n=9).
 
@@ -880,7 +885,6 @@ Yamnaya.results <- f3(A = c("Yamnaya"), B = pops, C = "Yoruba", data = f3data)
 
 attach(Yamnaya.results)
 ```
-
 
 ```
 # Yamnaya
@@ -911,7 +915,7 @@ ggplot(Yamnaya_30 , aes(y = f3, x = factor(Yamnaya_30$B, levels = Yamnaya_30$B))
 
 **Figure 20**: Outgroup-f3(Yoruba; Yamnaya, Y).
 
-
+### Results interpretation
 
 
 ### Note：
@@ -977,3 +981,4 @@ write.csv(MN.results, file = "MN.results.csv)
 
 4. Olalde, Inigo, et al. "Derived immune and ancestral pigmentation alleles in a 7,000-year-old Mesolithic European." Nature 507.7491 (2014): 225.
 
+5. Raghavan, Maanasa, et al. "Upper Palaeolithic Siberian genome reveals dual ancestry of Native Americans." Nature 505.7481 (2014): 87.
