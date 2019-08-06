@@ -43,3 +43,4 @@ Extraction final results:
 ```
 cat WHG.f4.result.* | grep "result:" | awk '{print$2 "\t" $3 "\t" $4 "\t" $5"\t" $6 "\t" $7 }' > WHG.f4.result
 ```
+[WHG.f4.result](data/WHG.f4.result)
