@@ -1,7 +1,7 @@
 ### Western European hunter-gatherers(WHG)
 
 
-*f4*(Loschbour, HungaryGamba_HG; *Test*, Chimp)
+***f4*(Loschbour, HungaryGamba_HG; *Test*, Chimp)**
 
 
 Making the paparmeter file:
