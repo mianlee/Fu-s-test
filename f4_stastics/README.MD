@@ -36,5 +36,8 @@ qpDstat -p par.WHG -l 1 -h 50 > WHG.f4.result.1
 qpDstat -p par.WHG -l 51 -h 101 > WHG.f4.result.2
 qpDstat -p par.WHG -l 102 -h 152 > WHG.f4.result.3
 qpDstat -p par.WHG -l 153 -h 193 > WHG.f4.result.4
-
 ```
+Each run is really fast, like 1-2 mins.
+
+
+
