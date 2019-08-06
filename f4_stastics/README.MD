@@ -46,3 +46,46 @@ cat WHG.f4.result.* | grep "result:" | awk '{print$2 "\t" $3 "\t" $4 "\t" $5"\t"
 [WHG.f4.result](data/WHG.f4.result)
 
 The results have the following format: Pop1(**W**)  Pop2(**X**)  Pop3(**Y**)  Pop4(**Z**)  **D-stat**	 **SD**  **Z score**
+
+
+I think the easiest way to review the results is to plot the Z-score for each X (test) population, So I wrote this ```R``` code to achieve this goal.
+
+```
+library(ggplot2)
+library(tidyverse)
+library(ggrepel)
+
+
+# Read f4 test result.
+WHG.result <- read.table("WHG.f4.result")
+
+# Rename each column .
+names(WHG.result) <- c("W", "Y", "X", "Z", "D", "stderr", "Zscore")
+
+# Plot the Z-score.
+ggplot(WHG.result, aes(Zscore,X, color = abs(Zscore) < 3)) +
+  geom_point(size=1.5) +
+  geom_vline(xintercept = c(-3,3), linetype = 2)+
+  theme_classic(base_size = 16)+
+  theme(axis.title.y=element_blank(),
+        axis.text.y=element_blank(),
+        axis.ticks.y=element_blank(),
+        axis.line.y=element_blank(),
+        axis.text.x = element_text(size=15),
+        axis.title.x = element_text(margin = margin(t = 20, r = , b = 0, l = 0)),
+        legend.title = element_text(size=14),
+        legend.text = element_text(size=10)  )+
+  guides(colour = guide_legend(override.aes = list(size=2.5)))+
+  geom_text_repel(aes(label = X),
+                  data          = subset(WHG.result, abs(Zscore) > 3),
+                  size          = 5,
+                  box.padding   = 1.5,
+                  point.padding = 0.5,
+                  force         = 10,
+                  segment.size  = 0.2,
+                  segment.color = "grey50",
+                  direction     = "y")  
+  
+
+```
+
