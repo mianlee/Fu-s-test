@@ -868,7 +868,7 @@ ggplot(Samara_HG_30 , aes(y = f3, x = factor(Samara_HG_30$B, levels = Samara_HG_
 
 ### Results interpretation
 
-The 24,000-year-old MA1 individual shares more genetic drift with two eastern European hunter-gatherers: Karelia_HG and Sanara_HG. It also close to Karitiana population in South America. 
+The 24,000-year-old MA1 individual shares more genetic drift with two eastern European hunter-gatherers: Karelia_HG and Sanara_HG, and it also close to some populations in South America, like Karitiana, Ticuna and Surui. 
 
 It makes sense because this ancient Siberian demonstrates genomic signatures that are basal to present-day western Eurasians and close to modern Native Americans, [Maanasa Raghavan *et al.* (2014)](https://www.nature.com/articles/nature12736/).
 
@@ -916,6 +916,8 @@ ggplot(Yamnaya_30 , aes(y = f3, x = factor(Yamnaya_30$B, levels = Yamnaya_30$B))
 **Figure 20**: Outgroup-f3(Yoruba; Yamnaya, Y).
 
 ### Results interpretation
+
+Yamnaya shares more genetic drift with two eastern European hunter-gatherers: Sanara_HG and Karelia_HG, and then late Neolithic farmers.
 
 
 ### Note：
