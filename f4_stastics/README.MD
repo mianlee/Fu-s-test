@@ -16,7 +16,7 @@ popfilename: f4_pop_WHG
 Making ```popfilename``` file:
 
 ```
- awk '{print "Loschbour" "\t" "HungaryGamba_HG" "\t" $1 "\t" "Chimp"}' pop.list.txt > f4_pop_WHG
+awk '{print "Loschbour" "\t" "HungaryGamba_HG" "\t" $1 "\t" "Chimp"}' pop.list.txt > f4_pop_WHG
 
 ```
 [pop.list.txt](data/pop.list.txt)
