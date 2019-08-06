@@ -88,4 +88,6 @@ ggplot(WHG.result, aes(Zscore,X, color = abs(Zscore) < 3)) +
   
 
 ```
+<img src=images/WHG_f4_plot.jpeg width="500" height="500">
+
 ![](images/WHG_f4_plot.jpeg)
