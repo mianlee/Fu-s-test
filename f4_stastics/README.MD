@@ -44,3 +44,5 @@ Extraction final results:
 cat WHG.f4.result.* | grep "result:" | awk '{print$2 "\t" $3 "\t" $4 "\t" $5"\t" $6 "\t" $7 }' > WHG.f4.result
 ```
 [WHG.f4.result](data/WHG.f4.result)
+
+The results have the following format: Pop1(W)  Pop2(X) : Pop3(Y)  Pop4(Z)  D-stat	SD  Z
