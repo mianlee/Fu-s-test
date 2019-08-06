@@ -26,3 +26,11 @@ We can then run the D-statistic tests like so in the terminal:
 ```
 qpDstat -p par.WHG > WHG.f4.result
 ```
+
+
+If I run all 193 f4 tests, the program will be killed. I did some google searces and found out " In some cases using popfilename the program uses an excessive amount of memory." So I sovlved this by divide the run into mulityple small runs and combine the result of each run. It is mentioned in the [```qpDstat``` manual](https://github.com/DReichLab/AdmixTools/blob/master/README.Dstatistics). 
+
+
+```
+
+```
