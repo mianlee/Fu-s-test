@@ -853,6 +853,21 @@ ggplot(Samara_HG_30 , aes(y = f3, x = factor(Samara_HG_30$B, levels = Samara_HG_
         axis.ticks.length = unit(0.2, "cm")) +
   geom_text(aes(y = f3-3*stderr,label=B), hjust =1.1)
   ````
+  
+![](images/MA1_f3_plot.png)
+
+**Figure 17**: Outgroup-f3(Yoruba; MA1, Y).
+
+![](images/Karelia_HG_f3_plot.png)
+
+**Figure 18**: Outgroup-f3(Yoruba; Karelia_HG, Y).
+
+![](images/Samara_f3_plot.png)
+
+**Figure 19**: Outgroup-f3(Yoruba; Samara, Y).
+
+
+  
 
 ## Late Copper/Early Bronze Age steppe chronology: Yamnaya (n=9).
 
@@ -892,7 +907,9 @@ ggplot(Yamnaya_30 , aes(y = f3, x = factor(Yamnaya_30$B, levels = Yamnaya_30$B))
   geom_text(aes(y = f3-3*stderr,label=B), hjust =1.1)
 ```
 
+![](images/Yamnaya_f3_plot.png)
 
+**Figure 20**: Outgroup-f3(Yoruba; Yamnaya, Y).
 
 
 
