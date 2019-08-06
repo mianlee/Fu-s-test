@@ -871,7 +871,7 @@ attach(Yamnaya.results)
 # Yamnaya
 
 Yamnaya <- Yamnaya.results[A == "Yamnaya", ]
-Odered_Yamnaya<- Yamnaya[order(Yamnaya_HG$f3),]
+Odered_Yamnaya<- Yamnaya[order(Yamnaya$f3),]
 Yamnaya_30 <- Odered_Yamnaya[164:193,]
 
 ggplot(Yamnaya_30 , aes(y = f3, x = factor(Yamnaya_30$B, levels = Yamnaya_30$B))) +
