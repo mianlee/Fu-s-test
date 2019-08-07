@@ -12,6 +12,7 @@ genotypename: Haak_full.geno
 snpname: Haak_full.snp
 indivname: Haak_full.ind
 popfilename: f4_pop_WHG
+printsd:  YES
 ```
 Making ```popfilename``` file:
 
