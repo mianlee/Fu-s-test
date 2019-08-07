@@ -42,7 +42,7 @@ Each run is really fast, like 1-2 mins.
 
 Extraction final results:
 ```
-cat WHG.f4.result.* | grep "result:" | awk '{print$2 "\t" $3 "\t" $4 "\t" $5"\t" $6 "\t" $7 }' > WHG.f4.result
+cat WHG.f4.result.* | grep "result:" | awk '{print$2 "\t" $3 "\t" $4 "\t" $5 "\t" $6 "\t" $7 "\t" $8 }' > WHG.f4.result
 ```
 [WHG.f4.result](data/WHG.f4.result)
 
@@ -111,4 +111,8 @@ qpDstat -p par.EHG -l 51 -h 101 > EHG.f4.result.2
 qpDstat -p par.EHG -l 102 -h 152 > EHG.f4.result.3
 qpDstat -p par.EHG -l 153 -h 193 > EHG.f4.result.4
 
+
+cat EHG.f4.result.* | grep "result:" | awk '{print$2 "\t" $3 "\t" $4 "\t" $5 "\t" $6 "\t" $7 "\t" $8 }' > EHG.f4.result
 ```
+
+<img src=images/eHG_f4_plot.jpeg width="800" height="525">
