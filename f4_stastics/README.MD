@@ -175,7 +175,7 @@ ggplot(EHG.MA1.result, aes(Zscore,Y, color = abs(Zscore) < 3)) +
                   segment.color = "grey50"
                  
                   )  + 
-  xlim(-20, 85)
+  xlim(-10, 85)
 
 ```
 <img src=images/EHG_MA1_f4_plot.jpeg width="800" height="525">
