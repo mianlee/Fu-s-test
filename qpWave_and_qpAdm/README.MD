@@ -102,7 +102,7 @@ Both "left" and "right" population lists are a simple text file, including one p
 
 ### Tesing the following hypotheses
 
-#### 1. Westn and Eastern European hunter-gathers not a clade with respect to world outgoups
+#### 1. Western and Eastern European hunter-gathers not a clade with respect to world outgoups
 
 
 Generating one "left" and one "right" population list files using the following code:
