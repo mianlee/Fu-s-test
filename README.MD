@@ -63,7 +63,7 @@ Assignning mtDNA haplogroup from NGS data and how to use ```snakemake``` to auto
 **2. [Repeat Outgroup-f3 test in Haak *et al*. (2015)](https://github.com/mianlee/Fu-s-test/tree/master/Outgroup_f3_Test)**
 
 
-**3. [Repeat f4 test in Haak *et al*. (2015)](https://github.com/mianlee/Fu-s-test/tree/master/f4_stastics)
+**3. [Repeat f4 test in Haak *et al*. (2015)](https://github.com/mianlee/Fu-s-test/tree/master/f4_stastics)**
 
 
 
