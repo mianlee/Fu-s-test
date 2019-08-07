@@ -115,4 +115,4 @@ qpDstat -p par.EHG -l 153 -h 193 > EHG.f4.result.4
 cat EHG.f4.result.* | grep "result:" | awk '{print$2 "\t" $3 "\t" $4 "\t" $5 "\t" $6 "\t" $7 "\t" $8 }' > EHG.f4.result
 ```
 
-<img src=images/eHG_f4_plot.jpeg width="800" height="525">
+<img src=images/EHG_f4_plot.jpeg width="800" height="525">
