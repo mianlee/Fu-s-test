@@ -89,4 +89,26 @@ ggplot(WHG.result, aes(Zscore,X, color = abs(Zscore) < 3)) +
 ```
 <img src=images/WHG_f4_plot.jpeg width="800" height="525">
 
+### Easterm European hunter-gatherers(EHG) in Russia
 
+
+***f4*(Karelia_HG, Samara_HG; *Test*, Chimp)**
+
+```
+nano par.EHG
+
+genotypename: Haak_full.geno 
+snpname: Haak_full.snp
+indivname: Haak_full.ind
+popfilename: f4_pop_EHG
+printsd:  YES
+
+awk '{print "Karelia_HG" "\t" "Samara_HG" "\t" $1 "\t" "Chimp"}' pop.list.txt > f4_pop_EHG
+
+
+qpDstat -p par.WHG -l 1 -h 50 > EHG.f4.result.1
+qpDstat -p par.EHG -l 51 -h 101 > EHG.f4.result.2
+qpDstat -p par.EHG -l 102 -h 152 > EHG.f4.result.3
+qpDstat -p par.EHG -l 153 -h 193 > EHG.f4.result.4
+
+```
