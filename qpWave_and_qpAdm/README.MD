@@ -102,7 +102,7 @@ Both "left" and "right" population lists are a simple text file, including one p
 
 ### Tesing the following hypotheses
 
-#### 1. Western and Eastern European hunter-gathers not a clade with respect to world outgoups
+#### 1. Western and Eastern European Hunter-gatherers not a clade with respect to world outgoups
 
 
 Generating one "left" and one "right" population list files using the following code:
@@ -256,7 +256,7 @@ How to read your genotyping dataset, for example I have ```Haak.geno```, ```Haak
 
 *As you can see, by comparing the results (using terminal and using R), they are exaxtly the same. So I conduct the following analyses in R.*
 
-#### 2. Scandinavia hunter-gatherers not a third ancestral population independent of WHG and EHG
+#### 2. Scandinavia Hunter-gatherers not a third ancestral population independent of WHG and EHG
 
 Scandinavia hunter-gatherers: Motala_HG, SwedenSkoglund_MHG, SwedenSkoglund_NHG
 
