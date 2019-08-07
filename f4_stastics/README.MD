@@ -85,8 +85,6 @@ ggplot(WHG.result, aes(Zscore,X, color = abs(Zscore) < 3)) +
                   segment.size  = 0.2,
                   segment.color = "grey50",
                   direction     = "y")  
-  
-
 ```
 <img src=images/WHG_f4_plot.jpeg width="800" height="525">
 
