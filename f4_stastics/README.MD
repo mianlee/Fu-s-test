@@ -89,6 +89,8 @@ ggplot(WHG.result, aes(Zscore,X, color = abs(Zscore) < 3)) +
 ```
 <img src=images/WHG_f4_plot.jpeg width="800" height="525">
 
+**Figure 1**: f4*(Loschbour, HungaryGamba_HG; *Test*, Chimp), Z-score for each **X (test)** population. Y axis is test population(don't display due to large size).
+
 ### Easterm European hunter-gatherers(EHG) in Russia
 
 
@@ -116,3 +118,5 @@ cat EHG.f4.result.* | grep "result:" | awk '{print$2 "\t" $3 "\t" $4 "\t" $5 "\t
 ```
 
 <img src=images/EHG_f4_plot.jpeg width="800" height="525">
+
+**Figure 2**: f4*(Karelia_HG, Samara_HG; *Test*, Chimp), Z-score for each **X (test)** population.
