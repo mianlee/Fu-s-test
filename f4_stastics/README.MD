@@ -152,7 +152,7 @@ EHG.MA1.result <- read.table("EHG.MA1.f4.result")
 
 names(EHG.MA1.result) <- c("W", "Y", "X", "Z", "D", "stderr", "Zscore")
 
-ggplot(EHG.MA1.resul, aes(Zscore,Y, color = abs(Zscore) < 3)) +
+ggplot(EHG.MA1.result, aes(Zscore,Y, color = abs(Zscore) < 3)) +
   geom_point(size=1.5) +
   geom_vline(xintercept = c(-3,3), linetype = 2)+
   theme_classic(base_size = 16)+
@@ -166,17 +166,20 @@ ggplot(EHG.MA1.resul, aes(Zscore,Y, color = abs(Zscore) < 3)) +
         legend.text = element_text(size=10)  )+
   guides(colour = guide_legend(override.aes = list(size=2.5)))+
   geom_text_repel(aes(label = Y),
-                  data          = subset(EHG.MA1.result, abs(Zscore) > 3),
+                  data          = subset(EHG.MA1.result, abs(Zscore) < 3),
                   size          = 5,
                   box.padding   = 1.5,
                   point.padding = 0.5,
-                  force         = 10,
+                  force         = 20,
                   segment.size  = 0.2,
-                  segment.color = "grey50",
-                  direction     = "y")  
-
-
-
+                  segment.color = "grey50"
+                 
+                  )  + 
+  xlim(-20, 85)
 
 ```
+<img src=images/EHG_MA1_f4_plot.jpeg width="800" height="525">
+
+**Figure 2**: f4(Karelia_HG, *Test*; MA1, Chimp), Z-score for each **Y (test)** population.
+
 
